@@ -1,3 +1,9 @@
 Attempting to parse BWV809_02_Allemande.mscx
 Done parsing BWV809_02_Allemande.mscx
 
+The following chords could not be parsed:
+     mc  mn onset  label
+56   11  10   1/2   .bVI
+127  24  22   1/2  .bVI6
+Failed to expand labels due to syntactic errors:
+repl_spec() missing 1 required positional argument: 'special'

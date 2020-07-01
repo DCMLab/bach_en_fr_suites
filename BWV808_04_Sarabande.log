@@ -1,3 +1,8 @@
 Attempting to parse BWV808_04_Sarabande.mscx
 Done parsing BWV808_04_Sarabande.mscx
 
+The following chords could not be parsed:
+    mc  mn onset   label
+41  22  22   1/4  .bIIM7
+Failed to expand labels due to syntactic errors:
+repl_spec() missing 1 required positional argument: 'special'

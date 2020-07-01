@@ -1,0 +1,174 @@
+mc	mn	onset	label	alt_label	globalkey	localkey	pedal	chord	numeral	form	figbass	changes	relativeroot	phraseend	chord_type	globalkey_is_minor	localkey_is_minor	chord_tones	added_tones	root	bass_note
+1	0	13/16	.b.V		b	i		V	V						M	1	1	1, 5, 2		1	1
+2	1	0	i		b	i		i	i						m	1	1	0, -3, 1		0	0
+2	1	3/16	#viio	V6	b	i		#viio	#vii	o					o	1	1	5, 2, -1		5	5
+2	1	1/4	i		b	i		i	i						m	1	1	0, -3, 1		0	0
+2	1	3/8	ii%7		b	i		ii%7	ii	%	7				%7	1	1	2, 1, 8, 0		2	2
+2	1	1/2	i		b	i		i	i						m	1	1	0, -3, 1		0	0
+2	1	5/8	VI		b	i		VI	VI						M	1	1	-4, 0, -3		-4	-4
+2	1	7/8	iv6		b	i		iv6	iv		6				m	1	1	-4, 0, -1		-1	-4
+3	2	0	iv		b	i		iv	iv						m	1	1	-1, -4, 0		-1	-1
+3	2	1/8	ii%7		b	i		ii%7	ii	%	7				%7	1	1	2, 1, 8, 0		2	2
+3	2	1/4	V		b	i		V	V						M	1	1	1, 5, 2		1	1
+3	2	1/2	i		b	i		i	i						m	1	1	0, -3, 1		0	0
+3	2	5/8	#viio6		b	i		#viio6	#vii	o	6				o	1	1	2, -1, 5		5	2
+3	2	3/4	i6		b	i		i6	i		6				m	1	1	-3, 1, 0		0	-3
+3	2	7/8	i		b	i		i	i						m	1	1	0, -3, 1		0	0
+4	3	0	iv		b	i		iv	iv						m	1	1	-1, -4, 0		-1	-1
+4	3	1/4	ii%7		b	i		ii%7	ii	%	7				%7	1	1	2, 1, 8, 0		2	2
+4	3	3/8	i		b	i		i	i						m	1	1	0, -3, 1		0	0
+4	3	1/2	V/III		b	i		V/III	V				III		M	1	1	-2, 2, -1		-2	-2
+4	3	5/8	V2/III		b	i		V2/III	V		2		III		Mm7	1	1	-4, -2, 2, -1		-2	-4
+4	3	3/4	iii/III		b	i		iii/III	iii				III		m	1	1	1, -2, 2		1	1
+4	3	7/8	viio6/III		b	i		viio6/III	vii	o	6		III		o	1	1	-1, -4, 2		2	-1
+5	4	0	III		b	i		III	III						M	1	1	-3, 1, -2		-3	-3
+5	4	1/4	vi7/III		b	i		vi7/III	vi		7		III		mm7	1	1	0, -3, 1, -2		0	0
+5	4	3/8	V/III		b	i		V/III	V				III		M	1	1	-2, 2, -1		-2	-2
+5	4	1/2	IV/III		b	i		IV/III	IV				III		M	1	1	-4, 0, -3		-4	-4
+5	4	5/8	III6		b	i		III6	III		6				M	1	1	1, -2, -3		-3	1
+5	4	3/4	ii/III		b	i		ii/III	ii				III		m	1	1	-1, -4, 0		-1	-1
+5	4	7/8	III		b	i		III	III						M	1	1	-3, 1, -2		-3	-3
+6	5	0	V6/III		b	i		V6/III	V		6		III		M	1	1	2, -1, -2		-2	2
+6	5	1/4	V(64)/III		b	i		V(64)/III	V			64	III		M	1	1	-2, -3, 1		-2	-2
+6	5	1/2	vi/III		b	i		vi/III	vi				III		m	1	1	0, -3, 1		0	0
+6	5	3/4	ii6/III		b	i		ii6/III	ii		6		III		m	1	1	-4, 0, -1		-1	-4
+6	5	7/8	V/III		b	i		V/III	V				III		M	1	1	-2, 2, -1		-2	-2
+7	6	0	III\\		b	i		III	III					\\	M	1	1	-3, 1, -2		-3	-3
+7	6	1/8	i6		b	i		i6	i		6				m	1	1	-3, 1, 0		0	-3
+7	6	1/4	i		b	i		i	i						m	1	1	0, -3, 1		0	0
+7	6	3/8	VI	iv6	b	i		VI	VI						M	1	1	-4, 0, -3		-4	-4
+7	6	5/8	iio		b	i		iio	ii	o					o	1	1	2, -1, -4		2	2
+7	6	7/8	i(4)		b	i		i(4)	i			4			m	1	1	0, -1, 1		0	0
+8	7	1/16	i		b	i		i	i						m	1	1	0, -3, 1		0	0
+8	7	1/8	iio6/v		b	i		iio6/v	ii	o	6		v		o	1	1	0, -3, 3		3	0
+8	7	1/4	#viio43/v		b	i		#viio43/v	#vii	o	43		v		o7	1	1	0, -3, 6, 3		6	0
+8	7	3/8	#viio6/v		b	i		#viio6/v	#vii	o	6		v		o	1	1	3, 0, 6		6	3
+8	7	1/2	v6(2)		b	i		v6(2)	v		6	2			m	1	1	-2, 2, -4		1	-2
+8	7	5/8	v6		b	i		v6	v		6				m	1	1	-2, 2, 1		1	-2
+8	7	13/16	v		b	i		v	v						m	1	1	1, -2, 2		1	1
+8	7	7/8	iio6/v		b	i		iio6/v	ii	o	6		v		o	1	1	0, -3, 3		3	0
+8	7	15/16	v6		b	i		v6	v		6				m	1	1	-2, 2, 1		1	-2
+9	8	0	#viio43/v		b	i		#viio43/v	#vii	o	43		v		o7	1	1	0, -3, 6, 3		6	0
+9	8	1/8	V/v		b	i		V/v	V				v		M	1	1	2, 6, 3		2	2
+9	8	1/4	v		b	i		v	v						m	1	1	1, -2, 2		1	1
+9	8	3/8	i		b	i		i	i						m	1	1	0, -3, 1		0	0
+9	8	7/16	#viio		b	i		#viio	#vii	o					o	1	1	5, 2, -1		5	5
+9	8	1/2	i		b	i		i	i						m	1	1	0, -3, 1		0	0
+9	8	5/8	v6		b	i		v6	v		6				m	1	1	-2, 2, 1		1	-2
+9	8	3/4	#viio/v		b	i		#viio/v	#vii	o			v		o	1	1	6, 3, 0		6	6
+9	8	7/8	iv6/v		b	i		iv6/v	iv		6		v		m	1	1	-3, 1, 0		0	-3
+10	9	1/8	iio6/v		b	i		iio6/v	ii	o	6		v		o	1	1	0, -3, 3		3	0
+10	9	1/4	#viio65/v		b	i		#viio65/v	#vii	o	65		v		o7	1	1	3, 0, -3, 6		6	3
+10	9	3/8	V65/v		b	i		V65/v	V		65		v		Mm7	1	1	6, 3, 0, 2		2	6
+10	9	1/2	v		b	i		v	v						m	1	1	1, -2, 2		1	1
+10	9	5/8	iv/v		b	i		iv/v	iv				v		m	1	1	0, -3, 1		0	0
+10	9	3/4	V/v		b	i		V/v	V				v		M	1	1	2, 6, 3		2	2
+11	10	0	v\\		b	i		v	v					\\	m	1	1	1, -2, 2		1	1
+11	10	1/8	V7		b	i		V7	V		7				Mm7	1	1	1, 5, 2, -1		1	1
+11	10	3/8	V(64)		b	i		V(64)	V			64			M	1	1	1, 0, -3		1	1
+11	10	5/8	V7		b	i		V7	V		7				Mm7	1	1	1, 5, 2, -1		1	1
+11	10	7/8	V(64)		b	i		V(64)	V			64			M	1	1	1, 0, -3		1	1
+12	11	0	iio6/v		b	i		iio6/v	ii	o	6		v		o	1	1	0, -3, 3		3	0
+12	11	1/8	V2/v		b	i		V2/v	V		2		v		Mm7	1	1	0, 2, 6, 3		2	0
+12	11	1/4	V65/v		b	i		V65/v	V		65		v		Mm7	1	1	6, 3, 0, 2		2	6
+12	11	3/8	V64/v		b	i		V64/v	V		64		v		M	1	1	3, 2, 6		2	3
+12	11	1/2	v6		b	i		v6	v		6				m	1	1	-2, 2, 1		1	-2
+12	11	5/8	v		b	i		v	v						m	1	1	1, -2, 2		1	1
+12	11	3/4	V/v		b	i		V/v	V				v		M	1	1	2, 6, 3		2	2
+13	12	0	v		b	i		v	v						m	1	1	1, -2, 2		1	1
+13	12	1/16	V7		b	i		V7	V		7				Mm7	1	1	1, 5, 2, -1		1	1
+13	12	1/8	V		b	i		V	V						M	1	1	1, 5, 2		1	1
+13	12	1/4	v(64)		b	i		v(64)	v			64			m	1	1	1, 0, -3		1	1
+13	12	3/8	V\\		b	i		V	V					\\	M	1	1	1, 5, 2		1	1
+14	12	13/16	V43/V		b	i		V43/V	V		43		V		Mm7	1	1	3, 0, 2, 6		2	3
+15	13	0	V		b	i		V	V						M	1	1	1, 5, 2		1	1
+15	13	1/8	V43		b	i		V43	V		43				Mm7	1	1	2, -1, 1, 5		1	2
+15	13	1/4	i6		b	i		i6	i		6				m	1	1	-3, 1, 0		0	-3
+15	13	3/8	#viio		b	i		#viio	#vii	o					o	1	1	5, 2, -1		5	5
+15	13	1/2	i		b	i		i	i						m	1	1	0, -3, 1		0	0
+15	13	5/8	III6		b	i		III6	III		6				M	1	1	1, -2, -3		-3	1
+15	13	3/4	VI		b	i		VI	VI						M	1	1	-4, 0, -3		-4	-4
+15	13	7/8	#viio/iv		b	i		#viio/iv	#vii	o			iv		o	1	1	4, 1, -2		4	4
+16	14	0	iv		b	i		iv	iv						m	1	1	-1, -4, 0		-1	-1
+16	14	1/8	III/iv		b	i		III/iv	III				iv		M	1	1	-4, 0, -3		-4	-4
+16	14	1/4	iv7/iv		b	i		iv7/iv	iv		7		iv		mm7	1	1	-2, -5, -1, -4		-2	-2
+16	14	3/8	iio64/iv		b	i		iio64/iv	ii	o	64		iv		o	1	1	-5, 1, -2		1	-5
+16	14	1/2	V/iv		b	i		V/iv	V				iv		M	1	1	0, 4, 1		0	0
+16	14	5/8	V43/iv		b	i		V43/iv	V		43		iv		Mm7	1	1	1, -2, 0, 4		0	1
+16	14	3/4	iv6		b	i		iv6	iv		6				m	1	1	-4, 0, -1		-1	-4
+16	14	7/8	iv7		b	i		iv7	iv		7				mm7	1	1	-1, -4, 0, -3		-1	-1
+17	15	0	iv/iv		b	i		iv/iv	iv				iv		m	1	1	-2, -5, -1		-2	-2
+17	15	1/8	iio/iv		b	i		iio/iv	ii	o			iv		o	1	1	1, -2, -5		1	1
+17	15	1/4	iv6		b	i		iv6	iv		6				m	1	1	-4, 0, -1		-1	-4
+17	15	3/8	iv		b	i		iv	iv						m	1	1	-1, -4, 0		-1	-1
+17	15	1/2	iv6/iv		b	i		iv6/iv	iv		6		iv		m	1	1	-5, -1, -2		-2	-5
+17	15	5/8	iio6/iv		b	i		iio6/iv	ii	o	6		iv		o	1	1	-2, -5, 1		1	-2
+17	15	3/4	iv64		b	i		iv64	iv		64				m	1	1	0, -1, -4		-1	0
+17	15	7/8	iv6		b	i		iv6	iv		6				m	1	1	-4, 0, -1		-1	-4
+18	16	0	ii%65/iv		b	i		ii%65/iv	ii	%	65		iv		%7	1	1	0, 7, -1, 1		1	0
+18	16	1/8	#viio6/iv		b	i		#viio6/iv	#vii	o	6		iv		o	1	1	1, -2, 4		4	1
+18	16	1/4	V/iv		b	i		V/iv	V				iv		M	1	1	0, 4, 1		0	0
+18	16	3/8	#viio6/iv		b	i		#viio6/iv	#vii	o	6		iv		o	1	1	1, -2, 4		4	1
+18	16	1/2	iv6\\		b	i		iv6	iv		6			\\	m	1	1	-4, 0, -1		-1	-4
+18	16	5/8	#viio(+2)/iv		b	i		#viio(+2)/iv	#vii	o		+2	iv		o	1	1	4, 1, -2	-1	4	4
+18	16	3/4	iv		b	i		iv	iv						m	1	1	-1, -4, 0		-1	-1
+18	16	7/8	VI		b	i		VI	VI						M	1	1	-4, 0, -3		-4	-4
+19	17	0	V/III		b	i		V/III	V				III		M	1	1	-2, 2, -1		-2	-2
+19	17	1/8	viio6/III		b	i		viio6/III	vii	o	6		III		o	1	1	-1, -4, 2		2	-1
+19	17	1/4	III6		b	i		III6	III		6				M	1	1	1, -2, -3		-3	1
+19	17	3/8	viio/III		b	i		viio/III	vii	o			III		o	1	1	2, -1, -4		2	2
+19	17	1/2	III		b	i		III	III						M	1	1	-3, 1, -2		-3	-3
+19	17	5/8	V6		b	i		V6	V		6				M	1	1	5, 2, 1		1	5
+19	17	3/4	i		b	i		i	i						m	1	1	0, -3, 1		0	0
+19	17	7/8	V		b	i		V	V						M	1	1	1, 5, 2		1	1
+20	18	0	VI		b	i		VI	VI						M	1	1	-4, 0, -3		-4	-4
+20	18	1/8	i6		b	i		i6	i		6				m	1	1	-3, 1, 0		0	-3
+20	18	1/4	iv		b	i		iv	iv						m	1	1	-1, -4, 0		-1	-1
+20	18	3/8	i		b	i		i	i						m	1	1	0, -3, 1		0	0
+20	18	1/2	iio		b	i		iio	ii	o					o	1	1	2, -1, -4		2	2
+20	18	5/8	IV6		b	i		IV6	IV		6				M	1	1	3, 0, -1		-1	3
+20	18	3/4	#viio		b	i		#viio	#vii	o					o	1	1	5, 2, -1		5	5
+20	18	7/8	viio/V		b	i		viio/V	vii	o			V		o	1	1	6, 3, 0		6	6
+21	19	0	V		b	i		V	V						M	1	1	1, 5, 2		1	1
+21	19	1/8	#viio6		b	i		#viio6	#vii	o	6				o	1	1	2, -1, 5		5	2
+21	19	1/4	i6		b	i		i6	i		6				m	1	1	-3, 1, 0		0	-3
+21	19	3/8	#viio		b	i		#viio	#vii	o					o	1	1	5, 2, -1		5	5
+21	19	1/2	i		b	i		i	i						m	1	1	0, -3, 1		0	0
+21	19	5/8	III6		b	i		III6	III		6				M	1	1	1, -2, -3		-3	1
+21	19	3/4	VI		b	i		VI	VI						M	1	1	-4, 0, -3		-4	-4
+21	19	7/8	#viio/iv		b	i		#viio/iv	#vii	o			iv		o	1	1	4, 1, -2		4	4
+22	20	0	iv		b	i		iv	iv						m	1	1	-1, -4, 0		-1	-1
+22	20	1/8	iv2		b	i		iv2	iv		2				mm7	1	1	-3, -1, -4, 0		-1	-3
+22	20	1/4	iio6		b	i		iio6	ii	o	6				o	1	1	-1, -4, 2		2	-1
+22	20	3/8	ii%7		b	i		ii%7	ii	%	7				%7	1	1	2, 1, 8, 0		2	2
+22	20	1/2	V		b	i		V	V						M	1	1	1, 5, 2		1	1
+22	20	5/8	V43		b	i		V43	V		43				Mm7	1	1	2, -1, 1, 5		1	2
+22	20	3/4	i6		b	i		i6	i		6				m	1	1	-3, 1, 0		0	-3
+22	20	7/8	i7	V7/iv	b	i		i7	i		7				mm7	1	1	0, -3, 1, -2		0	0
+23	21	0	iv		b	i		iv	iv						m	1	1	-1, -4, 0		-1	-1
+23	21	1/8	iio		b	i		iio	ii	o					o	1	1	2, -1, -4		2	2
+23	21	1/4	i6		b	i		i6	i		6				m	1	1	-3, 1, 0		0	-3
+23	21	3/8	i		b	i		i	i						m	1	1	0, -3, 1		0	0
+23	21	1/2	iv6		b	i		iv6	iv		6				m	1	1	-4, 0, -1		-1	-4
+23	21	5/8	iio6		b	i		iio6	ii	o	6				o	1	1	-1, -4, 2		2	-1
+23	21	3/4	i64		b	i		i64	i		64				m	1	1	1, 0, -3		0	1
+23	21	7/8	i6		b	i		i6	i		6				m	1	1	-3, 1, 0		0	-3
+24	22	0	ii%65		b	i		ii%65	ii	%	65				%7	1	1	1, 8, 0, 2		2	1
+24	22	1/8	#viio6		b	i		#viio6	#vii	o	6				o	1	1	2, -1, 5		5	2
+24	22	1/4	V		b	i		V	V						M	1	1	1, 5, 2		1	1
+24	22	1/2	VI		b	i		VI	VI						M	1	1	-4, 0, -3		-4	-4
+24	22	5/8	#viio(+4)/iv		b	i		#viio(+4)/iv	#vii	o		+4	iv		o	1	1	4, 1, -2	-4	4	4
+24	22	3/4	iv		b	i		iv	iv						m	1	1	-1, -4, 0		-1	-1
+24	22	7/8	#viio		b	i		#viio	#vii	o					o	1	1	5, 2, -1		5	5
+25	23	0	i(4)		b	i		i(4)	i			4			m	1	1	0, -1, 1		0	0
+25	23	1/8	viio64/V		b	i		viio64/V	vii	o	64		V		o	1	1	0, 6, 3		6	0
+25	23	1/4	V6		b	i		V6	V		6				M	1	1	5, 2, 1		1	5
+25	23	3/8	V43		b	i		V43	V		43				Mm7	1	1	2, -1, 1, 5		1	2
+25	23	1/2	VI		b	i		VI	VI						M	1	1	-4, 0, -3		-4	-4
+25	23	5/8	iv7		b	i		iv7	iv		7				mm7	1	1	-1, -4, 0, -3		-1	-1
+25	23	3/4	V		b	i		V	V						M	1	1	1, 5, 2		1	1
+26	24	0	i		b	i		i	i						m	1	1	0, -3, 1		0	0
+26	24	1/16	V7/iv		b	i		V7/iv	V		7		iv		Mm7	1	1	0, 4, 1, -2		0	0
+26	24	1/8	I		b	i		I	I						M	1	1	0, 4, 1		0	0
+26	24	1/4	i(64)		b	i		i(64)	i			64			m	1	1	0, -1, -4		0	0
+26	24	3/8	I\\		b	i		I	I					\\	M	1	1	0, 4, 1		0	0

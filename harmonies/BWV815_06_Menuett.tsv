@@ -1,49 +1,49 @@
-mc	mn	onset	label	volta
-1	1	0	.Eb.I	
-1	1	1/8	V64	
-1	1	1/4	V65/IV	
-1	1	1/2	V7/IV	
-2	2	0	IV	
-2	2	1/4	I6	
-2	2	1/2	ii-viio6	
-3	3	0	I	
-3	3	1/4	V2/IV	
-3	3	5/8	IV6	
-4	4	1/4	I64	
-4	4	1/2	ii6	
-5	5	0	I6	
-5	5	1/4	I	
-5	5	1/2	V6	
-6	6	0	viio/V	
-6	6	1/4	V7/V	
-6	6	1/2	V	
-7	7	0	ii65/V	
-7	7	1/4	V(64)/V	
-7	7	1/2	V7/V	
-8	8	0	V\\	1
-8	8	1/4	V43	1
-9	8	0	V\\	2
-10	9	1/8	IV6	
-10	9	1/4	viio	
-10	9	1/2	I	
-11	10	0	viio	
-11	10	1/4	V7(2)	
-11	10	1/2	V7	
-12	11	0	I6	
-12	11	1/4	iv6/ii	
-12	11	1/2	ii	
-13	12	0	#viio7/ii	
-13	12	1/4	#viio64/ii	
-13	12	1/2	#viio6/ii	
-14	13	0	ii	
-14	13	1/4	viio6	
-14	13	1/2	I	
-15	14	0	viio	
-15	14	1/4	V7	
-15	14	1/2	I	
-16	15	0	vi64	
-16	15	1/4	I6(11)	
-16	15	1/2	ii6	
-16	15	5/8	V	
-17	16	0	I\\	1
-18	16	0	I\\	2
+mc	mn	onset	label	alt_label	volta	globalkey	localkey	pedal	chord	numeral	form	figbass	changes	relativeroot	phraseend	chord_type	globalkey_is_minor	localkey_is_minor	chord_tones	added_tones	root	bass_note
+1	1	0	.Eb.I			Eb	I		I	I						M	0	0	0, 4, 1		0	0
+1	1	1/8	V64			Eb	I		V64	V		64				M	0	0	2, 1, 5		1	2
+1	1	1/4	V65/IV			Eb	I		V65/IV	V		65		IV		Mm7	0	0	4, 1, -2, 0		0	4
+1	1	1/2	V7/IV			Eb	I		V7/IV	V		7		IV		Mm7	0	0	0, 4, 1, -2		0	0
+2	2	0	IV			Eb	I		IV	IV						M	0	0	-1, 3, 0		-1	-1
+2	2	1/4	I6			Eb	I		I6	I		6				M	0	0	4, 1, 0		0	4
+2	2	1/2	ii	viio6		Eb	I		ii	ii						m	0	0	2, -1, 3		2	2
+3	3	0	I			Eb	I		I	I						M	0	0	0, 4, 1		0	0
+3	3	1/4	V2/IV			Eb	I		V2/IV	V		2		IV		Mm7	0	0	-2, 0, 4, 1		0	-2
+3	3	5/8	IV6			Eb	I		IV6	IV		6				M	0	0	3, 0, -1		-1	3
+4	4	1/4	I64			Eb	I		I64	I		64				M	0	0	1, 0, 4		0	1
+4	4	1/2	ii6			Eb	I		ii6	ii		6				m	0	0	-1, 3, 2		2	-1
+5	5	0	I6			Eb	I		I6	I		6				M	0	0	4, 1, 0		0	4
+5	5	1/4	I			Eb	I		I	I						M	0	0	0, 4, 1		0	0
+5	5	1/2	V6			Eb	I		V6	V		6				M	0	0	5, 2, 1		1	5
+6	6	0	viio/V			Eb	I		viio/V	vii	o			V		o	0	0	6, 3, 0		6	6
+6	6	1/4	V7/V			Eb	I		V7/V	V		7		V		Mm7	0	0	2, 6, 3, 0		2	2
+6	6	1/2	V			Eb	I		V	V						M	0	0	1, 5, 2		1	1
+7	7	0	ii65/V			Eb	I		ii65/V	ii		65		V		mm7	0	0	0, 4, 1, 3		3	0
+7	7	1/4	V(64)/V			Eb	I		V(64)/V	V			64	V		M	0	0	2, 1, 5		2	2
+7	7	1/2	V7/V			Eb	I		V7/V	V		7		V		Mm7	0	0	2, 6, 3, 0		2	2
+8	8	0	V\\		1	Eb	I		V	V					\\	M	0	0	1, 5, 2		1	1
+8	8	1/4	V43		1	Eb	I		V43	V		43				Mm7	0	0	2, -1, 1, 5		1	2
+9	8	0	V\\		2	Eb	I		V	V					\\	M	0	0	1, 5, 2		1	1
+10	9	1/8	IV6			Eb	I		IV6	IV		6				M	0	0	3, 0, -1		-1	3
+10	9	1/4	viio			Eb	I		viio	vii	o					o	0	0	5, 2, -1		5	5
+10	9	1/2	I			Eb	I		I	I						M	0	0	0, 4, 1		0	0
+11	10	0	viio			Eb	I		viio	vii	o					o	0	0	5, 2, -1		5	5
+11	10	1/4	V7(2)			Eb	I		V7(2)	V		7	2			Mm7	0	0	3, 5, 2, -1		1	3
+11	10	1/2	V7			Eb	I		V7	V		7				Mm7	0	0	1, 5, 2, -1		1	1
+12	11	0	I6			Eb	I		I6	I		6				M	0	0	4, 1, 0		0	4
+12	11	1/4	iv6/ii			Eb	I		iv6/ii	iv		6		ii		m	0	0	-2, 2, 1		1	-2
+12	11	1/2	ii			Eb	I		ii	ii						m	0	0	2, -1, 3		2	2
+13	12	0	#viio7/ii			Eb	I		#viio7/ii	#vii	o	7		ii		o7	0	0	7, 4, 1, -2		7	7
+13	12	1/4	#viio64/ii			Eb	I		#viio64/ii	#vii	o	64		ii		o	0	0	1, 7, 4		7	1
+13	12	1/2	#viio6/ii			Eb	I		#viio6/ii	#vii	o	6		ii		o	0	0	4, 1, 7		7	4
+14	13	0	ii			Eb	I		ii	ii						m	0	0	2, -1, 3		2	2
+14	13	1/4	viio6			Eb	I		viio6	vii	o	6				o	0	0	2, -1, 5		5	2
+14	13	1/2	I			Eb	I		I	I						M	0	0	0, 4, 1		0	0
+15	14	0	viio			Eb	I		viio	vii	o					o	0	0	5, 2, -1		5	5
+15	14	1/4	V7			Eb	I		V7	V		7				Mm7	0	0	1, 5, 2, -1		1	1
+15	14	1/2	I			Eb	I		I	I						M	0	0	0, 4, 1		0	0
+16	15	0	vi64			Eb	I		vi64	vi		64				m	0	0	4, 3, 0		3	4
+16	15	1/4	I6(11)			Eb	I		I6(11)	I		6	11			M	0	0	4, 1, 0	-1	0	4
+16	15	1/2	ii6			Eb	I		ii6	ii		6				m	0	0	-1, 3, 2		2	-1
+16	15	5/8	V			Eb	I		V	V						M	0	0	1, 5, 2		1	1
+17	16	0	I\\		1	Eb	I		I	I					\\	M	0	0	0, 4, 1		0	0
+18	16	0	I\\		2	Eb	I		I	I					\\	M	0	0	0, 4, 1		0	0

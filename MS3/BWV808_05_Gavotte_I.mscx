@@ -593,7 +593,7 @@
               </Volta>
             <next>
               <location>
-                <measures>2</measures>
+                <measures>1</measures>
                 </location>
               </next>
             </Spanner>
@@ -639,6 +639,13 @@
           <Harmony>
             <name>III\\</name>
             </Harmony>
+          <Spanner type="Volta">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                </location>
+              </prev>
+            </Spanner>
           <Spanner type="Volta">
             <Volta>
               <endHookType>1</endHookType>
@@ -691,20 +698,13 @@
         <startRepeat/>
         <irregular>1</irregular>
         <voice>
-          <BarLine>
-            <subtype>start-repeat</subtype>
-            </BarLine>
           <Clef>
             <concertClefType>G</concertClefType>
             <transposingClefType>G</transposingClefType>
             </Clef>
-          <Spanner type="Volta">
-            <prev>
-              <location>
-                <measures>-2</measures>
-                </location>
-              </prev>
-            </Spanner>
+          <BarLine>
+            <subtype>start-repeat</subtype>
+            </BarLine>
           <Spanner type="Volta">
             <prev>
               <location>
@@ -2823,13 +2823,13 @@
         </Measure>
       <Measure len="1/2">
         <voice>
-          <BarLine>
-            <subtype>start-repeat</subtype>
-            </BarLine>
           <Clef>
             <concertClefType>F</concertClefType>
             <transposingClefType>F</transposingClefType>
             </Clef>
+          <BarLine>
+            <subtype>start-repeat</subtype>
+            </BarLine>
           <Chord>
             <durationType>quarter</durationType>
             <Note>

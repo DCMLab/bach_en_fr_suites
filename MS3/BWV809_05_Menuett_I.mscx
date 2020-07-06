@@ -741,8 +741,8 @@
               </Note>
             </Chord>
           <Harmony>
-            <name>vi-IV6-viio6/V</name>
-            <offset x="0" y="-9"/>
+            <name>vi-IV6</name>
+            <offset x="0" y="-5"/>
             </Harmony>
           <Chord>
             <dots>1</dots>
@@ -794,6 +794,8 @@
         <voice>
           <Harmony>
             <name>V6</name>
+            <minDistance>-3.8</minDistance>
+            <offset x="0" y="-2.73858"/>
             </Harmony>
           <Chord>
             <dots>1</dots>
@@ -1114,13 +1116,13 @@
       <Measure>
         <startRepeat/>
         <voice>
-          <BarLine>
-            <subtype>start-repeat</subtype>
-            </BarLine>
           <Clef>
             <concertClefType>G</concertClefType>
             <transposingClefType>G</transposingClefType>
             </Clef>
+          <BarLine>
+            <subtype>start-repeat</subtype>
+            </BarLine>
           <Harmony>
             <name>V2</name>
             </Harmony>
@@ -2701,13 +2703,13 @@
         </Measure>
       <Measure>
         <voice>
-          <BarLine>
-            <subtype>start-repeat</subtype>
-            </BarLine>
           <Clef>
             <concertClefType>F</concertClefType>
             <transposingClefType>F</transposingClefType>
             </Clef>
+          <BarLine>
+            <subtype>start-repeat</subtype>
+            </BarLine>
           <Chord>
             <durationType>eighth</durationType>
             <Note>

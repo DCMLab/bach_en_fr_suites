@@ -3813,6 +3813,7 @@
           </voice>
         </Measure>
       <Measure len="11/8">
+        <endRepeat>2</endRepeat>
         <LayoutBreak>
           <subtype>section</subtype>
           </LayoutBreak>
@@ -3876,9 +3877,6 @@
               <tpc>16</tpc>
               </Note>
             </Chord>
-          <BarLine>
-            <subtype>end</subtype>
-            </BarLine>
           </voice>
         <voice>
           <Rest>
@@ -7095,9 +7093,6 @@
               <tpc>16</tpc>
               </Note>
             </Chord>
-          <BarLine>
-            <subtype>end</subtype>
-            </BarLine>
           </voice>
         <voice>
           <Rest>

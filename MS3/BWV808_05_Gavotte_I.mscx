@@ -589,16 +589,11 @@
             <Volta>
               <endHookType>1</endHookType>
               <beginText>1.</beginText>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="-3"/>
-                <off2 x="-11.9467" y="0"/>
-                </Segment>
               <endings>1</endings>
               </Volta>
             <next>
               <location>
-                <measures>2</measures>
+                <measures>1</measures>
                 </location>
               </next>
             </Spanner>
@@ -644,6 +639,13 @@
           <Harmony>
             <name>III\\</name>
             </Harmony>
+          <Spanner type="Volta">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                </location>
+              </prev>
+            </Spanner>
           <Spanner type="Volta">
             <Volta>
               <endHookType>1</endHookType>
@@ -703,13 +705,6 @@
           <BarLine>
             <subtype>start-repeat</subtype>
             </BarLine>
-          <Spanner type="Volta">
-            <prev>
-              <location>
-                <measures>-2</measures>
-                </location>
-              </prev>
-            </Spanner>
           <Spanner type="Volta">
             <prev>
               <location>

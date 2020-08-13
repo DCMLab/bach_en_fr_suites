@@ -1627,7 +1627,6 @@
         </Measure>
       <Measure>
         <endRepeat>2</endRepeat>
-        <irregular>1</irregular>
         <voice>
           <Harmony>
             <name>I6</name>
@@ -1742,7 +1741,7 @@
           </voice>
         </Measure>
       <Measure len="3/4">
-        <irregular>1</irregular>
+        <noOffset>-2</noOffset>
         <LayoutBreak>
           <subtype>line</subtype>
           </LayoutBreak>
@@ -1786,13 +1785,13 @@
         <startRepeat/>
         <irregular>1</irregular>
         <voice>
-          <BarLine>
-            <subtype>start-repeat</subtype>
-            </BarLine>
           <Clef>
             <concertClefType>G</concertClefType>
             <transposingClefType>G</transposingClefType>
             </Clef>
+          <BarLine>
+            <subtype>start-repeat</subtype>
+            </BarLine>
           <Spanner type="Volta">
             <prev>
               <location>
@@ -6373,13 +6372,13 @@
         </Measure>
       <Measure len="1/4">
         <voice>
-          <BarLine>
-            <subtype>start-repeat</subtype>
-            </BarLine>
           <Clef>
             <concertClefType>F</concertClefType>
             <transposingClefType>F</transposingClefType>
             </Clef>
+          <BarLine>
+            <subtype>start-repeat</subtype>
+            </BarLine>
           <Rest>
             <durationType>quarter</durationType>
             </Rest>

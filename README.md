@@ -1,8 +1,10 @@
-# annotation_workflow_template
+# J.S. Bach: English and French Suites for solo keyboard
 
-This repo holds the current version of the DCML annotation workflow which is pulled by all subcorpus repos upon push to their main branch. 
+## Status and limitations
 
-Please note that the `meta_ corpora` branch should be used with collections of corpora.
+* measure numbers & repeats have been corrected based on error messages
+* quality of the score content needs to be checked
+* harmony_version has been automatically inferred as 2.0.0
 
 
 # Overview

@@ -1,2 +1,4 @@
 VOLTAS_WITH_DIFFERING_LENGTHS_WARNING (4, 17) ms3.Corpus.bach_en_fr_suites.BWV806_08_Bourée_I
 	First volta has two bars, m. 16a and m. 1b. Encoded as two measure numbering offsets, MC 18 has -15 and MC 19 has +15 because it's m. 16b.
+VOLTAS_WITH_DIFFERING_LENGTHS_WARNING (4, 76) ms3.Parse.bach_en_fr_suites.BWV807_07_Gigue
+	The second bar in the first volta of m. 74 is not 75a (the piece nominally has 74 bars) but 35b. Numbering offset of MCs 77 & 78 adapted accordingly.

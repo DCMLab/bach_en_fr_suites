@@ -21387,10 +21387,6 @@ BWV 810</text>
               <tpc>14</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V2</name>
-            </Harmony>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -21620,7 +21616,7 @@ BWV 810</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>iv</name>
+            <name>i/iv</name>
             </Harmony>
           <Rest>
             <visible>0</visible>
@@ -21866,7 +21862,7 @@ BWV 810</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>VII6</name>
+            <name>I6/VII</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -21901,7 +21897,7 @@ BWV 810</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i</name>
+            <name>ii/VII</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -22034,7 +22030,7 @@ BWV 810</text>
             </Clef>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>III</name>
+            <name>I/III</name>
             </Harmony>
           <Rest>
             <visible>0</visible>
@@ -22453,7 +22449,7 @@ BWV 810</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>III64</name>
+            <name>I64/III</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -22535,7 +22531,7 @@ BWV 810</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>viio7/VII</name>
+            <name>viio7/V/III</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -22562,7 +22558,7 @@ BWV 810</text>
             </Rest>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V6/VII</name>
+            <name>V6/V/III</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -22577,7 +22573,7 @@ BWV 810</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V7/VII</name>
+            <name>V7/V/III</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>

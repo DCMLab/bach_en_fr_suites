@@ -21110,7 +21110,7 @@ BWV 810</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V|HC]}{</name>
+            <name>V]|HC}{</name>
             </Harmony>
           <Chord>
             <durationType>16th</durationType>
@@ -23135,7 +23135,7 @@ BWV 810</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V43/VI</name>
+            <name>V43/IV</name>
             </Harmony>
           <Chord>
             <durationType>16th</durationType>
@@ -23912,26 +23912,42 @@ BWV 810</text>
             </Clef>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>III(4)</name>
+            <name>I(4)</name>
             </Harmony>
           <Chord>
-            <dots>1</dots>
             <durationType>eighth</durationType>
             <Note>
+              <Spanner type="Tie">
+                <Tie>
+                  </Tie>
+                <next>
+                  <location>
+                    <fractions>1/8</fractions>
+                    </location>
+                  </next>
+                </Spanner>
               <pitch>43</pitch>
               <tpc>15</tpc>
               </Note>
             </Chord>
-          <location>
-            <fractions>-1/16</fractions>
-            </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>III</name>
+            <name>I</name>
             </Harmony>
-          <location>
-            <fractions>1/16</fractions>
-            </location>
+          <Chord>
+            <durationType>16th</durationType>
+            <Note>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <fractions>-1/8</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>43</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -23941,7 +23957,7 @@ BWV 810</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>III6</name>
+            <name>I6</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -24427,7 +24443,7 @@ BWV 810</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V7|HC]}{</name>
+            <name>V7]}{</name>
             </Harmony>
           <Chord>
             <durationType>16th</durationType>
@@ -27038,23 +27054,39 @@ BWV 810</text>
             <name>iv(4)</name>
             </Harmony>
           <Chord>
-            <dots>1</dots>
             <durationType>eighth</durationType>
             <Note>
+              <Spanner type="Tie">
+                <Tie>
+                  </Tie>
+                <next>
+                  <location>
+                    <fractions>1/8</fractions>
+                    </location>
+                  </next>
+                </Spanner>
               <pitch>45</pitch>
               <tpc>17</tpc>
               </Note>
             </Chord>
-          <location>
-            <fractions>-1/16</fractions>
-            </location>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>iv</name>
             </Harmony>
-          <location>
-            <fractions>1/16</fractions>
-            </location>
+          <Chord>
+            <durationType>16th</durationType>
+            <Note>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <fractions>-1/8</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>45</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -31056,7 +31088,7 @@ BWV 810</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V|HC]}{</name>
+            <name>V]|HC}{</name>
             </Harmony>
           <Chord>
             <durationType>16th</durationType>

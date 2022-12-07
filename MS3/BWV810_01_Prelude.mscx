@@ -18223,7 +18223,14 @@ BWV 810</text>
             <durationType>half</durationType>
             </Rest>
           <location>
-            <fractions>-1/8</fractions>
+            <fractions>-3/8</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>iio</name>
+            </Harmony>
+          <location>
+            <fractions>1/4</fractions>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
@@ -27370,7 +27377,7 @@ BWV 810</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>iv</name>
+            <name>iv6</name>
             </Harmony>
           <Chord>
             <dots>1</dots>
@@ -27652,7 +27659,7 @@ BWV 810</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i</name>
+            <name>i6</name>
             </Harmony>
           <Rest>
             <visible>0</visible>
@@ -27662,6 +27669,10 @@ BWV 810</text>
               <visible>0</visible>
               </NoteDot>
             </Rest>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>iv</name>
+            </Harmony>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -28154,6 +28165,10 @@ BWV 810</text>
               <tpc>19</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>iio6</name>
+            </Harmony>
           <Chord>
             <durationType>16th</durationType>
             <Note>

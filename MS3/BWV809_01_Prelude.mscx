@@ -17376,7 +17376,7 @@ BWV 809</text>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>#viio(+2)/iv</name>
+            <name>#viio(+2)</name>
             </Harmony>
           </voice>
         <voice>
@@ -17453,7 +17453,7 @@ BWV 809</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>iv64</name>
+            <name>i64</name>
             </Harmony>
           <Chord>
             <durationType>16th</durationType>
@@ -17471,7 +17471,7 @@ BWV 809</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>iv6/iv</name>
+            <name>iv6</name>
             </Harmony>
           <Chord>
             <durationType>16th</durationType>
@@ -17492,7 +17492,7 @@ BWV 809</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>iv64</name>
+            <name>i64</name>
             </Harmony>
           <Chord>
             <durationType>16th</durationType>
@@ -17510,7 +17510,7 @@ BWV 809</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>#viio64(2)/iv</name>
+            <name>#viio64(2)</name>
             </Harmony>
           <Chord>
             <durationType>16th</durationType>
@@ -17528,7 +17528,7 @@ BWV 809</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>iv6</name>
+            <name>i6</name>
             </Harmony>
           <Chord>
             <durationType>16th</durationType>
@@ -17546,7 +17546,7 @@ BWV 809</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>iv/iv</name>
+            <name>iv</name>
             </Harmony>
           <Chord>
             <durationType>16th</durationType>
@@ -17564,7 +17564,7 @@ BWV 809</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>iv6</name>
+            <name>i6</name>
             </Harmony>
           <Chord>
             <durationType>16th</durationType>
@@ -17582,7 +17582,7 @@ BWV 809</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>#viio6(2)/iv</name>
+            <name>#viio6(2)</name>
             <offset x="0" y="-9"/>
             </Harmony>
           <Chord>
@@ -17605,7 +17605,9 @@ BWV 809</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>iv</name>
+            <name>i</name>
+            <minDistance>-3.83765</minDistance>
+            <offset x="0.743598" y="3.17728"/>
             </Harmony>
           <Chord>
             <durationType>16th</durationType>
@@ -17623,7 +17625,7 @@ BWV 809</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>#viio6(2)/iv</name>
+            <name>#viio6(2)</name>
             </Harmony>
           <Chord>
             <durationType>16th</durationType>
@@ -17641,7 +17643,7 @@ BWV 809</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>IV65</name>
+            <name>vi.IV65</name>
             </Harmony>
           <Chord>
             <durationType>16th</durationType>

@@ -5573,18 +5573,13 @@
             <duration>4/4</duration>
             </Rest>
           <location>
-            <fractions>-7/8</fractions>
-            </location>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>viio/V</name>
-            </Harmony>
-          <location>
-            <fractions>1/8</fractions>
+            <fractions>-3/4</fractions>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V2(b9)/V</name>
+            <minDistance>0.0257321</minDistance>
+            <offset x="-0.743598" y="6.54955"/>
             </Harmony>
           <location>
             <fractions>1/8</fractions>
@@ -5592,13 +5587,7 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V2/V</name>
-            </Harmony>
-          <location>
-            <fractions>1/8</fractions>
-            </location>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>viio64</name>
+            <offset x="0" y="6.72288"/>
             </Harmony>
           <location>
             <fractions>1/8</fractions>
@@ -5606,20 +5595,6 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V2</name>
-            </Harmony>
-          <location>
-            <fractions>1/8</fractions>
-            </location>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>IV</name>
-            </Harmony>
-          <location>
-            <fractions>1/8</fractions>
-            </location>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>viio6</name>
             </Harmony>
           </voice>
         <voice>

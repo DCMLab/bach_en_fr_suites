@@ -6820,7 +6820,7 @@ BWV 806</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I6/V</name>
+            <name>I6/V}{</name>
             </Harmony>
           <Chord>
             <dots>1</dots>
@@ -7051,7 +7051,7 @@ BWV 806</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>IV(9)</name>
+            <name>IV(9)}{</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -7261,7 +7261,7 @@ BWV 806</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>IV</name>
+            <name>VI/vi</name>
             </Harmony>
           <Chord>
             <dots>1</dots>
@@ -7481,7 +7481,7 @@ BWV 806</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>vi[vi</name>
+            <name>vi[vi}{</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -7802,7 +7802,7 @@ BWV 806</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>ii</name>
+            <name>ii}{</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -8019,6 +8019,7 @@ BWV 806</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>iv6/ii</name>
+            <offset x="0.1" y="3.5"/>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>

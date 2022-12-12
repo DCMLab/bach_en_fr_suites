@@ -1584,7 +1584,6 @@
           <Chord>
             <durationType>eighth</durationType>
             <Note>
-              <color r="255" g="0" b="0" a="255"/>
               <pitch>67</pitch>
               <tpc>15</tpc>
               </Note>
@@ -1750,7 +1749,6 @@
           <Chord>
             <durationType>eighth</durationType>
             <Note>
-              <color r="255" g="0" b="0" a="255"/>
               <pitch>77</pitch>
               <tpc>13</tpc>
               </Note>
@@ -3137,7 +3135,8 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i.ii6</name>
+            <name>i6</name>
+            <offset x="0.247866" y="5.35899"/>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -3154,10 +3153,6 @@
               <tpc>12</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>IV</name>
-            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -3184,7 +3179,6 @@
           <Chord>
             <durationType>eighth</durationType>
             <Note>
-              <color r="255" g="0" b="0" a="255"/>
               <pitch>55</pitch>
               <tpc>15</tpc>
               </Note>
@@ -3199,7 +3193,7 @@
             </Clef>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>vi</name>
+            <name>i.vi</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -3438,10 +3432,6 @@
               <tpc>16</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>viio</name>
-            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
@@ -3662,10 +3652,6 @@
               <tpc>17</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>viio6</name>
-            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -3677,7 +3663,6 @@
           <Chord>
             <durationType>eighth</durationType>
             <Note>
-              <color r="255" g="0" b="0" a="255"/>
               <pitch>41</pitch>
               <tpc>13</tpc>
               </Note>

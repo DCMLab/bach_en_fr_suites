@@ -148,7 +148,7 @@
       <defaultsVersion>301</defaultsVersion>
       <Spatium>1.6</Spatium>
       </Style>
-    <showInvisible>0</showInvisible>
+    <showInvisible>1</showInvisible>
     <showUnprintable>1</showUnprintable>
     <showFrames>1</showFrames>
     <showMargins>0</showMargins>
@@ -3098,7 +3098,8 @@
             </Clef>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i.vi</name>
+            <name>IV6</name>
+            <offset x="-0.495732" y="3.5"/>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>

@@ -218,7 +218,7 @@
             <tempo>2.2000000000000002</tempo>
             <followText>1</followText>
             <visible>0</visible>
-            <text><b></b><font face="ScoreText"/><b><font face="Edwin"/> = 132</b></text>
+            <text><b></b><font face="ScoreText"></font><b><font face="Edwin"></font> = 132</b></text>
             </Tempo>
           <Chord>
             <durationType>eighth</durationType>
@@ -3043,7 +3043,8 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i.ii6</name>
+            <name>i6</name>
+            <offset x="0.247866" y="5.35899"/>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -3059,10 +3060,6 @@
               <tpc>12</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>IV</name>
-            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -3101,7 +3098,7 @@
             </Clef>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>vi</name>
+            <name>i.vi</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>

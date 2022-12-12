@@ -2526,16 +2526,6 @@
           <Rest>
             <durationType>half</durationType>
             </Rest>
-          <location>
-            <fractions>-1/8</fractions>
-            </location>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V</name>
-            </Harmony>
-          <location>
-            <fractions>1/8</fractions>
-            </location>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V7/V</name>
@@ -2618,6 +2608,7 @@
               </Note>
             </Chord>
           <Rest>
+            <offset x="0.247866" y="-7.31204"/>
             <durationType>whole</durationType>
             </Rest>
           </voice>

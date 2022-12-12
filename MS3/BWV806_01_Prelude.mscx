@@ -5528,7 +5528,7 @@ BWV 806</text>
             </TimeSig>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>A.I</name>
+            <name>A.I{</name>
             </Harmony>
           <Rest>
             <visible>0</visible>
@@ -5796,7 +5796,7 @@ BWV 806</text>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I</name>
+            <name>I}</name>
             </Harmony>
           </voice>
         <voice>
@@ -5836,6 +5836,10 @@ BWV 806</text>
             <concertClefType>F</concertClefType>
             <transposingClefType>F</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>{</name>
+            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
@@ -6025,7 +6029,7 @@ BWV 806</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V6(6)</name>
+            <name>V65</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>

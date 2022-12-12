@@ -8719,28 +8719,14 @@ BWV 806</text>
               </Note>
             </Chord>
           <location>
-            <fractions>-1/2</fractions>
-            </location>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V(6+4)/IV</name>
-            </Harmony>
-          <location>
-            <fractions>1/8</fractions>
+            <fractions>-3/8</fractions>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>IV6</name>
             </Harmony>
           <location>
-            <fractions>1/4</fractions>
-            </location>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V(+64)/IV</name>
-            </Harmony>
-          <location>
-            <fractions>1/8</fractions>
+            <fractions>3/8</fractions>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
@@ -8960,6 +8946,7 @@ BWV 806</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>viio/IV</name>
+            <offset x="-0.274336" y="3.29425"/>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -8971,6 +8958,7 @@ BWV 806</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>IVM65/IV</name>
+            <offset x="0.274336" y="3.63717"/>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -9087,10 +9075,6 @@ BWV 806</text>
               <tpc>22</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V64</name>
-            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -9120,10 +9104,6 @@ BWV 806</text>
               <tpc>17</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>I6</name>
-            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -9150,16 +9130,6 @@ BWV 806</text>
               <tpc>20</tpc>
               </Note>
             </Chord>
-          <location>
-            <fractions>-1/8</fractions>
-            </location>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>IV6</name>
-            </Harmony>
-          <location>
-            <fractions>1/8</fractions>
-            </location>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>viio</name>
@@ -9274,7 +9244,7 @@ BWV 806</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V</name>
+            <name>V7</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -9283,16 +9253,6 @@ BWV 806</text>
               <tpc>18</tpc>
               </Note>
             </Chord>
-          <location>
-            <fractions>-1/8</fractions>
-            </location>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V7</name>
-            </Harmony>
-          <location>
-            <fractions>1/8</fractions>
-            </location>
           <Rest>
             <durationType>eighth</durationType>
             </Rest>

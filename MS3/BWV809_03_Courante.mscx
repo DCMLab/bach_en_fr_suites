@@ -3489,10 +3489,6 @@
           <location>
             <fractions>1/4</fractions>
             </location>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V2</name>
-            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -3532,10 +3528,6 @@
               <tpc>14</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>viio64</name>
-            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -3561,10 +3553,6 @@
               <tpc>15</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>I</name>
-            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -3647,6 +3635,7 @@
           </voice>
         <voice>
           <Rest>
+            <offset x="0" y="-6.94025"/>
             <durationType>half</durationType>
             </Rest>
           <Chord>
@@ -3657,9 +3646,11 @@
               </Note>
             </Chord>
           <Rest>
+            <offset x="0" y="-5.70092"/>
             <durationType>half</durationType>
             </Rest>
           <Rest>
+            <offset x="0" y="-6.94025"/>
             <durationType>quarter</durationType>
             </Rest>
           </voice>

@@ -1,0 +1,11 @@
+Warnings encountered during the last execution of ms3 review
+============================================================
+
+Performed on 2022-12-12T21:45:28 with ms3 1.0.1
+
+Chord labels where the ratio of colored notes vs. all notes in a segment lies above 0.6:
+                                                  mc  mn mc_onset  label   chord_tones added_tones  n_colored  n_untouched  count_ratio
+bach_en_fr_suites MS3/BWV809_03_Courante.mscx 32  14  13        1     IV   (-2, 2, -1)          ()          4            2     0.666667
+                                              33  15  14        0     vi  (-5, -8, -4)          ()          6            0     1.000000
+                                              40  17  16        1   viio  (-3, -6, -9)          ()          6            0     1.000000
+                                              46  19  18      5/4  viio6  (-6, -9, -3)          ()          3            0     1.000000

@@ -1,0 +1,42 @@
+Warnings encountered during the last execution of ms3 review (v1.0.2)
+=====================================================================
+
+ERROR    ms3.Parse.bach_en_fr_suites.BWV810_02_Allemande -- /usr/local/lib/python3.10/site-packages/ms3/bs4_measures.py (line 472) end_section():
+	No starting point for the repeatEnd in MC 27 could be determined. It is being ignored.
+DCML_HARMONY_SYNTAX_WARNING (15,) ms3.Parse.bach_en_fr_suites.BWV806_01_Prelude -- /usr/local/lib/python3.10/site-packages/ms3/annotations.py (line 382) expand_dcml():
+	Score contains 3 labels that don't (and 208 that do) match the DCML standard:
+	     mc  mn   label harmony_layer
+	119  23  23     I6V             1
+	185  34  34  V(64)              1
+	186  34  34  V 7(4)             1
+WARNING  ms3.Parse.bach_en_fr_suites.BWV806_01_Prelude -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 3969) features2tpcs():
+	MC 23: #vii in major context corrected to vii.
+DCML_PHRASE_INCONGRUENCY_WARNING (16,) ms3.Parse.bach_en_fr_suites.BWV806_01_Prelude -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 4911) check_phrase_annotations():
+	Phrase beginning and endings don't match:
+	mn_playthrough phraseend mn_playthrough phraseend
+	            1a         {             2a         }
+	            3a         {             9a        }{
+	            9a        }{            11a        }{
+	           11a        }{            13a        }{
+	           13a        }{            16a        }{
+	           16a        }{            18a        }{
+	           18a        }{            22a        }{
+	           22a        }{            24a        }{
+	           24a        }{            27a        }{
+	           27a        }{            35a        }{
+	           35a        }{             2b         }
+	            1b         {             9b        }{
+	            3b         {            11b        }{
+	            9b        }{            13b        }{
+	           11b        }{            16b        }{
+	           13b        }{            18b        }{
+	           16b        }{            22b        }{
+	           18b        }{            24b        }{
+	           22b        }{            27b        }{
+	           24b        }{            35b        }{
+	           27b        }{            NaN       NaN
+	           35b        }{            NaN       NaN
+Chord labels where the ratio of colored notes vs. all notes in a segment lies above 0.6:
+                                                    mc  mn mc_onset   label    chord_tones added_tones  n_colored  n_untouched  count_ratio
+bach_en_fr_suites MS3/BWV806_01_Prelude.mscx   111  21  21     11/8   V2/ii  (4, 6, 10, 7)          ()          2            1     0.666667
+                  MS3/BWV810_02_Allemande.mscx 154  25  22      1/8  viio/v     (3, 0, -3)          ()          5            0     1.000000

@@ -1,45 +1,31 @@
 Warnings encountered during the last execution of ms3 review (v1.0.2)
 =====================================================================
 
-DCML_HARMONY_SYNTAX_WARNING (15,) ms3.Parse.bach_en_fr_suites.BWV811_01_Prelude -- /usr/local/lib/python3.10/site-packages/ms3/annotations.py (line 382) expand_dcml():
-	Score contains 4 labels that don't (and 559 that do) match the DCML standard:
-	      mc   mn   label harmony_layer
-	12     6    6  i|PAC]             1
-	32    15   15     i6[             1
-	45    23   23       ]             1
-	540  188  188       ]             1
-DCML_HARMONY_INCOMPLETE_PEDAL_COLUMN_WARNING (13,) ms3.Parse.bach_en_fr_suites.BWV811_01_Prelude -- /usr/local/lib/python3.10/site-packages/ms3/expand_dcml.py (line 145) expand_labels():
-	propagate_pedal() failed with
-	5 organ points started, 3 ended:
-	    mc pedal    mc pedalend
-	0    1     i    79        ]
-	1   78     V    98        ]
-	2   97     V   132        ]
-	3  131     V  <NA>      NaN
-	4  187     V  <NA>      NaN
 DCML_PHRASE_INCONGRUENCY_WARNING (16,) ms3.Parse.bach_en_fr_suites.BWV811_01_Prelude -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 4912) check_phrase_annotations():
 	Phrase beginning and endings don't match:
 	mn_playthrough phraseend mn_playthrough phraseend
-	            6a         {            11a        }{
-	           11a        }{            15a         }
-	           24a         {            24a         }
-	           27a         {            27a         }
-	           38a        }{            38a        }{
-	           42a        }{            42a        }{
-	           48a        }{            48a        }{
-	           59a        }{            59a        }{
-	           61a        }{            61a        }{
-	           86a        }{            86a        }{
-	          110a        }{           110a        }{
-	          113a         {           113a         }
-	          115a        }{           115a        }{
-	          117a        }{           117a        }{
-	          127a        }{           127a        }{
-	          133a        }{           133a        }{
-	          143a        }{           143a        }{
-	          147a        }{           147a        }{
-	          151a        }{           151a        }{
-	          157a        }{           157a        }{
-	          168a         {           168a         }
-	          170a         {           170a         }
+	            6a         {            11a         }
+	           11a         {            15a         }
+	           24a         {            27a         }
+	           27a         {            38a        }{
+	           38a        }{            42a        }{
+	           42a        }{            48a        }{
+	           48a        }{            59a        }{
+	           59a        }{            61a        }{
+	           61a        }{            86a        }{
+	           86a        }{           110a        }{
+	          110a        }{           113a         }
+	          113a         {           115a        }{
+	          115a        }{           117a        }{
+	          117a        }{           127a        }{
+	          127a        }{           133a        }{
+	          133a        }{           143a        }{
+	          143a        }{           147a        }{
+	          147a        }{           151a        }{
+	          151a        }{           157a        }{
+	          157a        }{           168a         }
+	          168a         {           170a         }
 	           NaN       NaN           195a         }
+Chord labels where the ratio of colored notes vs. all notes in a segment lies above 0.6:
+                                                   mc   mn mc_onset label chord_tones added_tones  n_colored  n_untouched  count_ratio
+bach_en_fr_suites MS3/BWV811_01_Prelude.mscx 540  188  188      5/8    V]   (3, 7, 4)          ()          2            1     0.666667

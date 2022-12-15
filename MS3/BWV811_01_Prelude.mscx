@@ -28253,10 +28253,6 @@ BWV 811</text>
           <location>
             <fractions>3/8</fractions>
             </location>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>]</name>
-            </Harmony>
           <Chord>
             <dots>1</dots>
             <durationType>quarter</durationType>
@@ -28342,7 +28338,7 @@ BWV 811</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i|PAC}</name>
+            <name>i|PAC]</name>
             </Harmony>
           <Chord>
             <dots>1</dots>
@@ -28355,7 +28351,7 @@ BWV 811</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>{</name>
+            <name>}</name>
             </Harmony>
           <Rest>
             <visible>0</visible>
@@ -28366,7 +28362,14 @@ BWV 811</text>
               </NoteDot>
             </Rest>
           <location>
-            <fractions>-3/8</fractions>
+            <fractions>-5/8</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>{</name>
+            </Harmony>
+          <location>
+            <fractions>1/4</fractions>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>

@@ -2,12 +2,12 @@ Warnings encountered during the last execution of ms3 review (v1.0.2)
 =====================================================================
 
 DCML_HARMONY_SYNTAX_WARNING (15,) ms3.Parse.bach_en_fr_suites.BWV811_01_Prelude -- /usr/local/lib/python3.10/site-packages/ms3/annotations.py (line 382) expand_dcml():
-	Score contains 4 labels that don't (and 560 that do) match the DCML standard:
+	Score contains 4 labels that don't (and 559 that do) match the DCML standard:
 	      mc   mn   label harmony_layer
 	12     6    6  i|PAC]             1
-	33    15   15     i6[             1
-	46    23   23       ]             1
-	541  188  188       ]             1
+	32    15   15     i6[             1
+	45    23   23       ]             1
+	540  188  188       ]             1
 DCML_HARMONY_INCOMPLETE_PEDAL_COLUMN_WARNING (13,) ms3.Parse.bach_en_fr_suites.BWV811_01_Prelude -- /usr/local/lib/python3.10/site-packages/ms3/expand_dcml.py (line 145) expand_labels():
 	propagate_pedal() failed with
 	5 organ points started, 3 ended:
@@ -20,7 +20,6 @@ DCML_HARMONY_INCOMPLETE_PEDAL_COLUMN_WARNING (13,) ms3.Parse.bach_en_fr_suites.B
 DCML_PHRASE_INCONGRUENCY_WARNING (16,) ms3.Parse.bach_en_fr_suites.BWV811_01_Prelude -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 4912) check_phrase_annotations():
 	Phrase beginning and endings don't match:
 	mn_playthrough phraseend mn_playthrough phraseend
-	            1a         {             6a         }
 	            6a         {            11a        }{
 	           11a        }{            15a         }
 	           24a         {            24a         }

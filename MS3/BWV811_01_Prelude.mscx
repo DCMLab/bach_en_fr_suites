@@ -28882,7 +28882,7 @@ BWV 811</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i|IAC}{</name>
+            <name>i|IAC}</name>
             </Harmony>
           <Rest>
             <visible>0</visible>
@@ -28892,6 +28892,16 @@ BWV 811</text>
               <visible>0</visible>
               </NoteDot>
             </Rest>
+          <location>
+            <fractions>-3/8</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>{</name>
+            </Harmony>
+          <location>
+            <fractions>3/8</fractions>
+            </location>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V6/VI</name>
@@ -48238,10 +48248,6 @@ BWV 811</text>
               <tpc>16</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>{</name>
-            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -49836,6 +49842,7 @@ BWV 811</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>#viio65</name>
+            <offset x="0" y="5.11113"/>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>

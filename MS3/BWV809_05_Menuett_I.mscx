@@ -215,7 +215,7 @@
           <Tempo>
             <tempo>2.3333333333333335</tempo>
             <followText>1</followText>
-            <text><b></b><font face="ScoreText"/><b><font face="Edwin"/> = 140</b></text>
+            <text><b></b><font face="ScoreText"></font><b><font face="Edwin"></font> = 140</b></text>
             </Tempo>
           <Chord>
             <durationType>eighth</durationType>
@@ -3149,6 +3149,7 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>ii6</name>
+            <offset x="0" y="3.6"/>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>

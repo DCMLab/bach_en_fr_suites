@@ -2249,18 +2249,26 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V6</name>
+            <name>viio</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
               <pitch>55</pitch>
               <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <pitch>57</pitch>
+              <tpc>17</tpc>
               </Note>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>ii6/V</name>
+            <offset x="-0.123933" y="4.86326"/>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -2269,17 +2277,6 @@
               <tpc>17</tpc>
               </Note>
             </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>57</pitch>
-              <tpc>17</tpc>
-              </Note>
-            </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V(64)/V</name>
-            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -2287,6 +2284,12 @@
               <tpc>15</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V(64)/V</name>
+            <minDistance>0.12616</minDistance>
+            <offset x="-0.743598" y="4.98399"/>
+            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <Note>

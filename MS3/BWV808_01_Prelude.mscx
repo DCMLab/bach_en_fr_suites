@@ -19009,14 +19009,6 @@ BWV 808</text>
             <harmonyType>1</harmonyType>
             <name>V7/IV</name>
             </Harmony>
-          <location>
-            <fractions>1/8</fractions>
-            </location>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>ii64/IV</name>
-            <offset x="0" y="-9"/>
-            </Harmony>
           </voice>
         <voice>
           <Rest>
@@ -19040,10 +19032,6 @@ BWV 808</text>
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V65/IV</name>
-            </Harmony>
           <Chord>
             <dots>1</dots>
             <durationType>quarter</durationType>
@@ -19059,20 +19047,6 @@ BWV 808</text>
               <tpc>12</tpc>
               </Note>
             </Chord>
-          <location>
-            <fractions>-1/4</fractions>
-            </location>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>ii64/IV</name>
-            </Harmony>
-          <location>
-            <fractions>1/8</fractions>
-            </location>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V7/IV</name>
-            </Harmony>
           </voice>
         <voice>
           <Chord>
@@ -19228,13 +19202,6 @@ BWV 808</text>
             <harmonyType>1</harmonyType>
             <name>vii%7</name>
             </Harmony>
-          <location>
-            <fractions>1/8</fractions>
-            </location>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>IV64</name>
-            </Harmony>
           </voice>
         <voice>
           <Rest>
@@ -19258,10 +19225,6 @@ BWV 808</text>
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>vii%65</name>
-            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
@@ -19276,20 +19239,6 @@ BWV 808</text>
               <tpc>10</tpc>
               </Note>
             </Chord>
-          <location>
-            <fractions>-1/8</fractions>
-            </location>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>IV64</name>
-            </Harmony>
-          <location>
-            <fractions>1/8</fractions>
-            </location>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>vii%7</name>
-            </Harmony>
           <Rest>
             <visible>0</visible>
             <durationType>eighth</durationType>
@@ -19363,7 +19312,7 @@ BWV 808</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V6(+4)</name>
+            <name>V6</name>
             <offset x="0" y="-9"/>
             </Harmony>
           <Chord>
@@ -19404,7 +19353,7 @@ BWV 808</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>iii6(+6)</name>
+            <name>I43</name>
             </Harmony>
           <Chord>
             <durationType>16th</durationType>
@@ -19564,10 +19513,6 @@ BWV 808</text>
             <concertClefType>G</concertClefType>
             <transposingClefType>G</transposingClefType>
             </Clef>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>I64</name>
-            </Harmony>
           <Rest>
             <durationType>16th</durationType>
             </Rest>
@@ -19581,10 +19526,6 @@ BWV 808</text>
               <tpc>10</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>I6</name>
-            </Harmony>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -19605,7 +19546,7 @@ BWV 808</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i.#viio/vii</name>
+            <name>#viio7/ii</name>
             </Harmony>
           <Chord>
             <durationType>16th</durationType>
@@ -19638,10 +19579,6 @@ BWV 808</text>
               <tpc>18</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>#viio2/vii</name>
-            </Harmony>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -19667,10 +19604,6 @@ BWV 808</text>
             <concertClefType>F</concertClefType>
             <transposingClefType>F</transposingClefType>
             </Clef>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>iio6/vii</name>
-            </Harmony>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -19702,10 +19635,6 @@ BWV 808</text>
               <tpc>12</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>iio/vii</name>
-            </Harmony>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -19724,10 +19653,6 @@ BWV 808</text>
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>#viio/vii</name>
-            </Harmony>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -19745,10 +19670,6 @@ BWV 808</text>
               <tpc>13</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>#viio7/vii</name>
-            </Harmony>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -19765,7 +19686,7 @@ BWV 808</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V7/vii</name>
+            <name>V7/ii</name>
             </Harmony>
           <Chord>
             <durationType>16th</durationType>
@@ -19787,7 +19708,7 @@ BWV 808</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>vii</name>
+            <name>ii</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -19830,7 +19751,7 @@ BWV 808</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>viio/VI</name>
+            <name>V7</name>
             </Harmony>
           <Chord>
             <durationType>16th</durationType>
@@ -19860,10 +19781,6 @@ BWV 808</text>
               <tpc>16</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V7/VI</name>
-            </Harmony>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -19886,10 +19803,6 @@ BWV 808</text>
             <concertClefType>F</concertClefType>
             <transposingClefType>F</transposingClefType>
             </Clef>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>ii6/VI</name>
-            </Harmony>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -19921,10 +19834,6 @@ BWV 808</text>
               <tpc>10</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>ii/VI</name>
-            </Harmony>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -19943,10 +19852,6 @@ BWV 808</text>
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>viio/VI</name>
-            </Harmony>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -19961,10 +19866,6 @@ BWV 808</text>
               <tpc>11</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>vii%7/VI</name>
-            </Harmony>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -19979,10 +19880,6 @@ BWV 808</text>
               <tpc>16</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V7/VI</name>
-            </Harmony>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -20007,7 +19904,7 @@ BWV 808</text>
             </Clef>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>VI</name>
+            <name>I</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -20022,7 +19919,7 @@ BWV 808</text>
             </Clef>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>iv</name>
+            <name>i.iv</name>
             </Harmony>
           <Rest>
             <durationType>16th</durationType>
@@ -20058,7 +19955,7 @@ BWV 808</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>#viio</name>
+            <name>#viio7</name>
             </Harmony>
           <Chord>
             <durationType>16th</durationType>
@@ -20091,10 +19988,6 @@ BWV 808</text>
               <tpc>20</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>#viio2</name>
-            </Harmony>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -20117,10 +20010,6 @@ BWV 808</text>
             <concertClefType>F</concertClefType>
             <transposingClefType>F</transposingClefType>
             </Clef>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>iio6</name>
-            </Harmony>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -20149,10 +20038,6 @@ BWV 808</text>
               <tpc>14</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>iio</name>
-            </Harmony>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -20171,10 +20056,6 @@ BWV 808</text>
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>#viio</name>
-            </Harmony>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -20192,10 +20073,6 @@ BWV 808</text>
               <tpc>15</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>#viio7</name>
-            </Harmony>
           <Chord>
             <durationType>16th</durationType>
             <Note>

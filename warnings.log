@@ -3,32 +3,3 @@ Warnings encountered during the last execution of ms3 review (v1.0.2)
 
 DCML_DEFAULT_CORRECTION_WARNING (27, 'MC 20: ') ms3.Parse.bach_en_fr_suites.BWV809_07_Gigue -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 3969) features2tpcs():
 	MC 20: #vii in major context corrected to vii.
-DCML_PHRASE_INCONGRUENCY_WARNING (16,) ms3.Parse.bach_en_fr_suites.BWV809_07_Gigue -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 4912) check_phrase_annotations():
-	Phrase beginning and endings don't match:
-	mn_playthrough phraseend mn_playthrough phraseend
-	            1a         {             4a        }{
-	            4a        }{             8a        }{
-	            8a        }{             9a         }
-	           10a         {            11a         }
-	           12a         {            20a         }
-	           14a         {            24a         }
-	           21a         {             4b        }{
-	            1b         {             8b        }{
-	            4b        }{             9b         }
-	            8b        }{            11b         }
-	           10b         {            20b         }
-	           12b         {            24b         }
-	           14b         {            30a        }{
-	           21b         {            35a         }
-	           25a         {            39a        }{
-	           30a        }{            43a         }
-	           36a         {            48a         }
-	           39a        }{            52a         }
-	           44a         {            30b        }{
-	           49a         {            35b         }
-	           25b         {            39b        }{
-	           30b        }{            43b         }
-	           36b         {            48b         }
-	           39b        }{            52b         }
-	           44b         {            NaN       NaN
-	           49b         {            NaN       NaN

@@ -30430,7 +30430,7 @@ BWV 811</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i.iio/iv</name>
+            <name>iv.iio</name>
             </Harmony>
           <Beam>
             </Beam>
@@ -30506,7 +30506,7 @@ BWV 811</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V65/iv</name>
+            <name>V65</name>
             </Harmony>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -30539,7 +30539,7 @@ BWV 811</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>#viio/iv</name>
+            <name>#viio</name>
             </Harmony>
           <Rest>
             <visible>0</visible>
@@ -30554,7 +30554,7 @@ BWV 811</text>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>iio6/iv</name>
+            <name>iio6</name>
             </Harmony>
           </voice>
         <voice>
@@ -30630,7 +30630,7 @@ BWV 811</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>iv6(#74)</name>
+            <name>i6(#74)</name>
             </Harmony>
           <Rest>
             <visible>0</visible>
@@ -30642,14 +30642,14 @@ BWV 811</text>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>ii%65/iv</name>
+            <name>ii%65</name>
             </Harmony>
           <location>
             <fractions>3/8</fractions>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>#viio/iv</name>
+            <name>#viio</name>
             </Harmony>
           </voice>
         <voice>
@@ -30738,7 +30738,7 @@ BWV 811</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>iv\\</name>
+            <name>i|IAC}</name>
             </Harmony>
           <Rest>
             <visible>0</visible>
@@ -30746,11 +30746,18 @@ BWV 811</text>
             <duration>9/8</duration>
             </Rest>
           <location>
-            <fractions>-3/8</fractions>
+            <fractions>-3/4</fractions>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>iio</name>
+            <name>{</name>
+            </Harmony>
+          <location>
+            <fractions>3/8</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>i.iio</name>
             </Harmony>
           </voice>
         <voice>

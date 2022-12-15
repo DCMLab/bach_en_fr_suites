@@ -151,16 +151,17 @@
       <usePre_3_6_defaults>1</usePre_3_6_defaults>
       <defaultsVersion>301</defaultsVersion>
       <Spatium>1.6</Spatium>
-      <romanNumeralPlacement>1</romanNumeralPlacement>
       </Style>
     <showInvisible>0</showInvisible>
     <showUnprintable>1</showUnprintable>
     <showFrames>1</showFrames>
     <showMargins>0</showMargins>
+    <metaTag name="annotators">Adrian Nagel (2.1.0), Hanné Becker (2.3.0)</metaTag>
     <metaTag name="arranger"></metaTag>
     <metaTag name="composer"></metaTag>
     <metaTag name="copyright"></metaTag>
     <metaTag name="creationDate">2020-01-10</metaTag>
+    <metaTag name="harmony_version">2.3.0</metaTag>
     <metaTag name="lyricist"></metaTag>
     <metaTag name="movementNumber"></metaTag>
     <metaTag name="movementTitle"></metaTag>
@@ -168,6 +169,7 @@
     <metaTag name="originalFormat">xml</metaTag>
     <metaTag name="platform">Microsoft Windows</metaTag>
     <metaTag name="poet"></metaTag>
+    <metaTag name="reviewers"></metaTag>
     <metaTag name="source"></metaTag>
     <metaTag name="translator"></metaTag>
     <metaTag name="workNumber"></metaTag>
@@ -247,7 +249,9 @@
           <Tempo>
             <tempo>2</tempo>
             <followText>1</followText>
-            <offset x="-10.2862" y="-18.0134"/>
+            <visible>0</visible>
+            <minDistance>-7.85861</minDistance>
+            <offset x="3.09856" y="-8.37708"/>
             <text><sym>metNoteQuarterUp</sym> = 120</text>
             </Tempo>
           <StaffText>
@@ -1077,6 +1081,7 @@ BWV 811</text>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
+              <color r="255" g="0" b="0" a="255"/>
               <pitch>65</pitch>
               <tpc>13</tpc>
               </Note>
@@ -1084,7 +1089,6 @@ BWV 811</text>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
-              <color r="255" g="0" b="0" a="255"/>
               <pitch>64</pitch>
               <tpc>18</tpc>
               </Note>
@@ -1092,6 +1096,7 @@ BWV 811</text>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
+              <color r="255" g="0" b="0" a="255"/>
               <pitch>62</pitch>
               <tpc>16</tpc>
               </Note>
@@ -1104,6 +1109,7 @@ BWV 811</text>
               </Articulation>
             <StemDirection>down</StemDirection>
             <Note>
+              <color r="255" g="0" b="0" a="255"/>
               <pitch>77</pitch>
               <tpc>13</tpc>
               </Note>
@@ -1123,6 +1129,7 @@ BWV 811</text>
             <durationType>quarter</durationType>
             <StemDirection>down</StemDirection>
             <Note>
+              <color r="255" g="0" b="0" a="255"/>
               <pitch>62</pitch>
               <tpc>16</tpc>
               </Note>
@@ -3024,6 +3031,7 @@ BWV 811</text>
               <subtype>ornamentShortTrill</subtype>
               </Articulation>
             <Note>
+              <color r="255" g="0" b="0" a="255"/>
               <pitch>60</pitch>
               <tpc>14</tpc>
               </Note>
@@ -3031,7 +3039,6 @@ BWV 811</text>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
-              <color r="255" g="0" b="0" a="255"/>
               <Accidental>
                 <subtype>accidentalNatural</subtype>
                 </Accidental>
@@ -3042,6 +3049,7 @@ BWV 811</text>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
+              <color r="255" g="0" b="0" a="255"/>
               <pitch>57</pitch>
               <tpc>17</tpc>
               </Note>
@@ -3054,6 +3062,7 @@ BWV 811</text>
               </Articulation>
             <StemDirection>down</StemDirection>
             <Note>
+              <color r="255" g="0" b="0" a="255"/>
               <pitch>72</pitch>
               <tpc>14</tpc>
               </Note>
@@ -3073,6 +3082,7 @@ BWV 811</text>
             <durationType>quarter</durationType>
             <StemDirection>down</StemDirection>
             <Note>
+              <color r="255" g="0" b="0" a="255"/>
               <pitch>57</pitch>
               <tpc>17</tpc>
               </Note>
@@ -3837,6 +3847,7 @@ BWV 811</text>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
+              <color r="255" g="0" b="0" a="255"/>
               <pitch>77</pitch>
               <tpc>13</tpc>
               </Note>
@@ -4479,6 +4490,7 @@ BWV 811</text>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Note>
+              <color r="255" g="0" b="0" a="255"/>
               <pitch>64</pitch>
               <tpc>18</tpc>
               </Note>
@@ -4497,6 +4509,7 @@ BWV 811</text>
             <BeamMode>begin</BeamMode>
             <durationType>16th</durationType>
             <Note>
+              <color r="255" g="0" b="0" a="255"/>
               <pitch>64</pitch>
               <tpc>18</tpc>
               </Note>
@@ -4694,6 +4707,7 @@ BWV 811</text>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
+              <color r="255" g="0" b="0" a="255"/>
               <pitch>74</pitch>
               <tpc>16</tpc>
               </Note>
@@ -5818,6 +5832,7 @@ BWV 811</text>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
+              <color r="255" g="0" b="0" a="255"/>
               <pitch>72</pitch>
               <tpc>14</tpc>
               </Note>
@@ -5951,6 +5966,7 @@ BWV 811</text>
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
             <Note>
+              <color r="255" g="0" b="0" a="255"/>
               <pitch>62</pitch>
               <tpc>16</tpc>
               </Note>
@@ -5975,6 +5991,7 @@ BWV 811</text>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
+              <color r="255" g="0" b="0" a="255"/>
               <pitch>64</pitch>
               <tpc>18</tpc>
               </Note>
@@ -6053,6 +6070,7 @@ BWV 811</text>
             <durationType>eighth</durationType>
             <StemDirection>down</StemDirection>
             <Note>
+              <color r="255" g="0" b="0" a="255"/>
               <pitch>65</pitch>
               <tpc>13</tpc>
               </Note>
@@ -6137,6 +6155,7 @@ BWV 811</text>
             <durationType>quarter</durationType>
             <StemDirection>down</StemDirection>
             <Note>
+              <color r="255" g="0" b="0" a="255"/>
               <Spanner type="Tie">
                 <Tie>
                   </Tie>
@@ -7238,6 +7257,7 @@ BWV 811</text>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
+              <color r="255" g="0" b="0" a="255"/>
               <pitch>69</pitch>
               <tpc>17</tpc>
               </Note>
@@ -7605,6 +7625,7 @@ BWV 811</text>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
+              <color r="255" g="0" b="0" a="255"/>
               <pitch>65</pitch>
               <tpc>13</tpc>
               </Note>
@@ -9755,6 +9776,7 @@ BWV 811</text>
           <Chord>
             <durationType>16th</durationType>
             <Note>
+              <color r="255" g="0" b="0" a="255"/>
               <pitch>70</pitch>
               <tpc>12</tpc>
               </Note>
@@ -9808,6 +9830,7 @@ BWV 811</text>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Note>
+              <color r="255" g="0" b="0" a="255"/>
               <pitch>69</pitch>
               <tpc>17</tpc>
               </Note>
@@ -9858,6 +9881,7 @@ BWV 811</text>
           <Chord>
             <durationType>16th</durationType>
             <Note>
+              <color r="255" g="0" b="0" a="255"/>
               <pitch>67</pitch>
               <tpc>15</tpc>
               </Note>
@@ -9908,6 +9932,7 @@ BWV 811</text>
           <Chord>
             <durationType>16th</durationType>
             <Note>
+              <color r="255" g="0" b="0" a="255"/>
               <pitch>65</pitch>
               <tpc>13</tpc>
               </Note>
@@ -9961,6 +9986,7 @@ BWV 811</text>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Note>
+              <color r="255" g="0" b="0" a="255"/>
               <pitch>64</pitch>
               <tpc>18</tpc>
               </Note>
@@ -10011,6 +10037,7 @@ BWV 811</text>
           <Chord>
             <durationType>16th</durationType>
             <Note>
+              <color r="255" g="0" b="0" a="255"/>
               <pitch>62</pitch>
               <tpc>16</tpc>
               </Note>
@@ -10367,6 +10394,7 @@ BWV 811</text>
             <BeamMode>begin</BeamMode>
             <durationType>16th</durationType>
             <Note>
+              <color r="255" g="0" b="0" a="255"/>
               <Accidental>
                 <subtype>accidentalSharp</subtype>
                 </Accidental>
@@ -10423,6 +10451,7 @@ BWV 811</text>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Note>
+              <color r="255" g="0" b="0" a="255"/>
               <Accidental>
                 <subtype>accidentalSharp</subtype>
                 </Accidental>
@@ -11778,6 +11807,7 @@ BWV 811</text>
             <durationType>eighth</durationType>
             <StemDirection>down</StemDirection>
             <Note>
+              <color r="255" g="0" b="0" a="255"/>
               <pitch>65</pitch>
               <tpc>13</tpc>
               </Note>
@@ -11927,6 +11957,7 @@ BWV 811</text>
             <durationType>eighth</durationType>
             <StemDirection>down</StemDirection>
             <Note>
+              <color r="255" g="0" b="0" a="255"/>
               <pitch>64</pitch>
               <tpc>18</tpc>
               </Note>
@@ -12543,6 +12574,7 @@ BWV 811</text>
             <durationType>16th</durationType>
             <StemDirection>up</StemDirection>
             <Note>
+              <color r="255" g="0" b="0" a="255"/>
               <pitch>81</pitch>
               <tpc>17</tpc>
               </Note>
@@ -13352,6 +13384,7 @@ BWV 811</text>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Note>
+              <color r="255" g="0" b="0" a="255"/>
               <Accidental>
                 <subtype>accidentalSharp</subtype>
                 </Accidental>
@@ -14567,6 +14600,7 @@ BWV 811</text>
             <durationType>quarter</durationType>
             <StemDirection>down</StemDirection>
             <Note>
+              <color r="255" g="0" b="0" a="255"/>
               <Accidental>
                 <subtype>accidentalNatural</subtype>
                 </Accidental>
@@ -15010,6 +15044,7 @@ BWV 811</text>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
+              <color r="255" g="0" b="0" a="255"/>
               <pitch>64</pitch>
               <tpc>18</tpc>
               </Note>
@@ -15367,6 +15402,7 @@ BWV 811</text>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
+              <color r="255" g="0" b="0" a="255"/>
               <pitch>60</pitch>
               <tpc>14</tpc>
               </Note>
@@ -16689,6 +16725,7 @@ BWV 811</text>
             <durationType>eighth</durationType>
             <StemDirection>down</StemDirection>
             <Note>
+              <color r="255" g="0" b="0" a="255"/>
               <pitch>70</pitch>
               <tpc>12</tpc>
               </Note>
@@ -20242,6 +20279,7 @@ BWV 811</text>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Note>
+              <color r="255" g="0" b="0" a="255"/>
               <pitch>72</pitch>
               <tpc>14</tpc>
               </Note>
@@ -20859,6 +20897,7 @@ BWV 811</text>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Note>
+              <color r="255" g="0" b="0" a="255"/>
               <pitch>79</pitch>
               <tpc>15</tpc>
               </Note>
@@ -20866,7 +20905,6 @@ BWV 811</text>
           <Chord>
             <durationType>16th</durationType>
             <Note>
-              <color r="255" g="0" b="0" a="255"/>
               <pitch>77</pitch>
               <tpc>13</tpc>
               </Note>
@@ -21351,6 +21389,7 @@ BWV 811</text>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
+              <color r="255" g="0" b="0" a="255"/>
               <pitch>74</pitch>
               <tpc>16</tpc>
               </Note>
@@ -22461,6 +22500,7 @@ BWV 811</text>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
+              <color r="255" g="0" b="0" a="255"/>
               <pitch>72</pitch>
               <tpc>14</tpc>
               </Note>
@@ -22595,6 +22635,7 @@ BWV 811</text>
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
             <Note>
+              <color r="255" g="0" b="0" a="255"/>
               <pitch>62</pitch>
               <tpc>16</tpc>
               </Note>
@@ -22620,6 +22661,7 @@ BWV 811</text>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
+              <color r="255" g="0" b="0" a="255"/>
               <pitch>64</pitch>
               <tpc>18</tpc>
               </Note>
@@ -22700,6 +22742,7 @@ BWV 811</text>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
+              <color r="255" g="0" b="0" a="255"/>
               <pitch>65</pitch>
               <tpc>13</tpc>
               </Note>
@@ -22785,6 +22828,7 @@ BWV 811</text>
             <durationType>quarter</durationType>
             <StemDirection>down</StemDirection>
             <Note>
+              <color r="255" g="0" b="0" a="255"/>
               <Spanner type="Tie">
                 <Tie>
                   </Tie>
@@ -23848,6 +23892,7 @@ BWV 811</text>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
+              <color r="255" g="0" b="0" a="255"/>
               <pitch>69</pitch>
               <tpc>17</tpc>
               </Note>
@@ -24212,6 +24257,7 @@ BWV 811</text>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
+              <color r="255" g="0" b="0" a="255"/>
               <pitch>65</pitch>
               <tpc>13</tpc>
               </Note>
@@ -26373,6 +26419,7 @@ BWV 811</text>
           <Chord>
             <durationType>16th</durationType>
             <Note>
+              <color r="255" g="0" b="0" a="255"/>
               <pitch>70</pitch>
               <tpc>12</tpc>
               </Note>
@@ -26426,6 +26473,7 @@ BWV 811</text>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Note>
+              <color r="255" g="0" b="0" a="255"/>
               <pitch>69</pitch>
               <tpc>17</tpc>
               </Note>
@@ -26476,6 +26524,7 @@ BWV 811</text>
           <Chord>
             <durationType>16th</durationType>
             <Note>
+              <color r="255" g="0" b="0" a="255"/>
               <pitch>67</pitch>
               <tpc>15</tpc>
               </Note>
@@ -26532,6 +26581,7 @@ BWV 811</text>
           <Chord>
             <durationType>16th</durationType>
             <Note>
+              <color r="255" g="0" b="0" a="255"/>
               <pitch>65</pitch>
               <tpc>13</tpc>
               </Note>
@@ -26585,6 +26635,7 @@ BWV 811</text>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Note>
+              <color r="255" g="0" b="0" a="255"/>
               <pitch>64</pitch>
               <tpc>18</tpc>
               </Note>
@@ -26635,6 +26686,7 @@ BWV 811</text>
           <Chord>
             <durationType>16th</durationType>
             <Note>
+              <color r="255" g="0" b="0" a="255"/>
               <pitch>62</pitch>
               <tpc>16</tpc>
               </Note>
@@ -26978,6 +27030,7 @@ BWV 811</text>
           <Chord>
             <durationType>16th</durationType>
             <Note>
+              <color r="255" g="0" b="0" a="255"/>
               <pitch>74</pitch>
               <tpc>16</tpc>
               </Note>
@@ -26988,6 +27041,7 @@ BWV 811</text>
             <BeamMode>begin</BeamMode>
             <durationType>16th</durationType>
             <Note>
+              <color r="255" g="0" b="0" a="255"/>
               <Accidental>
                 <subtype>accidentalSharp</subtype>
                 </Accidental>
@@ -27044,6 +27098,7 @@ BWV 811</text>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Note>
+              <color r="255" g="0" b="0" a="255"/>
               <Accidental>
                 <subtype>accidentalSharp</subtype>
                 </Accidental>
@@ -28311,6 +28366,12 @@ BWV 811</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>d.i[i</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>d.i[i{</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Rest>
             <durationType>eighth</durationType>
@@ -28600,6 +28661,7 @@ BWV 811</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>i</name>
+            <offset x="0.619665" y="3.33185"/>
             </Harmony>
           <Chord>
             <dots>1</dots>
@@ -28998,16 +29060,28 @@ BWV 811</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>i]\\</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>i|PAC}]</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <dots>1</dots>
             <durationType>quarter</durationType>
             <StemDirection>up</StemDirection>
             <Note>
+              <color r="255" g="0" b="0" a="255"/>
               <pitch>57</pitch>
               <tpc>17</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>{</name>
+            <color r="0" g="85" b="0" a="255"/>
+            </Harmony>
           <Rest>
             <visible>0</visible>
             <dots>1</dots>
@@ -29030,6 +29104,7 @@ BWV 811</text>
             <durationType>quarter</durationType>
             <StemDirection>down</StemDirection>
             <Note>
+              <color r="255" g="0" b="0" a="255"/>
               <Spanner type="Tie">
                 <Tie>
                   </Tie>
@@ -29049,6 +29124,7 @@ BWV 811</text>
             <BeamMode>begin</BeamMode>
             <durationType>16th</durationType>
             <Note>
+              <color r="255" g="0" b="0" a="255"/>
               <Spanner type="Tie">
                 <prev>
                   <location>
@@ -29063,7 +29139,6 @@ BWV 811</text>
           <Chord>
             <durationType>16th</durationType>
             <Note>
-              <color r="255" g="0" b="0" a="255"/>
               <pitch>52</pitch>
               <tpc>18</tpc>
               </Note>
@@ -29074,6 +29149,7 @@ BWV 811</text>
             <BeamMode>begin</BeamMode>
             <durationType>16th</durationType>
             <Note>
+              <color r="255" g="0" b="0" a="255"/>
               <pitch>53</pitch>
               <tpc>13</tpc>
               </Note>
@@ -29082,7 +29158,6 @@ BWV 811</text>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Note>
-              <color r="255" g="0" b="0" a="255"/>
               <pitch>55</pitch>
               <tpc>15</tpc>
               </Note>
@@ -29090,6 +29165,7 @@ BWV 811</text>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
+              <color r="255" g="0" b="0" a="255"/>
               <pitch>57</pitch>
               <tpc>17</tpc>
               </Note>
@@ -29541,6 +29617,12 @@ BWV 811</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>i\\</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>i|IAC}{</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Rest>
             <visible>0</visible>
@@ -30068,6 +30150,12 @@ BWV 811</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>i\\</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>i|EC}{</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -31048,16 +31136,28 @@ BWV 811</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>i]\\</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>i|IAC}]</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <dots>1</dots>
             <durationType>quarter</durationType>
             <StemDirection>up</StemDirection>
             <Note>
+              <color r="255" g="0" b="0" a="255"/>
               <pitch>52</pitch>
               <tpc>18</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>{</name>
+            <color r="0" g="85" b="0" a="255"/>
+            </Harmony>
           <Rest>
             <durationType>eighth</durationType>
             </Rest>
@@ -31067,6 +31167,7 @@ BWV 811</text>
             <BeamMode>begin</BeamMode>
             <durationType>16th</durationType>
             <Note>
+              <color r="255" g="0" b="0" a="255"/>
               <pitch>45</pitch>
               <tpc>17</tpc>
               </Note>
@@ -31084,6 +31185,7 @@ BWV 811</text>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Note>
+              <color r="255" g="0" b="0" a="255"/>
               <pitch>48</pitch>
               <tpc>14</tpc>
               </Note>
@@ -31091,7 +31193,6 @@ BWV 811</text>
           <Chord>
             <durationType>16th</durationType>
             <Note>
-              <color r="255" g="0" b="0" a="255"/>
               <pitch>50</pitch>
               <tpc>16</tpc>
               </Note>
@@ -31099,6 +31200,12 @@ BWV 811</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>i.iio/iv</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>iv.iio</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Beam>
             </Beam>
@@ -31141,6 +31248,7 @@ BWV 811</text>
             <durationType>quarter</durationType>
             <StemDirection>down</StemDirection>
             <Note>
+              <color r="255" g="0" b="0" a="255"/>
               <pitch>45</pitch>
               <tpc>17</tpc>
               </Note>
@@ -31175,6 +31283,12 @@ BWV 811</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V65/iv</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V65</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -31208,6 +31322,12 @@ BWV 811</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>#viio/iv</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>#viio</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Rest>
             <visible>0</visible>
@@ -31223,6 +31343,12 @@ BWV 811</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>iio6/iv</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>iio6</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           </voice>
         <voice>
@@ -31300,6 +31426,12 @@ BWV 811</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>iv6(#74)</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>i6(#74)</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Rest>
             <visible>0</visible>
@@ -31312,6 +31444,12 @@ BWV 811</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>ii%65/iv</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>ii%65</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <location>
             <fractions>3/8</fractions>
@@ -31319,6 +31457,12 @@ BWV 811</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>#viio/iv</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>#viio</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           </voice>
         <voice>
@@ -31411,6 +31555,12 @@ BWV 811</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>iv\\</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>i|IAC}</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Rest>
             <visible>0</visible>
@@ -31418,11 +31568,25 @@ BWV 811</text>
             <duration>9/8</duration>
             </Rest>
           <location>
-            <fractions>-3/8</fractions>
+            <fractions>-3/4</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>{</name>
+            <color r="0" g="85" b="0" a="255"/>
+            </Harmony>
+          <location>
+            <fractions>3/8</fractions>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>iio</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>i.iio</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           </voice>
         <voice>
@@ -32115,6 +32279,7 @@ BWV 811</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>iio/V</name>
+            <color r="170" g="0" b="0" a="255"/>
             </Harmony>
           <Rest>
             <dots>1</dots>
@@ -32145,6 +32310,7 @@ BWV 811</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V64</name>
+            <color r="170" g="0" b="0" a="255"/>
             </Harmony>
           <Rest>
             <dots>1</dots>
@@ -32200,6 +32366,7 @@ BWV 811</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>viio43/V</name>
+            <color r="170" g="0" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -32301,6 +32468,7 @@ BWV 811</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V64</name>
+            <color r="170" g="0" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -32413,6 +32581,12 @@ BWV 811</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V\\</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V|HC}{</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -32675,6 +32849,7 @@ BWV 811</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>ii%65</name>
+            <color r="170" g="0" b="0" a="255"/>
             </Harmony>
           <location>
             <fractions>1/4</fractions>
@@ -32830,6 +33005,7 @@ BWV 811</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>VI</name>
+            <color r="170" g="0" b="0" a="255"/>
             </Harmony>
           <Chord>
             <staffMove>-1</staffMove>
@@ -32858,11 +33034,13 @@ BWV 811</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>iv7</name>
+            <color r="170" g="0" b="0" a="255"/>
             </Harmony>
           <Chord>
             <staffMove>-1</staffMove>
             <durationType>eighth</durationType>
             <Note>
+              <color r="255" g="0" b="0" a="255"/>
               <pitch>65</pitch>
               <tpc>13</tpc>
               </Note>
@@ -32927,6 +33105,7 @@ BWV 811</text>
             <durationType>eighth</durationType>
             <StemDirection>down</StemDirection>
             <Note>
+              <color r="255" g="0" b="0" a="255"/>
               <pitch>58</pitch>
               <tpc>12</tpc>
               </Note>
@@ -32954,6 +33133,12 @@ BWV 811</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>VI\\</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>VI|DC}{</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <dots>1</dots>
@@ -33055,6 +33240,7 @@ BWV 811</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>IV64</name>
+            <color r="170" g="0" b="0" a="255"/>
             </Harmony>
           <location>
             <fractions>1/8</fractions>
@@ -33155,6 +33341,7 @@ BWV 811</text>
             <durationType>eighth</durationType>
             <StemDirection>down</StemDirection>
             <Note>
+              <color r="255" g="0" b="0" a="255"/>
               <pitch>53</pitch>
               <tpc>13</tpc>
               </Note>
@@ -33689,6 +33876,12 @@ BWV 811</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>I\\</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>I|PAC}{</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -33927,10 +34120,12 @@ BWV 811</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V6</name>
+            <color r="170" g="0" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
+              <color r="255" g="0" b="0" a="255"/>
               <pitch>55</pitch>
               <tpc>15</tpc>
               </Note>
@@ -33938,11 +34133,13 @@ BWV 811</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>vi6</name>
+            <color r="170" g="0" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <StemDirection>up</StemDirection>
             <Note>
+              <color r="255" g="0" b="0" a="255"/>
               <pitch>57</pitch>
               <tpc>17</tpc>
               </Note>
@@ -34027,6 +34224,7 @@ BWV 811</text>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
+              <color r="255" g="0" b="0" a="255"/>
               <pitch>52</pitch>
               <tpc>18</tpc>
               </Note>
@@ -34076,6 +34274,7 @@ BWV 811</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>vi65</name>
+            <color r="170" g="0" b="0" a="255"/>
             </Harmony>
           <location>
             <fractions>1/16</fractions>
@@ -34084,6 +34283,7 @@ BWV 811</text>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
             <Note>
+              <color r="255" g="0" b="0" a="255"/>
               <pitch>57</pitch>
               <tpc>17</tpc>
               </Note>
@@ -34094,6 +34294,7 @@ BWV 811</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V43</name>
+            <color r="170" g="0" b="0" a="255"/>
             </Harmony>
           <location>
             <fractions>1/16</fractions>
@@ -34101,6 +34302,7 @@ BWV 811</text>
           <Chord>
             <durationType>16th</durationType>
             <Note>
+              <color r="255" g="0" b="0" a="255"/>
               <pitch>58</pitch>
               <tpc>12</tpc>
               </Note>
@@ -34125,6 +34327,7 @@ BWV 811</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V43</name>
+            <color r="170" g="0" b="0" a="255"/>
             </Harmony>
           <location>
             <fractions>1/16</fractions>
@@ -34136,6 +34339,7 @@ BWV 811</text>
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
             <Note>
+              <color r="255" g="0" b="0" a="255"/>
               <pitch>58</pitch>
               <tpc>12</tpc>
               </Note>
@@ -34146,6 +34350,7 @@ BWV 811</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>I6</name>
+            <color r="170" g="0" b="0" a="255"/>
             </Harmony>
           <location>
             <fractions>1/16</fractions>
@@ -34198,6 +34403,7 @@ BWV 811</text>
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
             <Note>
+              <color r="255" g="0" b="0" a="255"/>
               <pitch>53</pitch>
               <tpc>13</tpc>
               </Note>
@@ -34223,6 +34429,7 @@ BWV 811</text>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
+              <color r="255" g="0" b="0" a="255"/>
               <pitch>55</pitch>
               <tpc>15</tpc>
               </Note>
@@ -34260,6 +34467,7 @@ BWV 811</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>I6</name>
+            <color r="170" g="0" b="0" a="255"/>
             </Harmony>
           <location>
             <fractions>1/16</fractions>
@@ -34281,6 +34489,7 @@ BWV 811</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>ii6(+4)</name>
+            <color r="170" g="0" b="0" a="255"/>
             </Harmony>
           <location>
             <fractions>1/16</fractions>
@@ -34288,6 +34497,7 @@ BWV 811</text>
           <Chord>
             <durationType>16th</durationType>
             <Note>
+              <color r="255" g="0" b="0" a="255"/>
               <pitch>62</pitch>
               <tpc>16</tpc>
               </Note>
@@ -34307,11 +34517,13 @@ BWV 811</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>iv43/ii</name>
+            <color r="170" g="0" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <StemDirection>up</StemDirection>
             <Note>
+              <color r="255" g="0" b="0" a="255"/>
               <pitch>58</pitch>
               <tpc>12</tpc>
               </Note>
@@ -34335,6 +34547,7 @@ BWV 811</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V65/ii</name>
+            <color r="170" g="0" b="0" a="255"/>
             </Harmony>
           </voice>
         <voice>
@@ -34354,7 +34567,6 @@ BWV 811</text>
             <durationType>eighth</durationType>
             <appoggiatura/>
             <Note>
-              <color r="255" g="0" b="0" a="255"/>
               <visible>0</visible>
               <pitch>55</pitch>
               <tpc>15</tpc>
@@ -34363,6 +34575,7 @@ BWV 811</text>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
+              <color r="255" g="0" b="0" a="255"/>
               <pitch>57</pitch>
               <tpc>17</tpc>
               </Note>
@@ -35181,6 +35394,7 @@ BWV 811</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V(6)</name>
+            <color r="170" g="0" b="0" a="255"/>
             </Harmony>
           <location>
             <fractions>1/8</fractions>
@@ -35188,6 +35402,7 @@ BWV 811</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V7</name>
+            <color r="170" g="0" b="0" a="255"/>
             </Harmony>
           </voice>
         </Measure>
@@ -35196,6 +35411,12 @@ BWV 811</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>I</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>I|IAC}{</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -35350,6 +35571,7 @@ BWV 811</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>iio</name>
+            <color r="170" g="0" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -35375,6 +35597,7 @@ BWV 811</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V(6)</name>
+            <color r="170" g="0" b="0" a="255"/>
             </Harmony>
           <location>
             <fractions>1/8</fractions>
@@ -35397,6 +35620,12 @@ BWV 811</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>i\\</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>i|IAC}{</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -35415,6 +35644,7 @@ BWV 811</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>i64</name>
+            <color r="170" g="0" b="0" a="255"/>
             </Harmony>
           <Chord>
             <BeamMode>begin</BeamMode>
@@ -35517,6 +35747,12 @@ BWV 811</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V7</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V2</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -36469,10 +36705,12 @@ BWV 811</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>iv6</name>
+            <color r="170" g="0" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
+              <color r="255" g="0" b="0" a="255"/>
               <pitch>55</pitch>
               <tpc>15</tpc>
               </Note>
@@ -36481,6 +36719,7 @@ BWV 811</text>
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
             <Note>
+              <color r="255" g="0" b="0" a="255"/>
               <pitch>46</pitch>
               <tpc>12</tpc>
               </Note>
@@ -36499,6 +36738,7 @@ BWV 811</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>III6</name>
+            <color r="170" g="0" b="0" a="255"/>
             </Harmony>
           <Beam>
             </Beam>
@@ -36506,6 +36746,7 @@ BWV 811</text>
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
             <Note>
+              <color r="255" g="0" b="0" a="255"/>
               <pitch>53</pitch>
               <tpc>13</tpc>
               </Note>
@@ -36513,6 +36754,7 @@ BWV 811</text>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
+              <color r="255" g="0" b="0" a="255"/>
               <pitch>45</pitch>
               <tpc>17</tpc>
               </Note>
@@ -36534,10 +36776,12 @@ BWV 811</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>iio6</name>
+            <color r="170" g="0" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
+              <color r="255" g="0" b="0" a="255"/>
               <pitch>52</pitch>
               <tpc>18</tpc>
               </Note>
@@ -36546,6 +36790,7 @@ BWV 811</text>
             <BeamMode>no</BeamMode>
             <durationType>eighth</durationType>
             <Note>
+              <color r="255" g="0" b="0" a="255"/>
               <pitch>43</pitch>
               <tpc>15</tpc>
               </Note>
@@ -36571,10 +36816,12 @@ BWV 811</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>i6</name>
+            <color r="170" g="0" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
+              <color r="255" g="0" b="0" a="255"/>
               <pitch>50</pitch>
               <tpc>16</tpc>
               </Note>
@@ -36583,6 +36830,7 @@ BWV 811</text>
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
             <Note>
+              <color r="255" g="0" b="0" a="255"/>
               <pitch>41</pitch>
               <tpc>13</tpc>
               </Note>
@@ -36601,6 +36849,7 @@ BWV 811</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>VII6</name>
+            <color r="170" g="0" b="0" a="255"/>
             </Harmony>
           <Beam>
             </Beam>
@@ -36608,6 +36857,7 @@ BWV 811</text>
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
             <Note>
+              <color r="255" g="0" b="0" a="255"/>
               <pitch>48</pitch>
               <tpc>14</tpc>
               </Note>
@@ -36615,6 +36865,7 @@ BWV 811</text>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
+              <color r="255" g="0" b="0" a="255"/>
               <pitch>40</pitch>
               <tpc>18</tpc>
               </Note>
@@ -36636,10 +36887,12 @@ BWV 811</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>VI6</name>
+            <color r="170" g="0" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
+              <color r="255" g="0" b="0" a="255"/>
               <pitch>46</pitch>
               <tpc>12</tpc>
               </Note>
@@ -36647,6 +36900,7 @@ BWV 811</text>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
+              <color r="255" g="0" b="0" a="255"/>
               <pitch>38</pitch>
               <tpc>16</tpc>
               </Note>
@@ -36890,11 +37144,13 @@ BWV 811</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>#viio64/iv</name>
+            <color r="170" g="0" b="0" a="255"/>
             </Harmony>
           <Chord>
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
             <Note>
+              <color r="255" g="0" b="0" a="255"/>
               <pitch>48</pitch>
               <tpc>14</tpc>
               </Note>
@@ -36927,10 +37183,12 @@ BWV 811</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>viio64/V</name>
+            <color r="170" g="0" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
+              <color r="255" g="0" b="0" a="255"/>
               <pitch>50</pitch>
               <tpc>16</tpc>
               </Note>
@@ -37774,6 +38032,7 @@ BWV 811</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>i64</name>
+            <color r="170" g="0" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -37858,6 +38117,7 @@ BWV 811</text>
             <durationType>eighth</durationType>
             <StemDirection>down</StemDirection>
             <Note>
+              <color r="255" g="0" b="0" a="255"/>
               <pitch>45</pitch>
               <tpc>17</tpc>
               </Note>
@@ -37898,6 +38158,7 @@ BWV 811</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>i</name>
+            <offset x="0" y="5.60686"/>
             </Harmony>
           <Rest>
             <durationType>eighth</durationType>
@@ -37999,6 +38260,12 @@ BWV 811</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>i\\</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>i|PAC}{</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <dots>1</dots>
@@ -38039,6 +38306,7 @@ BWV 811</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>iv7</name>
+            <color r="170" g="0" b="0" a="255"/>
             </Harmony>
           </voice>
         <voice>
@@ -38110,7 +38378,7 @@ BWV 811</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>viio64/III</name>
-            <offset x="0" y="-8"/>
+            <color r="170" g="0" b="0" a="255"/>
             </Harmony>
           <location>
             <fractions>1/8</fractions>
@@ -38125,6 +38393,7 @@ BWV 811</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>IIIM7</name>
+            <color r="170" g="0" b="0" a="255"/>
             </Harmony>
           </voice>
         <voice>
@@ -38147,6 +38416,7 @@ BWV 811</text>
             <durationType>eighth</durationType>
             <StemDirection>down</StemDirection>
             <Note>
+              <color r="255" g="0" b="0" a="255"/>
               <pitch>58</pitch>
               <tpc>12</tpc>
               </Note>
@@ -38776,7 +39046,7 @@ BWV 811</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>i6</name>
-            <offset x="0" y="-7"/>
+            <color r="170" g="0" b="0" a="255"/>
             </Harmony>
           <location>
             <fractions>1/4</fractions>
@@ -38817,6 +39087,7 @@ BWV 811</text>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Note>
+              <color r="255" g="0" b="0" a="255"/>
               <pitch>60</pitch>
               <tpc>14</tpc>
               </Note>
@@ -38844,6 +39115,7 @@ BWV 811</text>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Note>
+              <color r="255" g="0" b="0" a="255"/>
               <pitch>60</pitch>
               <tpc>14</tpc>
               </Note>
@@ -39315,6 +39587,7 @@ BWV 811</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V64(6)</name>
+            <color r="170" g="0" b="0" a="255"/>
             </Harmony>
           <location>
             <fractions>1/4</fractions>
@@ -40261,11 +40534,13 @@ BWV 811</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>VII(9)</name>
+            <color r="170" g="0" b="0" a="255"/>
             </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Note>
+              <color r="255" g="0" b="0" a="255"/>
               <pitch>55</pitch>
               <tpc>15</tpc>
               </Note>
@@ -40273,7 +40548,6 @@ BWV 811</text>
           <Chord>
             <durationType>16th</durationType>
             <Note>
-              <color r="255" g="0" b="0" a="255"/>
               <pitch>52</pitch>
               <tpc>18</tpc>
               </Note>
@@ -40407,6 +40681,7 @@ BWV 811</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>III</name>
+            <color r="170" g="0" b="0" a="255"/>
             </Harmony>
           <location>
             <fractions>1/8</fractions>
@@ -40438,6 +40713,7 @@ BWV 811</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>iv</name>
+            <color r="170" g="0" b="0" a="255"/>
             </Harmony>
           <location>
             <fractions>1/8</fractions>
@@ -40460,6 +40736,7 @@ BWV 811</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>i</name>
+            <color r="170" g="0" b="0" a="255"/>
             </Harmony>
           <location>
             <fractions>1/8</fractions>
@@ -40495,7 +40772,6 @@ BWV 811</text>
             <durationType>16th</durationType>
             <StemDirection>down</StemDirection>
             <Note>
-              <color r="255" g="0" b="0" a="255"/>
               <Accidental>
                 <subtype>accidentalNatural</subtype>
                 </Accidental>
@@ -40519,7 +40795,6 @@ BWV 811</text>
             <BeamMode>begin</BeamMode>
             <durationType>16th</durationType>
             <Note>
-              <color r="255" g="0" b="0" a="255"/>
               <pitch>47</pitch>
               <tpc>19</tpc>
               </Note>
@@ -40528,6 +40803,7 @@ BWV 811</text>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Note>
+              <color r="255" g="0" b="0" a="255"/>
               <pitch>48</pitch>
               <tpc>14</tpc>
               </Note>
@@ -40640,6 +40916,7 @@ BWV 811</text>
           <Chord>
             <durationType>16th</durationType>
             <Note>
+              <color r="255" g="0" b="0" a="255"/>
               <pitch>45</pitch>
               <tpc>17</tpc>
               </Note>
@@ -41487,6 +41764,7 @@ BWV 811</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V(6)/III</name>
+            <color r="170" g="0" b="0" a="255"/>
             </Harmony>
           <location>
             <fractions>1/8</fractions>
@@ -41494,7 +41772,7 @@ BWV 811</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V7/III</name>
-            <offset x="0" y="-8"/>
+            <offset x="-0.123933" y="3.7134"/>
             </Harmony>
           </voice>
         <voice>
@@ -41777,6 +42055,7 @@ BWV 811</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V(6)</name>
+            <color r="170" g="0" b="0" a="255"/>
             </Harmony>
           <location>
             <fractions>1/8</fractions>
@@ -41800,6 +42079,12 @@ BWV 811</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>i</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>i|IAC}{</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -42254,6 +42539,12 @@ BWV 811</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>i.V</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>I|PAC}</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -42263,6 +42554,11 @@ BWV 811</text>
               <tpc>18</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>i.V{</name>
+            <color r="0" g="85" b="0" a="255"/>
+            </Harmony>
           <Rest>
             <durationType>eighth</durationType>
             </Rest>
@@ -42418,6 +42714,12 @@ BWV 811</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>i</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>i6</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -42561,6 +42863,12 @@ BWV 811</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>i</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>i|IAC}{</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -42731,6 +43039,12 @@ BWV 811</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>i</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>i6</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>16th</durationType>
@@ -42850,6 +43164,12 @@ BWV 811</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>i</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>i|IAC}{</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -42905,6 +43225,7 @@ BWV 811</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>iv7</name>
+            <color r="170" g="0" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -42938,10 +43259,12 @@ BWV 811</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>viio64/III</name>
+            <color r="170" g="0" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
+              <color r="255" g="0" b="0" a="255"/>
               <Accidental>
                 <subtype>accidentalFlat</subtype>
                 </Accidental>
@@ -43062,6 +43385,7 @@ BWV 811</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>iio</name>
+            <color r="170" g="0" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -44086,6 +44410,12 @@ BWV 811</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>I\\</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>I|PAC}{</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <dots>1</dots>
@@ -44828,6 +45158,12 @@ BWV 811</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>i</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>i|IAC}{</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Beam>
             </Beam>
@@ -45979,6 +46315,7 @@ BWV 811</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>i64</name>
+            <color r="170" g="0" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -46060,6 +46397,7 @@ BWV 811</text>
             <durationType>eighth</durationType>
             <StemDirection>down</StemDirection>
             <Note>
+              <color r="255" g="0" b="0" a="255"/>
               <pitch>50</pitch>
               <tpc>16</tpc>
               </Note>
@@ -46160,6 +46498,7 @@ BWV 811</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>iv7</name>
+            <color r="170" g="0" b="0" a="255"/>
             </Harmony>
           <location>
             <fractions>1/8</fractions>
@@ -46249,6 +46588,7 @@ BWV 811</text>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
+              <color r="255" g="0" b="0" a="255"/>
               <pitch>48</pitch>
               <tpc>14</tpc>
               </Note>
@@ -46268,6 +46608,12 @@ BWV 811</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>i\\</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>i|PAC}{</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <dots>1</dots>
@@ -46712,6 +47058,7 @@ BWV 811</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>iv6</name>
+            <color r="170" g="0" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -46724,6 +47071,7 @@ BWV 811</text>
             <durationType>eighth</durationType>
             <StemDirection>up</StemDirection>
             <Note>
+              <color r="255" g="0" b="0" a="255"/>
               <pitch>55</pitch>
               <tpc>15</tpc>
               </Note>
@@ -46783,6 +47131,12 @@ BWV 811</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V\\</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V|HC}{</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Rest>
             <visible>0</visible>
@@ -46977,7 +47331,7 @@ BWV 811</text>
             <duration>9/8</duration>
             </Rest>
           <location>
-            <fractions>-1</fractions>
+            <fractions>-1/1</fractions>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
@@ -47182,10 +47536,12 @@ BWV 811</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>iv7</name>
+            <color r="170" g="0" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
+              <color r="255" g="0" b="0" a="255"/>
               <pitch>65</pitch>
               <tpc>13</tpc>
               </Note>
@@ -47265,6 +47621,12 @@ BWV 811</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>VI\\</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>VI|DC}{</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <dots>1</dots>
@@ -47364,6 +47726,7 @@ BWV 811</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>IV64</name>
+            <color r="170" g="0" b="0" a="255"/>
             </Harmony>
           <location>
             <fractions>1/8</fractions>
@@ -47464,6 +47827,7 @@ BWV 811</text>
             <durationType>eighth</durationType>
             <StemDirection>down</StemDirection>
             <Note>
+              <color r="255" g="0" b="0" a="255"/>
               <pitch>53</pitch>
               <tpc>13</tpc>
               </Note>
@@ -48003,6 +48367,12 @@ BWV 811</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>I\\</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>I|PAC}{</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -48235,10 +48605,12 @@ BWV 811</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V6</name>
+            <color r="170" g="0" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
+              <color r="255" g="0" b="0" a="255"/>
               <pitch>55</pitch>
               <tpc>15</tpc>
               </Note>
@@ -48335,6 +48707,7 @@ BWV 811</text>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
+              <color r="255" g="0" b="0" a="255"/>
               <pitch>52</pitch>
               <tpc>18</tpc>
               </Note>
@@ -48380,6 +48753,7 @@ BWV 811</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>vi65</name>
+            <color r="170" g="0" b="0" a="255"/>
             </Harmony>
           <location>
             <fractions>1/16</fractions>
@@ -48387,6 +48761,7 @@ BWV 811</text>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
+              <color r="255" g="0" b="0" a="255"/>
               <pitch>57</pitch>
               <tpc>17</tpc>
               </Note>
@@ -48397,6 +48772,7 @@ BWV 811</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V43</name>
+            <color r="170" g="0" b="0" a="255"/>
             </Harmony>
           <location>
             <fractions>1/16</fractions>
@@ -48404,6 +48780,7 @@ BWV 811</text>
           <Chord>
             <durationType>16th</durationType>
             <Note>
+              <color r="255" g="0" b="0" a="255"/>
               <pitch>58</pitch>
               <tpc>12</tpc>
               </Note>
@@ -48428,6 +48805,7 @@ BWV 811</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V43</name>
+            <color r="170" g="0" b="0" a="255"/>
             </Harmony>
           <location>
             <fractions>1/16</fractions>
@@ -48438,6 +48816,7 @@ BWV 811</text>
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
             <Note>
+              <color r="255" g="0" b="0" a="255"/>
               <pitch>58</pitch>
               <tpc>12</tpc>
               </Note>
@@ -48448,6 +48827,7 @@ BWV 811</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>I6</name>
+            <color r="170" g="0" b="0" a="255"/>
             </Harmony>
           <location>
             <fractions>1/16</fractions>
@@ -48501,6 +48881,7 @@ BWV 811</text>
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
             <Note>
+              <color r="255" g="0" b="0" a="255"/>
               <pitch>53</pitch>
               <tpc>13</tpc>
               </Note>
@@ -48525,6 +48906,7 @@ BWV 811</text>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
+              <color r="255" g="0" b="0" a="255"/>
               <pitch>55</pitch>
               <tpc>15</tpc>
               </Note>
@@ -48562,6 +48944,7 @@ BWV 811</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>I6</name>
+            <color r="170" g="0" b="0" a="255"/>
             </Harmony>
           <location>
             <fractions>1/16</fractions>
@@ -48583,6 +48966,7 @@ BWV 811</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>ii6(+4)</name>
+            <color r="170" g="0" b="0" a="255"/>
             </Harmony>
           <location>
             <fractions>1/16</fractions>
@@ -48590,6 +48974,7 @@ BWV 811</text>
           <Chord>
             <durationType>16th</durationType>
             <Note>
+              <color r="255" g="0" b="0" a="255"/>
               <pitch>62</pitch>
               <tpc>16</tpc>
               </Note>
@@ -48609,11 +48994,13 @@ BWV 811</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>iv43/ii</name>
+            <color r="170" g="0" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <StemDirection>up</StemDirection>
             <Note>
+              <color r="255" g="0" b="0" a="255"/>
               <pitch>58</pitch>
               <tpc>12</tpc>
               </Note>
@@ -48637,6 +49024,7 @@ BWV 811</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V65/ii</name>
+            <color r="170" g="0" b="0" a="255"/>
             </Harmony>
           </voice>
         <voice>
@@ -48654,6 +49042,7 @@ BWV 811</text>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
+              <color r="255" g="0" b="0" a="255"/>
               <pitch>57</pitch>
               <tpc>17</tpc>
               </Note>
@@ -49474,6 +49863,7 @@ BWV 811</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V(6)</name>
+            <color r="170" g="0" b="0" a="255"/>
             </Harmony>
           <location>
             <fractions>1/8</fractions>
@@ -49489,6 +49879,12 @@ BWV 811</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>I</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>I|IAC}{</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -49643,6 +50039,7 @@ BWV 811</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>iio</name>
+            <color r="170" g="0" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -49668,6 +50065,7 @@ BWV 811</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V(6)</name>
+            <color r="170" g="0" b="0" a="255"/>
             </Harmony>
           <location>
             <fractions>1/8</fractions>
@@ -49691,6 +50089,12 @@ BWV 811</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>i\\</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>i|IAC}{</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Beam>
             </Beam>
@@ -49712,6 +50116,7 @@ BWV 811</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>i64</name>
+            <color r="170" g="0" b="0" a="255"/>
             </Harmony>
           <Chord>
             <BeamMode>begin</BeamMode>
@@ -50712,10 +51117,12 @@ BWV 811</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>iv6</name>
+            <color r="170" g="0" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
+              <color r="255" g="0" b="0" a="255"/>
               <pitch>55</pitch>
               <tpc>15</tpc>
               </Note>
@@ -50724,6 +51131,7 @@ BWV 811</text>
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
             <Note>
+              <color r="255" g="0" b="0" a="255"/>
               <pitch>46</pitch>
               <tpc>12</tpc>
               </Note>
@@ -50742,6 +51150,7 @@ BWV 811</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>III6</name>
+            <color r="170" g="0" b="0" a="255"/>
             </Harmony>
           <Beam>
             </Beam>
@@ -50749,6 +51158,7 @@ BWV 811</text>
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
             <Note>
+              <color r="255" g="0" b="0" a="255"/>
               <pitch>53</pitch>
               <tpc>13</tpc>
               </Note>
@@ -50756,6 +51166,7 @@ BWV 811</text>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
+              <color r="255" g="0" b="0" a="255"/>
               <pitch>45</pitch>
               <tpc>17</tpc>
               </Note>
@@ -50777,10 +51188,12 @@ BWV 811</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>iio6</name>
+            <color r="170" g="0" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
+              <color r="255" g="0" b="0" a="255"/>
               <pitch>52</pitch>
               <tpc>18</tpc>
               </Note>
@@ -50788,6 +51201,7 @@ BWV 811</text>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
+              <color r="255" g="0" b="0" a="255"/>
               <pitch>43</pitch>
               <tpc>15</tpc>
               </Note>
@@ -50813,10 +51227,12 @@ BWV 811</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>i6</name>
+            <color r="170" g="0" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
+              <color r="255" g="0" b="0" a="255"/>
               <pitch>50</pitch>
               <tpc>16</tpc>
               </Note>
@@ -50825,6 +51241,7 @@ BWV 811</text>
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
             <Note>
+              <color r="255" g="0" b="0" a="255"/>
               <pitch>41</pitch>
               <tpc>13</tpc>
               </Note>
@@ -50843,6 +51260,7 @@ BWV 811</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>VII6</name>
+            <color r="170" g="0" b="0" a="255"/>
             </Harmony>
           <Beam>
             </Beam>
@@ -50850,6 +51268,7 @@ BWV 811</text>
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
             <Note>
+              <color r="255" g="0" b="0" a="255"/>
               <pitch>48</pitch>
               <tpc>14</tpc>
               </Note>
@@ -50857,6 +51276,7 @@ BWV 811</text>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
+              <color r="255" g="0" b="0" a="255"/>
               <pitch>40</pitch>
               <tpc>18</tpc>
               </Note>
@@ -50878,10 +51298,12 @@ BWV 811</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>VI6</name>
+            <color r="170" g="0" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
+              <color r="255" g="0" b="0" a="255"/>
               <pitch>46</pitch>
               <tpc>12</tpc>
               </Note>
@@ -50890,6 +51312,7 @@ BWV 811</text>
             <BeamMode>no</BeamMode>
             <durationType>eighth</durationType>
             <Note>
+              <color r="255" g="0" b="0" a="255"/>
               <pitch>38</pitch>
               <tpc>16</tpc>
               </Note>
@@ -51113,6 +51536,12 @@ BWV 811</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>i64</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>III6</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Beam>
             </Beam>
@@ -51138,6 +51567,7 @@ BWV 811</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>#viio64/iv</name>
+            <color r="170" g="0" b="0" a="255"/>
             </Harmony>
           <Chord>
             <BeamMode>begin</BeamMode>
@@ -51175,10 +51605,12 @@ BWV 811</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>viio64/V</name>
+            <color r="170" g="0" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
+              <color r="255" g="0" b="0" a="255"/>
               <pitch>50</pitch>
               <tpc>16</tpc>
               </Note>
@@ -51989,6 +52421,7 @@ BWV 811</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>i64</name>
+            <color r="170" g="0" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -52063,6 +52496,7 @@ BWV 811</text>
             <durationType>eighth</durationType>
             <StemDirection>down</StemDirection>
             <Note>
+              <color r="255" g="0" b="0" a="255"/>
               <pitch>45</pitch>
               <tpc>17</tpc>
               </Note>
@@ -52204,6 +52638,12 @@ BWV 811</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>i\\</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>i|PAC}</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <dots>1</dots>

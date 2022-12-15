@@ -1866,8 +1866,11 @@ BWV 811</text>
             <durationType>eighth</durationType>
             <StemDirection>up</StemDirection>
             <Note>
-              <pitch>67</pitch>
-              <tpc>15</tpc>
+              <Accidental>
+                <subtype>accidentalSharp</subtype>
+                </Accidental>
+              <pitch>68</pitch>
+              <tpc>22</tpc>
               </Note>
             </Chord>
           </voice>
@@ -27658,7 +27661,7 @@ BWV 811</text>
             </TimeSig>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>d.i[i</name>
+            <name>d.i[i{</name>
             </Harmony>
           <Rest>
             <durationType>eighth</durationType>
@@ -28358,14 +28361,7 @@ BWV 811</text>
               </NoteDot>
             </Rest>
           <location>
-            <fractions>-5/8</fractions>
-            </location>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>{</name>
-            </Harmony>
-          <location>
-            <fractions>1/4</fractions>
+            <fractions>-3/8</fractions>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
@@ -28882,7 +28878,7 @@ BWV 811</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i|IAC}</name>
+            <name>i|IAC}{</name>
             </Harmony>
           <Rest>
             <visible>0</visible>
@@ -28892,16 +28888,6 @@ BWV 811</text>
               <visible>0</visible>
               </NoteDot>
             </Rest>
-          <location>
-            <fractions>-3/8</fractions>
-            </location>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>{</name>
-            </Harmony>
-          <location>
-            <fractions>3/8</fractions>
-            </location>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V6/VI</name>
@@ -29372,7 +29358,7 @@ BWV 811</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i|EC}</name>
+            <name>i|EC}{</name>
             </Harmony>
           <Beam>
             </Beam>

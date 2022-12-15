@@ -1891,7 +1891,7 @@
             </TimeSig>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>F.I</name>
+            <name>F.I{</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -1948,6 +1948,7 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>IV(97b4)</name>
+            <offset x="-0.247866" y="3.74787"/>
             </Harmony>
           <location>
             <fractions>1/8</fractions>
@@ -2067,7 +2068,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I</name>
+            <name>I|PAC}</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -2107,6 +2108,10 @@
             <concertClefType>F</concertClefType>
             <transposingClefType>F</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>{</name>
+            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <Note>

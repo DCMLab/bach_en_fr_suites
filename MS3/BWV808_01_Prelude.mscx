@@ -17353,13 +17353,6 @@ BWV 808</text>
             <durationType>measure</durationType>
             <duration>3/8</duration>
             </Rest>
-          <location>
-            <fractions>-1/8</fractions>
-            </location>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>i64</name>
-            </Harmony>
           </voice>
         </Measure>
       <Measure>
@@ -17459,10 +17452,6 @@ BWV 808</text>
               <tpc>12</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>VII64</name>
-            </Harmony>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -17920,11 +17909,18 @@ BWV 808</text>
               <tpc>17</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>#vii64/ii</name>
+            </Harmony>
           <Chord>
             <durationType>16th</durationType>
             <Note>
+              <Accidental>
+                <subtype>accidentalSharp</subtype>
+                </Accidental>
               <pitch>63</pitch>
-              <tpc>11</tpc>
+              <tpc>23</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -18194,7 +18190,7 @@ BWV 808</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>VI.iio/vi</name>
+            <name>iio/vii</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>

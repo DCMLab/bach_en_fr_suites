@@ -42,7 +42,7 @@
 |BWV808_05_Gavotte_I                 |      34|   112|2.1.0   |Adrian Nagel                              |         |
 |BWV808_06_Gavotte_II                |      16|    58|2.1.0   |Adrian Nagel                              |         |
 |BWV808_07_Gigue                     |      44|   206|2.1.0   |Adrian Nagel                              |         |
-|BWV809_01_Prelude                   |     108|   493|2.3.0   |Adrian Nagel (2.1.0), Hanné Becker (2.3.0)|HB       |
+|BWV809_01_Prelude                   |     108|   493|2.3.0   |Adrian Nagel (2.1.0), Hanné Becker (2.3.0)|HB,  AN  |
 |BWV809_02_Allemande                 |      24|   143|2.1.0   |Adrian Nagel                              |         |
 |BWV809_03_Courante                  |      20|    92|2.1.0   |Adrian Nagel                              |         |
 |BWV809_04_Sarabande                 |      24|    64|2.1.0   |Adrian Nagel                              |         |
@@ -107,4 +107,4 @@
 |BWV817_08_Menuett                   |      24|    68|2.1.0   |Adrian Nagel                              |         |
 
 
-*Overview table updated using [ms3](https://johentsch.github.io/ms3/) 1.0.2.*
+*Overview table updated using [ms3](https://johentsch.github.io/ms3/) 1.0.4.*

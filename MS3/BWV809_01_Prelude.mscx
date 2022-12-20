@@ -14516,6 +14516,10 @@ BWV 809</text>
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V65(4)</name>
+            </Harmony>
           <Chord>
             <dots>1</dots>
             <durationType>eighth</durationType>
@@ -16068,6 +16072,7 @@ BWV 809</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>I</name>
+            <offset x="0" y="5.26989"/>
             </Harmony>
           <Chord>
             <durationType>16th</durationType>

@@ -824,7 +824,6 @@
           <Chord>
             <durationType>eighth</durationType>
             <Note>
-              <color r="255" g="0" b="0" a="255"/>
               <pitch>82</pitch>
               <tpc>12</tpc>
               </Note>
@@ -832,7 +831,6 @@
           <Chord>
             <durationType>eighth</durationType>
             <Note>
-              <color r="255" g="0" b="0" a="255"/>
               <pitch>79</pitch>
               <tpc>15</tpc>
               </Note>
@@ -2852,6 +2850,7 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>ii/V{</name>
+            <offset x="0" y="3.6"/>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -2875,11 +2874,16 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>viio/v</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>viio/V</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
-              <color r="255" g="0" b="0" a="255"/>
               <Accidental>
                 <subtype>accidentalNatural</subtype>
                 </Accidental>

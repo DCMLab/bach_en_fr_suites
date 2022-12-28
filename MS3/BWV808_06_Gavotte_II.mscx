@@ -1076,7 +1076,7 @@
             </TimeSig>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>G.I[I6</name>
+            <name>G.I[I6{</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -1339,7 +1339,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I\\</name>
+            <name>I|IAC}</name>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
@@ -1377,7 +1377,7 @@
             </BarLine>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I6</name>
+            <name>I6{</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -1519,7 +1519,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V2</name>
+            <name>IV-V2</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -1570,7 +1570,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V2</name>
+            <name>IV-V2</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -1592,7 +1592,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V2</name>
+            <name>IV-V2</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -1654,7 +1654,7 @@
             </Clef>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>viio64</name>
+            <name>viio64|HC}</name>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
@@ -1663,6 +1663,10 @@
               <tpc>14</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>{</name>
+            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
@@ -1935,7 +1939,7 @@
             </Clef>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I6</name>
+            <name>I6|IAC}</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -1957,7 +1961,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I6</name>
+            <name>I6{</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -2209,6 +2213,10 @@
         </Measure>
       <Measure len="1/2">
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>|PAC}</name>
+            </Harmony>
           <Chord>
             <durationType>half</durationType>
             <Note>

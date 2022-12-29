@@ -213,7 +213,7 @@
           <Tempo>
             <tempo>1</tempo>
             <followText>1</followText>
-            <text><b></b><font face="ScoreText"/><b><font face="Edwin"/> = 60</b></text>
+            <text><b></b><font face="ScoreText"></font><b><font face="Edwin"></font> = 60</b></text>
             </Tempo>
           <Chord>
             <durationType>quarter</durationType>
@@ -3793,7 +3793,7 @@
             </Clef>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>III}{</name>
+            <name>III</name>
             </Harmony>
           <Rest>
             <visible>0</visible>

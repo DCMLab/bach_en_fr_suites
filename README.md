@@ -25,7 +25,7 @@
 |BWV806_07_Sarabande                 |      32|    90|2.1.0   |Adrian Nagel         |         |
 |BWV806_08_Bouree_I                  |      48|   151|2.1.0   |Adrian Nagel         |         |
 |BWV806_09_Bouree_II                 |      36|   132|2.1.0   |Adrian Nagel         |         |
-|BWV806_10_Gigue                     |      40|   123|2.3.0   |Davor Krkljus (2.3.0)|DK       |
+|BWV806_10_Gigue                     |      40|   122|2.3.0   |Davor Krkljus (2.3.0)|DK       |
 |BWV807_01_Prelude                   |     164|   656|2.1.0   |Adrian Nagel         |         |
 |BWV807_02_Allemande                 |      24|   148|2.1.0   |Adrian Nagel         |         |
 |BWV807_03_Courante                  |      24|   115|2.1.0   |Adrian Nagel         |         |

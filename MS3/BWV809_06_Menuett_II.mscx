@@ -1807,10 +1807,6 @@
               <tpc>17</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V64(4)</name>
-            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -1858,10 +1854,6 @@
               <tpc>15</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>i6</name>
-            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -2052,7 +2044,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V(2)</name>
+            <name>iv6(2)</name>
             </Harmony>
           <Rest>
             <visible>0</visible>
@@ -2095,18 +2087,10 @@
             <visible>0</visible>
             <durationType>quarter</durationType>
             </Rest>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V2</name>
-            </Harmony>
           <Rest>
             <visible>0</visible>
             <durationType>quarter</durationType>
             </Rest>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V64</name>
-            </Harmony>
           <Rest>
             <visible>0</visible>
             <durationType>quarter</durationType>

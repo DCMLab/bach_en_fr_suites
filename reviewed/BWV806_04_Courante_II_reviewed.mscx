@@ -1231,7 +1231,6 @@
               <subtype>ornamentMordent</subtype>
               </Articulation>
             <Note>
-              <color r="255" g="0" b="0" a="255"/>
               <pitch>81</pitch>
               <tpc>17</tpc>
               </Note>
@@ -1263,7 +1262,6 @@
           <Chord>
             <durationType>half</durationType>
             <Note>
-              <color r="255" g="0" b="0" a="255"/>
               <pitch>78</pitch>
               <tpc>20</tpc>
               </Note>
@@ -3406,6 +3404,7 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>I</name>
+            <offset x="0.1" y="3.5"/>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -3543,6 +3542,12 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>viio/iv/ii</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>#viio/iv/ii</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -3555,7 +3560,6 @@
           <Chord>
             <durationType>eighth</durationType>
             <Note>
-              <color r="255" g="0" b="0" a="255"/>
               <Accidental>
                 <subtype>accidentalSharp</subtype>
                 </Accidental>

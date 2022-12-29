@@ -21,7 +21,7 @@
 |BWV806_03_Courante_I                |      20|   112|2.1.0   |Adrian Nagel         |         |
 |BWV806_04_Courante_II               |      24|   111|2.1.0   |Adrian Nagel         |         |
 |BWV806_05_Double_I                  |      24|   106|2.1.0   |Adrian Nagel         |         |
-|BWV806_06_Double_II                 |      24|   102|2.3.0   |Davor Krkljus (2.3.0)|DK       |
+|BWV806_06_Double_II                 |      24|   101|2.3.0   |Davor Krkljus (2.3.0)|DK       |
 |BWV806_07_Sarabande                 |      32|    90|2.1.0   |Adrian Nagel         |         |
 |BWV806_08_Bouree_I                  |      48|   151|2.1.0   |Adrian Nagel         |         |
 |BWV806_09_Bouree_II                 |      36|   132|2.1.0   |Adrian Nagel         |         |

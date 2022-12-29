@@ -3594,6 +3594,7 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>I.V{</name>
+            <offset x="-0.467667" y="4.06767"/>
             </Harmony>
           <Rest>
             <durationType>eighth</durationType>
@@ -4322,6 +4323,12 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>ii.III-i6{</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>ii.III{-i6{</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -4359,10 +4366,12 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>iio</name>
+            <color r="170" g="0" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
+              <color r="255" g="0" b="0" a="255"/>
               <pitch>61</pitch>
               <tpc>21</tpc>
               </Note>
@@ -4370,7 +4379,6 @@
           <Chord>
             <durationType>eighth</durationType>
             <Note>
-              <color r="255" g="0" b="0" a="255"/>
               <pitch>59</pitch>
               <tpc>19</tpc>
               </Note>

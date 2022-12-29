@@ -1,8 +1,0 @@
-Warnings encountered during the last execution of ms3 review (v1.0.4)
-=====================================================================
-
-Chord labels where the ratio of colored notes vs. all notes in a segment lies above 0.6:
-                                               mc  mn mc_onset   label chord_tones added_tones  n_colored  n_untouched  count_ratio
-bach_en_fr_suites MS3/BWV806_05_Double_I.mscx   2   1      1/2     I64   (4, 3, 7)          ()          2            1     0.666667
-                  MS3/BWV806_05_Double_I.mscx   4   3      1/2     V64   (5, 4, 8)          ()          2            1     0.666667
-                  MS3/BWV806_05_Double_I.mscx  13  11      1/2  i64/ii   (6, 5, 2)          ()          2            1     0.666667

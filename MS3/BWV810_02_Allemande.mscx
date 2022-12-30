@@ -3905,7 +3905,7 @@
             </TimeSig>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>e.i</name>
+            <name>e.i{</name>
             </Harmony>
           <Rest>
             <durationType>16th</durationType>
@@ -4193,7 +4193,7 @@
             </Clef>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i6</name>
+            <name>i6}{</name>
             </Harmony>
           <Chord>
             <durationType>16th</durationType>
@@ -4372,7 +4372,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V(4)</name>
+            <name>V(4)}{</name>
             </Harmony>
           <Chord>
             <dots>1</dots>
@@ -4385,6 +4385,16 @@
               <tpc>19</tpc>
               </Note>
             </Chord>
+          <location>
+            <fractions>-1/16</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V</name>
+            </Harmony>
+          <location>
+            <fractions>1/16</fractions>
+            </location>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -4515,7 +4525,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>v.i</name>
+            <name>v.i}{</name>
             </Harmony>
           <Chord>
             <durationType>16th</durationType>
@@ -5189,7 +5199,7 @@
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V]</name>
+            <name>V]|HC}{</name>
             </Harmony>
           <location>
             <fractions>1/4</fractions>
@@ -5444,7 +5454,7 @@
             </Clef>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i[V/iv</name>
+            <name>i[V/iv}</name>
             </Harmony>
           <Rest>
             <durationType>16th</durationType>
@@ -5511,7 +5521,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I\\</name>
+            <name>I|PAC</name>
             </Harmony>
           <Chord>
             <durationType>16th</durationType>
@@ -5610,7 +5620,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i[V/iv</name>
+            <name>i[V/iv}</name>
             </Harmony>
           <Rest>
             <durationType>16th</durationType>
@@ -5677,7 +5687,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I]\\</name>
+            <name>I]|PAC</name>
             </Harmony>
           <Chord>
             <dots>1</dots>
@@ -5756,7 +5766,7 @@
             </Clef>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i.V</name>
+            <name>i.V{</name>
             </Harmony>
           <Rest>
             <durationType>16th</durationType>
@@ -6288,7 +6298,7 @@
             </Clef>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i/iv</name>
+            <name>i/iv|PAC}{</name>
             </Harmony>
           <Chord>
             <durationType>16th</durationType>
@@ -6670,7 +6680,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V</name>
+            <name>V}{</name>
             </Harmony>
           <Chord>
             <dots>1</dots>
@@ -7176,7 +7186,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i[V/iv</name>
+            <name>i[V/iv}</name>
             </Harmony>
           <Rest>
             <durationType>16th</durationType>
@@ -7240,7 +7250,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I]\\</name>
+            <name>I]|PAC</name>
             </Harmony>
           <Fermata>
             <subtype>fermataBelow</subtype>

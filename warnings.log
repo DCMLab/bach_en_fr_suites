@@ -1,8 +1,0 @@
-Warnings encountered during the last execution of ms3 review (v1.0.4)
-=====================================================================
-
-DCML_HARMONY_SYNTAX_WARNING (15,) ms3.Parse.bach_en_fr_suites.BWV806_02_Allemande -- /usr/local/lib/python3.10/site-packages/ms3/annotations.py (line 382) expand_dcml():
-	Score contains 2 labels that don't (and 157 that do) match the DCML standard:
-	     mc  mn     label harmony_layer
-	92   22  20     i/vi6             1
-	142  32  30  I6(974))             1

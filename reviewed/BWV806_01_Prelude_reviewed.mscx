@@ -8267,10 +8267,12 @@ BWV 806</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V2/ii</name>
+            <color r="170" g="0" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
+              <color r="255" g="0" b="0" a="255"/>
               <pitch>64</pitch>
               <tpc>18</tpc>
               </Note>

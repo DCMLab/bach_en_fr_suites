@@ -218,6 +218,12 @@
             <offset x="-15.1539" y="-12.7774"/>
             <text>1. Prélude</text>
             </StaffText>
+          <Tempo>
+            <tempo>2</tempo>
+            <followText>1</followText>
+            <visible>0</visible>
+            <text><sym>metNoteQuarterUp</sym><sym>space</sym><sym>metAugmentationDot</sym> = 80</text>
+            </Tempo>
           <Rest>
             <visible>0</visible>
             <dots>1</dots>

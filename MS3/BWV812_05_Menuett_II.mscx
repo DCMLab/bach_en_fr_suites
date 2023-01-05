@@ -147,16 +147,17 @@
       <usePre_3_6_defaults>1</usePre_3_6_defaults>
       <defaultsVersion>301</defaultsVersion>
       <Spatium>1.6</Spatium>
-      <romanNumeralPlacement>1</romanNumeralPlacement>
       </Style>
     <showInvisible>0</showInvisible>
     <showUnprintable>1</showUnprintable>
     <showFrames>1</showFrames>
     <showMargins>0</showMargins>
+    <metaTag name="annotators">Davor Krkljus (2.3.0)</metaTag>
     <metaTag name="arranger"></metaTag>
     <metaTag name="composer"></metaTag>
     <metaTag name="copyright"></metaTag>
     <metaTag name="creationDate">2019-09-30</metaTag>
+    <metaTag name="harmony_version">2.3.0</metaTag>
     <metaTag name="lyricist"></metaTag>
     <metaTag name="movementNumber"></metaTag>
     <metaTag name="movementTitle"></metaTag>
@@ -164,6 +165,7 @@
     <metaTag name="originalFormat">cap</metaTag>
     <metaTag name="platform">Microsoft Windows</metaTag>
     <metaTag name="poet"></metaTag>
+    <metaTag name="reviewers">DK</metaTag>
     <metaTag name="source"></metaTag>
     <metaTag name="translator"></metaTag>
     <metaTag name="workNumber"></metaTag>
@@ -211,6 +213,11 @@
             <offset x="-7.65625" y="-8.09375"/>
             <text>5. Menuet II</text>
             </StaffText>
+          <Tempo>
+            <tempo>3</tempo>
+            <followText>1</followText>
+            <text><b></b><font face="ScoreText"/> <b><font face="Edwin"/> = 60</b></text>
+            </Tempo>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
@@ -3057,14 +3064,14 @@
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V(4)</name>
-            </Harmony>
           <Clef>
             <concertClefType>F</concertClefType>
             <transposingClefType>F</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V(4)</name>
+            </Harmony>
           <Rest>
             <visible>0</visible>
             <durationType>measure</durationType>

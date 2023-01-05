@@ -2660,7 +2660,7 @@
             </TimeSig>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>d.i</name>
+            <name>d.i{</name>
             </Harmony>
           <Rest>
             <visible>0</visible>
@@ -3020,7 +3020,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i</name>
+            <name>i|IAC}</name>
             </Harmony>
           <Rest>
             <visible>0</visible>
@@ -3072,7 +3072,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i\\</name>
+            <name>i{</name>
             </Harmony>
           <Rest>
             <visible>0</visible>
@@ -3497,7 +3497,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i\\</name>
+            <name>i|PAC}</name>
             </Harmony>
           <Rest>
             <visible>0</visible>
@@ -3533,6 +3533,10 @@
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>{</name>
+            </Harmony>
           <Rest>
             <visible>0</visible>
             <durationType>measure</durationType>
@@ -3698,7 +3702,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>iv\\</name>
+            <name>i/iv|IAC}</name>
             </Harmony>
           <Chord>
             <dots>1</dots>
@@ -3737,7 +3741,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>#viio64</name>
+            <name>#viio64{</name>
             </Harmony>
           <Rest>
             <visible>0</visible>
@@ -3912,7 +3916,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V</name>
+            <name>V|HC}</name>
             </Harmony>
           <Rest>
             <visible>0</visible>
@@ -3964,7 +3968,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i</name>
+            <name>i{</name>
             </Harmony>
           <Rest>
             <visible>0</visible>
@@ -4324,7 +4328,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i</name>
+            <name>i|IAC}</name>
             </Harmony>
           <Rest>
             <visible>0</visible>
@@ -4376,7 +4380,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i\\</name>
+            <name>i{</name>
             </Harmony>
           <Rest>
             <visible>0</visible>
@@ -4801,7 +4805,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i\\</name>
+            <name>i|PAC}</name>
             </Harmony>
           <Rest>
             <visible>0</visible>

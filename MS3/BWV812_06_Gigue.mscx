@@ -5088,7 +5088,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V(64)/III</name>
+            <name>V(64)/III-III</name>
             </Harmony>
           <Rest>
             <durationType>quarter</durationType>
@@ -5099,7 +5099,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V(4)/III</name>
+            <name>V(4)/III-viio(2)/III</name>
             </Harmony>
           <Rest>
             <dots>1</dots>
@@ -5125,7 +5125,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>III6</name>
+            <name>III6-ii/iv</name>
             </Harmony>
           <Chord>
             <dots>1</dots>
@@ -5135,10 +5135,6 @@
               <tpc>17</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V/III</name>
-            </Harmony>
           <Chord>
             <durationType>32nd</durationType>
             <Note>
@@ -5166,7 +5162,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>iv</name>
+            <name>V(64)/iv-iv</name>
             </Harmony>
           <Rest>
             <durationType>quarter</durationType>
@@ -5181,7 +5177,7 @@
             </Clef>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>#viio(2)/iv</name>
+            <name>V(4)/iv-#viio(2)/iv</name>
             </Harmony>
           <Rest>
             <dots>1</dots>
@@ -5207,7 +5203,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>viio64/VII</name>
+            <name>iio64/v</name>
             </Harmony>
           <Chord>
             <dots>1</dots>
@@ -5219,7 +5215,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i</name>
+            <name>iv/v</name>
             </Harmony>
           <Chord>
             <durationType>32nd</durationType>
@@ -5237,7 +5233,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V7/v</name>
+            <name>v.V7/v</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>

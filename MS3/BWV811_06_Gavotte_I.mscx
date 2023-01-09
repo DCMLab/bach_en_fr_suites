@@ -3941,7 +3941,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>v</name>
+            <name>i/v</name>
             </Harmony>
           <Beam>
             </Beam>
@@ -3979,6 +3979,8 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V43/VII</name>
+            <minDistance>0.377819</minDistance>
+            <offset x="0.122203" y="3.42394"/>
             </Harmony>
           <Beam>
             </Beam>
@@ -4004,6 +4006,7 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>VII</name>
+            <offset x="-0.244406" y="3.01119"/>
             </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
@@ -4016,6 +4019,7 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>IV/VII</name>
+            <offset x="-0.122203" y="2.76678"/>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -4052,7 +4056,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V2/III</name>
+            <name>I/VII</name>
             </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>

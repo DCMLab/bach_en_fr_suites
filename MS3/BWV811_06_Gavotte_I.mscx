@@ -3039,7 +3039,7 @@
             </TimeSig>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>d.i</name>
+            <name>d.i{</name>
             </Harmony>
           <Beam>
             </Beam>
@@ -3358,7 +3358,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i</name>
+            <name>i|PAC}</name>
             </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
@@ -3377,7 +3377,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i6</name>
+            <name>i6{</name>
             </Harmony>
           <Beam>
             </Beam>
@@ -4056,7 +4056,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I/VII</name>
+            <name>I/VII|PAC}</name>
             </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
@@ -4080,7 +4080,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>ii/iv</name>
+            <name>ii/iv{</name>
             </Harmony>
           <Beam>
             </Beam>
@@ -4210,7 +4210,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>iv</name>
+            <name>iv}</name>
             </Harmony>
           <Beam>
             </Beam>
@@ -4247,7 +4247,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V65/iv</name>
+            <name>V65/iv{</name>
             <offset x="0" y="-6"/>
             </Harmony>
           <Chord>
@@ -4509,7 +4509,7 @@
             </Clef>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i/iv</name>
+            <name>i/iv|PAC}</name>
             </Harmony>
           <Beam>
             </Beam>
@@ -4544,6 +4544,10 @@
               <tpc>16</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>{</name>
+            </Harmony>
           <Beam>
             </Beam>
           <Chord>
@@ -4773,7 +4777,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V</name>
+            <name>V|HC}</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -4801,7 +4805,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i6</name>
+            <name>i6{</name>
             </Harmony>
           <Beam>
             </Beam>
@@ -5095,7 +5099,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i</name>
+            <name>i|PAC}</name>
             </Harmony>
           <Beam>
             </Beam>
@@ -5114,6 +5118,10 @@
               <tpc>17</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>{</name>
+            </Harmony>
           <Beam>
             </Beam>
           <Chord>

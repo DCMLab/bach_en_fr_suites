@@ -3092,7 +3092,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I</name>
+            <name>I64</name>
             </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
@@ -3234,7 +3234,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I</name>
+            <name>I64</name>
             </Harmony>
           <Beam>
             </Beam>
@@ -3279,7 +3279,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I</name>
+            <name>I6</name>
             </Harmony>
           <Beam>
             </Beam>
@@ -3314,6 +3314,10 @@
               <tpc>15</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>I64</name>
+            </Harmony>
           <Beam>
             </Beam>
           <Chord>
@@ -3351,6 +3355,10 @@
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>I</name>
+            </Harmony>
           <Beam>
             </Beam>
           <Chord>
@@ -3408,7 +3416,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I</name>
+            <name>I3</name>
             </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
@@ -3456,7 +3464,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I</name>
+            <name>I64</name>
             </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
@@ -3521,7 +3529,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V6</name>
+            <name>vi64/V6</name>
             </Harmony>
           <Beam>
             </Beam>
@@ -3607,7 +3615,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I\\</name>
+            <name>I6}</name>
             </Harmony>
           <Beam>
             </Beam>
@@ -3648,7 +3656,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I]\\</name>
+            <name>I]}</name>
             </Harmony>
           <Chord>
             <durationType>half</durationType>

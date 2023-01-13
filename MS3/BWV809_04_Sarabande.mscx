@@ -2121,7 +2121,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>viio2/V</name>
+            <name>V.viio2</name>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
@@ -2170,7 +2170,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V65/V</name>
+            <name>V65</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -2249,7 +2249,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>viio</name>
+            <name>I6</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -2267,7 +2267,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>ii6/V</name>
+            <name>ii6</name>
             <offset x="-0.123933" y="4.86326"/>
             </Harmony>
           <Chord>
@@ -2286,7 +2286,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V(64)/V</name>
+            <name>V(64)</name>
             <minDistance>0.12616</minDistance>
             <offset x="-0.743598" y="4.98399"/>
             </Harmony>
@@ -2302,7 +2302,7 @@
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V/V</name>
+            <name>V</name>
             </Harmony>
           </voice>
         <voice>
@@ -2354,7 +2354,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V(9#7)</name>
+            <name>I(^9#7)</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -2363,16 +2363,10 @@
               <tpc>15</tpc>
               </Note>
             </Chord>
-          <location>
-            <fractions>-1/8</fractions>
-            </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V|HC}</name>
+            <name>I|PAC}</name>
             </Harmony>
-          <location>
-            <fractions>1/8</fractions>
-            </location>
           <Chord>
             <durationType>half</durationType>
             <Note>
@@ -2420,7 +2414,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V2</name>
+            <name>I2</name>
             </Harmony>
           <Chord>
             <durationType>half</durationType>

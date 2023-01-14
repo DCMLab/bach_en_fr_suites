@@ -20653,8 +20653,8 @@ BWV 811</text>
               </Note>
             </Chord>
           <Chord>
-            <BeamMode>no</BeamMode>
             <durationType>eighth</durationType>
+            <StemDirection>down</StemDirection>
             <Note>
               <pitch>69</pitch>
               <tpc>17</tpc>
@@ -20664,15 +20664,7 @@ BWV 811</text>
         </Measure>
       <Measure>
         <voice>
-          <Rest>
-            <visible>0</visible>
-            <durationType>measure</durationType>
-            <duration>9/8</duration>
-            </Rest>
-          </voice>
-        <voice>
           <Beam>
-            <StemDirection>up</StemDirection>
             </Beam>
           <Chord>
             <BeamMode>begin</BeamMode>
@@ -20706,7 +20698,6 @@ BWV 811</text>
               </Note>
             </Chord>
           <Beam>
-            <StemDirection>up</StemDirection>
             </Beam>
           <Chord>
             <BeamMode>begin</BeamMode>
@@ -20726,7 +20717,6 @@ BWV 811</text>
           <Chord>
             <dots>1</dots>
             <durationType>quarter</durationType>
-            <StemDirection>up</StemDirection>
             <Note>
               <Spanner type="Tie">
                 <Tie>
@@ -20742,7 +20732,6 @@ BWV 811</text>
               </Note>
             </Chord>
           <Beam>
-            <StemDirection>up</StemDirection>
             </Beam>
           <Chord>
             <BeamMode>begin</BeamMode>
@@ -20761,6 +20750,7 @@ BWV 811</text>
             </Chord>
           <Chord>
             <BeamMode>mid</BeamMode>
+            <staffMove>1</staffMove>
             <durationType>16th</durationType>
             <Note>
               <pitch>57</pitch>
@@ -20769,6 +20759,7 @@ BWV 811</text>
             </Chord>
           <Chord>
             <BeamMode>mid</BeamMode>
+            <staffMove>1</staffMove>
             <durationType>16th</durationType>
             <Note>
               <Accidental>
@@ -20779,6 +20770,7 @@ BWV 811</text>
               </Note>
             </Chord>
           <Chord>
+            <staffMove>1</staffMove>
             <durationType>16th</durationType>
             <Note>
               <Accidental>
@@ -20789,10 +20781,10 @@ BWV 811</text>
               </Note>
             </Chord>
           <Beam>
-            <StemDirection>up</StemDirection>
             </Beam>
           <Chord>
             <BeamMode>begin</BeamMode>
+            <staffMove>1</staffMove>
             <durationType>16th</durationType>
             <Note>
               <pitch>59</pitch>
@@ -20800,6 +20792,7 @@ BWV 811</text>
               </Note>
             </Chord>
           <Chord>
+            <staffMove>1</staffMove>
             <durationType>16th</durationType>
             <Note>
               <pitch>57</pitch>
@@ -20870,6 +20863,7 @@ BWV 811</text>
               </Note>
             </Chord>
           <Beam>
+            <StemDirection>up</StemDirection>
             </Beam>
           <Chord>
             <BeamMode>begin</BeamMode>
@@ -20887,6 +20881,7 @@ BWV 811</text>
               </Note>
             </Chord>
           <Beam>
+            <StemDirection>up</StemDirection>
             </Beam>
           <Chord>
             <BeamMode>begin</BeamMode>
@@ -20916,6 +20911,7 @@ BWV 811</text>
       <Measure>
         <voice>
           <Beam>
+            <StemDirection>up</StemDirection>
             </Beam>
           <Chord>
             <BeamMode>begin</BeamMode>
@@ -21052,8 +21048,10 @@ BWV 811</text>
               <tpc>15</tpc>
               </Note>
             </Chord>
+          <Beam>
+            </Beam>
           <Chord>
-            <BeamMode>no</BeamMode>
+            <BeamMode>begin</BeamMode>
             <durationType>16th</durationType>
             <Note>
               <pitch>65</pitch>
@@ -21061,7 +21059,6 @@ BWV 811</text>
               </Note>
             </Chord>
           <Chord>
-            <BeamMode>no</BeamMode>
             <durationType>16th</durationType>
             <Note>
               <pitch>64</pitch>
@@ -21072,7 +21069,10 @@ BWV 811</text>
         </Measure>
       <Measure>
         <voice>
+          <Beam>
+            </Beam>
           <Chord>
+            <BeamMode>begin</BeamMode>
             <durationType>16th</durationType>
             <Note>
               <pitch>62</pitch>
@@ -21080,6 +21080,7 @@ BWV 811</text>
               </Note>
             </Chord>
           <Chord>
+            <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Note>
               <pitch>65</pitch>
@@ -21087,6 +21088,7 @@ BWV 811</text>
               </Note>
             </Chord>
           <Chord>
+            <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Note>
               <pitch>67</pitch>
@@ -21185,6 +21187,13 @@ BWV 811</text>
               </Note>
             </Chord>
           </voice>
+        <voice>
+          <Rest>
+            <visible>0</visible>
+            <durationType>measure</durationType>
+            <duration>9/8</duration>
+            </Rest>
+          </voice>
         </Measure>
       <Measure>
         <voice>
@@ -21243,160 +21252,6 @@ BWV 811</text>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Note>
-              <pitch>67</pitch>
-              <tpc>15</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <BeamMode>mid</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>64</pitch>
-              <tpc>18</tpc>
-              </Note>
-            </Chord>
-          <Beam>
-            </Beam>
-          <Chord>
-            <BeamMode>begin</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>65</pitch>
-              <tpc>13</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <BeamMode>mid</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>69</pitch>
-              <tpc>17</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <BeamMode>mid</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>64</pitch>
-              <tpc>18</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>65</pitch>
-              <tpc>13</tpc>
-              </Note>
-            </Chord>
-          <Beam>
-            </Beam>
-          <Chord>
-            <BeamMode>begin</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <BeamMode>mid</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>64</pitch>
-              <tpc>18</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <BeamMode>mid</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>65</pitch>
-              <tpc>13</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>69</pitch>
-              <tpc>17</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <BeamMode>no</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>64</pitch>
-              <tpc>18</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <BeamMode>no</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>65</pitch>
-              <tpc>13</tpc>
-              </Note>
-            </Chord>
-          </voice>
-        <voice>
-          <Rest>
-            <visible>0</visible>
-            <durationType>measure</durationType>
-            <duration>9/8</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Chord>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>64</pitch>
-              <tpc>18</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>65</pitch>
-              <tpc>13</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>69</pitch>
-              <tpc>17</tpc>
-              </Note>
-            </Chord>
-          <Beam>
-            </Beam>
-          <Chord>
-            <BeamMode>begin</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>64</pitch>
-              <tpc>18</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <BeamMode>mid</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
               <pitch>65</pitch>
               <tpc>13</tpc>
               </Note>
@@ -21514,6 +21369,162 @@ BWV 811</text>
             </Beam>
           <Chord>
             <BeamMode>begin</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>mid</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>mid</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>65</pitch>
+              <tpc>13</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>69</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          <Beam>
+            </Beam>
+          <Chord>
+            <BeamMode>begin</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>mid</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>65</pitch>
+              <tpc>13</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>mid</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <Beam>
+            </Beam>
+          <Chord>
+            <BeamMode>begin</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>65</pitch>
+              <tpc>13</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>mid</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>69</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>mid</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>65</pitch>
+              <tpc>13</tpc>
+              </Note>
+            </Chord>
+          <Beam>
+            </Beam>
+          <Chord>
+            <BeamMode>begin</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>mid</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>mid</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>65</pitch>
+              <tpc>13</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>69</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>no</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>no</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>65</pitch>
+              <tpc>13</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        <voice>
+          <Rest>
+            <visible>0</visible>
+            <durationType>measure</durationType>
+            <duration>9/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
             <durationType>eighth</durationType>
             <Note>
               <pitch>62</pitch>
@@ -21521,7 +21532,6 @@ BWV 811</text>
               </Note>
             </Chord>
           <Chord>
-            <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Note>
               <pitch>64</pitch>
@@ -21643,6 +21653,9 @@ BWV 811</text>
             </Chord>
           <Chord>
             <durationType>quarter</durationType>
+            <Articulation>
+              <subtype>ornamentShortTrill</subtype>
+              </Articulation>
             <Note>
               <Spanner type="Tie">
                 <Tie>
@@ -21893,7 +21906,6 @@ BWV 811</text>
             <durationType>16th</durationType>
             </Rest>
           <Beam>
-            <StemDirection>down</StemDirection>
             </Beam>
           <Chord>
             <BeamMode>begin</BeamMode>
@@ -21919,7 +21931,6 @@ BWV 811</text>
               </Note>
             </Chord>
           <Beam>
-            <StemDirection>down</StemDirection>
             </Beam>
           <Chord>
             <BeamMode>begin</BeamMode>
@@ -21966,7 +21977,6 @@ BWV 811</text>
               </Note>
             </Chord>
           <Beam>
-            <StemDirection>up</StemDirection>
             </Beam>
           <Chord>
             <BeamMode>begin</BeamMode>
@@ -21985,7 +21995,6 @@ BWV 811</text>
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
-            <StemDirection>up</StemDirection>
             <Note>
               <pitch>74</pitch>
               <tpc>16</tpc>
@@ -22122,7 +22131,6 @@ BWV 811</text>
               </Note>
             </Chord>
           <Beam>
-            <StemDirection>down</StemDirection>
             </Beam>
           <Chord>
             <BeamMode>begin</BeamMode>
@@ -22140,7 +22148,6 @@ BWV 811</text>
               </Note>
             </Chord>
           <Chord>
-            <BeamMode>no</BeamMode>
             <durationType>eighth</durationType>
             <Note>
               <pitch>65</pitch>
@@ -22193,8 +22200,8 @@ BWV 811</text>
               </Note>
             </Chord>
           <Chord>
+            <BeamMode>no</BeamMode>
             <durationType>eighth</durationType>
-            <StemDirection>up</StemDirection>
             <Note>
               <pitch>72</pitch>
               <tpc>14</tpc>
@@ -22202,11 +22209,9 @@ BWV 811</text>
             </Chord>
           </voice>
         <voice>
-          <Beam>
-            </Beam>
           <Chord>
-            <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
+            <StemDirection>down</StemDirection>
             <Note>
               <pitch>64</pitch>
               <tpc>18</tpc>
@@ -22214,6 +22219,7 @@ BWV 811</text>
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
+            <StemDirection>down</StemDirection>
             <Note>
               <pitch>65</pitch>
               <tpc>13</tpc>
@@ -22251,7 +22257,6 @@ BWV 811</text>
               </Note>
             </Chord>
           <Beam>
-            <StemDirection>down</StemDirection>
             </Beam>
           <Chord>
             <BeamMode>begin</BeamMode>
@@ -22318,7 +22323,6 @@ BWV 811</text>
       <Measure>
         <voice>
           <Beam>
-            <StemDirection>up</StemDirection>
             </Beam>
           <Chord>
             <BeamMode>begin</BeamMode>
@@ -22355,7 +22359,6 @@ BWV 811</text>
               </Note>
             </Chord>
           <Beam>
-            <StemDirection>up</StemDirection>
             </Beam>
           <Chord>
             <BeamMode>begin</BeamMode>
@@ -22366,11 +22369,36 @@ BWV 811</text>
               </Note>
             </Chord>
           <Chord>
-            <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Note>
               <pitch>76</pitch>
               <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <Rest>
+            <visible>0</visible>
+            <dots>1</dots>
+            <durationType>half</durationType>
+            <NoteDot>
+              <visible>0</visible>
+              </NoteDot>
+            </Rest>
+          </voice>
+        <voice>
+          <Chord>
+            <dots>1</dots>
+            <durationType>quarter</durationType>
+            <Note>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    <fractions>7/8</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -22381,7 +22409,6 @@ BWV 811</text>
               </Note>
             </Chord>
           <Beam>
-            <StemDirection>down</StemDirection>
             </Beam>
           <Chord>
             <BeamMode>begin</BeamMode>
@@ -22399,7 +22426,6 @@ BWV 811</text>
               </Note>
             </Chord>
           <Beam>
-            <StemDirection>down</StemDirection>
             </Beam>
           <Chord>
             <BeamMode>begin</BeamMode>
@@ -22449,35 +22475,15 @@ BWV 811</text>
               </Note>
             </Chord>
           </voice>
-        <voice>
-          <Chord>
-            <dots>1</dots>
-            <durationType>quarter</durationType>
-            <StemDirection>down</StemDirection>
-            <Note>
-              <Spanner type="Tie">
-                <prev>
-                  <location>
-                    <measures>-1</measures>
-                    <fractions>7/8</fractions>
-                    </location>
-                  </prev>
-                </Spanner>
-              <pitch>62</pitch>
-              <tpc>16</tpc>
-              </Note>
-            </Chord>
-          <Rest>
-            <visible>0</visible>
-            <dots>1</dots>
-            <durationType>half</durationType>
-            <NoteDot>
-              <visible>0</visible>
-              </NoteDot>
-            </Rest>
-          </voice>
         </Measure>
       <Measure>
+        <voice>
+          <Rest>
+            <visible>0</visible>
+            <durationType>measure</durationType>
+            <duration>9/8</duration>
+            </Rest>
+          </voice>
         <voice>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -22548,7 +22554,6 @@ BWV 811</text>
               </Note>
             </Chord>
           <Beam>
-            <StemDirection>down</StemDirection>
             </Beam>
           <Chord>
             <BeamMode>begin</BeamMode>
@@ -22637,6 +22642,8 @@ BWV 811</text>
               </Note>
             </Chord>
           </voice>
+        </Measure>
+      <Measure>
         <voice>
           <Rest>
             <visible>0</visible>
@@ -22644,8 +22651,6 @@ BWV 811</text>
             <duration>9/8</duration>
             </Rest>
           </voice>
-        </Measure>
-      <Measure>
         <voice>
           <Beam>
             </Beam>
@@ -22684,6 +22689,7 @@ BWV 811</text>
               </Note>
             </Chord>
           <Beam>
+            <StemDirection>down</StemDirection>
             </Beam>
           <Chord>
             <BeamMode>begin</BeamMode>
@@ -22717,6 +22723,7 @@ BWV 811</text>
               </Note>
             </Chord>
           <Beam>
+            <StemDirection>down</StemDirection>
             </Beam>
           <Chord>
             <BeamMode>begin</BeamMode>
@@ -22750,6 +22757,7 @@ BWV 811</text>
               </Note>
             </Chord>
           <Beam>
+            <StemDirection>down</StemDirection>
             </Beam>
           <Chord>
             <BeamMode>begin</BeamMode>
@@ -22802,7 +22810,15 @@ BWV 811</text>
         </Measure>
       <Measure>
         <voice>
+          <Rest>
+            <visible>0</visible>
+            <durationType>measure</durationType>
+            <duration>9/8</duration>
+            </Rest>
+          </voice>
+        <voice>
           <Beam>
+            <StemDirection>down</StemDirection>
             </Beam>
           <Chord>
             <BeamMode>begin</BeamMode>
@@ -22839,6 +22855,7 @@ BWV 811</text>
               </Note>
             </Chord>
           <Beam>
+            <StemDirection>down</StemDirection>
             </Beam>
           <Chord>
             <BeamMode>begin</BeamMode>
@@ -22872,6 +22889,7 @@ BWV 811</text>
               </Note>
             </Chord>
           <Beam>
+            <StemDirection>down</StemDirection>
             </Beam>
           <Chord>
             <BeamMode>begin</BeamMode>
@@ -22944,6 +22962,7 @@ BWV 811</text>
               </Note>
             </Chord>
           <Beam>
+            <StemDirection>down</StemDirection>
             </Beam>
           <Chord>
             <BeamMode>begin</BeamMode>
@@ -22965,11 +22984,17 @@ BWV 811</text>
       <Measure>
         <voice>
           <Beam>
+            <StemDirection>up</StemDirection>
             </Beam>
           <Chord>
             <BeamMode>begin</BeamMode>
             <durationType>16th</durationType>
             <Note>
+              <Accidental>
+                <bracket>1</bracket>
+                <role>1</role>
+                <subtype>accidentalNatural</subtype>
+                </Accidental>
               <pitch>65</pitch>
               <tpc>13</tpc>
               </Note>
@@ -23111,7 +23136,6 @@ BWV 811</text>
               </Note>
             </Chord>
           <Beam>
-            <StemDirection>up</StemDirection>
             </Beam>
           <Chord>
             <BeamMode>begin</BeamMode>
@@ -23159,7 +23183,6 @@ BWV 811</text>
             </Chord>
           <Chord>
             <durationType>16th</durationType>
-            <StemDirection>down</StemDirection>
             <Note>
               <Spanner type="Tie">
                 <prev>
@@ -23174,14 +23197,12 @@ BWV 811</text>
             </Chord>
           <Chord>
             <durationType>16th</durationType>
-            <StemDirection>down</StemDirection>
             <Note>
               <pitch>67</pitch>
               <tpc>15</tpc>
               </Note>
             </Chord>
           <Beam>
-            <StemDirection>down</StemDirection>
             </Beam>
           <Chord>
             <BeamMode>begin</BeamMode>
@@ -23218,7 +23239,7 @@ BWV 811</text>
               </Note>
             </Chord>
           <Beam>
-            <StemDirection>down</StemDirection>
+            <StemDirection>up</StemDirection>
             </Beam>
           <Chord>
             <BeamMode>begin</BeamMode>
@@ -23240,7 +23261,7 @@ BWV 811</text>
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
-            <StemDirection>down</StemDirection>
+            <StemDirection>up</StemDirection>
             <Note>
               <pitch>72</pitch>
               <tpc>14</tpc>
@@ -23260,7 +23281,15 @@ BWV 811</text>
           <Rest>
             <visible>0</visible>
             <dots>1</dots>
-            <durationType>half</durationType>
+            <durationType>quarter</durationType>
+            <NoteDot>
+              <visible>0</visible>
+              </NoteDot>
+            </Rest>
+          <Rest>
+            <visible>0</visible>
+            <dots>1</dots>
+            <durationType>quarter</durationType>
             <NoteDot>
               <visible>0</visible>
               </NoteDot>
@@ -23303,9 +23332,23 @@ BWV 811</text>
               </Note>
             </Chord>
           <Chord>
+            <visible>0</visible>
+            <durationType>eighth</durationType>
+            <appoggiatura/>
+            <Note>
+              <visible>0</visible>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <Chord>
             <durationType>eighth</durationType>
             <StemDirection>up</StemDirection>
             <Note>
+              <Accidental>
+                <role>1</role>
+                <subtype>accidentalNatural</subtype>
+                </Accidental>
               <pitch>67</pitch>
               <tpc>15</tpc>
               </Note>
@@ -23412,11 +23455,8 @@ BWV 811</text>
             <durationType>eighth</durationType>
             <StemDirection>down</StemDirection>
             <Note>
-              <Accidental>
-                <subtype>accidentalNatural</subtype>
-                </Accidental>
-              <pitch>65</pitch>
-              <tpc>13</tpc>
+              <pitch>66</pitch>
+              <tpc>20</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -23428,6 +23468,12 @@ BWV 811</text>
               <tpc>18</tpc>
               </Note>
             </Chord>
+          </voice>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>9/8</duration>
+            </Rest>
           </voice>
         </Measure>
       <Measure>
@@ -23474,6 +23520,7 @@ BWV 811</text>
               </Note>
             </Chord>
           <Beam>
+            <StemDirection>up</StemDirection>
             </Beam>
           <Chord>
             <BeamMode>begin</BeamMode>
@@ -23520,7 +23567,6 @@ BWV 811</text>
             <durationType>16th</durationType>
             </Rest>
           <Beam>
-            <StemDirection>down</StemDirection>
             </Beam>
           <Chord>
             <BeamMode>begin</BeamMode>
@@ -23546,7 +23592,6 @@ BWV 811</text>
               </Note>
             </Chord>
           <Beam>
-            <StemDirection>down</StemDirection>
             </Beam>
           <Chord>
             <BeamMode>begin</BeamMode>
@@ -23601,6 +23646,12 @@ BWV 811</text>
               </Note>
             </Chord>
           </voice>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>9/8</duration>
+            </Rest>
+          </voice>
         </Measure>
       <Measure>
         <voice>
@@ -23634,7 +23685,6 @@ BWV 811</text>
               </Note>
             </Chord>
           <Beam>
-            <StemDirection>up</StemDirection>
             </Beam>
           <Chord>
             <BeamMode>begin</BeamMode>
@@ -23668,7 +23718,6 @@ BWV 811</text>
               </Note>
             </Chord>
           <Beam>
-            <StemDirection>up</StemDirection>
             </Beam>
           <Chord>
             <BeamMode>begin</BeamMode>
@@ -23677,10 +23726,6 @@ BWV 811</text>
               <pitch>67</pitch>
               <tpc>15</tpc>
               </Note>
-            <Note>
-              <pitch>70</pitch>
-              <tpc>12</tpc>
-              </Note>
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
@@ -23688,21 +23733,12 @@ BWV 811</text>
               <pitch>65</pitch>
               <tpc>13</tpc>
               </Note>
-            <Note>
-              <pitch>69</pitch>
-              <tpc>17</tpc>
-              </Note>
             </Chord>
           <Chord>
-            <BeamMode>no</BeamMode>
             <durationType>eighth</durationType>
             <Note>
               <pitch>64</pitch>
               <tpc>18</tpc>
-              </Note>
-            <Note>
-              <pitch>67</pitch>
-              <tpc>15</tpc>
               </Note>
             </Chord>
           </voice>
@@ -23721,16 +23757,6 @@ BWV 811</text>
             </Rest>
           <Chord>
             <durationType>eighth</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                <up>down</up>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>1/8</fractions>
-                  </location>
-                </next>
-              </Spanner>
             <StemDirection>down</StemDirection>
             <Note>
               <pitch>67</pitch>
@@ -23740,13 +23766,6 @@ BWV 811</text>
           <Chord>
             <dots>1</dots>
             <durationType>quarter</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <fractions>-1/8</fractions>
-                  </location>
-                </prev>
-              </Spanner>
             <StemDirection>down</StemDirection>
             <Note>
               <pitch>61</pitch>
@@ -23754,28 +23773,78 @@ BWV 811</text>
               </Note>
             </Chord>
           </voice>
+        <voice>
+          <Rest>
+            <visible>0</visible>
+            <dots>1</dots>
+            <durationType>quarter</durationType>
+            <NoteDot>
+              <visible>0</visible>
+              </NoteDot>
+            </Rest>
+          <Rest>
+            <visible>0</visible>
+            <dots>1</dots>
+            <durationType>quarter</durationType>
+            <NoteDot>
+              <visible>0</visible>
+              </NoteDot>
+            </Rest>
+          <Beam>
+            <StemDirection>up</StemDirection>
+            </Beam>
+          <Chord>
+            <BeamMode>begin</BeamMode>
+            <durationType>eighth</durationType>
+            <Note>
+              <Accidental>
+                <role>1</role>
+                <subtype>accidentalFlat</subtype>
+                </Accidental>
+              <pitch>70</pitch>
+              <tpc>12</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <pitch>69</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <StemDirection>up</StemDirection>
+            <Note>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          </voice>
         </Measure>
       <Measure>
         <voice>
+          <Beam>
+            </Beam>
           <Chord>
+            <BeamMode>begin</BeamMode>
             <durationType>16th</durationType>
-            <StemDirection>up</StemDirection>
             <Note>
               <pitch>65</pitch>
               <tpc>13</tpc>
               </Note>
             </Chord>
           <Chord>
+            <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
-            <StemDirection>up</StemDirection>
             <Note>
               <pitch>62</pitch>
               <tpc>16</tpc>
               </Note>
             </Chord>
           <Chord>
+            <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
-            <StemDirection>up</StemDirection>
             <Note>
               <Accidental>
                 <subtype>accidentalSharp</subtype>
@@ -23786,7 +23855,6 @@ BWV 811</text>
             </Chord>
           <Chord>
             <durationType>16th</durationType>
-            <StemDirection>up</StemDirection>
             <Note>
               <Accidental>
                 <subtype>accidentalNatural</subtype>
@@ -23796,7 +23864,6 @@ BWV 811</text>
               </Note>
             </Chord>
           <Beam>
-            <StemDirection>up</StemDirection>
             </Beam>
           <Chord>
             <BeamMode>begin</BeamMode>
@@ -23830,7 +23897,6 @@ BWV 811</text>
               </Note>
             </Chord>
           <Beam>
-            <StemDirection>up</StemDirection>
             </Beam>
           <Chord>
             <BeamMode>begin</BeamMode>
@@ -23864,7 +23930,6 @@ BWV 811</text>
               </Note>
             </Chord>
           <Beam>
-            <StemDirection>up</StemDirection>
             </Beam>
           <Chord>
             <BeamMode>begin</BeamMode>
@@ -23897,11 +23962,8 @@ BWV 811</text>
               <tpc>16</tpc>
               </Note>
             </Chord>
-          <Beam>
-            <StemDirection>up</StemDirection>
-            </Beam>
           <Chord>
-            <BeamMode>begin</BeamMode>
+            <BeamMode>no</BeamMode>
             <durationType>16th</durationType>
             <Note>
               <pitch>64</pitch>
@@ -23909,6 +23971,7 @@ BWV 811</text>
               </Note>
             </Chord>
           <Chord>
+            <BeamMode>no</BeamMode>
             <durationType>16th</durationType>
             <Note>
               <pitch>65</pitch>
@@ -23916,20 +23979,10 @@ BWV 811</text>
               </Note>
             </Chord>
           </voice>
-        <voice>
-          <Rest>
-            <visible>0</visible>
-            <durationType>measure</durationType>
-            <duration>9/8</duration>
-            </Rest>
-          </voice>
         </Measure>
       <Measure>
         <voice>
-          <Beam>
-            </Beam>
           <Chord>
-            <BeamMode>begin</BeamMode>
             <durationType>16th</durationType>
             <Note>
               <Accidental>
@@ -23940,7 +23993,6 @@ BWV 811</text>
               </Note>
             </Chord>
           <Chord>
-            <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Note>
               <pitch>67</pitch>
@@ -23948,7 +24000,6 @@ BWV 811</text>
               </Note>
             </Chord>
           <Chord>
-            <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Note>
               <pitch>65</pitch>
@@ -24067,8 +24118,10 @@ BWV 811</text>
               <tpc>15</tpc>
               </Note>
             </Chord>
+          <Beam>
+            </Beam>
           <Chord>
-            <BeamMode>no</BeamMode>
+            <BeamMode>begin</BeamMode>
             <durationType>16th</durationType>
             <Note>
               <pitch>69</pitch>
@@ -24076,7 +24129,6 @@ BWV 811</text>
               </Note>
             </Chord>
           <Chord>
-            <BeamMode>no</BeamMode>
             <durationType>16th</durationType>
             <Note>
               <pitch>70</pitch>
@@ -24087,7 +24139,10 @@ BWV 811</text>
         </Measure>
       <Measure>
         <voice>
+          <Beam>
+            </Beam>
           <Chord>
+            <BeamMode>begin</BeamMode>
             <durationType>16th</durationType>
             <Note>
               <pitch>76</pitch>
@@ -24095,6 +24150,7 @@ BWV 811</text>
               </Note>
             </Chord>
           <Chord>
+            <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Note>
               <pitch>70</pitch>
@@ -24102,6 +24158,7 @@ BWV 811</text>
               </Note>
             </Chord>
           <Chord>
+            <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Note>
               <pitch>69</pitch>
@@ -24260,10 +24317,7 @@ BWV 811</text>
               <tpc>21</tpc>
               </Note>
             </Chord>
-          <Beam>
-            </Beam>
           <Chord>
-            <BeamMode>begin</BeamMode>
             <durationType>16th</durationType>
             <Note>
               <Spanner type="Tie">
@@ -24353,8 +24407,10 @@ BWV 811</text>
               <tpc>13</tpc>
               </Note>
             </Chord>
+          <Beam>
+            </Beam>
           <Chord>
-            <BeamMode>no</BeamMode>
+            <BeamMode>begin</BeamMode>
             <durationType>16th</durationType>
             <Note>
               <pitch>79</pitch>
@@ -24362,7 +24418,6 @@ BWV 811</text>
               </Note>
             </Chord>
           <Chord>
-            <BeamMode>no</BeamMode>
             <durationType>16th</durationType>
             <Note>
               <pitch>76</pitch>
@@ -24372,6 +24427,13 @@ BWV 811</text>
           </voice>
         </Measure>
       <Measure>
+        <voice>
+          <Rest>
+            <visible>0</visible>
+            <durationType>measure</durationType>
+            <duration>9/8</duration>
+            </Rest>
+          </voice>
         <voice>
           <Beam>
             </Beam>
@@ -24452,6 +24514,7 @@ BWV 811</text>
               </Note>
             </Chord>
           <Beam>
+            <StemDirection>down</StemDirection>
             </Beam>
           <Chord>
             <BeamMode>begin</BeamMode>
@@ -24470,6 +24533,7 @@ BWV 811</text>
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
+            <StemDirection>down</StemDirection>
             <Note>
               <pitch>78</pitch>
               <tpc>20</tpc>
@@ -24497,12 +24561,9 @@ BWV 811</text>
               <tpc>15</tpc>
               </Note>
             </Chord>
-          <Beam>
-            <StemDirection>up</StemDirection>
-            </Beam>
           <Chord>
-            <BeamMode>begin</BeamMode>
             <durationType>16th</durationType>
+            <StemDirection>up</StemDirection>
             <Note>
               <Spanner type="Tie">
                 <prev>
@@ -24517,6 +24578,7 @@ BWV 811</text>
             </Chord>
           <Chord>
             <durationType>16th</durationType>
+            <StemDirection>up</StemDirection>
             <Note>
               <pitch>69</pitch>
               <tpc>17</tpc>
@@ -24592,8 +24654,10 @@ BWV 811</text>
               <tpc>18</tpc>
               </Note>
             </Chord>
+          <Beam>
+            </Beam>
           <Chord>
-            <BeamMode>no</BeamMode>
+            <BeamMode>begin</BeamMode>
             <durationType>16th</durationType>
             <Note>
               <pitch>77</pitch>
@@ -24601,7 +24665,6 @@ BWV 811</text>
               </Note>
             </Chord>
           <Chord>
-            <BeamMode>no</BeamMode>
             <durationType>16th</durationType>
             <Note>
               <pitch>74</pitch>
@@ -24620,14 +24683,12 @@ BWV 811</text>
             </Rest>
           <Chord>
             <durationType>eighth</durationType>
-            <StemDirection>down</StemDirection>
             <Note>
               <pitch>64</pitch>
               <tpc>18</tpc>
               </Note>
             </Chord>
           <Beam>
-            <StemDirection>down</StemDirection>
             </Beam>
           <Chord>
             <BeamMode>begin</BeamMode>
@@ -24645,6 +24706,7 @@ BWV 811</text>
               </Note>
             </Chord>
           <Beam>
+            <StemDirection>down</StemDirection>
             </Beam>
           <Chord>
             <BeamMode>begin</BeamMode>
@@ -24773,8 +24835,8 @@ BWV 811</text>
               </Note>
             </Chord>
           <Chord>
+            <BeamMode>no</BeamMode>
             <durationType>eighth</durationType>
-            <StemDirection>up</StemDirection>
             <Note>
               <pitch>76</pitch>
               <tpc>18</tpc>
@@ -24800,12 +24862,9 @@ BWV 811</text>
               <tpc>14</tpc>
               </Note>
             </Chord>
-          <Beam>
-            <StemDirection>down</StemDirection>
-            </Beam>
           <Chord>
-            <BeamMode>begin</BeamMode>
             <durationType>16th</durationType>
+            <StemDirection>down</StemDirection>
             <Note>
               <Spanner type="Tie">
                 <prev>
@@ -24820,6 +24879,7 @@ BWV 811</text>
             </Chord>
           <Chord>
             <durationType>16th</durationType>
+            <StemDirection>down</StemDirection>
             <Note>
               <pitch>62</pitch>
               <tpc>16</tpc>
@@ -24892,11 +24952,8 @@ BWV 811</text>
               <tpc>17</tpc>
               </Note>
             </Chord>
-          <Beam>
-            <StemDirection>down</StemDirection>
-            </Beam>
           <Chord>
-            <BeamMode>begin</BeamMode>
+            <BeamMode>no</BeamMode>
             <durationType>16th</durationType>
             <Note>
               <pitch>70</pitch>
@@ -24904,6 +24961,7 @@ BWV 811</text>
               </Note>
             </Chord>
           <Chord>
+            <BeamMode>no</BeamMode>
             <durationType>16th</durationType>
             <Note>
               <pitch>67</pitch>
@@ -24914,11 +24972,7 @@ BWV 811</text>
         </Measure>
       <Measure>
         <voice>
-          <Beam>
-            <StemDirection>up</StemDirection>
-            </Beam>
           <Chord>
-            <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
             <Note>
               <pitch>77</pitch>
@@ -24927,6 +24981,7 @@ BWV 811</text>
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
+            <StemDirection>up</StemDirection>
             <Note>
               <pitch>82</pitch>
               <tpc>12</tpc>
@@ -24984,8 +25039,8 @@ BWV 811</text>
               </Note>
             </Chord>
           <Chord>
-            <BeamMode>no</BeamMode>
             <durationType>eighth</durationType>
+            <StemDirection>up</StemDirection>
             <Note>
               <pitch>70</pitch>
               <tpc>12</tpc>
@@ -24993,25 +25048,28 @@ BWV 811</text>
             </Chord>
           </voice>
         <voice>
-          <Chord>
-            <durationType>16th</durationType>
+          <Beam>
             <StemDirection>down</StemDirection>
+            </Beam>
+          <Chord>
+            <BeamMode>begin</BeamMode>
+            <durationType>16th</durationType>
             <Note>
               <pitch>69</pitch>
               <tpc>17</tpc>
               </Note>
             </Chord>
           <Chord>
+            <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
-            <StemDirection>down</StemDirection>
             <Note>
               <pitch>65</pitch>
               <tpc>13</tpc>
               </Note>
             </Chord>
           <Chord>
+            <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
-            <StemDirection>down</StemDirection>
             <Note>
               <pitch>64</pitch>
               <tpc>18</tpc>
@@ -25019,7 +25077,6 @@ BWV 811</text>
             </Chord>
           <Chord>
             <durationType>16th</durationType>
-            <StemDirection>down</StemDirection>
             <Note>
               <pitch>62</pitch>
               <tpc>16</tpc>
@@ -25094,6 +25151,7 @@ BWV 811</text>
               </Note>
             </Chord>
           <Beam>
+            <StemDirection>down</StemDirection>
             </Beam>
           <Chord>
             <BeamMode>begin</BeamMode>
@@ -25126,8 +25184,11 @@ BWV 811</text>
               <tpc>12</tpc>
               </Note>
             </Chord>
+          <Beam>
+            <StemDirection>down</StemDirection>
+            </Beam>
           <Chord>
-            <BeamMode>no</BeamMode>
+            <BeamMode>begin</BeamMode>
             <durationType>16th</durationType>
             <Note>
               <pitch>60</pitch>
@@ -25135,7 +25196,6 @@ BWV 811</text>
               </Note>
             </Chord>
           <Chord>
-            <BeamMode>no</BeamMode>
             <durationType>16th</durationType>
             <Note>
               <pitch>62</pitch>
@@ -25146,7 +25206,11 @@ BWV 811</text>
         </Measure>
       <Measure>
         <voice>
+          <Beam>
+            <StemDirection>up</StemDirection>
+            </Beam>
           <Chord>
+            <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
             <Note>
               <pitch>72</pitch>
@@ -25155,7 +25219,6 @@ BWV 811</text>
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
-            <StemDirection>up</StemDirection>
             <Note>
               <pitch>77</pitch>
               <tpc>13</tpc>
@@ -25221,77 +25284,83 @@ BWV 811</text>
             </Chord>
           </voice>
         <voice>
-          <Beam>
-            <StemDirection>down</StemDirection>
-            </Beam>
-          <Chord>
-            <BeamMode>begin</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>64</pitch>
-              <tpc>18</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <BeamMode>mid</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <BeamMode>mid</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>58</pitch>
-              <tpc>12</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>57</pitch>
-              <tpc>17</tpc>
-              </Note>
-            </Chord>
-          <Beam>
-            <StemDirection>down</StemDirection>
-            </Beam>
-          <Chord>
-            <BeamMode>begin</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>58</pitch>
-              <tpc>12</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
-              </Note>
-            </Chord>
           <Rest>
             <visible>0</visible>
-            <dots>1</dots>
-            <durationType>quarter</durationType>
-            <NoteDot>
-              <visible>0</visible>
-              </NoteDot>
-            </Rest>
-          <Rest>
-            <visible>0</visible>
-            <dots>1</dots>
-            <durationType>quarter</durationType>
-            <NoteDot>
-              <visible>0</visible>
-              </NoteDot>
+            <durationType>measure</durationType>
+            <duration>9/8</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
+        <voice>
+          <Rest>
+            <visible>0</visible>
+            <dots>1</dots>
+            <durationType>quarter</durationType>
+            <NoteDot>
+              <visible>0</visible>
+              </NoteDot>
+            </Rest>
+          <Rest>
+            <visible>0</visible>
+            <dots>1</dots>
+            <durationType>quarter</durationType>
+            <NoteDot>
+              <visible>0</visible>
+              </NoteDot>
+            </Rest>
+          <Beam>
+            </Beam>
+          <Chord>
+            <BeamMode>begin</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>65</pitch>
+              <tpc>13</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>mid</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>mid</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>69</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>74</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          <Beam>
+            <StemDirection>up</StemDirection>
+            </Beam>
+          <Chord>
+            <BeamMode>begin</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>65</pitch>
+              <tpc>13</tpc>
+              </Note>
+            </Chord>
+          </voice>
         <voice>
           <Beam>
             </Beam>
@@ -25327,6 +25396,7 @@ BWV 811</text>
               </Note>
             </Chord>
           <Beam>
+            <StemDirection>down</StemDirection>
             </Beam>
           <Chord>
             <BeamMode>begin</BeamMode>
@@ -25360,6 +25430,7 @@ BWV 811</text>
               </Note>
             </Chord>
           <Beam>
+            <StemDirection>down</StemDirection>
             </Beam>
           <Chord>
             <BeamMode>begin</BeamMode>
@@ -25392,60 +25463,22 @@ BWV 811</text>
               <tpc>15</tpc>
               </Note>
             </Chord>
-          <Beam>
-            </Beam>
-          <Chord>
-            <BeamMode>begin</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>65</pitch>
-              <tpc>13</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <BeamMode>mid</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>67</pitch>
-              <tpc>15</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <BeamMode>mid</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>69</pitch>
-              <tpc>17</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>74</pitch>
-              <tpc>16</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <BeamMode>no</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>67</pitch>
-              <tpc>15</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <BeamMode>no</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>65</pitch>
-              <tpc>13</tpc>
-              </Note>
-            </Chord>
+          <Rest>
+            <visible>0</visible>
+            <dots>1</dots>
+            <durationType>quarter</durationType>
+            <NoteDot>
+              <visible>0</visible>
+              </NoteDot>
+            </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
+          <Beam>
+            </Beam>
           <Chord>
+            <BeamMode>begin</BeamMode>
             <durationType>16th</durationType>
             <Note>
               <pitch>64</pitch>
@@ -25453,6 +25486,7 @@ BWV 811</text>
               </Note>
             </Chord>
           <Chord>
+            <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Note>
               <pitch>65</pitch>
@@ -25460,6 +25494,7 @@ BWV 811</text>
               </Note>
             </Chord>
           <Chord>
+            <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Note>
               <pitch>67</pitch>
@@ -25575,10 +25610,8 @@ BWV 811</text>
               <tpc>19</tpc>
               </Note>
             </Chord>
-          <Beam>
-            </Beam>
           <Chord>
-            <BeamMode>begin</BeamMode>
+            <BeamMode>no</BeamMode>
             <durationType>16th</durationType>
             <Note>
               <pitch>64</pitch>
@@ -25586,20 +25619,18 @@ BWV 811</text>
               </Note>
             </Chord>
           <Chord>
+            <BeamMode>no</BeamMode>
             <durationType>16th</durationType>
             <Note>
-              <pitch>65</pitch>
-              <tpc>13</tpc>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
               </Note>
             </Chord>
           </voice>
         </Measure>
       <Measure>
         <voice>
-          <Beam>
-            </Beam>
           <Chord>
-            <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
             <Note>
               <Accidental>
@@ -25610,7 +25641,6 @@ BWV 811</text>
               </Note>
             </Chord>
           <Chord>
-            <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Note>
               <pitch>62</pitch>
@@ -25729,8 +25759,10 @@ BWV 811</text>
               <tpc>13</tpc>
               </Note>
             </Chord>
+          <Beam>
+            </Beam>
           <Chord>
-            <BeamMode>no</BeamMode>
+            <BeamMode>begin</BeamMode>
             <durationType>16th</durationType>
             <Note>
               <pitch>79</pitch>
@@ -25738,7 +25770,6 @@ BWV 811</text>
               </Note>
             </Chord>
           <Chord>
-            <BeamMode>no</BeamMode>
             <durationType>16th</durationType>
             <Note>
               <pitch>76</pitch>
@@ -25749,7 +25780,10 @@ BWV 811</text>
         </Measure>
       <Measure>
         <voice>
+          <Beam>
+            </Beam>
           <Chord>
+            <BeamMode>begin</BeamMode>
             <durationType>16th</durationType>
             <Note>
               <pitch>77</pitch>
@@ -25757,6 +25791,7 @@ BWV 811</text>
               </Note>
             </Chord>
           <Chord>
+            <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Note>
               <pitch>74</pitch>
@@ -25764,6 +25799,7 @@ BWV 811</text>
               </Note>
             </Chord>
           <Chord>
+            <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Note>
               <pitch>72</pitch>
@@ -25876,10 +25912,8 @@ BWV 811</text>
               <tpc>15</tpc>
               </Note>
             </Chord>
-          <Beam>
-            </Beam>
           <Chord>
-            <BeamMode>begin</BeamMode>
+            <BeamMode>no</BeamMode>
             <durationType>16th</durationType>
             <Note>
               <pitch>69</pitch>
@@ -25887,6 +25921,7 @@ BWV 811</text>
               </Note>
             </Chord>
           <Chord>
+            <BeamMode>no</BeamMode>
             <durationType>16th</durationType>
             <Note>
               <pitch>70</pitch>
@@ -25897,10 +25932,7 @@ BWV 811</text>
         </Measure>
       <Measure>
         <voice>
-          <Beam>
-            </Beam>
           <Chord>
-            <BeamMode>begin</BeamMode>
             <durationType>16th</durationType>
             <Note>
               <pitch>72</pitch>
@@ -25908,7 +25940,6 @@ BWV 811</text>
               </Note>
             </Chord>
           <Chord>
-            <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Note>
               <pitch>69</pitch>
@@ -25916,7 +25947,6 @@ BWV 811</text>
               </Note>
             </Chord>
           <Chord>
-            <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Note>
               <pitch>67</pitch>
@@ -26067,7 +26097,10 @@ BWV 811</text>
               <tpc>15</tpc>
               </Note>
             </Chord>
+          <Beam>
+            </Beam>
           <Chord>
+            <BeamMode>begin</BeamMode>
             <durationType>16th</durationType>
             <Note>
               <Spanner type="Tie">
@@ -26154,10 +26187,8 @@ BWV 811</text>
               <tpc>13</tpc>
               </Note>
             </Chord>
-          <Beam>
-            </Beam>
           <Chord>
-            <BeamMode>begin</BeamMode>
+            <BeamMode>no</BeamMode>
             <durationType>16th</durationType>
             <Note>
               <pitch>64</pitch>
@@ -26165,6 +26196,7 @@ BWV 811</text>
               </Note>
             </Chord>
           <Chord>
+            <BeamMode>no</BeamMode>
             <durationType>16th</durationType>
             <Note>
               <pitch>62</pitch>
@@ -26175,10 +26207,7 @@ BWV 811</text>
         </Measure>
       <Measure>
         <voice>
-          <Beam>
-            </Beam>
           <Chord>
-            <BeamMode>begin</BeamMode>
             <durationType>16th</durationType>
             <Note>
               <Accidental>
@@ -26189,7 +26218,6 @@ BWV 811</text>
               </Note>
             </Chord>
           <Chord>
-            <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Note>
               <pitch>62</pitch>
@@ -26197,7 +26225,6 @@ BWV 811</text>
               </Note>
             </Chord>
           <Chord>
-            <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Note>
               <pitch>64</pitch>
@@ -26315,8 +26342,10 @@ BWV 811</text>
               <tpc>14</tpc>
               </Note>
             </Chord>
+          <Beam>
+            </Beam>
           <Chord>
-            <BeamMode>no</BeamMode>
+            <BeamMode>begin</BeamMode>
             <durationType>16th</durationType>
             <Note>
               <pitch>64</pitch>
@@ -26324,7 +26353,6 @@ BWV 811</text>
               </Note>
             </Chord>
           <Chord>
-            <BeamMode>no</BeamMode>
             <durationType>16th</durationType>
             <Note>
               <pitch>67</pitch>
@@ -26335,7 +26363,10 @@ BWV 811</text>
         </Measure>
       <Measure>
         <voice>
+          <Beam>
+            </Beam>
           <Chord>
+            <BeamMode>begin</BeamMode>
             <durationType>16th</durationType>
             <Note>
               <pitch>65</pitch>
@@ -26343,6 +26374,7 @@ BWV 811</text>
               </Note>
             </Chord>
           <Chord>
+            <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Note>
               <pitch>67</pitch>
@@ -26350,6 +26382,7 @@ BWV 811</text>
               </Note>
             </Chord>
           <Chord>
+            <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Note>
               <pitch>69</pitch>
@@ -26474,10 +26507,8 @@ BWV 811</text>
               <tpc>16</tpc>
               </Note>
             </Chord>
-          <Beam>
-            </Beam>
           <Chord>
-            <BeamMode>begin</BeamMode>
+            <BeamMode>no</BeamMode>
             <durationType>16th</durationType>
             <Note>
               <pitch>76</pitch>
@@ -26485,6 +26516,7 @@ BWV 811</text>
               </Note>
             </Chord>
           <Chord>
+            <BeamMode>no</BeamMode>
             <durationType>16th</durationType>
             <Note>
               <Accidental>
@@ -26500,10 +26532,7 @@ BWV 811</text>
         </Measure>
       <Measure>
         <voice>
-          <Beam>
-            </Beam>
           <Chord>
-            <BeamMode>begin</BeamMode>
             <durationType>16th</durationType>
             <Note>
               <pitch>79</pitch>
@@ -26511,7 +26540,6 @@ BWV 811</text>
               </Note>
             </Chord>
           <Chord>
-            <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Note>
               <pitch>76</pitch>
@@ -26519,7 +26547,6 @@ BWV 811</text>
               </Note>
             </Chord>
           <Chord>
-            <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Note>
               <Accidental>
@@ -26647,8 +26674,10 @@ BWV 811</text>
               <tpc>15</tpc>
               </Note>
             </Chord>
+          <Beam>
+            </Beam>
           <Chord>
-            <BeamMode>no</BeamMode>
+            <BeamMode>begin</BeamMode>
             <durationType>16th</durationType>
             <Note>
               <pitch>70</pitch>
@@ -26656,7 +26685,6 @@ BWV 811</text>
               </Note>
             </Chord>
           <Chord>
-            <BeamMode>no</BeamMode>
             <durationType>16th</durationType>
             <Note>
               <pitch>73</pitch>
@@ -26667,7 +26695,10 @@ BWV 811</text>
         </Measure>
       <Measure>
         <voice>
+          <Beam>
+            </Beam>
           <Chord>
+            <BeamMode>begin</BeamMode>
             <durationType>16th</durationType>
             <Note>
               <pitch>74</pitch>
@@ -26675,6 +26706,7 @@ BWV 811</text>
               </Note>
             </Chord>
           <Chord>
+            <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Note>
               <Accidental>
@@ -26685,6 +26717,7 @@ BWV 811</text>
               </Note>
             </Chord>
           <Chord>
+            <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Note>
               <Accidental>
@@ -26809,10 +26842,8 @@ BWV 811</text>
               <tpc>21</tpc>
               </Note>
             </Chord>
-          <Beam>
-            </Beam>
           <Chord>
-            <BeamMode>begin</BeamMode>
+            <BeamMode>no</BeamMode>
             <durationType>16th</durationType>
             <Note>
               <Accidental>
@@ -26823,6 +26854,7 @@ BWV 811</text>
               </Note>
             </Chord>
           <Chord>
+            <BeamMode>no</BeamMode>
             <durationType>16th</durationType>
             <Note>
               <pitch>69</pitch>
@@ -26833,10 +26865,7 @@ BWV 811</text>
         </Measure>
       <Measure>
         <voice>
-          <Beam>
-            </Beam>
           <Chord>
-            <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
             <Note>
               <pitch>74</pitch>
@@ -26900,7 +26929,6 @@ BWV 811</text>
               </Note>
             </Chord>
           <Chord>
-            <BeamMode>no</BeamMode>
             <durationType>eighth</durationType>
             <Note>
               <pitch>65</pitch>
@@ -26911,7 +26939,10 @@ BWV 811</text>
         </Measure>
       <Measure>
         <voice>
+          <Beam>
+            </Beam>
           <Chord>
+            <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
             <Note>
               <pitch>62</pitch>
@@ -26983,6 +27014,7 @@ BWV 811</text>
               </Note>
             </Chord>
           <Chord>
+            <BeamMode>no</BeamMode>
             <durationType>eighth</durationType>
             <Note>
               <pitch>65</pitch>
@@ -27134,8 +27166,10 @@ BWV 811</text>
               <tpc>12</tpc>
               </Note>
             </Chord>
+          <Beam>
+            </Beam>
           <Chord>
-            <BeamMode>no</BeamMode>
+            <BeamMode>begin</BeamMode>
             <durationType>16th</durationType>
             <Note>
               <pitch>69</pitch>
@@ -27143,7 +27177,6 @@ BWV 811</text>
               </Note>
             </Chord>
           <Chord>
-            <BeamMode>no</BeamMode>
             <durationType>16th</durationType>
             <Note>
               <pitch>67</pitch>
@@ -27154,7 +27187,10 @@ BWV 811</text>
         </Measure>
       <Measure>
         <voice>
+          <Beam>
+            </Beam>
           <Chord>
+            <BeamMode>begin</BeamMode>
             <durationType>16th</durationType>
             <Note>
               <pitch>69</pitch>
@@ -27162,6 +27198,7 @@ BWV 811</text>
               </Note>
             </Chord>
           <Chord>
+            <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Note>
               <pitch>67</pitch>
@@ -27169,6 +27206,7 @@ BWV 811</text>
               </Note>
             </Chord>
           <Chord>
+            <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Note>
               <pitch>65</pitch>
@@ -27196,6 +27234,11 @@ BWV 811</text>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Note>
+              <Accidental>
+                <bracket>1</bracket>
+                <role>1</role>
+                <subtype>accidentalNatural</subtype>
+                </Accidental>
               <pitch>60</pitch>
               <tpc>14</tpc>
               </Note>
@@ -27312,7 +27355,6 @@ BWV 811</text>
             <durationType>16th</durationType>
             </Rest>
           <Beam>
-            <StemDirection>down</StemDirection>
             </Beam>
           <Chord>
             <BeamMode>begin</BeamMode>
@@ -27344,7 +27386,6 @@ BWV 811</text>
               </Note>
             </Chord>
           <Beam>
-            <StemDirection>down</StemDirection>
             </Beam>
           <Chord>
             <BeamMode>begin</BeamMode>
@@ -27370,7 +27411,6 @@ BWV 811</text>
               </Note>
             </Chord>
           <Beam>
-            <StemDirection>down</StemDirection>
             </Beam>
           <Chord>
             <BeamMode>begin</BeamMode>
@@ -27388,7 +27428,6 @@ BWV 811</text>
               </Note>
             </Chord>
           <Beam>
-            <StemDirection>down</StemDirection>
             </Beam>
           <Chord>
             <BeamMode>begin</BeamMode>
@@ -27413,69 +27452,7 @@ BWV 811</text>
               <tpc>18</tpc>
               </Note>
             </Chord>
-          <Chord>
-            <BeamMode>no</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>74</pitch>
-              <tpc>16</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <BeamMode>no</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>73</pitch>
-              <tpc>21</tpc>
-              </Note>
-            </Chord>
-          </voice>
-        <voice>
-          <Rest>
-            <visible>0</visible>
-            <durationType>measure</durationType>
-            <duration>9/8</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
           <Beam>
-            <StemDirection>down</StemDirection>
-            </Beam>
-          <Chord>
-            <BeamMode>begin</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>81</pitch>
-              <tpc>17</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <BeamMode>mid</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>79</pitch>
-              <tpc>15</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <BeamMode>mid</BeamMode>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>77</pitch>
-              <tpc>13</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>76</pitch>
-              <tpc>18</tpc>
-              </Note>
-            </Chord>
-          <Beam>
-            <StemDirection>down</StemDirection>
             </Beam>
           <Chord>
             <BeamMode>begin</BeamMode>
@@ -27486,18 +27463,34 @@ BWV 811</text>
               </Note>
             </Chord>
           <Chord>
-            <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Note>
               <Accidental>
+                <bracket>1</bracket>
+                <role>1</role>
                 <subtype>accidentalSharp</subtype>
                 </Accidental>
               <pitch>73</pitch>
               <tpc>21</tpc>
               </Note>
             </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <visible>0</visible>
+            <dots>1</dots>
+            <durationType>quarter</durationType>
+            <NoteDot>
+              <visible>0</visible>
+              </NoteDot>
+            </Rest>
+          <Beam>
+            <StemDirection>up</StemDirection>
+            </Beam>
           <Chord>
-            <BeamMode>mid</BeamMode>
+            <BeamMode>begin</BeamMode>
             <durationType>16th</durationType>
             <Note>
               <pitch>74</pitch>
@@ -27555,8 +27548,8 @@ BWV 811</text>
               </Note>
             </Chord>
           <Chord>
+            <BeamMode>no</BeamMode>
             <durationType>eighth</durationType>
-            <StemDirection>up</StemDirection>
             <Note>
               <pitch>73</pitch>
               <tpc>21</tpc>
@@ -27564,14 +27557,58 @@ BWV 811</text>
             </Chord>
           </voice>
         <voice>
-          <Rest>
-            <visible>0</visible>
-            <dots>1</dots>
-            <durationType>quarter</durationType>
-            <NoteDot>
-              <visible>0</visible>
-              </NoteDot>
-            </Rest>
+          <Chord>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>81</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>16th</durationType>
+            <StemDirection>down</StemDirection>
+            <Note>
+              <pitch>79</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>16th</durationType>
+            <StemDirection>down</StemDirection>
+            <Note>
+              <pitch>77</pitch>
+              <tpc>13</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>16th</durationType>
+            <StemDirection>down</StemDirection>
+            <Note>
+              <pitch>76</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <Beam>
+            <StemDirection>down</StemDirection>
+            </Beam>
+          <Chord>
+            <BeamMode>begin</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>74</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>16th</durationType>
+            <Note>
+              <Accidental>
+                <subtype>accidentalSharp</subtype>
+                </Accidental>
+              <pitch>73</pitch>
+              <tpc>21</tpc>
+              </Note>
+            </Chord>
           <Rest>
             <durationType>eighth</durationType>
             </Rest>
@@ -44836,6 +44873,10 @@ BWV 811</text>
               <tpc>12</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>v6</name>
+            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <StemDirection>up</StemDirection>
@@ -44866,6 +44907,10 @@ BWV 811</text>
               <tpc>17</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>i64</name>
+            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -45038,6 +45083,16 @@ BWV 811</text>
               <tpc>15</tpc>
               </Note>
             </Chord>
+          <location>
+            <fractions>-1/8</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>iv</name>
+            </Harmony>
+          <location>
+            <fractions>1/8</fractions>
+            </location>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V</name>
@@ -45161,12 +45216,16 @@ BWV 811</text>
             </Rest>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i.V43/III</name>
+            <name>V2/VII</name>
             </Harmony>
           <Rest>
             <visible>0</visible>
             <durationType>quarter</durationType>
             </Rest>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V43/VII</name>
+            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <StemDirection>up</StemDirection>
@@ -45231,7 +45290,7 @@ BWV 811</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>III</name>
+            <name>VII</name>
             </Harmony>
           <Chord>
             <dots>1</dots>
@@ -45250,7 +45309,7 @@ BWV 811</text>
             </Rest>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V7</name>
+            <name>i.V7</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -45573,6 +45632,10 @@ BWV 811</text>
               <tpc>13</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>iv6</name>
+            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -45718,17 +45781,20 @@ BWV 811</text>
           <Rest>
             <durationType>16th</durationType>
             </Rest>
-          <Chord>
-            <durationType>16th</durationType>
+          <Beam>
             <StemDirection>down</StemDirection>
+            </Beam>
+          <Chord>
+            <BeamMode>begin</BeamMode>
+            <durationType>16th</durationType>
             <Note>
               <pitch>50</pitch>
               <tpc>16</tpc>
               </Note>
             </Chord>
           <Chord>
+            <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
-            <StemDirection>down</StemDirection>
             <Note>
               <pitch>52</pitch>
               <tpc>18</tpc>
@@ -45736,7 +45802,6 @@ BWV 811</text>
             </Chord>
           <Chord>
             <durationType>16th</durationType>
-            <StemDirection>down</StemDirection>
             <Note>
               <Accidental>
                 <subtype>accidentalSharp</subtype>
@@ -45813,6 +45878,7 @@ BWV 811</text>
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
+            <StemDirection>down</StemDirection>
             <Note>
               <pitch>54</pitch>
               <tpc>20</tpc>
@@ -45832,14 +45898,7 @@ BWV 811</text>
             <duration>9/8</duration>
             </Rest>
           <location>
-            <fractions>-1/1</fractions>
-            </location>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>ii%65</name>
-            </Harmony>
-          <location>
-            <fractions>1/4</fractions>
+            <fractions>-3/4</fractions>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
@@ -45859,33 +45918,16 @@ BWV 811</text>
             <durationType>quarter</durationType>
             <StemDirection>down</StemDirection>
             <Note>
-              <Spanner type="Tie">
-                <Tie>
-                  </Tie>
-                <next>
-                  <location>
-                    <fractions>3/8</fractions>
-                    </location>
-                  </next>
-                </Spanner>
               <pitch>55</pitch>
               <tpc>15</tpc>
               </Note>
             </Chord>
           <Beam>
-            <StemDirection>down</StemDirection>
             </Beam>
           <Chord>
             <BeamMode>begin</BeamMode>
             <durationType>16th</durationType>
             <Note>
-              <Spanner type="Tie">
-                <prev>
-                  <location>
-                    <fractions>-3/8</fractions>
-                    </location>
-                  </prev>
-                </Spanner>
               <pitch>55</pitch>
               <tpc>15</tpc>
               </Note>
@@ -45898,7 +45940,6 @@ BWV 811</text>
               </Note>
             </Chord>
           <Beam>
-            <StemDirection>down</StemDirection>
             </Beam>
           <Chord>
             <BeamMode>begin</BeamMode>
@@ -45981,7 +46022,6 @@ BWV 811</text>
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
-            <StemDirection>up</StemDirection>
             <Note>
               <Spanner type="Tie">
                 <prev>
@@ -45995,10 +46035,10 @@ BWV 811</text>
               </Note>
             </Chord>
           <Beam>
-            <StemDirection>up</StemDirection>
             </Beam>
           <Chord>
             <BeamMode>begin</BeamMode>
+            <staffMove>-1</staffMove>
             <durationType>eighth</durationType>
             <Note>
               <pitch>64</pitch>
@@ -46010,6 +46050,7 @@ BWV 811</text>
             <name>VI</name>
             </Harmony>
           <Chord>
+            <staffMove>-1</staffMove>
             <durationType>eighth</durationType>
             <Note>
               <pitch>65</pitch>
@@ -46021,10 +46062,11 @@ BWV 811</text>
             <name>iio6</name>
             </Harmony>
           <Beam>
-            <StemDirection>up</StemDirection>
+            <StemDirection>down</StemDirection>
             </Beam>
           <Chord>
             <BeamMode>begin</BeamMode>
+            <staffMove>-1</staffMove>
             <durationType>eighth</durationType>
             <Note>
               <pitch>67</pitch>
@@ -46032,6 +46074,7 @@ BWV 811</text>
               </Note>
             </Chord>
           <Chord>
+            <staffMove>-1</staffMove>
             <durationType>eighth</durationType>
             <Note>
               <pitch>65</pitch>
@@ -46043,8 +46086,9 @@ BWV 811</text>
             <name>V</name>
             </Harmony>
           <Chord>
+            <staffMove>-1</staffMove>
             <durationType>eighth</durationType>
-            <StemDirection>up</StemDirection>
+            <StemDirection>down</StemDirection>
             <Note>
               <pitch>64</pitch>
               <tpc>18</tpc>
@@ -46057,6 +46101,15 @@ BWV 811</text>
             <durationType>quarter</durationType>
             <StemDirection>down</StemDirection>
             <Note>
+              <Spanner type="Tie">
+                <Tie>
+                  </Tie>
+                <next>
+                  <location>
+                    <fractions>3/8</fractions>
+                    </location>
+                  </next>
+                </Spanner>
               <Spanner type="Tie">
                 <prev>
                   <location>
@@ -46073,6 +46126,13 @@ BWV 811</text>
             <durationType>quarter</durationType>
             <StemDirection>down</StemDirection>
             <Note>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <fractions>-3/8</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
               <pitch>53</pitch>
               <tpc>13</tpc>
               </Note>
@@ -46081,11 +46141,6 @@ BWV 811</text>
             <durationType>eighth</durationType>
             <StemDirection>down</StemDirection>
             <Note>
-              <Accidental>
-                <bracket>1</bracket>
-                <role>1</role>
-                <subtype>accidentalFlat</subtype>
-                </Accidental>
               <pitch>58</pitch>
               <tpc>12</tpc>
               </Note>
@@ -46116,8 +46171,9 @@ BWV 811</text>
             </Harmony>
           <Chord>
             <dots>1</dots>
+            <staffMove>-1</staffMove>
             <durationType>quarter</durationType>
-            <StemDirection>up</StemDirection>
+            <StemDirection>down</StemDirection>
             <Note>
               <pitch>62</pitch>
               <tpc>16</tpc>
@@ -46129,8 +46185,9 @@ BWV 811</text>
             </Harmony>
           <Chord>
             <dots>1</dots>
+            <staffMove>-1</staffMove>
             <durationType>half</durationType>
-            <StemDirection>up</StemDirection>
+            <StemDirection>down</StemDirection>
             <Note>
               <pitch>60</pitch>
               <tpc>14</tpc>
@@ -46322,7 +46379,7 @@ BWV 811</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>IM7</name>
+            <name>I</name>
             </Harmony>
           <Chord>
             <dots>1</dots>
@@ -46354,7 +46411,7 @@ BWV 811</text>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>vi7(9)</name>
+            <name>vi7</name>
             </Harmony>
           <Chord>
             <dots>1</dots>
@@ -46417,7 +46474,7 @@ BWV 811</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>IM43</name>
+            <name>I64</name>
             </Harmony>
           <Chord>
             <dots>1</dots>
@@ -46438,7 +46495,7 @@ BWV 811</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V2(1311)</name>
+            <name>V2(+64)</name>
             </Harmony>
           <Chord>
             <dots>1</dots>
@@ -46451,7 +46508,7 @@ BWV 811</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>IM65</name>
+            <name>I6</name>
             </Harmony>
           <Chord>
             <dots>1</dots>
@@ -46580,7 +46637,6 @@ BWV 811</text>
               </Note>
             </Chord>
           <Beam>
-            <StemDirection>up</StemDirection>
             </Beam>
           <Chord>
             <BeamMode>begin</BeamMode>
@@ -46709,7 +46765,6 @@ BWV 811</text>
             <name>V(4)</name>
             </Harmony>
           <Beam>
-            <StemDirection>up</StemDirection>
             </Beam>
           <Chord>
             <BeamMode>begin</BeamMode>
@@ -46739,7 +46794,6 @@ BWV 811</text>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
-            <StemDirection>up</StemDirection>
             <Note>
               <pitch>52</pitch>
               <tpc>18</tpc>
@@ -46777,7 +46831,6 @@ BWV 811</text>
               </Note>
             </Chord>
           <Beam>
-            <StemDirection>down</StemDirection>
             </Beam>
           <Chord>
             <BeamMode>begin</BeamMode>
@@ -46803,7 +46856,6 @@ BWV 811</text>
               </Note>
             </Chord>
           <Beam>
-            <StemDirection>down</StemDirection>
             </Beam>
           <Chord>
             <BeamMode>begin</BeamMode>
@@ -46883,13 +46935,48 @@ BWV 811</text>
               </Note>
             </Chord>
           <Chord>
-            <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Note>
               <pitch>55</pitch>
               <tpc>15</tpc>
               </Note>
             </Chord>
+          <Rest>
+            <visible>0</visible>
+            <dots>1</dots>
+            <durationType>quarter</durationType>
+            <NoteDot>
+              <visible>0</visible>
+              </NoteDot>
+            </Rest>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V65</name>
+            </Harmony>
+          <Rest>
+            <visible>0</visible>
+            <dots>1</dots>
+            <durationType>quarter</durationType>
+            <NoteDot>
+              <visible>0</visible>
+              </NoteDot>
+            </Rest>
+          </voice>
+        <voice>
+          <Chord>
+            <durationType>eighth</durationType>
+            <StemDirection>down</StemDirection>
+            <Note>
+              <pitch>41</pitch>
+              <tpc>13</tpc>
+              </Note>
+            </Chord>
+          <Rest>
+            <durationType>eighth</durationType>
+            </Rest>
+          <Rest>
+            <durationType>eighth</durationType>
+            </Rest>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -46898,7 +46985,6 @@ BWV 811</text>
               </Note>
             </Chord>
           <Beam>
-            <StemDirection>down</StemDirection>
             </Beam>
           <Chord>
             <BeamMode>begin</BeamMode>
@@ -46915,10 +47001,6 @@ BWV 811</text>
               <tpc>13</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V65</name>
-            </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
             </Beam>
@@ -46945,30 +47027,6 @@ BWV 811</text>
               <tpc>18</tpc>
               </Note>
             </Chord>
-          </voice>
-        <voice>
-          <Chord>
-            <durationType>eighth</durationType>
-            <StemDirection>down</StemDirection>
-            <Note>
-              <pitch>41</pitch>
-              <tpc>13</tpc>
-              </Note>
-            </Chord>
-          <Rest>
-            <durationType>eighth</durationType>
-            </Rest>
-          <Rest>
-            <durationType>eighth</durationType>
-            </Rest>
-          <Rest>
-            <visible>0</visible>
-            <dots>1</dots>
-            <durationType>half</durationType>
-            <NoteDot>
-              <visible>0</visible>
-              </NoteDot>
-            </Rest>
           </voice>
         </Measure>
       <Measure>
@@ -47066,10 +47124,6 @@ BWV 811</text>
               <tpc>15</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>vi6</name>
-            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <StemDirection>up</StemDirection>
@@ -47188,7 +47242,11 @@ BWV 811</text>
           <Rest>
             <durationType>16th</durationType>
             </Rest>
+          <Beam>
+            <StemDirection>up</StemDirection>
+            </Beam>
           <Chord>
+            <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
             <Note>
               <pitch>55</pitch>
@@ -47196,6 +47254,7 @@ BWV 811</text>
               </Note>
             </Chord>
           <Chord>
+            <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
             <Note>
               <pitch>57</pitch>
@@ -47224,6 +47283,7 @@ BWV 811</text>
               </Note>
             </Chord>
           <Beam>
+            <StemDirection>up</StemDirection>
             </Beam>
           <Chord>
             <BeamMode>begin</BeamMode>
@@ -47262,7 +47322,6 @@ BWV 811</text>
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
-            <StemDirection>down</StemDirection>
             <Note>
               <Spanner type="Tie">
                 <prev>
@@ -47294,6 +47353,7 @@ BWV 811</text>
               </Note>
             </Chord>
           <Beam>
+            <StemDirection>down</StemDirection>
             </Beam>
           <Chord>
             <BeamMode>begin</BeamMode>
@@ -47311,8 +47371,8 @@ BWV 811</text>
               </Note>
             </Chord>
           <Chord>
-            <BeamMode>no</BeamMode>
             <durationType>eighth</durationType>
+            <StemDirection>down</StemDirection>
             <Note>
               <pitch>57</pitch>
               <tpc>17</tpc>
@@ -47357,7 +47417,7 @@ BWV 811</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>ii%7/ii</name>
+            <name>I6</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -47367,6 +47427,10 @@ BWV 811</text>
               <tpc>14</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>iv43/ii</name>
+            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <StemDirection>up</StemDirection>
@@ -47377,7 +47441,7 @@ BWV 811</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>#viio7/ii</name>
+            <name>V65/ii</name>
             </Harmony>
           <Chord>
             <dots>1</dots>
@@ -47397,6 +47461,16 @@ BWV 811</text>
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
             <Note>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <visible>0</visible>
+            <durationType>eighth</durationType>
+            <appoggiatura/>
+            <Note>
+              <visible>0</visible>
               <pitch>55</pitch>
               <tpc>15</tpc>
               </Note>
@@ -47450,7 +47524,7 @@ BWV 811</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V/V</name>
+            <name>V.V7</name>
             </Harmony>
           <Chord>
             <dots>1</dots>
@@ -47461,10 +47535,6 @@ BWV 811</text>
               <tpc>15</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>viio/V</name>
-            </Harmony>
           <Rest>
             <durationType>16th</durationType>
             </Rest>
@@ -47515,7 +47585,7 @@ BWV 811</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V6</name>
+            <name>I6</name>
             </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -47568,7 +47638,7 @@ BWV 811</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V7(9)/V</name>
+            <name>V7(9)</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -47588,7 +47658,7 @@ BWV 811</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V(64)/V</name>
+            <name>V(64)</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -47608,7 +47678,7 @@ BWV 811</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V7/V</name>
+            <name>V7</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -47667,7 +47737,7 @@ BWV 811</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V</name>
+            <name>I</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -47687,7 +47757,7 @@ BWV 811</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>vi7(9)</name>
+            <name>ii7(+9)</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -47707,7 +47777,7 @@ BWV 811</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V6</name>
+            <name>I6</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -47766,7 +47836,7 @@ BWV 811</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>IM7</name>
+            <name>IVM7</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -47786,7 +47856,7 @@ BWV 811</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V64</name>
+            <name>I64</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -47806,7 +47876,7 @@ BWV 811</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>viio65/II</name>
+            <name>viio65/V</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -47865,7 +47935,7 @@ BWV 811</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V7(9)/V</name>
+            <name>V7(9)</name>
             </Harmony>
           <Chord>
             <dots>1</dots>
@@ -47878,7 +47948,7 @@ BWV 811</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>viio7/II</name>
+            <name>viio7/V</name>
             </Harmony>
           <Chord>
             <dots>1</dots>
@@ -47891,7 +47961,7 @@ BWV 811</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V7/V</name>
+            <name>V7</name>
             </Harmony>
           <Chord>
             <dots>1</dots>
@@ -47905,7 +47975,6 @@ BWV 811</text>
           </voice>
         <voice>
           <Beam>
-            <StemDirection>down</StemDirection>
             </Beam>
           <Chord>
             <BeamMode>begin</BeamMode>
@@ -47983,7 +48052,7 @@ BWV 811</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V</name>
+            <name>I|PAC}{</name>
             </Harmony>
           <Rest>
             <visible>0</visible>
@@ -47995,19 +48064,18 @@ BWV 811</text>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V6</name>
+            <name>I6</name>
             </Harmony>
           <location>
             <fractions>3/8</fractions>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>#viio7/ii</name>
+            <name>#viio7/v</name>
             </Harmony>
           </voice>
         <voice>
           <Beam>
-            <StemDirection>down</StemDirection>
             </Beam>
           <Chord>
             <BeamMode>begin</BeamMode>
@@ -48124,7 +48192,7 @@ BWV 811</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>ii</name>
+            <name>v</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -48178,7 +48246,7 @@ BWV 811</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>ii43</name>
+            <name>v43</name>
             </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
@@ -48197,7 +48265,7 @@ BWV 811</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V7(9)</name>
+            <name>V7(9)/IV</name>
             </Harmony>
           <Chord>
             <dots>1</dots>
@@ -48212,7 +48280,7 @@ BWV 811</text>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V7</name>
+            <name>V7/IV</name>
             </Harmony>
           </voice>
         </Measure>
@@ -48220,7 +48288,7 @@ BWV 811</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I|IAC</name>
+            <name>I/IV|IAC}{</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -48269,7 +48337,7 @@ BWV 811</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i.i</name>
+            <name>ii</name>
             </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
@@ -48288,7 +48356,7 @@ BWV 811</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>#vi%7</name>
+            <name>#vi%7/ii</name>
             </Harmony>
           <Chord>
             <dots>1</dots>
@@ -48307,7 +48375,7 @@ BWV 811</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>ii</name>
+            <name>ii/ii</name>
             </Harmony>
           <Rest>
             <durationType>16th</durationType>
@@ -48359,7 +48427,7 @@ BWV 811</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>#viio</name>
+            <name>#viio/ii</name>
             </Harmony>
           <Rest>
             <durationType>eighth</durationType>
@@ -48376,7 +48444,7 @@ BWV 811</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V7(9)</name>
+            <name>V7(9)/ii</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -48387,10 +48455,9 @@ BWV 811</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V7</name>
+            <name>V7/ii</name>
             </Harmony>
           <Chord>
-            <BeamMode>no</BeamMode>
             <durationType>eighth</durationType>
             <Note>
               <pitch>45</pitch>
@@ -48403,12 +48470,9 @@ BWV 811</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i|IAC}</name>
+            <name>i.i|IAC}{</name>
             </Harmony>
-          <Beam>
-            </Beam>
           <Chord>
-            <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
             <Note>
               <pitch>50</pitch>
@@ -48422,10 +48486,6 @@ BWV 811</text>
               <tpc>13</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>{</name>
-            </Harmony>
           <Chord>
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
@@ -48484,6 +48544,7 @@ BWV 811</text>
               </Note>
             </Chord>
           <Chord>
+            <BeamMode>no</BeamMode>
             <durationType>eighth</durationType>
             <Note>
               <pitch>50</pitch>
@@ -48498,7 +48559,10 @@ BWV 811</text>
             <harmonyType>1</harmonyType>
             <name>ii6</name>
             </Harmony>
+          <Beam>
+            </Beam>
           <Chord>
+            <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
             <Note>
               <pitch>55</pitch>
@@ -48575,7 +48639,6 @@ BWV 811</text>
               </Note>
             </Chord>
           <Chord>
-            <BeamMode>no</BeamMode>
             <durationType>eighth</durationType>
             <Note>
               <pitch>55</pitch>
@@ -48588,7 +48651,7 @@ BWV 811</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V65</name>
+            <name>V6</name>
             </Harmony>
           <Beam>
             </Beam>
@@ -48620,7 +48683,7 @@ BWV 811</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i7</name>
+            <name>i</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -48648,7 +48711,7 @@ BWV 811</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>iv65</name>
+            <name>iv6</name>
             </Harmony>
           <Beam>
             </Beam>
@@ -48668,6 +48731,7 @@ BWV 811</text>
               </Note>
             </Chord>
           <Chord>
+            <BeamMode>no</BeamMode>
             <durationType>eighth</durationType>
             <Note>
               <pitch>55</pitch>
@@ -48682,7 +48746,10 @@ BWV 811</text>
             <harmonyType>1</harmonyType>
             <name>V</name>
             </Harmony>
+          <Beam>
+            </Beam>
           <Chord>
+            <BeamMode>begin</BeamMode>
             <durationType>16th</durationType>
             <Note>
               <pitch>57</pitch>
@@ -48690,6 +48757,7 @@ BWV 811</text>
               </Note>
             </Chord>
           <Chord>
+            <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Note>
               <pitch>45</pitch>
@@ -48697,6 +48765,7 @@ BWV 811</text>
               </Note>
             </Chord>
           <Chord>
+            <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Note>
               <Accidental>
@@ -48767,6 +48836,7 @@ BWV 811</text>
             <name>#viio</name>
             </Harmony>
           <Beam>
+            <StemDirection>down</StemDirection>
             </Beam>
           <Chord>
             <BeamMode>begin</BeamMode>
@@ -48785,6 +48855,7 @@ BWV 811</text>
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
+            <StemDirection>down</StemDirection>
             <Note>
               <pitch>49</pitch>
               <tpc>21</tpc>
@@ -48926,10 +48997,8 @@ BWV 811</text>
               <tpc>12</tpc>
               </Note>
             </Chord>
-          <Beam>
-            </Beam>
           <Chord>
-            <BeamMode>begin</BeamMode>
+            <BeamMode>no</BeamMode>
             <durationType>16th</durationType>
             <Note>
               <pitch>60</pitch>
@@ -48937,6 +49006,7 @@ BWV 811</text>
               </Note>
             </Chord>
           <Chord>
+            <BeamMode>no</BeamMode>
             <durationType>16th</durationType>
             <Note>
               <pitch>57</pitch>
@@ -49056,7 +49126,7 @@ BWV 811</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>VIM65</name>
+            <name>III</name>
             </Harmony>
           <Rest>
             <visible>0</visible>
@@ -49064,18 +49134,39 @@ BWV 811</text>
             <duration>9/8</duration>
             </Rest>
           <location>
-            <fractions>-3/4</fractions>
+            <fractions>-1/1</fractions>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>v65</name>
+            <name>VI6</name>
             </Harmony>
           <location>
-            <fractions>3/8</fractions>
+            <fractions>1/4</fractions>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>iv65</name>
+            <name>iio</name>
+            </Harmony>
+          <location>
+            <fractions>1/8</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>v6</name>
+            </Harmony>
+          <location>
+            <fractions>1/4</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>i</name>
+            </Harmony>
+          <location>
+            <fractions>1/8</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>iv6</name>
             </Harmony>
           </voice>
         </Measure>
@@ -49083,24 +49174,69 @@ BWV 811</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>IIIM65</name>
-            </Harmony>
-          <Rest>
-            <visible>0</visible>
-            <dots>1</dots>
-            <durationType>quarter</durationType>
-            <NoteDot>
-              <visible>0</visible>
-              </NoteDot>
-            </Rest>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>ii%65</name>
+            <name>VII</name>
             </Harmony>
           <Beam>
             </Beam>
           <Chord>
             <BeamMode>begin</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>mid</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>III6</name>
+            </Harmony>
+          <Chord>
+            <BeamMode>mid</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>58</pitch>
+              <tpc>12</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>57</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          <Beam>
+            </Beam>
+          <Chord>
+            <BeamMode>begin</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>58</pitch>
+              <tpc>12</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>mid</BeamMode>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>VI</name>
+            </Harmony>
+          <Chord>
+            <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Note>
               <pitch>62</pitch>
@@ -49114,6 +49250,10 @@ BWV 811</text>
               <tpc>12</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>iio6</name>
+            </Harmony>
           <Beam>
             </Beam>
           <Chord>
@@ -49149,7 +49289,7 @@ BWV 811</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i65</name>
+            <name>v</name>
             </Harmony>
           <Beam>
             </Beam>
@@ -49169,6 +49309,10 @@ BWV 811</text>
               <tpc>17</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>i6</name>
+            </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
@@ -49276,7 +49420,10 @@ BWV 811</text>
             <harmonyType>1</harmonyType>
             <name>V</name>
             </Harmony>
+          <Beam>
+            </Beam>
           <Chord>
+            <BeamMode>begin</BeamMode>
             <durationType>16th</durationType>
             <Note>
               <pitch>57</pitch>
@@ -49284,6 +49431,7 @@ BWV 811</text>
               </Note>
             </Chord>
           <Chord>
+            <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Note>
               <pitch>45</pitch>
@@ -49291,6 +49439,7 @@ BWV 811</text>
               </Note>
             </Chord>
           <Chord>
+            <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Note>
               <Accidental>
@@ -49378,7 +49527,6 @@ BWV 811</text>
               </Note>
             </Chord>
           <Chord>
-            <BeamMode>no</BeamMode>
             <durationType>eighth</durationType>
             <Note>
               <pitch>49</pitch>
@@ -49393,16 +49541,17 @@ BWV 811</text>
             <harmonyType>1</harmonyType>
             <name>i</name>
             </Harmony>
-          <Beam>
-            </Beam>
           <Chord>
-            <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
             <Note>
               <pitch>50</pitch>
               <tpc>16</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>iv</name>
+            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -49429,6 +49578,10 @@ BWV 811</text>
               <tpc>14</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>III</name>
+            </Harmony>
           <Beam>
             </Beam>
           <Chord>
@@ -49460,6 +49613,10 @@ BWV 811</text>
               <tpc>12</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>iio</name>
+            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -49468,6 +49625,7 @@ BWV 811</text>
               </Note>
             </Chord>
           <Chord>
+            <BeamMode>no</BeamMode>
             <durationType>eighth</durationType>
             <Note>
               <pitch>43</pitch>
@@ -49492,6 +49650,10 @@ BWV 811</text>
               <tpc>17</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>i</name>
+            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -49518,6 +49680,10 @@ BWV 811</text>
               <tpc>15</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>VII</name>
+            </Harmony>
           <Beam>
             </Beam>
           <Chord>
@@ -49549,6 +49715,10 @@ BWV 811</text>
               <tpc>13</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>VI</name>
+            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -49557,7 +49727,6 @@ BWV 811</text>
               </Note>
             </Chord>
           <Chord>
-            <BeamMode>no</BeamMode>
             <durationType>eighth</durationType>
             <Note>
               <pitch>38</pitch>
@@ -49570,12 +49739,9 @@ BWV 811</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V43</name>
+            <name>iio</name>
             </Harmony>
-          <Beam>
-            </Beam>
           <Chord>
-            <BeamMode>begin</BeamMode>
             <durationType>16th</durationType>
             <Note>
               <pitch>40</pitch>
@@ -49583,7 +49749,6 @@ BWV 811</text>
               </Note>
             </Chord>
           <Chord>
-            <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Note>
               <pitch>45</pitch>
@@ -49591,7 +49756,6 @@ BWV 811</text>
               </Note>
             </Chord>
           <Chord>
-            <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Note>
               <pitch>43</pitch>
@@ -49625,7 +49789,7 @@ BWV 811</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>#viio7</name>
+            <name>#viio7-V65</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -49676,6 +49840,7 @@ BWV 811</text>
               </Note>
             </Chord>
           <Chord>
+            <BeamMode>no</BeamMode>
             <durationType>eighth</durationType>
             <Note>
               <pitch>41</pitch>
@@ -49688,9 +49853,12 @@ BWV 811</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V43</name>
+            <name>#viio6</name>
             </Harmony>
+          <Beam>
+            </Beam>
           <Chord>
+            <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
             <Note>
               <pitch>40</pitch>
@@ -49704,6 +49872,10 @@ BWV 811</text>
               <tpc>13</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V2</name>
+            </Harmony>
           <Chord>
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
@@ -49714,7 +49886,7 @@ BWV 811</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>VIM43</name>
+            <name>i</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -49733,6 +49905,10 @@ BWV 811</text>
               <tpc>15</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>VIM2</name>
+            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -49742,7 +49918,7 @@ BWV 811</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V43/III</name>
+            <name>iio6</name>
             </Harmony>
           <Beam>
             </Beam>
@@ -49761,8 +49937,11 @@ BWV 811</text>
               <tpc>17</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V2/III</name>
+            </Harmony>
           <Chord>
-            <BeamMode>no</BeamMode>
             <durationType>eighth</durationType>
             <Note>
               <pitch>46</pitch>
@@ -49777,10 +49956,7 @@ BWV 811</text>
             <harmonyType>1</harmonyType>
             <name>III6</name>
             </Harmony>
-          <Beam>
-            </Beam>
           <Chord>
-            <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
             <Note>
               <pitch>45</pitch>
@@ -49797,6 +49973,10 @@ BWV 811</text>
               <tpc>19</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V2/IV</name>
+            </Harmony>
           <Chord>
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
@@ -49807,7 +49987,7 @@ BWV 811</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>ii64</name>
+            <name>IV6</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -49829,6 +50009,10 @@ BWV 811</text>
               <tpc>21</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V2/V</name>
+            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -49854,6 +50038,11 @@ BWV 811</text>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Note>
+              <Accidental>
+                <bracket>1</bracket>
+                <role>1</role>
+                <subtype>accidentalNatural</subtype>
+                </Accidental>
               <pitch>53</pitch>
               <tpc>13</tpc>
               </Note>
@@ -49873,10 +50062,8 @@ BWV 811</text>
               <tpc>16</tpc>
               </Note>
             </Chord>
-          <Beam>
-            </Beam>
           <Chord>
-            <BeamMode>begin</BeamMode>
+            <BeamMode>no</BeamMode>
             <durationType>16th</durationType>
             <Note>
               <pitch>49</pitch>
@@ -49884,6 +50071,7 @@ BWV 811</text>
               </Note>
             </Chord>
           <Chord>
+            <BeamMode>no</BeamMode>
             <durationType>16th</durationType>
             <Note>
               <pitch>47</pitch>
@@ -49898,7 +50086,10 @@ BWV 811</text>
             <harmonyType>1</harmonyType>
             <name>V[V7</name>
             </Harmony>
+          <Beam>
+            </Beam>
           <Chord>
+            <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
             <Note>
               <pitch>45</pitch>
@@ -49970,7 +50161,6 @@ BWV 811</text>
               </Note>
             </Chord>
           <Chord>
-            <BeamMode>no</BeamMode>
             <durationType>eighth</durationType>
             <Note>
               <pitch>45</pitch>
@@ -49985,10 +50175,7 @@ BWV 811</text>
             <harmonyType>1</harmonyType>
             <name>viio2/V</name>
             </Harmony>
-          <Beam>
-            </Beam>
           <Chord>
-            <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
             <Note>
               <pitch>45</pitch>
@@ -50012,8 +50199,7 @@ BWV 811</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>#viio65</name>
-            <offset x="0" y="5.11113"/>
+            <name>#viio65]</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -50041,7 +50227,7 @@ BWV 811</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V2]</name>
+            <name>V2</name>
             </Harmony>
           <Beam>
             </Beam>
@@ -50061,6 +50247,7 @@ BWV 811</text>
               </Note>
             </Chord>
           <Chord>
+            <BeamMode>no</BeamMode>
             <durationType>eighth</durationType>
             <Note>
               <pitch>43</pitch>
@@ -50075,7 +50262,10 @@ BWV 811</text>
             <harmonyType>1</harmonyType>
             <name>i6</name>
             </Harmony>
+          <Beam>
+            </Beam>
           <Chord>
+            <BeamMode>begin</BeamMode>
             <durationType>16th</durationType>
             <Note>
               <pitch>41</pitch>
@@ -50083,6 +50273,7 @@ BWV 811</text>
               </Note>
             </Chord>
           <Chord>
+            <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Note>
               <Accidental>
@@ -50093,6 +50284,7 @@ BWV 811</text>
               </Note>
             </Chord>
           <Chord>
+            <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Note>
               <pitch>50</pitch>
@@ -50126,7 +50318,7 @@ BWV 811</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>iv7(9)</name>
+            <name>iv7(+9)</name>
             </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
@@ -50213,8 +50405,10 @@ BWV 811</text>
               <tpc>13</tpc>
               </Note>
             </Chord>
+          <Beam>
+            </Beam>
           <Chord>
-            <BeamMode>no</BeamMode>
+            <BeamMode>begin</BeamMode>
             <durationType>16th</durationType>
             <Note>
               <pitch>49</pitch>
@@ -50222,7 +50416,6 @@ BWV 811</text>
               </Note>
             </Chord>
           <Chord>
-            <BeamMode>no</BeamMode>
             <durationType>16th</durationType>
             <Note>
               <pitch>50</pitch>
@@ -50237,10 +50430,7 @@ BWV 811</text>
             <harmonyType>1</harmonyType>
             <name>VIM7</name>
             </Harmony>
-          <Beam>
-            </Beam>
           <Chord>
-            <BeamMode>begin</BeamMode>
             <durationType>16th</durationType>
             <Note>
               <pitch>46</pitch>
@@ -50248,7 +50438,6 @@ BWV 811</text>
               </Note>
             </Chord>
           <Chord>
-            <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Note>
               <Accidental>
@@ -50259,7 +50448,6 @@ BWV 811</text>
               </Note>
             </Chord>
           <Chord>
-            <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Note>
               <pitch>50</pitch>
@@ -50486,6 +50674,7 @@ BWV 811</text>
               </Note>
             </Chord>
           <Beam>
+            <StemDirection>up</StemDirection>
             </Beam>
           <Chord>
             <BeamMode>begin</BeamMode>
@@ -50496,7 +50685,6 @@ BWV 811</text>
               </Note>
             </Chord>
           <Chord>
-            <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Note>
               <pitch>52</pitch>
@@ -50507,14 +50695,46 @@ BWV 811</text>
             <harmonyType>1</harmonyType>
             <name>#vio6</name>
             </Harmony>
+          <Rest>
+            <visible>0</visible>
+            <dots>1</dots>
+            <durationType>quarter</durationType>
+            <NoteDot>
+              <visible>0</visible>
+              </NoteDot>
+            </Rest>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>#viio</name>
+            </Harmony>
+          <Rest>
+            <visible>0</visible>
+            <dots>1</dots>
+            <durationType>quarter</durationType>
+            <NoteDot>
+              <visible>0</visible>
+              </NoteDot>
+            </Rest>
+          </voice>
+        <voice>
+          <Rest>
+            <visible>0</visible>
+            <dots>1</dots>
+            <durationType>quarter</durationType>
+            <NoteDot>
+              <visible>0</visible>
+              </NoteDot>
+            </Rest>
           <Chord>
             <durationType>eighth</durationType>
+            <StemDirection>down</StemDirection>
             <Note>
               <pitch>53</pitch>
               <tpc>13</tpc>
               </Note>
             </Chord>
           <Beam>
+            <StemDirection>down</StemDirection>
             </Beam>
           <Chord>
             <BeamMode>begin</BeamMode>
@@ -50531,10 +50751,6 @@ BWV 811</text>
               <tpc>16</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>#viio</name>
-            </Harmony>
           <Beam>
             </Beam>
           <Chord>
@@ -50554,6 +50770,7 @@ BWV 811</text>
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
+            <StemDirection>down</StemDirection>
             <Note>
               <pitch>49</pitch>
               <tpc>21</tpc>
@@ -50575,9 +50792,13 @@ BWV 811</text>
               <tpc>13</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>v6</name>
+            </Harmony>
           <Chord>
+            <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
-            <StemDirection>up</StemDirection>
             <Note>
               <pitch>52</pitch>
               <tpc>18</tpc>
@@ -50589,7 +50810,6 @@ BWV 811</text>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
-            <StemDirection>up</StemDirection>
             <Note>
               <pitch>50</pitch>
               <tpc>16</tpc>
@@ -50606,6 +50826,10 @@ BWV 811</text>
               <tpc>18</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>i64</name>
+            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -50661,6 +50885,11 @@ BWV 811</text>
             <durationType>eighth</durationType>
             <StemDirection>down</StemDirection>
             <Note>
+              <Accidental>
+                <bracket>1</bracket>
+                <role>1</role>
+                <subtype>accidentalNatural</subtype>
+                </Accidental>
               <pitch>48</pitch>
               <tpc>14</tpc>
               </Note>
@@ -50669,6 +50898,11 @@ BWV 811</text>
             <durationType>quarter</durationType>
             <StemDirection>down</StemDirection>
             <Note>
+              <Accidental>
+                <bracket>1</bracket>
+                <role>1</role>
+                <subtype>accidentalFlat</subtype>
+                </Accidental>
               <pitch>46</pitch>
               <tpc>12</tpc>
               </Note>
@@ -50714,10 +50948,6 @@ BWV 811</text>
               <tpc>16</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>i</name>
-            </Harmony>
           <Rest>
             <durationType>eighth</durationType>
             </Rest>

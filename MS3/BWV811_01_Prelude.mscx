@@ -37182,7 +37182,14 @@ BWV 811</text>
             <duration>9/8</duration>
             </Rest>
           <location>
-            <fractions>-3/8</fractions>
+            <fractions>-1/2</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V2/III-viio64/III</name>
+            </Harmony>
+          <location>
+            <fractions>1/8</fractions>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
@@ -41839,6 +41846,10 @@ BWV 811</text>
               <tpc>16</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>iv7</name>
+            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -41868,6 +41879,10 @@ BWV 811</text>
           <Rest>
             <durationType>eighth</durationType>
             </Rest>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V2/III-viio64/III</name>
+            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -41916,7 +41931,7 @@ BWV 811</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>VIM7</name>
+            <name>VI</name>
             </Harmony>
           <Chord>
             <dots>1</dots>
@@ -41985,6 +42000,10 @@ BWV 811</text>
               <tpc>16</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>iio</name>
+            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <StemDirection>up</StemDirection>
@@ -42471,7 +42490,7 @@ BWV 811</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>ii65(9)</name>
+            <name>ii65(+9)</name>
             </Harmony>
           <Beam>
             </Beam>
@@ -42717,7 +42736,7 @@ BWV 811</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V7</name>
+            <name>V</name>
             </Harmony>
           <Beam>
             </Beam>
@@ -42736,6 +42755,10 @@ BWV 811</text>
               <tpc>13</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V2</name>
+            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -42773,7 +42796,7 @@ BWV 811</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V7/IV</name>
+            <name>V/IV</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -42792,6 +42815,10 @@ BWV 811</text>
               <tpc>12</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V2/IV</name>
+            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -42804,7 +42831,7 @@ BWV 811</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>IV</name>
+            <name>IV6</name>
             </Harmony>
           <Beam>
             </Beam>
@@ -42823,6 +42850,10 @@ BWV 811</text>
               <tpc>13</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>ii6</name>
+            </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>eighth</durationType>
@@ -42840,7 +42871,7 @@ BWV 811</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V65</name>
+            <name>V2</name>
             </Harmony>
           <Beam>
             </Beam>
@@ -42878,6 +42909,10 @@ BWV 811</text>
               <tpc>12</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V65</name>
+            </Harmony>
           <Beam>
             </Beam>
           <Chord>
@@ -43534,7 +43569,7 @@ BWV 811</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V[V7</name>
+            <name>V[V2</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -43560,7 +43595,7 @@ BWV 811</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>VIM43</name>
+            <name>VI64</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -43621,7 +43656,7 @@ BWV 811</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>iM43</name>
+            <name>i64</name>
             </Harmony>
           <Beam>
             </Beam>
@@ -43650,7 +43685,7 @@ BWV 811</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>ii43</name>
+            <name>ii64</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -43678,7 +43713,7 @@ BWV 811</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V]</name>
+            <name>V7]</name>
             </Harmony>
           <Beam>
             </Beam>

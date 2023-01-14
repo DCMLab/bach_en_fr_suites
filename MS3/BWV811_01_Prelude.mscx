@@ -34670,7 +34670,7 @@ BWV 811</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V65</name>
+            <name>V6</name>
             </Harmony>
           <Beam>
             </Beam>
@@ -35145,7 +35145,7 @@ BWV 811</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>VIM65</name>
+            <name>III</name>
             </Harmony>
           <Rest>
             <visible>0</visible>
@@ -35153,18 +35153,39 @@ BWV 811</text>
             <duration>9/8</duration>
             </Rest>
           <location>
-            <fractions>-3/4</fractions>
+            <fractions>-1/1</fractions>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>v65</name>
+            <name>VI6</name>
             </Harmony>
           <location>
-            <fractions>3/8</fractions>
+            <fractions>1/4</fractions>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>iv65</name>
+            <name>iio</name>
+            </Harmony>
+          <location>
+            <fractions>1/8</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>v6</name>
+            </Harmony>
+          <location>
+            <fractions>1/4</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>i</name>
+            </Harmony>
+          <location>
+            <fractions>1/8</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>iv6</name>
             </Harmony>
           </voice>
         </Measure>
@@ -35172,7 +35193,7 @@ BWV 811</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>IIIM65</name>
+            <name>VII</name>
             </Harmony>
           <Beam>
             </Beam>
@@ -35192,6 +35213,10 @@ BWV 811</text>
               <tpc>14</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>III6</name>
+            </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
@@ -35227,7 +35252,7 @@ BWV 811</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>ii%65</name>
+            <name>VI</name>
             </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
@@ -35244,6 +35269,10 @@ BWV 811</text>
               <tpc>12</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>iio6</name>
+            </Harmony>
           <Beam>
             </Beam>
           <Chord>
@@ -35279,7 +35308,7 @@ BWV 811</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i65</name>
+            <name>v</name>
             </Harmony>
           <Beam>
             </Beam>
@@ -35299,6 +35328,10 @@ BWV 811</text>
               <tpc>17</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>i6</name>
+            </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>

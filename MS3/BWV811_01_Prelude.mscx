@@ -37100,6 +37100,13 @@ BWV 811</text>
               <visible>0</visible>
               </NoteDot>
             </Rest>
+          <location>
+            <fractions>-1/8</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>iv7</name>
+            </Harmony>
           </voice>
         <voice>
           <Chord>
@@ -37169,6 +37176,13 @@ BWV 811</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>III6</name>
+            </Harmony>
+          <location>
+            <fractions>1/4</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>IIIM7</name>
             </Harmony>
           </voice>
         <voice>
@@ -37464,6 +37478,10 @@ BWV 811</text>
               <tpc>15</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>viio6/VII</name>
+            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -37513,7 +37531,7 @@ BWV 811</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>VII</name>
+            <name>I/VII</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -37540,7 +37558,7 @@ BWV 811</text>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>#viio64/ii</name>
+            <name>#viio64/iv</name>
             </Harmony>
           <location>
             <fractions>1/8</fractions>
@@ -37548,6 +37566,13 @@ BWV 811</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>iv6</name>
+            </Harmony>
+          <location>
+            <fractions>1/4</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>iv</name>
             </Harmony>
           </voice>
         <voice>
@@ -37673,6 +37698,13 @@ BWV 811</text>
             </Harmony>
           <location>
             <fractions>1/8</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>i6</name>
+            </Harmony>
+          <location>
+            <fractions>1/4</fractions>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>

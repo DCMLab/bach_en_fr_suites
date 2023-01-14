@@ -28480,13 +28480,6 @@ BWV 811</text>
             <durationType>measure</durationType>
             <duration>9/8</duration>
             </Rest>
-          <location>
-            <fractions>-3/8</fractions>
-            </location>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>#viio7</name>
-            </Harmony>
           </voice>
         <voice>
           <Beam>
@@ -28579,6 +28572,10 @@ BWV 811</text>
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>#viio7</name>
+            </Harmony>
           <Rest>
             <visible>0</visible>
             <durationType>eighth</durationType>

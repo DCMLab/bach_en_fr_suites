@@ -34305,6 +34305,13 @@ BWV 811</text>
               <tpc>14</tpc>
               </Note>
             </Chord>
+          <location>
+            <fractions>-1/8</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V7/IV</name>
+            </Harmony>
           </voice>
         </Measure>
       <Measure>
@@ -34476,6 +34483,10 @@ BWV 811</text>
               <tpc>17</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V7/ii</name>
+            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -40425,7 +40436,6 @@ BWV 811</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V7/III</name>
-            <offset x="-0.123933" y="3.7134"/>
             </Harmony>
           </voice>
         <voice>
@@ -40452,7 +40462,7 @@ BWV 811</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>III</name>
+            <name>I/III</name>
             </Harmony>
           <Rest>
             <durationType>16th</durationType>
@@ -41041,7 +41051,7 @@ BWV 811</text>
             </Rest>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>iv7</name>
+            <name>VI</name>
             </Harmony>
           <Rest>
             <visible>0</visible>
@@ -41051,6 +41061,16 @@ BWV 811</text>
               <visible>0</visible>
               </NoteDot>
             </Rest>
+          <location>
+            <fractions>-1/8</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>iv7</name>
+            </Harmony>
+          <location>
+            <fractions>1/8</fractions>
+            </location>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V(64)</name>
@@ -41209,7 +41229,7 @@ BWV 811</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V7</name>
+            <name>V7(9)</name>
             </Harmony>
           <Rest>
             <durationType>16th</durationType>
@@ -41229,6 +41249,16 @@ BWV 811</text>
               <tpc>13</tpc>
               </Note>
             </Chord>
+          <location>
+            <fractions>-1/16</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V7</name>
+            </Harmony>
+          <location>
+            <fractions>1/16</fractions>
+            </location>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>16th</durationType>
@@ -41380,6 +41410,10 @@ BWV 811</text>
               <tpc>18</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>i</name>
+            </Harmony>
           <Rest>
             <visible>0</visible>
             <dots>1</dots>
@@ -41511,7 +41545,7 @@ BWV 811</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V7</name>
+            <name>V7(9)</name>
             </Harmony>
           <Rest>
             <durationType>16th</durationType>
@@ -41534,6 +41568,16 @@ BWV 811</text>
               <tpc>12</tpc>
               </Note>
             </Chord>
+          <location>
+            <fractions>-1/16</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V7</name>
+            </Harmony>
+          <location>
+            <fractions>1/16</fractions>
+            </location>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -41680,6 +41724,10 @@ BWV 811</text>
               <tpc>17</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>i</name>
+            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <Note>

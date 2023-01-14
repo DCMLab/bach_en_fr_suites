@@ -29408,10 +29408,6 @@ BWV 811</text>
               <tpc>14</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>i[i</name>
-            </Harmony>
           <Beam>
             <StemDirection>up</StemDirection>
             </Beam>
@@ -29469,10 +29465,6 @@ BWV 811</text>
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>i</name>
-            </Harmony>
           <Rest>
             <durationType>measure</durationType>
             <duration>9/8</duration>
@@ -29563,6 +29555,10 @@ BWV 811</text>
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>i[i{</name>
+            </Harmony>
           <Rest>
             <durationType>eighth</durationType>
             </Rest>

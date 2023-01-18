@@ -1,37 +1,7 @@
-Warnings encountered during the last execution of ms3 review (v1.1.0)
+Warnings encountered during the last execution of ms3 review (v1.1.2)
 =====================================================================
 
-DCML_HARMONY_SYNTAX_WARNING (15,) ms3.Parse.bach_en_fr_suites.BWV811_08_Gigue -- /usr/local/lib/python3.10/site-packages/ms3/annotations.py (line 382) expand_dcml():
-	Score contains 1 labels that don't (and 240 that do) match the DCML standard:
-	     mc  mn    label harmony_layer
-	240  56  56  I\|PAC}             1
-DCML_PHRASE_INCONGRUENCY_WARNING (16,) ms3.Parse.bach_en_fr_suites.BWV811_08_Gigue -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 5016) check_phrase_annotations():
-	Phrase beginning and endings don't match:
-	mn_playthrough phraseend mn_playthrough phraseend
-	            1a         {             6a        }{
-	            6a        }{            11a        }{
-	           11a        }{            13a        }{
-	           13a        }{            20a        }{
-	           20a        }{            24a         }
-	            1b         {             6b        }{
-	            6b        }{            11b        }{
-	           11b        }{            13b        }{
-	           13b        }{            20b        }{
-	           20b        }{            24b         }
-	           25a         {            30a        }{
-	           30a        }{            37a        }{
-	           37a        }{            41a        }{
-	           41a        }{            47a        }{
-	           47a        }{            52a        }{
-	           52a        }{            30b        }{
-	           25b         {            37b        }{
-	           30b        }{            41b        }{
-	           37b        }{            47b        }{
-	           41b        }{            52b        }{
-	           47b        }{            NaN       NaN
-	           52b        }{            NaN       NaN
 Chord labels where the ratio of colored notes vs. all notes in a segment lies above 0.6:
                                             mc  mn mc_onset   label chord_tones added_tones  n_colored  n_untouched  count_ratio
 bach_en_fr_suites MS3/BWV811_08_Gigue.mscx   1   1     9/16    iio6  (1, -2, 4)          ()          2            1     0.666667
-                  MS3/BWV811_08_Gigue.mscx  32  32        0       v   (3, 0, 4)          ()          5            0     1.000000
                   MS3/BWV811_08_Gigue.mscx  52  52     3/16  v6(b2)  (0, 4, -9)          ()          2            1     0.666667

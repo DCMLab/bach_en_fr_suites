@@ -160,6 +160,7 @@
     <metaTag name="composer"></metaTag>
     <metaTag name="copyright"></metaTag>
     <metaTag name="creationDate">2020-01-10</metaTag>
+    <metaTag name="harmony_version">2.3.0</metaTag>
     <metaTag name="lyricist"></metaTag>
     <metaTag name="movementNumber"></metaTag>
     <metaTag name="movementTitle"></metaTag>
@@ -167,7 +168,7 @@
     <metaTag name="originalFormat">xml</metaTag>
     <metaTag name="platform">Microsoft Windows</metaTag>
     <metaTag name="poet"></metaTag>
-    <metaTag name="reviwers">EMF</metaTag>
+    <metaTag name="reviwers">EMF, DK</metaTag>
     <metaTag name="source"></metaTag>
     <metaTag name="translator"></metaTag>
     <metaTag name="workNumber"></metaTag>
@@ -245,6 +246,11 @@
             <offset x="-16.6443" y="-12.4941"/>
             <text><font size="12"></font><font face="Times New Roman"></font><b>7. Gavotte II</b></text>
             </StaffText>
+          <Tempo>
+            <tempo>3</tempo>
+            <followText>1</followText>
+            <text><b></b><font face="ScoreText"/><b><font face="Edwin"/> = 90</b></text>
+            </Tempo>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
@@ -1854,7 +1860,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I64</name>
+            <name>I64-V(64)</name>
             </Harmony>
           <Beam>
             </Beam>
@@ -1876,7 +1882,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>viio64</name>
+            <name>viio64-V2)</name>
             </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
@@ -2107,7 +2113,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>viio6</name>
+            <name>ii-viio6</name>
             </Harmony>
           <Beam>
             </Beam>
@@ -2213,6 +2219,10 @@
               <tpc>16</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>viio64</name>
+            </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
@@ -3234,7 +3244,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I64</name>
+            <name>I64-V(64)</name>
             </Harmony>
           <Beam>
             </Beam>
@@ -3256,7 +3266,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>viio64</name>
+            <name>viio64-V2</name>
             </Harmony>
           <Chord>
             <BeamMode>mid</BeamMode>
@@ -3529,7 +3539,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>vi64/V</name>
+            <name>V6</name>
             </Harmony>
           <Beam>
             </Beam>

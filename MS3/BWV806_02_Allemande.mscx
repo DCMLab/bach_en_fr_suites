@@ -214,6 +214,11 @@
             <offset x="-15.4336" y="-7.98334"/>
             <text>2. Allemande</text>
             </StaffText>
+          <Tempo>
+            <tempo>1.0833333333333333</tempo>
+            <followText>1</followText>
+            <text><b></b><font face="ScoreText"/><b><font face="Edwin"/> = 65</b></text>
+            </Tempo>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -7174,7 +7179,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V7/IV</name>
+            <name>V7/IV-V2/IV</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -7343,10 +7348,6 @@
               <tpc>20</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>ii</name>
-            </Harmony>
           <Chord>
             <durationType>16th</durationType>
             <StemDirection>down</StemDirection>
@@ -7365,7 +7366,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V7</name>
+            <name>V7-V2</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>

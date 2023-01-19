@@ -17,7 +17,7 @@
 |             file_name              |measures|labels|standard|         annotators          |reviewers|
 |------------------------------------|-------:|-----:|--------|-----------------------------|---------|
 |BWV806_01_Prelude                   |      37|   233|2.1.0   |Adrian Nagel                 |         |
-|BWV806_02_Allemande                 |      32|   159|2.1.0   |Ehsan Mohagheghi Fard (2.3.1)|EMF      |
+|BWV806_02_Allemande                 |      32|   145|2.3.0   |Ehsan Mohagheghi Fard (2.3.0)|EMF, DK  |
 |BWV806_03_Courante_I                |      20|   112|2.1.0   |Adrian Nagel                 |         |
 |BWV806_04_Courante_II               |      24|   111|2.1.0   |Adrian Nagel                 |         |
 |BWV806_05_Double_I                  |      24|   106|2.1.0   |Adrian Nagel                 |         |
@@ -107,4 +107,4 @@
 |BWV817_08_Menuett                   |      24|    68|2.1.0   |Adrian Nagel                 |         |
 
 
-*Overview table updated using [ms3](https://johentsch.github.io/ms3/) 1.0.4.*
+*Overview table updated using [ms3](https://johentsch.github.io/ms3/) 1.1.2.*

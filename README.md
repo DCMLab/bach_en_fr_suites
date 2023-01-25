@@ -41,7 +41,7 @@
 |BWV808_04a_Agrements_de_la_Sarabande|      24|    50|2.1.0   |Adrian Nagel                 |         |
 |BWV808_05_Gavotte_I                 |      34|   112|2.1.0   |Adrian Nagel                 |         |
 |BWV808_06_Gavotte_II                |      16|    58|2.1.0   |Adrian Nagel                 |         |
-|BWV808_07_Gigue                     |      44|   206|2.1.0   |Adrian Nagel                 |         |
+|BWV808_07_Gigue                     |      44|   209|2.3.0   |Davor Krkljus (2.3.0)        |DK       |
 |BWV809_01_Prelude                   |     108|   537|2.1.0   |Adrian Nagel                 |         |
 |BWV809_02_Allemande                 |      24|   143|2.1.0   |Adrian Nagel                 |         |
 |BWV809_03_Courante                  |      20|    92|2.1.0   |Adrian Nagel                 |         |

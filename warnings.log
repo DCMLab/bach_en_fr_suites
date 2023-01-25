@@ -1,2 +1,43 @@
 Warnings encountered during the last execution of ms3 review (v1.1.2)
 =====================================================================
+
+Chord labels where the ratio of colored notes vs. all notes in a segment lies above 0.6:
+                                               mc   mn mc_onset       label    chord_tones added_tones  n_colored  n_untouched  count_ratio
+bach_en_fr_suites MS3/BWV811_01_Prelude.mscx   28   28      3/8           i     (2, -1, 3)          ()          9            4     0.692308
+                  MS3/BWV811_01_Prelude.mscx   52   52      3/4          I6      (7, 4, 3)          ()          6            3     0.666667
+                  MS3/BWV811_01_Prelude.mscx   53   53        0       V7(9)   (4, 8, 5, 2)        (6,)          6            3     0.666667
+                  MS3/BWV811_01_Prelude.mscx   54   54        0           I      (3, 7, 4)          ()          7            2     0.777778
+                  MS3/BWV811_01_Prelude.mscx   54   54      3/8     ii7(+9)   (5, 2, 6, 3)        (7,)          6            3     0.666667
+                  MS3/BWV811_01_Prelude.mscx   54   54      3/4          I6      (7, 4, 3)          ()          7            2     0.777778
+                  MS3/BWV811_01_Prelude.mscx   55   55        0        IVM7   (2, 6, 3, 7)          ()          8            1     0.888889
+                  MS3/BWV811_01_Prelude.mscx   55   55      3/8         I64      (4, 3, 7)          ()          8            1     0.888889
+                  MS3/BWV811_01_Prelude.mscx   56   56      3/4          V7   (4, 8, 5, 2)          ()          7            2     0.777778
+                  MS3/BWV811_01_Prelude.mscx   57   57        0     I|PAC}{      (3, 7, 4)          ()          6            2     0.750000
+                  MS3/BWV811_01_Prelude.mscx   57   57      3/8          I6      (7, 4, 3)          ()          7            2     0.777778
+                  MS3/BWV811_01_Prelude.mscx   58   58        0           v      (4, 1, 5)          ()          8            4     0.666667
+                  MS3/BWV811_01_Prelude.mscx   58   58      3/4    V7(9)/IV   (3, 7, 4, 1)        (5,)          5            3     0.625000
+                  MS3/BWV811_01_Prelude.mscx   59   59        0  I/IV|IAC}{      (2, 6, 3)          ()          8            4     0.666667
+                  MS3/BWV811_01_Prelude.mscx   59   59      5/8          ii      (5, 2, 6)          ()          3            1     0.750000
+                  MS3/BWV811_01_Prelude.mscx   60   60        0       ii/ii      (7, 4, 8)          ()          5            1     0.833333
+                  MS3/BWV811_01_Prelude.mscx   60   60      3/8    #viio/ii     (10, 7, 4)          ()          5            3     0.625000
+                  MS3/BWV811_01_Prelude.mscx   60   60      3/4    V7(9)/ii  (6, 10, 7, 4)        (1,)          4            2     0.666667
+                  MS3/BWV811_01_Prelude.mscx   60   60        1       V7/ii  (6, 10, 7, 4)          ()          2            1     0.666667
+                  MS3/BWV811_01_Prelude.mscx   95   95      3/8         III      (0, 4, 1)          ()          5            3     0.625000
+                  MS3/BWV811_01_Prelude.mscx  161  161      3/4          I6      (7, 4, 3)          ()          6            3     0.666667
+                  MS3/BWV811_01_Prelude.mscx  162  162        0       V7(9)   (4, 8, 5, 2)        (6,)          6            3     0.666667
+                  MS3/BWV811_01_Prelude.mscx  163  163        0           I      (3, 7, 4)          ()          7            2     0.777778
+                  MS3/BWV811_01_Prelude.mscx  163  163      3/8     ii7(+9)   (5, 2, 6, 3)        (7,)          6            3     0.666667
+                  MS3/BWV811_01_Prelude.mscx  163  163      3/4          I6      (7, 4, 3)          ()          7            2     0.777778
+                  MS3/BWV811_01_Prelude.mscx  164  164        0        IVM7   (2, 6, 3, 7)          ()          8            1     0.888889
+                  MS3/BWV811_01_Prelude.mscx  164  164      3/8         I64      (4, 3, 7)          ()          8            1     0.888889
+                  MS3/BWV811_01_Prelude.mscx  165  165      3/4          V7   (4, 8, 5, 2)          ()          7            2     0.777778
+                  MS3/BWV811_01_Prelude.mscx  166  166        0     I|PAC}{      (3, 7, 4)          ()          6            2     0.750000
+                  MS3/BWV811_01_Prelude.mscx  166  166      3/8          I6      (7, 4, 3)          ()          7            2     0.777778
+                  MS3/BWV811_01_Prelude.mscx  167  167        0           v      (4, 1, 5)          ()          8            4     0.666667
+                  MS3/BWV811_01_Prelude.mscx  167  167      3/4    V7(9)/IV   (3, 7, 4, 1)        (5,)          4            2     0.666667
+                  MS3/BWV811_01_Prelude.mscx  168  168        0  I/IV|IAC}{      (2, 6, 3)          ()          8            4     0.666667
+                  MS3/BWV811_01_Prelude.mscx  168  168      5/8          ii      (5, 2, 6)          ()          3            1     0.750000
+                  MS3/BWV811_01_Prelude.mscx  169  169        0       ii/ii      (7, 4, 8)          ()          5            1     0.833333
+                  MS3/BWV811_01_Prelude.mscx  169  169      3/8    #viio/ii     (10, 7, 4)          ()          5            3     0.625000
+                  MS3/BWV811_01_Prelude.mscx  169  169      3/4    V7(9)/ii  (6, 10, 7, 4)        (1,)          4            2     0.666667
+                  MS3/BWV811_01_Prelude.mscx  169  169        1       V7/ii  (6, 10, 7, 4)          ()          2            1     0.666667

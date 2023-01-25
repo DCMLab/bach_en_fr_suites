@@ -17,7 +17,7 @@
 |             file_name              |measures|labels|standard|         annotators          |reviewers|
 |------------------------------------|-------:|-----:|--------|-----------------------------|---------|
 |BWV806_01_Prelude                   |      37|   233|2.1.0   |Adrian Nagel                 |         |
-|BWV806_02_Allemande                 |      32|   195|2.1.0   |Adrian Nagel                 |         |
+|BWV806_02_Allemande                 |      32|   145|2.3.0   |Ehsan Mohagheghi Fard (2.3.0)|EMF, DK  |
 |BWV806_03_Courante_I                |      20|   112|2.1.0   |Adrian Nagel                 |         |
 |BWV806_04_Courante_II               |      24|   111|2.1.0   |Adrian Nagel                 |         |
 |BWV806_05_Double_I                  |      24|   106|2.1.0   |Adrian Nagel                 |         |
@@ -63,7 +63,7 @@
 |BWV811_05_Double                    |      24|    68|2.1.0   |Adrian Nagel                 |         |
 |BWV811_06_Gavotte_I                 |      32|   108|2.1.0   |Adrian Nagel                 |         |
 |BWV811_07_Gavotte_II                |      24|    71|2.1.0   |Adrian Nagel                 |         |
-|BWV811_08_Gigue                     |      56|   241|2.3.0   |Ehsan Mohagheghi Fard (2.3.0)|EMF, DK  |
+|BWV811_08_Gigue                     |      56|   241|2.1.0   |Adrian Nagel                 |         |
 |BWV812_01_Allemande                 |      24|   158|2.1.0   |Adrian Nagel                 |         |
 |BWV812_02_Courante                  |      24|   132|2.1.0   |Adrian Nagel                 |         |
 |BWV812_03_Sarabande                 |      24|    78|2.1.0   |Adrian Nagel                 |         |

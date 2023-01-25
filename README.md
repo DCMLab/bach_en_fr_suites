@@ -50,7 +50,7 @@
 |BWV809_06_Menuett_II                |      32|    88|2.1.0   |Adrian Nagel                 |         |
 |BWV809_07_Gigue                     |      52|   191|2.1.0   |Adrian Nagel                 |         |
 |BWV810_01_Prelude                   |     156|   452|2.1.0   |Adrian Nagel                 |         |
-|BWV810_02_Allemande                 |      24|   173|2.1.0   |Adrian Nagel                 |         |
+|BWV810_02_Allemande                 |      24|   131|2.3.0   |Davor Krkljus (2.3.0)        |DK       |
 |BWV810_03_Courante                  |      28|   121|2.1.0   |Adrian Nagel                 |         |
 |BWV810_04_Sarabande                 |      24|   116|2.1.0   |Adrian Nagel                 |         |
 |BWV810_05_Passepied_I               |      80|   223|2.1.0   |Adrian Nagel                 |         |

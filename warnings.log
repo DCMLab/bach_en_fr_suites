@@ -4,27 +4,30 @@ Warnings encountered during the last execution of ms3 review (v1.1.2)
 DCML_PHRASE_INCONGRUENCY_WARNING (16,) ms3.Parse.bach_en_fr_suites.BWV807_07_Gigue -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 5032) check_phrase_annotations():
 	Phrase beginning and endings don't match:
 	mn_playthrough phraseend mn_playthrough phraseend
-	            0a         {             4a        }{
-	            4a        }{            28a        }{
-	           28a        }{            34a         }
-	            4b        }{             4b        }{
-	           28b        }{            28b        }{
-	           34b        }{            34b        }{
-	           38a        }{            38a        }{
-	           47a        }{            47a        }{
-	           60a        }{            60a        }{
-	           68a        }{            68a        }{
-	           74a        }{            74a        }{
-	           38b        }{            38b        }{
-	           47b        }{            47b        }{
-	           60b        }{            60b        }{
-	           68b        }{            68b        }{
-	           74b        }{            74b        }{
-	            4c        }{             4c        }{
-	           28c        }{            28c        }{
-	           34c        }{            34c        }{
-	           38c        }{            38c        }{
-	           47c        }{            47c        }{
-	           60c        }{            60c        }{
-	           68c        }{            68c        }{
+	            0a         {             4a         }
+	            4a         {            16a         }
+	           16a         {            28a         }
+	           28a         {            34a         }
+	            4b         {             4b         }
+	           16b         {            16b         }
+	           28b         {            28b         }
+	           34b         {            34b         }
+	           38a         {            38a         }
+	           47a         {            47a         }
+	           60a         {            60a         }
+	           68a         {            68a         }
+	           74a         {            74a         }
+	           38b         {            38b         }
+	           47b         {            47b         }
+	           60b         {            60b         }
+	           68b         {            68b         }
+	           74b         {            74b         }
+	            4c         {             4c         }
+	           16c         {            16c         }
+	           28c         {            28c         }
+	           34c         {            34c         }
+	           38c         {            38c         }
+	           47c         {            47c         }
+	           60c         {            60c         }
+	           68c         {            68c         }
 	           NaN       NaN            74c         }

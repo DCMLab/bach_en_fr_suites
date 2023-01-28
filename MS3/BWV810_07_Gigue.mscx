@@ -7253,7 +7253,7 @@
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V/v</name>
+            <name>V/V</name>
             </Harmony>
           </voice>
         <voice>
@@ -7305,7 +7305,7 @@
             </Clef>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V</name>
+            <name>V|HC</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -7319,7 +7319,8 @@
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V7</name>
+            <name>V43</name>
+            <offset x="0" y="4.65073"/>
             </Harmony>
           <location>
             <fractions>1/8</fractions>
@@ -7352,7 +7353,8 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V(64)</name>
+            <name>i</name>
+            <offset x="0.123933" y="4.2436"/>
             </Harmony>
           <Rest>
             <durationType>eighth</durationType>
@@ -7410,7 +7412,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i6</name>
+            <name>i</name>
             </Harmony>
           <Rest>
             <durationType>eighth</durationType>
@@ -7482,7 +7484,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V\\</name>
+            <name>V|HC}</name>
             </Harmony>
           <Rest>
             <visible>0</visible>
@@ -7597,7 +7599,7 @@
             </BarLine>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V6</name>
+            <name>V6{</name>
             </Harmony>
           <Chord>
             <durationType>16th</durationType>

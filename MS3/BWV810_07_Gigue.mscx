@@ -6399,6 +6399,10 @@
               <tpc>17</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V43/ii</name>
+            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -6470,7 +6474,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V2/iv</name>
+            <name>ii/v</name>
             </Harmony>
           <Chord>
             <durationType>16th</durationType>
@@ -6535,7 +6539,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>#viio7/v</name>
+            <name>#viio7</name>
             </Harmony>
           <Chord>
             <durationType>16th</durationType>
@@ -6559,7 +6563,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V7/v</name>
+            <name>V7</name>
             </Harmony>
           <Chord>
             <durationType>16th</durationType>

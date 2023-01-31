@@ -33,7 +33,7 @@
 |BWV807_04a_Agrements_de_la_Sarabande|      28|    87|2.1.0   |Adrian Nagel                              |         |
 |BWV807_05_Bourree_I                 |      56|   188|2.1.0   |Adrian Nagel                              |         |
 |BWV807_06_Bourree_II                |      24|    75|2.1.0   |Adrian Nagel                              |         |
-|BWV807_07_Gigue                     |      74|   157|2.3.0   |Adrian Nagel (2.1.0), Hanné Becker (2.3.0)|         |
+|BWV807_07_Gigue                     |      74|   150|2.1.0   |Adrian Nagel                              |         |
 |BWV808_01_Prelude                   |     213|   464|2.1.0   |Adrian Nagel                              |         |
 |BWV808_02_Allemande                 |      24|   151|2.1.0   |Adrian Nagel                              |         |
 |BWV808_03_Courante                  |      32|   156|2.1.0   |Adrian Nagel                              |         |
@@ -42,7 +42,7 @@
 |BWV808_05_Gavotte_I                 |      34|   112|2.1.0   |Adrian Nagel                              |         |
 |BWV808_06_Gavotte_II                |      16|    58|2.1.0   |Adrian Nagel                              |         |
 |BWV808_07_Gigue                     |      44|   206|2.1.0   |Adrian Nagel                              |         |
-|BWV809_01_Prelude                   |     108|   537|2.1.0   |Adrian Nagel                              |         |
+|BWV809_01_Prelude                   |     108|   493|2.3.0   |Adrian Nagel (2.1.0), Hanné Becker (2.3.0)|HB,  AN  |
 |BWV809_02_Allemande                 |      24|   143|2.1.0   |Adrian Nagel                              |         |
 |BWV809_03_Courante                  |      20|    92|2.1.0   |Adrian Nagel                              |         |
 |BWV809_04_Sarabande                 |      24|    64|2.1.0   |Adrian Nagel                              |         |
@@ -107,4 +107,4 @@
 |BWV817_08_Menuett                   |      24|    68|2.1.0   |Adrian Nagel                              |         |
 
 
-*Overview table updated using [ms3](https://johentsch.github.io/ms3/) 1.1.2.*
+*Overview table updated using [ms3](https://johentsch.github.io/ms3/) 1.2.0.*

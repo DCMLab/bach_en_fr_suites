@@ -24740,7 +24740,7 @@ BWV 807</text>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V65</name>
+            <name>V7</name>
             </Harmony>
           <location>
             <fractions>1/4</fractions>
@@ -25042,7 +25042,7 @@ BWV 807</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V65/IV</name>
+            <name>V7/IV</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -25173,7 +25173,7 @@ BWV 807</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V65/III</name>
+            <name>V7/III</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -25209,7 +25209,7 @@ BWV 807</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V65/III</name>
+            <name>V7/III</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -26079,7 +26079,7 @@ BWV 807</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>iv64</name>
+            <name>iv</name>
             </Harmony>
           <Chord>
             <durationType>16th</durationType>
@@ -28993,7 +28993,7 @@ BWV 807</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V65</name>
+            <name>V7</name>
             </Harmony>
           <Rest>
             <visible>0</visible>
@@ -29093,7 +29093,7 @@ BWV 807</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i|IAC}{</name>
+            <name>i}{</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -29126,7 +29126,7 @@ BWV 807</text>
             <name>VI6</name>
             </Harmony>
           <location>
-            <fractions>3/16</fractions>
+            <fractions>1/8</fractions>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
@@ -29140,7 +29140,7 @@ BWV 807</text>
             <name>iio6</name>
             </Harmony>
           <location>
-            <fractions>1/16</fractions>
+            <fractions>1/8</fractions>
             </location>
           <Clef>
             <concertClefType>F</concertClefType>
@@ -29374,14 +29374,14 @@ BWV 807</text>
             <name>V</name>
             </Harmony>
           <location>
-            <fractions>3/16</fractions>
+            <fractions>1/8</fractions>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>i6</name>
             </Harmony>
           <location>
-            <fractions>1/16</fractions>
+            <fractions>1/8</fractions>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
@@ -29505,14 +29505,16 @@ BWV 807</text>
             <durationType>quarter</durationType>
             </Rest>
           <location>
-            <fractions>-1/16</fractions>
+            <fractions>-1/8</fractions>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V65</name>
+            <name>V65-V43</name>
+            <minDistance>0.252134</minDistance>
+            <offset x="0.247866" y="3.3754"/>
             </Harmony>
           <location>
-            <fractions>1/16</fractions>
+            <fractions>1/8</fractions>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>

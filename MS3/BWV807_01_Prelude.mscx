@@ -19775,7 +19775,7 @@ BWV 807</text>
             <name>III6</name>
             </Harmony>
           <location>
-            <fractions>3/16</fractions>
+            <fractions>1/8</fractions>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
@@ -20148,7 +20148,7 @@ BWV 807</text>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V43</name>
+            <name>V65-V43</name>
             <minDistance>0.252134</minDistance>
             <offset x="0.247866" y="3.3754"/>
             </Harmony>
@@ -22448,6 +22448,10 @@ BWV 807</text>
               <tpc>18</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V7</name>
+            </Harmony>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -22458,10 +22462,6 @@ BWV 807</text>
               <tpc>20</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V7</name>
-            </Harmony>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -22487,6 +22487,10 @@ BWV 807</text>
               <tpc>18</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V7</name>
+            </Harmony>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -22494,10 +22498,6 @@ BWV 807</text>
               <tpc>20</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V7</name>
-            </Harmony>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -23225,18 +23225,15 @@ BWV 807</text>
           <location>
             <fractions>1/8</fractions>
             </location>
-          <Rest>
-            <durationType>quarter</durationType>
-            </Rest>
-          <location>
-            <fractions>-3/16</fractions>
-            </location>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>III6</name>
             </Harmony>
+          <Rest>
+            <durationType>quarter</durationType>
+            </Rest>
           <location>
-            <fractions>1/8</fractions>
+            <fractions>-1/8</fractions>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
@@ -23604,7 +23601,7 @@ BWV 807</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V43</name>
+            <name>V65-V43</name>
             </Harmony>
           <Chord>
             <durationType>16th</durationType>

@@ -17,7 +17,11 @@
 |             file_name              |measures|labels|standard|                annotators                 |   reviewers    |
 |------------------------------------|-------:|-----:|--------|-------------------------------------------|----------------|
 |BWV806_01_Prelude                   |      37|   233|2.1.0   |Adrian Nagel                               |                |
+<<<<<<< HEAD
 |BWV806_02_Allemande                 |      32|   195|2.1.0   |Adrian Nagel                               |                |
+=======
+|BWV806_02_Allemande                 |      32|   145|2.3.0   |Ehsan Mohagheghi Fard (2.3.0)              |EMF, DK         |
+>>>>>>> 80adec21c7fb80b935b8febcf4dc2aa270a61f18
 |BWV806_03_Courante_I                |      20|   112|2.1.0   |Adrian Nagel                               |                |
 |BWV806_04_Courante_II               |      24|   111|2.1.0   |Adrian Nagel                               |                |
 |BWV806_05_Double_I                  |      24|   106|2.1.0   |Adrian Nagel                               |                |
@@ -42,7 +46,11 @@
 |BWV808_05_Gavotte_I                 |      34|   112|2.1.0   |Adrian Nagel                               |                |
 |BWV808_06_Gavotte_II                |      16|    58|2.1.0   |Adrian Nagel                               |                |
 |BWV808_07_Gigue                     |      44|   206|2.1.0   |Adrian Nagel                               |                |
+<<<<<<< HEAD
 |BWV809_01_Prelude                   |     108|   537|2.1.0   |Adrian Nagel                               |                |
+=======
+|BWV809_01_Prelude                   |     108|   493|2.3.0   |Adrian Nagel (2.1.0), Hanné Becker (2.3.0) |HB,  AN         |
+>>>>>>> 80adec21c7fb80b935b8febcf4dc2aa270a61f18
 |BWV809_02_Allemande                 |      24|   143|2.1.0   |Adrian Nagel                               |                |
 |BWV809_03_Courante                  |      20|    92|2.1.0   |Adrian Nagel                               |                |
 |BWV809_04_Sarabande                 |      24|    64|2.1.0   |Adrian Nagel                               |                |
@@ -107,4 +115,8 @@
 |BWV817_08_Menuett                   |      24|    68|2.1.0   |Adrian Nagel                               |                |
 
 
+<<<<<<< HEAD
 *Overview table updated using [ms3](https://johentsch.github.io/ms3/) 1.1.2.*
+=======
+*Overview table updated using [ms3](https://johentsch.github.io/ms3/) 1.2.0.*
+>>>>>>> 80adec21c7fb80b935b8febcf4dc2aa270a61f18

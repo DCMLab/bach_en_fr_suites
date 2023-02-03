@@ -1,9 +1,11 @@
-Warnings encountered during the last execution of ms3 review (v1.1.2)
+Warnings encountered during the last execution of ms3 review (v1.2.1)
 =====================================================================
 
 Chord labels where the ratio of colored notes vs. all notes in a segment lies above 0.6:
-                                                mc  mn mc_onset      label   chord_tones added_tones  n_colored  n_untouched  count_ratio
-bach_en_fr_suites MS3/BWV806_02_Allemande.mscx  14  13      5/8  viio64/ii    (-3, 3, 0)          ()          4            0          1.0
-                  MS3/BWV806_02_Allemande.mscx  15  14     7/16    vii%7/V  (9, 6, 3, 7)          ()          1            0          1.0
-                  MS3/BWV806_02_Allemande.mscx  16  15     7/16    viio2/V  (0, 9, 6, 3)          ()          1            0          1.0
-                  MS3/BWV806_02_Allemande.mscx  28  26     7/16         V2  (2, 4, 8, 5)          ()          2            0          1.0
+                                                 mc   mn mc_onset     label  chord_tones added_tones  n_colored  n_untouched  count_ratio
+bach_en_fr_suites MS3/BWV810_01_Prelude.mscx     56   56      3/8       III    (1, 5, 2)          ()          5            3     0.625000
+                  MS3/BWV810_01_Prelude.mscx     70   70      1/8       III    (1, 5, 2)          ()          2            1     0.666667
+                  MS3/BWV810_01_Prelude.mscx    104  104      1/8        iv    (3, 0, 4)          ()          2            1     0.666667
+                  MS3/BWV810_02_Allemande.mscx   25   22      1/8    viio/v   (3, 0, -3)          ()          5            0     1.000000
+                  MS3/BWV811_03_Courante.mscx     9    8      5/4    IV/III  (-2, 2, -1)          ()          2            1     0.666667
+                  MS3/BWV811_03_Courante.mscx    10    9      1/4  viio/III   (4, 1, -2)          ()          2            1     0.666667

@@ -45,7 +45,7 @@
 |BWV809_01_Prelude                   |     108|   493|2.3.0   |Adrian Nagel (2.1.0), Hanné Becker (2.3.0) |HB,  AN         |
 |BWV809_02_Allemande                 |      24|    94|2.3.0   |Adrian Nagel (2.1.1), Hanné Becker (2.3.0) |DK              |
 |BWV809_03_Courante                  |      20|    92|2.1.0   |Adrian Nagel                               |                |
-|BWV809_04_Sarabande                 |      24|    64|2.1.0   |Adrian Nagel                               |                |
+|BWV809_04_Sarabande                 |      24|    61|2.3.0   |Adrian Nagel (2.1.1), Hanné Becker (2.3.0) |DK              |
 |BWV809_05_Menuett_I                 |      32|    90|2.1.0   |Adrian Nagel                               |                |
 |BWV809_06_Menuett_II                |      32|    88|2.1.0   |Adrian Nagel                               |                |
 |BWV809_07_Gigue                     |      52|   191|2.1.0   |Adrian Nagel                               |                |

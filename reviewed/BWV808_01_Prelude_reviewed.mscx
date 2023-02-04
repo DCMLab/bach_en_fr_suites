@@ -152,7 +152,7 @@
     <showUnprintable>1</showUnprintable>
     <showFrames>1</showFrames>
     <showMargins>0</showMargins>
-    <metaTag name="annotators">Davor Krkljus (2.3.0)</metaTag>
+    <metaTag name="annotators">Adrian Nagel (2.1.0), Davor Krkljus (2.3.0)</metaTag>
     <metaTag name="arranger"></metaTag>
     <metaTag name="composer"></metaTag>
     <metaTag name="copyright"></metaTag>
@@ -165,7 +165,7 @@
     <metaTag name="originalFormat">capx</metaTag>
     <metaTag name="platform">Linux</metaTag>
     <metaTag name="poet"></metaTag>
-    <metaTag name="reviewers">DK</metaTag>
+    <metaTag name="reviewers">DK, HB</metaTag>
     <metaTag name="source"></metaTag>
     <metaTag name="translator"></metaTag>
     <metaTag name="workNumber"></metaTag>
@@ -220,6 +220,13 @@
           <Rest>
             <durationType>eighth</durationType>
             </Rest>
+          <Tempo>
+            <tempo>1.6500000000000001</tempo>
+            <followText>1</followText>
+            <visible>0</visible>
+            <offset x="-4.33765" y="-5.49111"/>
+            <text><b></b><font face="ScoreText"></font> <b><font face="Edwin"></font> = 66</b></text>
+            </Tempo>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -532,7 +539,7 @@
             </Chord>
           <StaffText>
             <family>Times New Roman</family>
-            <offset x="3.3571" y="-13.4145"/>
+            <offset x="-13.3738" y="-12.7948"/>
             <text>Johann Sebastian Bach
 BWV 808</text>
             </StaffText>
@@ -2622,6 +2629,7 @@ BWV 808</text>
             <durationType>16th</durationType>
             <StemDirection>down</StemDirection>
             <Note>
+              <color r="255" g="0" b="0" a="255"/>
               <pitch>75</pitch>
               <tpc>11</tpc>
               </Note>
@@ -2638,6 +2646,7 @@ BWV 808</text>
             <durationType>16th</durationType>
             <StemDirection>down</StemDirection>
             <Note>
+              <color r="255" g="0" b="0" a="255"/>
               <pitch>72</pitch>
               <tpc>14</tpc>
               </Note>
@@ -2728,6 +2737,7 @@ BWV 808</text>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
+              <color r="255" g="0" b="0" a="255"/>
               <pitch>70</pitch>
               <tpc>12</tpc>
               </Note>
@@ -8015,6 +8025,7 @@ BWV 808</text>
           <Chord>
             <durationType>16th</durationType>
             <Note>
+              <color r="255" g="0" b="0" a="255"/>
               <pitch>69</pitch>
               <tpc>17</tpc>
               </Note>
@@ -8067,6 +8078,7 @@ BWV 808</text>
           <Chord>
             <durationType>16th</durationType>
             <Note>
+              <color r="255" g="0" b="0" a="255"/>
               <pitch>70</pitch>
               <tpc>12</tpc>
               </Note>
@@ -8081,6 +8093,7 @@ BWV 808</text>
           <Chord>
             <durationType>16th</durationType>
             <Note>
+              <color r="255" g="0" b="0" a="255"/>
               <pitch>67</pitch>
               <tpc>15</tpc>
               </Note>
@@ -8173,6 +8186,7 @@ BWV 808</text>
           <Chord>
             <durationType>16th</durationType>
             <Note>
+              <color r="255" g="0" b="0" a="255"/>
               <Accidental>
                 <subtype>accidentalFlat</subtype>
                 </Accidental>
@@ -8190,6 +8204,7 @@ BWV 808</text>
           <Chord>
             <durationType>16th</durationType>
             <Note>
+              <color r="255" g="0" b="0" a="255"/>
               <pitch>65</pitch>
               <tpc>13</tpc>
               </Note>
@@ -13947,6 +13962,13 @@ BWV 808</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>#viio64/v</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>#viio/v</name>
+            <color r="0" g="85" b="0" a="255"/>
+            <offset x="-0.123933" y="3.62393"/>
             </Harmony>
           </voice>
         </Measure>
@@ -13998,6 +14020,12 @@ BWV 808</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V/v</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V6/v</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>16th</durationType>
@@ -14060,7 +14088,13 @@ BWV 808</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>#viio64/ii</name>
-            <offset x="0" y="-9"/>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>#viio/ii</name>
+            <color r="0" g="85" b="0" a="255"/>
+            <offset x="-0.123933" y="3.9548"/>
             </Harmony>
           <Chord>
             <durationType>16th</durationType>
@@ -14252,6 +14286,12 @@ BWV 808</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>#viio</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>#viio7</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -14266,6 +14306,7 @@ BWV 808</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>#viio43</name>
+            <color r="170" g="0" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -14277,6 +14318,7 @@ BWV 808</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>#viio2</name>
+            <color r="170" g="0" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -14292,6 +14334,12 @@ BWV 808</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>#viio7</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V6</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -14306,6 +14354,7 @@ BWV 808</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V43</name>
+            <color r="170" g="0" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -14317,6 +14366,7 @@ BWV 808</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V</name>
+            <color r="170" g="0" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -14412,6 +14462,12 @@ BWV 808</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>i</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>i6</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>16th</durationType>
@@ -14430,6 +14486,12 @@ BWV 808</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>#viio43/v</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>#viio/v</name>
+            <color r="0" g="85" b="0" a="255"/>
             <offset x="0" y="-9"/>
             </Harmony>
           <Chord>
@@ -14832,6 +14894,12 @@ BWV 808</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>vii%43/V</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>vii%7/V</name>
+            <color r="0" g="85" b="0" a="255"/>
             <offset x="0" y="-9"/>
             </Harmony>
           <Chord>
@@ -16598,6 +16666,12 @@ BWV 808</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V7/IV</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V65/IV</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>16th</durationType>
@@ -16938,6 +17012,12 @@ BWV 808</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>#viio64/ii</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>#viio/ii</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>16th</durationType>
@@ -17133,6 +17213,12 @@ BWV 808</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>v.#viio64</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>v.#viio</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>16th</durationType>
@@ -17264,6 +17350,12 @@ BWV 808</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>viio64/V</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>viio/V</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>16th</durationType>
@@ -18183,6 +18275,12 @@ BWV 808</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>#viio64/v</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>#viio/v</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           </voice>
         </Measure>
@@ -18297,6 +18395,12 @@ BWV 808</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>#viio64/ii</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>#viio/ii</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>16th</durationType>
@@ -18494,6 +18598,12 @@ BWV 808</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V65</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>#viio7</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -18508,6 +18618,7 @@ BWV 808</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>#viio43</name>
+            <color r="170" g="0" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -18519,6 +18630,7 @@ BWV 808</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>#viio2</name>
+            <color r="170" g="0" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -18534,6 +18646,12 @@ BWV 808</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>#viio7</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V6</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -18548,6 +18666,7 @@ BWV 808</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V43</name>
+            <color r="170" g="0" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -18562,6 +18681,7 @@ BWV 808</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V</name>
+            <color r="170" g="0" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -18577,6 +18697,12 @@ BWV 808</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>iio/vii</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>i.#viio65/iv</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -18588,6 +18714,7 @@ BWV 808</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>iio6/vii</name>
+            <color r="170" g="0" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -18599,6 +18726,7 @@ BWV 808</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>#viio2/vii</name>
+            <color r="170" g="0" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -18617,6 +18745,13 @@ BWV 808</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>#viio7/vii</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V6/iv</name>
+            <color r="0" g="85" b="0" a="255"/>
+            <offset x="0" y="3.6"/>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -18631,6 +18766,7 @@ BWV 808</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V43/vii</name>
+            <color r="170" g="0" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -18642,6 +18778,7 @@ BWV 808</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V/vii</name>
+            <color r="170" g="0" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -18657,6 +18794,12 @@ BWV 808</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>i/vii}{</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>i/iv}{</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Rest>
             <durationType>16th</durationType>
@@ -18693,6 +18836,12 @@ BWV 808</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V6/vii</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V6/iv</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>16th</durationType>
@@ -18719,6 +18868,12 @@ BWV 808</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>i64(9)/vii</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>i64(9)/iv</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>16th</durationType>
@@ -18737,6 +18892,12 @@ BWV 808</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>i/vii</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>i/iv</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>16th</durationType>
@@ -18755,6 +18916,12 @@ BWV 808</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>#viio43/iv</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>#viio43</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>16th</durationType>
@@ -18780,6 +18947,12 @@ BWV 808</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>i.i</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>i</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Rest>
             <durationType>eighth</durationType>

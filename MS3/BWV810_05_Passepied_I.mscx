@@ -148,7 +148,7 @@
       <defaultsVersion>301</defaultsVersion>
       <Spatium>1.6</Spatium>
       </Style>
-    <showInvisible>1</showInvisible>
+    <showInvisible>0</showInvisible>
     <showUnprintable>1</showUnprintable>
     <showFrames>1</showFrames>
     <showMargins>0</showMargins>
@@ -217,6 +217,7 @@
           <Tempo>
             <tempo>1.875</tempo>
             <followText>1</followText>
+            <visible>0</visible>
             <text><b></b><font face="ScoreText"></font> <b><font face="Edwin"></font> = 75</b></text>
             </Tempo>
           <Chord>

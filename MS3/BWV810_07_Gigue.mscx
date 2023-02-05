@@ -218,7 +218,7 @@
             <followText>1</followText>
             <visible>0</visible>
             <offset x="2.35473" y="-7.96977"/>
-            <text><b></b><font face="ScoreText"/> <b><font face="Edwin"/> = 76</b></text>
+            <text><b></b><font face="ScoreText"></font> <b><font face="Edwin"></font> = 76</b></text>
             </Tempo>
           <Chord>
             <durationType>16th</durationType>
@@ -6475,6 +6475,7 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>ii/v</name>
+            <offset x="0" y="5.56398"/>
             </Harmony>
           <Chord>
             <durationType>16th</durationType>
@@ -6521,7 +6522,8 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>vii%7/iv</name>
+            <name>#vii%7/iv</name>
+            <offset x="-0.619665" y="3.62393"/>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>

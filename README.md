@@ -31,7 +31,7 @@
 |BWV807_03_Courante                  |      24|   115|2.1.0   |Adrian Nagel                               |                |
 |BWV807_04_Sarabande                 |      28|    77|2.3.0   |Adrian Nagel (2.1.0), Davor Krkljus(2.3.0) |DK, HB          |
 |BWV807_04a_Agrements_de_la_Sarabande|      28|    87|2.1.0   |Adrian Nagel                               |                |
-|BWV807_05_Bourree_I                 |      56|   188|2.1.0   |Adrian Nagel                               |                |
+|BWV807_05_Bourree_I                 |      56|   165|2.3.0   |Adrian Nagel (2.1.0), Davor Krkljus (2.3.0)|DK, HB          |
 |BWV807_06_Bourree_II                |      24|    75|2.1.0   |Adrian Nagel                               |                |
 |BWV807_07_Gigue                     |      74|   152|2.3.0   |Adrian Nagel (2.1.0), Hanné Becker (2.3.0) |DK              |
 |BWV808_01_Prelude                   |     213|   358|2.3.0   |Adrian Nagel (2.1.0), Davor Krkljus (2.3.0)|DK, HB          |

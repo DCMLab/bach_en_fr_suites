@@ -2877,10 +2877,6 @@
               <tpc>13</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V6</name>
-            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -2897,7 +2893,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>iv6/iii{</name>
+            <name>v.iv6{</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -2908,7 +2904,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>iio6/iii</name>
+            <name>iio6</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -2927,7 +2923,7 @@
             </Clef>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>v.iio</name>
+            <name>iio</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>

@@ -1382,11 +1382,8 @@
             <durationType>eighth</durationType>
             <StemDirection>down</StemDirection>
             <Note>
-              <Accidental>
-                <subtype>accidentalFlat</subtype>
-                </Accidental>
-              <pitch>70</pitch>
-              <tpc>12</tpc>
+              <pitch>72</pitch>
+              <tpc>14</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -3412,11 +3409,16 @@
             <visible>0</visible>
             <durationType>half</durationType>
             </Rest>
+          <location>
+            <fractions>-1/4</fractions>
+            </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>io</name>
-            <offset x="0" y="3.6"/>
+            <name>VI6</name>
             </Harmony>
+          <location>
+            <fractions>1/4</fractions>
+            </location>
           <Rest>
             <visible>0</visible>
             <durationType>eighth</durationType>

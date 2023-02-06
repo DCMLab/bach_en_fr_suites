@@ -51,7 +51,7 @@
 |BWV809_07_Gigue                     |      52|   191|2.1.0   |Adrian Nagel                               |                |
 |BWV810_01_Prelude                   |     156|   415|2.3.0   |Adrian Nagel (2.1.0), Davor Krkljus (2.3.0)|DK, HB          |
 |BWV810_02_Allemande                 |      24|   130|2.3.0   |Adrian Nagel (2.1.0), Davor Krkljus (2.3.0)|DK, HB          |
-|BWV810_03_Courante                  |      28|   121|2.1.0   |Adrian Nagel                               |                |
+|BWV810_03_Courante                  |      28|    84|2.3.0   |Adrian Nagel (2.1.0), Davor Krkljus (2.3.0)|DK, HB          |
 |BWV810_04_Sarabande                 |      24|   101|2.3.0   |Adrian Nagel (2.1.0), Davor Krkljus (2.3.0)|DK, HB          |
 |BWV810_05_Passepied_I               |      80|   218|2.3.0   |Adrian Nagel (2.1.0), Davor Krkljus (2.3.0)|DK, HB          |
 |BWV810_06_Passepied_II              |      24|    65|2.1.0   |Adrian Nagel                               |                |

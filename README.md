@@ -21,7 +21,7 @@
 |BWV806_03_Courante_I                |      20|   112|2.1.0   |Adrian Nagel                               |                |
 |BWV806_04_Courante_II               |      24|   104|2.3.0   |Davor Krkljus (2.3.0)                      |DK, EMF         |
 |BWV806_05_Double_I                  |      24|   106|2.1.0   |Adrian Nagel                               |                |
-|BWV806_06_Double_II                 |      24|   116|2.1.0   |Adrian Nagel                               |                |
+|BWV806_06_Double_II                 |      24|   100|2.3.0   |Davor Krkljus (2.3.0)                      |DK, EMF         |
 |BWV806_07_Sarabande                 |      32|    90|2.1.0   |Adrian Nagel                               |                |
 |BWV806_08_Bouree_I                  |      48|   151|2.1.0   |Adrian Nagel                               |                |
 |BWV806_09_Bouree_II                 |      36|   132|2.1.0   |Adrian Nagel                               |                |
@@ -107,4 +107,4 @@
 |BWV817_08_Menuett                   |      24|    68|2.1.0   |Adrian Nagel                               |                |
 
 
-*Overview table updated using [ms3](https://johentsch.github.io/ms3/) 1.2.1.*
+*Overview table updated using [ms3](https://johentsch.github.io/ms3/) 1.2.3.*

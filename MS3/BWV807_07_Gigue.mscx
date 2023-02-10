@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <museScore version="3.02">
   <programVersion>3.6.2</programVersion>
-  <programRevision></programRevision>
+  <programRevision>3224f34</programRevision>
   <Score>
     <LayerTag id="0" tag="default"></LayerTag>
     <currentLayer>0</currentLayer>
@@ -151,10 +151,12 @@
     <showUnprintable>1</showUnprintable>
     <showFrames>1</showFrames>
     <showMargins>0</showMargins>
+    <metaTag name="annotators">Adrian Nagel (2.1.0), Hanné Becker (2.3.0)</metaTag>
     <metaTag name="arranger"></metaTag>
     <metaTag name="composer"></metaTag>
     <metaTag name="copyright"></metaTag>
     <metaTag name="creationDate">2019-11-04</metaTag>
+    <metaTag name="harmony_version">2.3.0</metaTag>
     <metaTag name="lyricist"></metaTag>
     <metaTag name="movementNumber"></metaTag>
     <metaTag name="movementTitle"></metaTag>
@@ -162,6 +164,7 @@
     <metaTag name="originalFormat">capx</metaTag>
     <metaTag name="platform">Linux</metaTag>
     <metaTag name="poet"></metaTag>
+    <metaTag name="reviewers">DK</metaTag>
     <metaTag name="source"></metaTag>
     <metaTag name="translator"></metaTag>
     <metaTag name="workNumber"></metaTag>
@@ -207,6 +210,13 @@
             <offset x="-13.4788" y="-8.8359"/>
             <text>7. Gigue</text>
             </StaffText>
+          <Tempo>
+            <tempo>2.5</tempo>
+            <followText>1</followText>
+            <visible>0</visible>
+            <offset x="4.79207" y="-7.61829"/>
+            <text><b></b><font face="ScoreText"></font> <b><font face="Edwin"></font> = 100</b></text>
+            </Tempo>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -3956,7 +3966,7 @@
           <size>9</size>
           <italic>1</italic>
           <align>left,baseline</align>
-          <offset x="4.19654" y="13.6394"/>
+          <offset x="-4.85057" y="22.5626"/>
           <text>D.S.
 (senza ripetizione)
 al Fine</text>
@@ -3987,11 +3997,8 @@ al Fine</text>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
-              <Accidental>
-                <subtype>accidentalSharp</subtype>
-                </Accidental>
-              <pitch>70</pitch>
-              <tpc>24</tpc>
+              <pitch>69</pitch>
+              <tpc>17</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -4004,21 +4011,15 @@ al Fine</text>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
-              <Accidental>
-                <subtype>accidentalSharp</subtype>
-                </Accidental>
-              <pitch>61</pitch>
-              <tpc>21</tpc>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
               </Note>
             </Chord>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
-              <Accidental>
-                <subtype>accidentalSharp</subtype>
-                </Accidental>
-              <pitch>58</pitch>
-              <tpc>24</tpc>
+              <pitch>57</pitch>
+              <tpc>17</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -4109,7 +4110,7 @@ al Fine</text>
             </TimeSig>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>a.V</name>
+            <name>a.V{</name>
             </Harmony>
           <Rest>
             <durationType>eighth</durationType>
@@ -4221,7 +4222,7 @@ al Fine</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V</name>
+            <name>V|HC}</name>
             </Harmony>
           <Chord>
             <dots>1</dots>
@@ -4264,6 +4265,10 @@ al Fine</text>
               <tpc>20</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>{</name>
+            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -4729,10 +4734,6 @@ al Fine</text>
               <tpc>13</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>VII</name>
-            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -4749,7 +4750,7 @@ al Fine</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>VII6</name>
+            <name>iio</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -4787,10 +4788,6 @@ al Fine</text>
               <tpc>18</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>VI</name>
-            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -4807,7 +4804,7 @@ al Fine</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>VI6</name>
+            <name>i</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -4894,7 +4891,7 @@ al Fine</text>
             </Clef>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V/III</name>
+            <name>III.V}</name>
             </Harmony>
           <Chord>
             <dots>1</dots>
@@ -4912,8 +4909,7 @@ al Fine</text>
             </Rest>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>viio64/III</name>
-            <offset x="0" y="-8.5"/>
+            <name>V2{</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -4928,7 +4924,7 @@ al Fine</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>III6</name>
+            <name>I6</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -4953,7 +4949,7 @@ al Fine</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>III</name>
+            <name>I</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -4982,7 +4978,7 @@ al Fine</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>viio/III</name>
+            <name>viio</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -5007,7 +5003,7 @@ al Fine</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V7/III</name>
+            <name>V7</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -5036,7 +5032,7 @@ al Fine</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>III6</name>
+            <name>I6</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -5061,7 +5057,7 @@ al Fine</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>III</name>
+            <name>I</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -5090,7 +5086,7 @@ al Fine</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V6/III</name>
+            <name>V6</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -5115,7 +5111,7 @@ al Fine</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V/III</name>
+            <name>V</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -5148,7 +5144,7 @@ al Fine</text>
             </Clef>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>III6</name>
+            <name>I6</name>
             </Harmony>
           <Chord>
             <dots>1</dots>
@@ -5160,7 +5156,7 @@ al Fine</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>viio/VI</name>
+            <name>V65/IV</name>
             </Harmony>
           <Rest>
             <durationType>eighth</durationType>
@@ -5181,7 +5177,7 @@ al Fine</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>VI</name>
+            <name>IV</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -5206,7 +5202,7 @@ al Fine</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>VI6</name>
+            <name>IV6</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -5235,7 +5231,7 @@ al Fine</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>iv</name>
+            <name>ii</name>
             </Harmony>
           <Chord>
             <dots>1</dots>
@@ -5264,7 +5260,7 @@ al Fine</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>v</name>
+            <name>iii</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -5289,7 +5285,7 @@ al Fine</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>v6</name>
+            <name>V</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -5318,7 +5314,7 @@ al Fine</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>III</name>
+            <name>I</name>
             </Harmony>
           <Chord>
             <dots>1</dots>
@@ -5356,7 +5352,7 @@ al Fine</text>
             </Clef>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V6(4)/III</name>
+            <name>V6(4)</name>
             </Harmony>
           <Chord>
             <dots>1</dots>
@@ -5376,7 +5372,7 @@ al Fine</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>viio/III</name>
+            <name>V65</name>
             </Harmony>
           <Chord>
             <dots>1</dots>
@@ -5392,7 +5388,7 @@ al Fine</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>III</name>
+            <name>I</name>
             </Harmony>
           <Chord>
             <dots>1</dots>
@@ -5404,7 +5400,7 @@ al Fine</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V43/VII</name>
+            <name>V43/V</name>
             </Harmony>
           <Chord>
             <dots>1</dots>
@@ -5420,7 +5416,7 @@ al Fine</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V/III</name>
+            <name>V|HC}</name>
             </Harmony>
           <Chord>
             <dots>1</dots>
@@ -5460,6 +5456,10 @@ al Fine</text>
               <tpc>17</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>{</name>
+            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -5473,7 +5473,7 @@ al Fine</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>III</name>
+            <name>I</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -5498,7 +5498,7 @@ al Fine</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V6/III</name>
+            <name>V6</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -5527,7 +5527,7 @@ al Fine</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>III6</name>
+            <name>I6</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -5552,7 +5552,7 @@ al Fine</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V/III</name>
+            <name>V</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -5585,7 +5585,7 @@ al Fine</text>
             </Clef>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>III</name>
+            <name>I</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -5610,7 +5610,7 @@ al Fine</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V6/III</name>
+            <name>V6</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -5639,7 +5639,7 @@ al Fine</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>III6</name>
+            <name>I6</name>
             </Harmony>
           <Rest>
             <visible>0</visible>
@@ -5651,7 +5651,7 @@ al Fine</text>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V/III</name>
+            <name>V</name>
             </Harmony>
           </voice>
         </Measure>
@@ -5659,7 +5659,7 @@ al Fine</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>III</name>
+            <name>I</name>
             </Harmony>
           <Rest>
             <visible>0</visible>
@@ -5674,14 +5674,14 @@ al Fine</text>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>IV(9)/III</name>
+            <name>IV(9)</name>
             </Harmony>
           <location>
             <fractions>1/8</fractions>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V/III</name>
+            <name>V</name>
             </Harmony>
           <Rest>
             <visible>0</visible>
@@ -5700,7 +5700,7 @@ al Fine</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>III\\</name>
+            <name>I|PAC}</name>
             </Harmony>
           <Chord>
             <dots>1</dots>
@@ -5740,6 +5740,10 @@ al Fine</text>
               <tpc>18</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>{</name>
+            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -5753,7 +5757,7 @@ al Fine</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>III\\</name>
+            <name>I|PAC}</name>
             </Harmony>
           <Chord>
             <dots>1</dots>
@@ -5793,6 +5797,10 @@ al Fine</text>
               <tpc>15</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>{</name>
+            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -5836,7 +5844,7 @@ al Fine</text>
             </BarLine>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>viio(2)/III</name>
+            <name>viio(2)</name>
             </Harmony>
           <Chord>
             <dots>1</dots>
@@ -5848,7 +5856,7 @@ al Fine</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V65/III</name>
+            <name>V65</name>
             </Harmony>
           <Chord>
             <dots>1</dots>
@@ -5864,7 +5872,7 @@ al Fine</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>III</name>
+            <name>I</name>
             </Harmony>
           <Chord>
             <dots>1</dots>
@@ -5876,7 +5884,7 @@ al Fine</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>ii65/III</name>
+            <name>ii65</name>
             </Harmony>
           <Chord>
             <dots>1</dots>
@@ -5892,7 +5900,7 @@ al Fine</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V/III</name>
+            <name>V|HC}</name>
             </Harmony>
           <Chord>
             <dots>1</dots>
@@ -5932,6 +5940,10 @@ al Fine</text>
               <tpc>17</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>{</name>
+            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -5945,7 +5957,7 @@ al Fine</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>III</name>
+            <name>I</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -5970,7 +5982,7 @@ al Fine</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>iio/v</name>
+            <name>v.iio</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -6002,7 +6014,7 @@ al Fine</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V/v</name>
+            <name>V</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -6027,7 +6039,7 @@ al Fine</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V43/V</name>
+            <name>I6</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -6062,7 +6074,7 @@ al Fine</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V7</name>
+            <name>V65/iv</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -6093,7 +6105,7 @@ al Fine</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>#viio6</name>
+            <name>#viio6/iv</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -6126,7 +6138,7 @@ al Fine</text>
             </Clef>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V/iv</name>
+            <name>IV</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -6151,7 +6163,7 @@ al Fine</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V43/iv</name>
+            <name>iio</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -6183,7 +6195,7 @@ al Fine</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V7/VII</name>
+            <name>V65/III</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -6209,10 +6221,6 @@ al Fine</text>
               <tpc>16</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>viio6/VII</name>
-            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -6240,7 +6248,7 @@ al Fine</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>VII</name>
+            <name>III</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -6268,7 +6276,7 @@ al Fine</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>v</name>
+            <name>i</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -6300,7 +6308,7 @@ al Fine</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>iio/v</name>
+            <name>iio</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -6331,7 +6339,7 @@ al Fine</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>#viio/v</name>
+            <name>#viio</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -6366,7 +6374,7 @@ al Fine</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>v</name>
+            <name>i</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -6391,7 +6399,7 @@ al Fine</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>iv/v</name>
+            <name>iv</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -6420,7 +6428,7 @@ al Fine</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V/v</name>
+            <name>V|HC}</name>
             </Harmony>
           <Chord>
             <dots>1</dots>
@@ -6463,6 +6471,10 @@ al Fine</text>
               <tpc>21</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>{</name>
+            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -6483,7 +6495,7 @@ al Fine</text>
             </Clef>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>v</name>
+            <name>i</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -6511,7 +6523,7 @@ al Fine</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>IV/VII</name>
+            <name>VI</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -6540,7 +6552,7 @@ al Fine</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>viio/VII</name>
+            <name>viio/III</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -6568,7 +6580,7 @@ al Fine</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V/VII</name>
+            <name>V/III</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -6597,7 +6609,7 @@ al Fine</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>VII</name>
+            <name>III</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -6622,7 +6634,7 @@ al Fine</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>v</name>
+            <name>i</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -6654,7 +6666,7 @@ al Fine</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>IV/v</name>
+            <name>IV</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -6679,7 +6691,7 @@ al Fine</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>iio/v</name>
+            <name>iio</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -6711,7 +6723,7 @@ al Fine</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V/v</name>
+            <name>V</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -6742,7 +6754,7 @@ al Fine</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>#viio/v</name>
+            <name>#viio</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -6774,7 +6786,7 @@ al Fine</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>v</name>
+            <name>i</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -6802,7 +6814,7 @@ al Fine</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>v6</name>
+            <name>i6</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -6835,7 +6847,7 @@ al Fine</text>
             </Clef>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>#vio/v</name>
+            <name>#vio</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -6866,7 +6878,7 @@ al Fine</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>#vio6/v</name>
+            <name>#vio6</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -6898,7 +6910,7 @@ al Fine</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>ii/v</name>
+            <name>iio</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -6929,7 +6941,7 @@ al Fine</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>ii6/v</name>
+            <name>ii6</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -6961,7 +6973,7 @@ al Fine</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>#viio/v</name>
+            <name>#viio</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -6992,7 +7004,7 @@ al Fine</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>#viio6/v</name>
+            <name>#viio6</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -7024,7 +7036,7 @@ al Fine</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>v6</name>
+            <name>i6</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -7033,10 +7045,6 @@ al Fine</text>
               <tpc>15</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>IV/v</name>
-            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -7053,7 +7061,7 @@ al Fine</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>IV6/v</name>
+            <name>IV6</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -7088,7 +7096,7 @@ al Fine</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>ii/v</name>
+            <name>ii-iio</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -7100,10 +7108,6 @@ al Fine</text>
               <tpc>20</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>v6</name>
-            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -7120,7 +7124,7 @@ al Fine</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V/v</name>
+            <name>V</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -7155,7 +7159,7 @@ al Fine</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>v</name>
+            <name>i</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -7166,7 +7170,7 @@ al Fine</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>iv(9)/v</name>
+            <name>iv(9)</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -7177,7 +7181,7 @@ al Fine</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V(4)/v</name>
+            <name>V(4)</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -7188,7 +7192,7 @@ al Fine</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V/v</name>
+            <name>V</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -7203,7 +7207,7 @@ al Fine</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>v</name>
+            <name>i|PAC}</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -7231,7 +7235,7 @@ al Fine</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>iio6/iv</name>
+            <name>i.iio6/iv{</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -7532,7 +7536,7 @@ al Fine</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V</name>
+            <name>V|HC}</name>
             </Harmony>
           <Chord>
             <dots>1</dots>
@@ -7559,6 +7563,10 @@ al Fine</text>
               <tpc>20</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>{</name>
+            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -7814,7 +7822,7 @@ al Fine</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i\\</name>
+            <name>i|PAC}</name>
             </Harmony>
           <Chord>
             <dots>1</dots>
@@ -7913,7 +7921,7 @@ al Fine</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i\\</name>
+            <name>i|PAC</name>
             </Harmony>
           <Chord>
             <dots>1</dots>
@@ -7932,6 +7940,12 @@ al Fine</text>
               <tpc>17</tpc>
               </Note>
             </Chord>
+          <Beam>
+            <Fragment>
+              <y1>4.62393</y1>
+              <y2>5.87393</y2>
+              </Fragment>
+            </Beam>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -7966,7 +7980,7 @@ al Fine</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i\\</name>
+            <name>i|PAC</name>
             </Harmony>
           <Chord>
             <dots>1</dots>

@@ -66,7 +66,7 @@
 |BWV811_08_Gigue                     |      56|   241|2.1.0   |Adrian Nagel                               |                |
 |BWV812_01_Allemande                 |      24|   158|2.1.0   |Adrian Nagel                               |                |
 |BWV812_02_Courante                  |      24|   132|2.1.0   |Adrian Nagel                               |                |
-|BWV812_03_Sarabande                 |      24|    78|2.1.0   |Adrian Nagel                               |                |
+|BWV812_03_Sarabande                 |      24|    79|2.3.0   |Adrian Nagel (2.1.0), Davor Krkljus (2.3.0)|DK, HB          |
 |BWV812_04_Menuett_I                 |      24|    57|2.3.0   |Adrian Nagel (2.1.0), Davor Krkljus (2.3.0)|DK, HB          |
 |BWV812_05_Menuett_II                |      40|    66|2.3.0   |Adrian Nagel (2.1.0), Davor Krkljus (2.3.0)|DK, HB          |
 |BWV812_06_Gigue                     |      28|   125|2.3.0   |Adrian Nagel (2.1.0), Davor Krkljus (2.3.0)|DK, HB          |

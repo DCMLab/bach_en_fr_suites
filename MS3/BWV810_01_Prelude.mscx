@@ -147,16 +147,17 @@
       <usePre_3_6_defaults>1</usePre_3_6_defaults>
       <defaultsVersion>301</defaultsVersion>
       <Spatium>1.6</Spatium>
-      <romanNumeralPlacement>1</romanNumeralPlacement>
       </Style>
     <showInvisible>0</showInvisible>
     <showUnprintable>1</showUnprintable>
     <showFrames>1</showFrames>
     <showMargins>0</showMargins>
+    <metaTag name="annotators">Adrian Nagel (2.1.0), Davor Krkljus (2.3.0)</metaTag>
     <metaTag name="arranger"></metaTag>
     <metaTag name="composer"></metaTag>
     <metaTag name="copyright"></metaTag>
     <metaTag name="creationDate">2019-12-04</metaTag>
+    <metaTag name="harmony_version">2.3.0</metaTag>
     <metaTag name="lyricist"></metaTag>
     <metaTag name="movementNumber"></metaTag>
     <metaTag name="movementTitle"></metaTag>
@@ -164,6 +165,7 @@
     <metaTag name="originalFormat">capx</metaTag>
     <metaTag name="platform">Linux</metaTag>
     <metaTag name="poet"></metaTag>
+    <metaTag name="reviewers">DK, HB</metaTag>
     <metaTag name="source"></metaTag>
     <metaTag name="translator"></metaTag>
     <metaTag name="workNumber"></metaTag>
@@ -208,6 +210,12 @@
             <sigN>6</sigN>
             <sigD>8</sigD>
             </TimeSig>
+          <Tempo>
+            <tempo>1.5</tempo>
+            <followText>1</followText>
+            <visible>0</visible>
+            <text><b></b><font face="ScoreText"></font> <b><font face="Edwin"></font> = 60</b></text>
+            </Tempo>
           <Rest>
             <durationType>measure</durationType>
             <duration>6/8</duration>
@@ -378,7 +386,7 @@
             </Chord>
           <StaffText>
             <family>Times New Roman</family>
-            <offset x="19.5966" y="-21.4273"/>
+            <offset x="2.98958" y="-13.1238"/>
             <text>Johann Sebastian Bach
 BWV 810</text>
             </StaffText>
@@ -13663,6 +13671,10 @@ BWV 810</text>
               <tpc>18</tpc>
               </Note>
             </Chord>
+          <Clef>
+            <concertClefType>G</concertClefType>
+            <transposingClefType>G</transposingClefType>
+            </Clef>
           </voice>
         <voice>
           <Chord>
@@ -13918,10 +13930,6 @@ BWV 810</text>
         </Measure>
       <Measure>
         <voice>
-          <Clef>
-            <concertClefType>G</concertClefType>
-            <transposingClefType>G</transposingClefType>
-            </Clef>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -14126,6 +14134,10 @@ BWV 810</text>
               <tpc>17</tpc>
               </Note>
             </Chord>
+          <Clef>
+            <concertClefType>G</concertClefType>
+            <transposingClefType>G</transposingClefType>
+            </Clef>
           </voice>
         <voice>
           <Chord>
@@ -14327,10 +14339,6 @@ BWV 810</text>
         </Measure>
       <Measure>
         <voice>
-          <Clef>
-            <concertClefType>G</concertClefType>
-            <transposingClefType>G</transposingClefType>
-            </Clef>
           <Rest>
             <visible>0</visible>
             <durationType>measure</durationType>
@@ -14432,6 +14440,17 @@ BWV 810</text>
         </Measure>
       <Measure>
         <voice>
+          <Rest>
+            <visible>0</visible>
+            <durationType>measure</durationType>
+            <duration>6/8</duration>
+            </Rest>
+          <Clef>
+            <concertClefType>G</concertClefType>
+            <transposingClefType>G</transposingClefType>
+            </Clef>
+          </voice>
+        <voice>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -14532,6 +14551,13 @@ BWV 810</text>
           <subtype>line</subtype>
           </LayoutBreak>
         <voice>
+          <Rest>
+            <visible>0</visible>
+            <durationType>measure</durationType>
+            <duration>6/8</duration>
+            </Rest>
+          </voice>
+        <voice>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -14626,55 +14652,14 @@ BWV 810</text>
         </Measure>
       <Measure>
         <voice>
-          <Clef>
-            <concertClefType>G</concertClefType>
-            <transposingClefType>G</transposingClefType>
-            </Clef>
-          <Chord>
-            <durationType>16th</durationType>
-            <Note>
-              <Accidental>
-                <subtype>accidentalSharp</subtype>
-                </Accidental>
-              <pitch>73</pitch>
-              <tpc>21</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>71</pitch>
-              <tpc>19</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>73</pitch>
-              <tpc>21</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>74</pitch>
-              <tpc>16</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>76</pitch>
-              <tpc>18</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>73</pitch>
-              <tpc>21</tpc>
-              </Note>
-            </Chord>
+          <Rest>
+            <visible>0</visible>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
+            <visible>0</visible>
+            <durationType>eighth</durationType>
+            </Rest>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -14721,6 +14706,57 @@ BWV 810</text>
             <Note>
               <pitch>70</pitch>
               <tpc>24</tpc>
+              </Note>
+            </Chord>
+          <Clef>
+            <concertClefType>G</concertClefType>
+            <transposingClefType>G</transposingClefType>
+            </Clef>
+          </voice>
+        <voice>
+          <Chord>
+            <durationType>16th</durationType>
+            <Note>
+              <Accidental>
+                <subtype>accidentalSharp</subtype>
+                </Accidental>
+              <pitch>73</pitch>
+              <tpc>21</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>71</pitch>
+              <tpc>19</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>73</pitch>
+              <tpc>21</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>74</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>76</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>73</pitch>
+              <tpc>21</tpc>
               </Note>
             </Chord>
           </voice>
@@ -14885,6 +14921,10 @@ BWV 810</text>
           <Rest>
             <durationType>eighth</durationType>
             </Rest>
+          <Clef>
+            <concertClefType>G</concertClefType>
+            <transposingClefType>G</transposingClefType>
+            </Clef>
           </voice>
         <voice>
           <Chord>
@@ -14954,10 +14994,6 @@ BWV 810</text>
         </Measure>
       <Measure>
         <voice>
-          <Clef>
-            <concertClefType>G</concertClefType>
-            <transposingClefType>G</transposingClefType>
-            </Clef>
           <Rest>
             <durationType>16th</durationType>
             </Rest>
@@ -15132,6 +15168,10 @@ BWV 810</text>
           <Rest>
             <durationType>eighth</durationType>
             </Rest>
+          <Clef>
+            <concertClefType>G</concertClefType>
+            <transposingClefType>G</transposingClefType>
+            </Clef>
           </voice>
         <voice>
           <Chord>
@@ -15318,10 +15358,6 @@ BWV 810</text>
         </Measure>
       <Measure>
         <voice>
-          <Clef>
-            <concertClefType>G</concertClefType>
-            <transposingClefType>G</transposingClefType>
-            </Clef>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -15521,6 +15557,10 @@ BWV 810</text>
               <tpc>19</tpc>
               </Note>
             </Chord>
+          <Clef>
+            <concertClefType>G</concertClefType>
+            <transposingClefType>G</transposingClefType>
+            </Clef>
           </voice>
         <voice>
           <Chord>
@@ -15712,10 +15752,6 @@ BWV 810</text>
         </Measure>
       <Measure>
         <voice>
-          <Clef>
-            <concertClefType>G</concertClefType>
-            <transposingClefType>G</transposingClefType>
-            </Clef>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -15735,15 +15771,15 @@ BWV 810</text>
             <dots>1</dots>
             <durationType>eighth</durationType>
             <Note>
-              <pitch>84</pitch>
-              <tpc>14</tpc>
+              <pitch>83</pitch>
+              <tpc>19</tpc>
               </Note>
             </Chord>
           <Chord>
             <durationType>16th</durationType>
             <Note>
-              <pitch>84</pitch>
-              <tpc>14</tpc>
+              <pitch>83</pitch>
+              <tpc>19</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -15895,6 +15931,10 @@ BWV 810</text>
               <tpc>20</tpc>
               </Note>
             </Chord>
+          <Clef>
+            <concertClefType>G</concertClefType>
+            <transposingClefType>G</transposingClefType>
+            </Clef>
           </voice>
         <voice>
           <Rest>
@@ -15937,13 +15977,6 @@ BWV 810</text>
         <LayoutBreak>
           <subtype>line</subtype>
           </LayoutBreak>
-        <voice>
-          <Rest>
-            <visible>0</visible>
-            <durationType>measure</durationType>
-            <duration>6/8</duration>
-            </Rest>
-          </voice>
         <voice>
           <Chord>
             <durationType>16th</durationType>
@@ -16033,17 +16066,6 @@ BWV 810</text>
         </Measure>
       <Measure>
         <voice>
-          <Clef>
-            <concertClefType>G</concertClefType>
-            <transposingClefType>G</transposingClefType>
-            </Clef>
-          <Rest>
-            <visible>0</visible>
-            <durationType>measure</durationType>
-            <duration>6/8</duration>
-            </Rest>
-          </voice>
-        <voice>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -16132,13 +16154,6 @@ BWV 810</text>
         </Measure>
       <Measure>
         <voice>
-          <Rest>
-            <visible>0</visible>
-            <durationType>measure</durationType>
-            <duration>6/8</duration>
-            </Rest>
-          </voice>
-        <voice>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -16223,6 +16238,10 @@ BWV 810</text>
               <tpc>20</tpc>
               </Note>
             </Chord>
+          <Clef>
+            <concertClefType>G</concertClefType>
+            <transposingClefType>G</transposingClefType>
+            </Clef>
           </voice>
         </Measure>
       <Measure>
@@ -16331,10 +16350,6 @@ BWV 810</text>
         </Measure>
       <Measure>
         <voice>
-          <Clef>
-            <concertClefType>G</concertClefType>
-            <transposingClefType>G</transposingClefType>
-            </Clef>
           <Rest>
             <durationType>eighth</durationType>
             </Rest>
@@ -16486,6 +16501,10 @@ BWV 810</text>
           <Rest>
             <durationType>eighth</durationType>
             </Rest>
+          <Clef>
+            <concertClefType>G</concertClefType>
+            <transposingClefType>G</transposingClefType>
+            </Clef>
           </voice>
         <voice>
           <Chord>
@@ -16671,10 +16690,6 @@ BWV 810</text>
         </Measure>
       <Measure>
         <voice>
-          <Clef>
-            <concertClefType>G</concertClefType>
-            <transposingClefType>G</transposingClefType>
-            </Clef>
           <Rest>
             <durationType>16th</durationType>
             </Rest>
@@ -16844,6 +16859,10 @@ BWV 810</text>
               <tpc>17</tpc>
               </Note>
             </Chord>
+          <Clef>
+            <concertClefType>G</concertClefType>
+            <transposingClefType>G</transposingClefType>
+            </Clef>
           </voice>
         <voice>
           <Rest>
@@ -17052,10 +17071,6 @@ BWV 810</text>
         </Measure>
       <Measure>
         <voice>
-          <Clef>
-            <concertClefType>G</concertClefType>
-            <transposingClefType>G</transposingClefType>
-            </Clef>
           <Chord>
             <dots>1</dots>
             <durationType>quarter</durationType>
@@ -17260,6 +17275,10 @@ BWV 810</text>
               <tpc>21</tpc>
               </Note>
             </Chord>
+          <Clef>
+            <concertClefType>G</concertClefType>
+            <transposingClefType>G</transposingClefType>
+            </Clef>
           </voice>
         <voice>
           <Rest>
@@ -17465,10 +17484,6 @@ BWV 810</text>
         </Measure>
       <Measure>
         <voice>
-          <Clef>
-            <concertClefType>G</concertClefType>
-            <transposingClefType>G</transposingClefType>
-            </Clef>
           <Chord>
             <dots>1</dots>
             <durationType>quarter</durationType>
@@ -17641,8 +17656,41 @@ BWV 810</text>
             </Chord>
           </voice>
         <voice>
+          <Chord>
+            <dots>1</dots>
+            <durationType>quarter</durationType>
+            <StemDirection>up</StemDirection>
+            <Note>
+              <Spanner type="Tie">
+                <Tie>
+                  </Tie>
+                <next>
+                  <location>
+                    <fractions>3/8</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <StemDirection>up</StemDirection>
+            <Note>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <fractions>-3/8</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
           <location>
-            <fractions>9/16</fractions>
+            <fractions>1/16</fractions>
             </location>
           <Chord>
             <dots>1</dots>
@@ -17765,6 +17813,10 @@ BWV 810</text>
               <tpc>19</tpc>
               </Note>
             </Chord>
+          <Clef>
+            <concertClefType>G</concertClefType>
+            <transposingClefType>G</transposingClefType>
+            </Clef>
           </voice>
         <voice>
           <Chord>
@@ -17914,10 +17966,6 @@ BWV 810</text>
         </Measure>
       <Measure>
         <voice>
-          <Clef>
-            <concertClefType>G</concertClefType>
-            <transposingClefType>G</transposingClefType>
-            </Clef>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -18183,19 +18231,16 @@ BWV 810</text>
             <sigN>6</sigN>
             <sigD>8</sigD>
             </TimeSig>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>e.V{</name>
+            </Harmony>
           <Rest>
             <durationType>measure</durationType>
             <duration>6/8</duration>
             </Rest>
           <location>
-            <fractions>-5/8</fractions>
-            </location>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>e.V</name>
-            </Harmony>
-          <location>
-            <fractions>1/4</fractions>
+            <fractions>-3/8</fractions>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
@@ -18221,7 +18266,14 @@ BWV 810</text>
             <durationType>half</durationType>
             </Rest>
           <location>
-            <fractions>-1/8</fractions>
+            <fractions>-3/8</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>iio</name>
+            </Harmony>
+          <location>
+            <fractions>1/4</fractions>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
@@ -18269,14 +18321,14 @@ BWV 810</text>
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>#viio6/v</name>
-            </Harmony>
           <Clef>
             <concertClefType>F</concertClefType>
             <transposingClefType>F</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>#viio6/v</name>
+            </Harmony>
           <Rest>
             <durationType>measure</durationType>
             <duration>6/8</duration>
@@ -18300,7 +18352,7 @@ BWV 810</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>v</name>
+            <name>v}{</name>
             </Harmony>
           <Rest>
             <durationType>measure</durationType>
@@ -18325,7 +18377,7 @@ BWV 810</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>iv64</name>
+            <name>VI6</name>
             </Harmony>
           <Rest>
             <durationType>measure</durationType>
@@ -18343,7 +18395,7 @@ BWV 810</text>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>ii%2</name>
+            <name>iio</name>
             </Harmony>
           </voice>
         <voice>
@@ -18355,14 +18407,14 @@ BWV 810</text>
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>#viio</name>
-            </Harmony>
           <Clef>
             <concertClefType>F</concertClefType>
             <transposingClefType>F</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>#viio}{</name>
+            </Harmony>
           <Rest>
             <durationType>eighth</durationType>
             </Rest>
@@ -18390,7 +18442,7 @@ BWV 810</text>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>iv7</name>
+            <name>iv65</name>
             </Harmony>
           <Rest>
             <visible>0</visible>
@@ -18572,7 +18624,7 @@ BWV 810</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i6</name>
+            <name>i6|EC}{</name>
             </Harmony>
           <Rest>
             <visible>0</visible>
@@ -18592,6 +18644,13 @@ BWV 810</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>IV</name>
+            </Harmony>
+          <location>
+            <fractions>1/4</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>IV6</name>
             </Harmony>
           </voice>
         <voice>
@@ -18689,14 +18748,14 @@ BWV 810</text>
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>VII6</name>
-            </Harmony>
           <Clef>
             <concertClefType>F</concertClefType>
             <transposingClefType>F</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>VII6</name>
+            </Harmony>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -18775,6 +18834,10 @@ BWV 810</text>
               <tpc>17</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>III6</name>
+            </Harmony>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -18878,10 +18941,6 @@ BWV 810</text>
               <tpc>18</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V64/v</name>
-            </Harmony>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -18900,14 +18959,14 @@ BWV 810</text>
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>v6</name>
-            </Harmony>
           <Clef>
             <concertClefType>F</concertClefType>
             <transposingClefType>F</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>v6}{</name>
+            </Harmony>
           <Chord>
             <durationType>16th</durationType>
             <StemDirection>down</StemDirection>
@@ -18946,6 +19005,7 @@ BWV 810</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>v</name>
+            <offset x="0" y="5.03482"/>
             </Harmony>
           <Chord>
             <durationType>16th</durationType>
@@ -19117,14 +19177,14 @@ BWV 810</text>
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>v[v6</name>
-            </Harmony>
           <Clef>
             <concertClefType>F</concertClefType>
             <transposingClefType>F</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>v[i6/v|IAC}{</name>
+            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -19177,7 +19237,7 @@ BWV 810</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>v64</name>
+            <name>i64/v</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -19229,14 +19289,14 @@ BWV 810</text>
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>#viio7/v</name>
-            </Harmony>
           <Clef>
             <concertClefType>F</concertClefType>
             <transposingClefType>F</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>#viio7/v</name>
+            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -19260,7 +19320,7 @@ BWV 810</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>v]</name>
+            <name>i/v]}{</name>
             </Harmony>
           <Chord>
             <durationType>16th</durationType>
@@ -19349,10 +19409,6 @@ BWV 810</text>
               <tpc>16</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V43/iv</name>
-            </Harmony>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -19452,10 +19508,6 @@ BWV 810</text>
               <tpc>14</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V43/III</name>
-            </Harmony>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -19520,14 +19572,14 @@ BWV 810</text>
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>VIM7</name>
-            </Harmony>
           <Clef>
             <concertClefType>F</concertClefType>
             <transposingClefType>F</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>VIM7</name>
+            </Harmony>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -19556,10 +19608,6 @@ BWV 810</text>
               <tpc>19</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>VIM43</name>
-            </Harmony>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -19626,7 +19674,7 @@ BWV 810</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V43</name>
+            <name>V7}{</name>
             </Harmony>
           <Chord>
             <durationType>16th</durationType>
@@ -19834,14 +19882,14 @@ BWV 810</text>
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>i64</name>
-            </Harmony>
           <Clef>
             <concertClefType>F</concertClefType>
             <transposingClefType>F</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>i|IAC}{</name>
+            </Harmony>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -19856,10 +19904,6 @@ BWV 810</text>
               <tpc>19</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>i</name>
-            </Harmony>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -19944,7 +19988,7 @@ BWV 810</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>VII64</name>
+            <name>VII</name>
             </Harmony>
           <Chord>
             <durationType>16th</durationType>
@@ -19960,10 +20004,6 @@ BWV 810</text>
               <tpc>17</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>VII</name>
-            </Harmony>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -20048,7 +20088,7 @@ BWV 810</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>VI64</name>
+            <name>VI</name>
             </Harmony>
           <Chord>
             <durationType>16th</durationType>
@@ -20064,10 +20104,6 @@ BWV 810</text>
               <tpc>15</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>VI</name>
-            </Harmony>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -20150,14 +20186,14 @@ BWV 810</text>
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V64</name>
-            </Harmony>
           <Clef>
             <concertClefType>F</concertClefType>
             <transposingClefType>F</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V}{</name>
+            </Harmony>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -20366,7 +20402,7 @@ BWV 810</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i[i6</name>
+            <name>i[i6|IAC}{</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -20418,14 +20454,14 @@ BWV 810</text>
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>i64</name>
-            </Harmony>
           <Clef>
             <concertClefType>F</concertClefType>
             <transposingClefType>F</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>i64</name>
+            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -20503,7 +20539,7 @@ BWV 810</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i]</name>
+            <name>i]}{</name>
             </Harmony>
           <Chord>
             <durationType>16th</durationType>
@@ -20586,10 +20622,6 @@ BWV 810</text>
               <tpc>15</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>iv43</name>
-            </Harmony>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -20654,14 +20686,14 @@ BWV 810</text>
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V7/VI</name>
-            </Harmony>
           <Clef>
             <concertClefType>F</concertClefType>
             <transposingClefType>F</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V7/VI</name>
+            </Harmony>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -20693,10 +20725,6 @@ BWV 810</text>
               <tpc>13</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V43/VI</name>
-            </Harmony>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -20763,7 +20791,7 @@ BWV 810</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>#viio6(2)</name>
+            <name>ii%7</name>
             </Harmony>
           <Chord>
             <durationType>16th</durationType>
@@ -20793,10 +20821,6 @@ BWV 810</text>
               <tpc>18</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>#viio</name>
-            </Harmony>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -20819,7 +20843,7 @@ BWV 810</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V[V7</name>
+            <name>V[V7}{</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -20907,14 +20931,14 @@ BWV 810</text>
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V7</name>
-            </Harmony>
           <Clef>
             <concertClefType>F</concertClefType>
             <transposingClefType>F</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V7</name>
+            </Harmony>
           <Rest>
             <visible>0</visible>
             <dots>1</dots>
@@ -20925,7 +20949,7 @@ BWV 810</text>
             </Rest>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V(6)</name>
+            <name>V(64)</name>
             </Harmony>
           <Chord>
             <dots>1</dots>
@@ -20945,13 +20969,6 @@ BWV 810</text>
               <tpc>15</tpc>
               </Note>
             </Chord>
-          <location>
-            <fractions>-1/4</fractions>
-            </location>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V(64)</name>
-            </Harmony>
           </voice>
         <voice>
           <Chord>
@@ -21139,7 +21156,7 @@ BWV 810</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V]</name>
+            <name>V]|HC}{</name>
             </Harmony>
           <Chord>
             <durationType>16th</durationType>
@@ -21249,14 +21266,14 @@ BWV 810</text>
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>#viio7</name>
-            </Harmony>
           <Clef>
             <concertClefType>F</concertClefType>
             <transposingClefType>F</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>#viio7</name>
+            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -21299,7 +21316,7 @@ BWV 810</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V43(9)</name>
+            <name>V(+9)-V43(9)</name>
             </Harmony>
           <Chord>
             <durationType>16th</durationType>
@@ -21421,10 +21438,6 @@ BWV 810</text>
               <tpc>14</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V2</name>
-            </Harmony>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -21501,14 +21514,14 @@ BWV 810</text>
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>i</name>
-            </Harmony>
           <Clef>
             <concertClefType>F</concertClefType>
             <transposingClefType>F</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>i|PAC}{</name>
+            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -21654,7 +21667,7 @@ BWV 810</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>iv</name>
+            <name>i/iv</name>
             </Harmony>
           <Rest>
             <visible>0</visible>
@@ -21761,14 +21774,14 @@ BWV 810</text>
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V2/VII</name>
-            </Harmony>
           <Clef>
             <concertClefType>F</concertClefType>
             <transposingClefType>F</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V2/VII</name>
+            </Harmony>
           <Rest>
             <visible>0</visible>
             <durationType>measure</durationType>
@@ -21900,7 +21913,7 @@ BWV 810</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>VII6</name>
+            <name>I6/VII</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -21935,7 +21948,7 @@ BWV 810</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i</name>
+            <name>ii/VII</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -22062,14 +22075,14 @@ BWV 810</text>
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>III</name>
-            </Harmony>
           <Clef>
             <concertClefType>F</concertClefType>
             <transposingClefType>F</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>I/III</name>
+            </Harmony>
           <Rest>
             <visible>0</visible>
             <durationType>measure</durationType>
@@ -22308,7 +22321,7 @@ BWV 810</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>VI6</name>
+            <name>VI6}{</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -22388,14 +22401,14 @@ BWV 810</text>
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>viio2/III</name>
-            </Harmony>
           <Clef>
             <concertClefType>F</concertClefType>
             <transposingClefType>F</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>viio2/III</name>
+            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -22487,7 +22500,7 @@ BWV 810</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>III64</name>
+            <name>I64/III</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -22569,7 +22582,7 @@ BWV 810</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>viio7/VII</name>
+            <name>viio7/V/III</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -22596,7 +22609,7 @@ BWV 810</text>
             </Rest>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V6/VII</name>
+            <name>III.V6/V</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -22611,7 +22624,7 @@ BWV 810</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V7/VII</name>
+            <name>V7/V</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -22667,14 +22680,14 @@ BWV 810</text>
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V/III</name>
-            </Harmony>
           <Clef>
             <concertClefType>F</concertClefType>
             <transposingClefType>F</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V|HC}{</name>
+            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -22686,17 +22699,13 @@ BWV 810</text>
             <visible>0</visible>
             <durationType>eighth</durationType>
             </Rest>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V2/III</name>
-            </Harmony>
           <Rest>
             <visible>0</visible>
             <durationType>eighth</durationType>
             </Rest>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>III6</name>
+            <name>I6</name>
             </Harmony>
           <Chord>
             <durationType>16th</durationType>
@@ -22714,7 +22723,7 @@ BWV 810</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>IVM2/III</name>
+            <name>IVM2</name>
             </Harmony>
           <Chord>
             <durationType>16th</durationType>
@@ -22800,7 +22809,7 @@ BWV 810</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>viio6/III</name>
+            <name>viio6</name>
             </Harmony>
           <Chord>
             <durationType>16th</durationType>
@@ -22846,7 +22855,7 @@ BWV 810</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V65/III</name>
+            <name>V65</name>
             </Harmony>
           <Chord>
             <durationType>16th</durationType>
@@ -22896,7 +22905,7 @@ BWV 810</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>III</name>
+            <name>I|IAC</name>
             </Harmony>
           <Rest>
             <visible>0</visible>
@@ -22904,18 +22913,25 @@ BWV 810</text>
             <duration>6/8</duration>
             </Rest>
           <location>
-            <fractions>-3/8</fractions>
+            <fractions>-1/2</fractions>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>VII</name>
+            <name>V2/V</name>
             </Harmony>
           <location>
             <fractions>1/8</fractions>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>IVM7/VII</name>
+            <name>V</name>
+            </Harmony>
+          <location>
+            <fractions>1/8</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>IVM7/V</name>
             </Harmony>
           </voice>
         <voice>
@@ -22980,14 +22996,14 @@ BWV 810</text>
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V6/VII</name>
-            </Harmony>
           <Clef>
             <concertClefType>F</concertClefType>
             <transposingClefType>F</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V6/V</name>
+            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -23000,7 +23016,7 @@ BWV 810</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V64/VII</name>
+            <name>V64/V</name>
             </Harmony>
           <Chord>
             <dots>1</dots>
@@ -23019,7 +23035,7 @@ BWV 810</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V/VII</name>
+            <name>V7/V</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -23028,10 +23044,6 @@ BWV 810</text>
               <tpc>17</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V43/VII</name>
-            </Harmony>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -23066,7 +23078,7 @@ BWV 810</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>VII6</name>
+            <name>V6}{</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -23077,7 +23089,7 @@ BWV 810</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V7/III</name>
+            <name>V7</name>
             </Harmony>
           <Rest>
             <durationType>16th</durationType>
@@ -23105,7 +23117,7 @@ BWV 810</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>III</name>
+            <name>I</name>
             </Harmony>
           <Chord>
             <durationType>16th</durationType>
@@ -23135,10 +23147,6 @@ BWV 810</text>
               <tpc>17</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>III6</name>
-            </Harmony>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -23173,7 +23181,7 @@ BWV 810</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V43/VI</name>
+            <name>V43/IV</name>
             </Harmony>
           <Chord>
             <durationType>16th</durationType>
@@ -23208,10 +23216,6 @@ BWV 810</text>
               <tpc>13</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V2/VI</name>
-            </Harmony>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -23247,10 +23251,6 @@ BWV 810</text>
               <tpc>13</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>viio6/VI</name>
-            </Harmony>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -23269,14 +23269,14 @@ BWV 810</text>
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>VI6</name>
-            </Harmony>
           <Clef>
             <concertClefType>F</concertClefType>
             <transposingClefType>F</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>VI6</name>
+            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -23286,7 +23286,7 @@ BWV 810</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V65/bII</name>
+            <name>iio/V</name>
             </Harmony>
           <Rest>
             <durationType>16th</durationType>
@@ -23317,7 +23317,7 @@ BWV 810</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>viio7/VII</name>
+            <name>viio7/V</name>
             </Harmony>
           <Chord>
             <durationType>16th</durationType>
@@ -23373,7 +23373,7 @@ BWV 810</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>VII</name>
+            <name>V7</name>
             </Harmony>
           <Chord>
             <durationType>16th</durationType>
@@ -23403,10 +23403,6 @@ BWV 810</text>
               <tpc>16</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V2/III</name>
-            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -23442,11 +23438,6 @@ BWV 810</text>
               <tpc>14</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>viio6/III</name>
-            <offset x="-2" y="-6"/>
-            </Harmony>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -23467,7 +23458,7 @@ BWV 810</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>III6</name>
+            <name>I6}{</name>
             </Harmony>
           <Rest>
             <visible>0</visible>
@@ -23482,7 +23473,7 @@ BWV 810</text>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>ii65/III</name>
+            <name>ii65</name>
             </Harmony>
           <location>
             <fractions>1/8</fractions>
@@ -23495,33 +23486,13 @@ BWV 810</text>
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V43/VI</name>
-            </Harmony>
           <Clef>
             <concertClefType>F</concertClefType>
             <transposingClefType>F</transposingClefType>
             </Clef>
-          <Rest>
-            <visible>0</visible>
-            <durationType>measure</durationType>
-            <duration>6/8</duration>
-            </Rest>
-          <location>
-            <fractions>-3/8</fractions>
-            </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>VI6</name>
-            </Harmony>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>vii%7/III</name>
+            <name>V43/IV</name>
             </Harmony>
           <Rest>
             <visible>0</visible>
@@ -23533,14 +23504,7 @@ BWV 810</text>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>III6</name>
-            </Harmony>
-          <location>
-            <fractions>1/4</fractions>
-            </location>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>III</name>
+            <name>IV6</name>
             </Harmony>
           </voice>
         </Measure>
@@ -23548,7 +23512,7 @@ BWV 810</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>IVM65/III</name>
+            <name>vii%7</name>
             </Harmony>
           <Rest>
             <visible>0</visible>
@@ -23560,14 +23524,7 @@ BWV 810</text>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>viio6/III</name>
-            </Harmony>
-          <location>
-            <fractions>1/4</fractions>
-            </location>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>viio/III</name>
+            <name>I6</name>
             </Harmony>
           </voice>
         </Measure>
@@ -23575,38 +23532,31 @@ BWV 810</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>iii65/III</name>
+            <name>IVM65</name>
             </Harmony>
+          <Rest>
+            <visible>0</visible>
+            <durationType>measure</durationType>
+            <duration>6/8</duration>
+            </Rest>
+          <location>
+            <fractions>-3/8</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>viio6</name>
+            </Harmony>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
           <Clef>
             <concertClefType>F</concertClefType>
             <transposingClefType>F</transposingClefType>
             </Clef>
-          <Rest>
-            <visible>0</visible>
-            <durationType>measure</durationType>
-            <duration>6/8</duration>
-            </Rest>
-          <location>
-            <fractions>-3/8</fractions>
-            </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>vi6/III</name>
-            </Harmony>
-          <location>
-            <fractions>1/4</fractions>
-            </location>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>vi/III</name>
-            </Harmony>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>ii65/III</name>
+            <name>iii65</name>
             </Harmony>
           <Rest>
             <visible>0</visible>
@@ -23618,14 +23568,7 @@ BWV 810</text>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V6/III</name>
-            </Harmony>
-          <location>
-            <fractions>1/4</fractions>
-            </location>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V2/III</name>
+            <name>vi6</name>
             </Harmony>
           </voice>
         </Measure>
@@ -23633,7 +23576,27 @@ BWV 810</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>III6</name>
+            <name>ii65</name>
+            </Harmony>
+          <Rest>
+            <visible>0</visible>
+            <durationType>measure</durationType>
+            <duration>6/8</duration>
+            </Rest>
+          <location>
+            <fractions>-3/8</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V6</name>
+            </Harmony>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>I6}{</name>
             </Harmony>
           <Chord>
             <durationType>16th</durationType>
@@ -23651,7 +23614,7 @@ BWV 810</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V/III</name>
+            <name>V</name>
             </Harmony>
           <Chord>
             <dots>1</dots>
@@ -23670,7 +23633,7 @@ BWV 810</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>III</name>
+            <name>I</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -23681,7 +23644,7 @@ BWV 810</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>IVM7/III</name>
+            <name>IVM7</name>
             </Harmony>
           <Chord>
             <durationType>16th</durationType>
@@ -23715,14 +23678,14 @@ BWV 810</text>
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>vii%7/III</name>
-            </Harmony>
           <Clef>
             <concertClefType>F</concertClefType>
             <transposingClefType>F</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>vii%7</name>
+            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -23732,7 +23695,7 @@ BWV 810</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>iii/III</name>
+            <name>iii</name>
             </Harmony>
           <Chord>
             <dots>1</dots>
@@ -23754,7 +23717,7 @@ BWV 810</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>vi7/III</name>
+            <name>vi7</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -23765,7 +23728,7 @@ BWV 810</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>ii7/III</name>
+            <name>ii7</name>
             </Harmony>
           <Chord>
             <durationType>16th</durationType>
@@ -23799,10 +23762,6 @@ BWV 810</text>
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V7/III</name>
-            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -23812,7 +23771,7 @@ BWV 810</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V7/VI</name>
+            <name>V7</name>
             </Harmony>
           <Chord>
             <dots>1</dots>
@@ -23822,6 +23781,10 @@ BWV 810</text>
               <tpc>15</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V7/IV</name>
+            </Harmony>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -23831,7 +23794,7 @@ BWV 810</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>VIM7</name>
+            <name>IVM7</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -23842,7 +23805,7 @@ BWV 810</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>vii%7/III</name>
+            <name>vii%7</name>
             </Harmony>
           <Chord>
             <durationType>16th</durationType>
@@ -23878,7 +23841,7 @@ BWV 810</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>iii7/III</name>
+            <name>iii7</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -23889,7 +23852,7 @@ BWV 810</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>vi7/III</name>
+            <name>vi7</name>
             </Harmony>
           <Chord>
             <dots>1</dots>
@@ -23908,7 +23871,7 @@ BWV 810</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>ii7/III</name>
+            <name>ii7</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -23919,7 +23882,7 @@ BWV 810</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V7/III</name>
+            <name>V7</name>
             </Harmony>
           <Chord>
             <durationType>16th</durationType>
@@ -23953,32 +23916,48 @@ BWV 810</text>
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>III(4)</name>
-            </Harmony>
           <Clef>
             <concertClefType>F</concertClefType>
             <transposingClefType>F</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>I(4)</name>
+            </Harmony>
           <Chord>
-            <dots>1</dots>
             <durationType>eighth</durationType>
             <Note>
+              <Spanner type="Tie">
+                <Tie>
+                  </Tie>
+                <next>
+                  <location>
+                    <fractions>1/8</fractions>
+                    </location>
+                  </next>
+                </Spanner>
               <pitch>43</pitch>
               <tpc>15</tpc>
               </Note>
             </Chord>
-          <location>
-            <fractions>-1/16</fractions>
-            </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>III</name>
+            <name>I</name>
             </Harmony>
-          <location>
-            <fractions>1/16</fractions>
-            </location>
+          <Chord>
+            <durationType>16th</durationType>
+            <Note>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <fractions>-1/8</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>43</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -23988,7 +23967,8 @@ BWV 810</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>III6</name>
+            <name>I6</name>
+            <offset x="0.804617" y="3.6788"/>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -24029,7 +24009,7 @@ BWV 810</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V/III</name>
+            <name>V</name>
             </Harmony>
           <Chord>
             <durationType>16th</durationType>
@@ -24065,7 +24045,7 @@ BWV 810</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>III</name>
+            <name>I|IAC}{</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -24087,7 +24067,7 @@ BWV 810</text>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>iv6/v</name>
+            <name>iv6/iii</name>
             </Harmony>
           <location>
             <fractions>1/16</fractions>
@@ -24101,7 +24081,7 @@ BWV 810</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>ii%65/v</name>
+            <name>ii%65/iii</name>
             </Harmony>
           <Chord>
             <durationType>16th</durationType>
@@ -24119,7 +24099,7 @@ BWV 810</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V/v</name>
+            <name>V/iii</name>
             </Harmony>
           <Chord>
             <durationType>16th</durationType>
@@ -24153,14 +24133,14 @@ BWV 810</text>
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>v</name>
-            </Harmony>
           <Clef>
             <concertClefType>F</concertClefType>
             <transposingClefType>F</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>i/iii</name>
+            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -24181,7 +24161,7 @@ BWV 810</text>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>IV6/VII</name>
+            <name>IV6/V</name>
             </Harmony>
           <location>
             <fractions>1/16</fractions>
@@ -24195,7 +24175,7 @@ BWV 810</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>ii65/VII</name>
+            <name>ii65/V</name>
             </Harmony>
           <Chord>
             <durationType>16th</durationType>
@@ -24213,7 +24193,7 @@ BWV 810</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V/VII</name>
+            <name>V/V</name>
             </Harmony>
           <Chord>
             <durationType>16th</durationType>
@@ -24249,7 +24229,7 @@ BWV 810</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>VII(#7)</name>
+            <name>I(#7)/V</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -24260,7 +24240,7 @@ BWV 810</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>VII</name>
+            <name>I/V</name>
             </Harmony>
           <Chord>
             <dots>1</dots>
@@ -24275,7 +24255,7 @@ BWV 810</text>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>v</name>
+            <name>iii6</name>
             </Harmony>
           <location>
             <fractions>1/16</fractions>
@@ -24289,7 +24269,7 @@ BWV 810</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>ii%43/v</name>
+            <name>ii%43/iii</name>
             </Harmony>
           <Chord>
             <dots>1</dots>
@@ -24308,7 +24288,7 @@ BWV 810</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>ii%7/v</name>
+            <name>ii%7/iii</name>
             </Harmony>
           <Chord>
             <durationType>16th</durationType>
@@ -24331,14 +24311,14 @@ BWV 810</text>
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>ii[#viio/v</name>
-            </Harmony>
           <Clef>
             <concertClefType>F</concertClefType>
             <transposingClefType>F</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>v.V[#viio}{</name>
+            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -24362,7 +24342,7 @@ BWV 810</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>v</name>
+            <name>i</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -24391,7 +24371,7 @@ BWV 810</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>#viio6/v</name>
+            <name>#viio6</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -24416,7 +24396,7 @@ BWV 810</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>v6</name>
+            <name>i6</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -24443,14 +24423,14 @@ BWV 810</text>
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>#viio43/ii</name>
-            </Harmony>
           <Clef>
             <concertClefType>F</concertClefType>
             <transposingClefType>F</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>viio43/V</name>
+            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -24474,7 +24454,7 @@ BWV 810</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V7/v]</name>
+            <name>V7]}{</name>
             </Harmony>
           <Chord>
             <durationType>16th</durationType>
@@ -24504,10 +24484,6 @@ BWV 810</text>
               <tpc>18</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V43/v</name>
-            </Harmony>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -24531,7 +24507,7 @@ BWV 810</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>v7</name>
+            <name>i7</name>
             </Harmony>
           <Chord>
             <durationType>16th</durationType>
@@ -24564,10 +24540,6 @@ BWV 810</text>
               <tpc>17</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>v43</name>
-            </Harmony>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -24584,7 +24556,7 @@ BWV 810</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i7</name>
+            <name>iv7</name>
             </Harmony>
           <Chord>
             <durationType>16th</durationType>
@@ -24634,7 +24606,7 @@ BWV 810</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V7/VII</name>
+            <name>V7/III</name>
             </Harmony>
           <Chord>
             <durationType>16th</durationType>
@@ -24664,10 +24636,6 @@ BWV 810</text>
               <tpc>15</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V43/VII</name>
-            </Harmony>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -24684,7 +24652,7 @@ BWV 810</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>VIIM7</name>
+            <name>IIIM7</name>
             </Harmony>
           <Chord>
             <durationType>16th</durationType>
@@ -24735,14 +24703,14 @@ BWV 810</text>
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>IIIM7</name>
-            </Harmony>
           <Clef>
             <concertClefType>F</concertClefType>
             <transposingClefType>F</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>VIM7</name>
+            </Harmony>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -24787,7 +24755,7 @@ BWV 810</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>ii%7/v</name>
+            <name>ii%7</name>
             </Harmony>
           <Chord>
             <durationType>16th</durationType>
@@ -24840,7 +24808,7 @@ BWV 810</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V7/v</name>
+            <name>V7(9)</name>
             </Harmony>
           <Chord>
             <durationType>16th</durationType>
@@ -24920,7 +24888,7 @@ BWV 810</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>#viio6/v</name>
+            <name>#viio6</name>
             <offset x="-1" y="-6"/>
             </Harmony>
           <Chord>
@@ -24946,7 +24914,7 @@ BWV 810</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V2/v</name>
+            <name>V2</name>
             </Harmony>
           <Chord>
             <durationType>16th</durationType>
@@ -24962,10 +24930,6 @@ BWV 810</text>
               <tpc>16</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>iio6/v</name>
-            </Harmony>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -25027,7 +24991,7 @@ BWV 810</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V43/v</name>
+            <name>V43</name>
             </Harmony>
           <Chord>
             <durationType>16th</durationType>
@@ -25050,14 +25014,14 @@ BWV 810</text>
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>v6</name>
-            </Harmony>
           <Clef>
             <concertClefType>F</concertClefType>
             <transposingClefType>F</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>i6}{</name>
+            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -25071,7 +25035,7 @@ BWV 810</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>v</name>
+            <name>i</name>
             </Harmony>
           <Rest>
             <durationType>eighth</durationType>
@@ -25092,7 +25056,7 @@ BWV 810</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>iio/v</name>
+            <name>iio</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -25142,7 +25106,7 @@ BWV 810</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>#viio</name>
+            <name>i.#viio</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -25334,14 +25298,14 @@ BWV 810</text>
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V2/iv</name>
-            </Harmony>
           <Clef>
             <concertClefType>F</concertClefType>
             <transposingClefType>F</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V2/iv</name>
+            </Harmony>
           <Rest>
             <visible>0</visible>
             <durationType>measure</durationType>
@@ -25459,7 +25423,7 @@ BWV 810</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>IV6</name>
+            <name>I6/IV</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -25474,7 +25438,7 @@ BWV 810</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>IV</name>
+            <name>I/IV</name>
             </Harmony>
           <Rest>
             <durationType>eighth</durationType>
@@ -25494,7 +25458,7 @@ BWV 810</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>v</name>
+            <name>ii/IV</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -25627,14 +25591,14 @@ BWV 810</text>
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>VII64</name>
-            </Harmony>
           <Clef>
             <concertClefType>F</concertClefType>
             <transposingClefType>F</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>VII}{</name>
+            </Harmony>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -25826,7 +25790,7 @@ BWV 810</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i64</name>
+            <name>i</name>
             </Harmony>
           <Chord>
             <durationType>16th</durationType>
@@ -25919,14 +25883,14 @@ BWV 810</text>
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>#viio43/iv</name>
-            </Harmony>
           <Clef>
             <concertClefType>F</concertClefType>
             <transposingClefType>F</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>#viio43/iv</name>
+            </Harmony>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -25979,6 +25943,10 @@ BWV 810</text>
               <tpc>16</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>iv.V43</name>
+            </Harmony>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -26027,7 +25995,7 @@ BWV 810</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>iv6</name>
+            <name>i6}{</name>
             </Harmony>
           <Chord>
             <durationType>16th</durationType>
@@ -26045,7 +26013,7 @@ BWV 810</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>iv</name>
+            <name>i</name>
             </Harmony>
           <Chord>
             <durationType>16th</durationType>
@@ -26077,7 +26045,7 @@ BWV 810</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>iv43/iv</name>
+            <name>iv43</name>
             </Harmony>
           <Chord>
             <durationType>16th</durationType>
@@ -26130,7 +26098,7 @@ BWV 810</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>#viio65/iv</name>
+            <name>#viio65</name>
             </Harmony>
           <Chord>
             <durationType>16th</durationType>
@@ -26179,7 +26147,7 @@ BWV 810</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V6/iv</name>
+            <name>V6</name>
             </Harmony>
           <Chord>
             <durationType>16th</durationType>
@@ -26200,7 +26168,7 @@ BWV 810</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V7/iv</name>
+            <name>V7</name>
             </Harmony>
           <Chord>
             <durationType>16th</durationType>
@@ -26237,14 +26205,14 @@ BWV 810</text>
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>iv</name>
-            </Harmony>
           <Clef>
             <concertClefType>F</concertClefType>
             <transposingClefType>F</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>i|IAC</name>
+            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -26267,10 +26235,6 @@ BWV 810</text>
               <tpc>17</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>iv64</name>
-            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -26280,7 +26244,7 @@ BWV 810</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>iio6</name>
+            <name>iio6/v</name>
             </Harmony>
           <Chord>
             <durationType>16th</durationType>
@@ -26316,7 +26280,7 @@ BWV 810</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>#viio7</name>
+            <name>#viio7/v</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -26330,7 +26294,7 @@ BWV 810</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>#viio6</name>
+            <name>#viio6/v</name>
             </Harmony>
           <Chord>
             <dots>1</dots>
@@ -26349,7 +26313,8 @@ BWV 810</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V7</name>
+            <name>V7/v</name>
+            <offset x="0.1" y="3.5"/>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -26358,10 +26323,6 @@ BWV 810</text>
               <tpc>19</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V43</name>
-            </Harmony>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -26396,7 +26357,7 @@ BWV 810</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V6/iv</name>
+            <name>V65}{</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -26418,10 +26379,6 @@ BWV 810</text>
               <tpc>17</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>#viio/iv</name>
-            </Harmony>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -26436,10 +26393,6 @@ BWV 810</text>
               <tpc>20</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>iv/iv</name>
-            </Harmony>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -26454,10 +26407,6 @@ BWV 810</text>
               <tpc>16</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V43/iv</name>
-            </Harmony>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -26472,10 +26421,6 @@ BWV 810</text>
               <tpc>19</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>iv</name>
-            </Harmony>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -26483,10 +26428,6 @@ BWV 810</text>
               <tpc>17</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>#viio/iv</name>
-            </Harmony>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -26501,14 +26442,14 @@ BWV 810</text>
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>iv</name>
-            </Harmony>
           <Clef>
             <concertClefType>F</concertClefType>
             <transposingClefType>F</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>i.iv</name>
+            </Harmony>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -26622,7 +26563,7 @@ BWV 810</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i</name>
+            <name>i6</name>
             </Harmony>
           <Chord>
             <durationType>16th</durationType>
@@ -26798,14 +26739,14 @@ BWV 810</text>
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>i</name>
-            </Harmony>
           <Clef>
             <concertClefType>F</concertClefType>
             <transposingClefType>F</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>i|IAC}{</name>
+            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -27029,14 +26970,14 @@ BWV 810</text>
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>ii%7/V</name>
-            </Harmony>
           <Clef>
             <concertClefType>F</concertClefType>
             <transposingClefType>F</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>ii%7/V</name>
+            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -27049,7 +26990,7 @@ BWV 810</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V7/V</name>
+            <name>v7/V</name>
             </Harmony>
           <Chord>
             <dots>1</dots>
@@ -27121,23 +27062,39 @@ BWV 810</text>
             <name>iv(4)</name>
             </Harmony>
           <Chord>
-            <dots>1</dots>
             <durationType>eighth</durationType>
             <Note>
+              <Spanner type="Tie">
+                <Tie>
+                  </Tie>
+                <next>
+                  <location>
+                    <fractions>1/8</fractions>
+                    </location>
+                  </next>
+                </Spanner>
               <pitch>45</pitch>
               <tpc>17</tpc>
               </Note>
             </Chord>
-          <location>
-            <fractions>-1/16</fractions>
-            </location>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>iv</name>
             </Harmony>
-          <location>
-            <fractions>1/16</fractions>
-            </location>
+          <Chord>
+            <durationType>16th</durationType>
+            <Note>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <fractions>-1/8</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>45</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -27224,7 +27181,7 @@ BWV 810</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>iv</name>
+            <name>iv|IAC}{</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -27312,14 +27269,14 @@ BWV 810</text>
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>VII</name>
-            </Harmony>
           <Clef>
             <concertClefType>F</concertClefType>
             <transposingClefType>F</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>VII</name>
+            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -27408,7 +27365,7 @@ BWV 810</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>III</name>
+            <name>I/III</name>
             </Harmony>
           <Chord>
             <durationType>16th</durationType>
@@ -27440,7 +27397,7 @@ BWV 810</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i</name>
+            <name>i6</name>
             </Harmony>
           <Chord>
             <durationType>16th</durationType>
@@ -27458,7 +27415,7 @@ BWV 810</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>iv</name>
+            <name>iv6</name>
             </Harmony>
           <Chord>
             <dots>1</dots>
@@ -27499,7 +27456,7 @@ BWV 810</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V65</name>
+            <name>V65}{</name>
             </Harmony>
           <Chord>
             <durationType>16th</durationType>
@@ -27599,14 +27556,14 @@ BWV 810</text>
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>#viio6</name>
-            </Harmony>
           <Clef>
             <concertClefType>F</concertClefType>
             <transposingClefType>F</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>#viio6</name>
+            </Harmony>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -27740,7 +27697,7 @@ BWV 810</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i</name>
+            <name>i6</name>
             </Harmony>
           <Rest>
             <visible>0</visible>
@@ -27750,6 +27707,10 @@ BWV 810</text>
               <visible>0</visible>
               </NoteDot>
             </Rest>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>iv</name>
+            </Harmony>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -27802,14 +27763,14 @@ BWV 810</text>
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V7</name>
-            </Harmony>
           <Clef>
             <concertClefType>F</concertClefType>
             <transposingClefType>F</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V7|HC}{</name>
+            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -27962,14 +27923,14 @@ BWV 810</text>
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>i64</name>
-            </Harmony>
           <Clef>
             <concertClefType>F</concertClefType>
             <transposingClefType>F</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>i64</name>
+            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -28119,7 +28080,7 @@ BWV 810</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V65</name>
+            <name>V65}{</name>
             </Harmony>
           <Chord>
             <durationType>16th</durationType>
@@ -28186,7 +28147,7 @@ BWV 810</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>iv43</name>
+            <name>iv</name>
             </Harmony>
           <Chord>
             <durationType>16th</durationType>
@@ -28220,14 +28181,14 @@ BWV 810</text>
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V</name>
-            </Harmony>
           <Clef>
             <concertClefType>F</concertClefType>
             <transposingClefType>F</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V</name>
+            </Harmony>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -28242,6 +28203,10 @@ BWV 810</text>
               <tpc>19</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>iio6</name>
+            </Harmony>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -28327,6 +28292,19 @@ BWV 810</text>
             <harmonyType>1</harmonyType>
             <name>i</name>
             </Harmony>
+          <location>
+            <fractions>3/8</fractions>
+            </location>
+          <Clef>
+            <concertClefType>F</concertClefType>
+            <transposingClefType>F</transposingClefType>
+            </Clef>
+          </voice>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>6/8</duration>
+            </Rest>
           </voice>
         </Measure>
       <Measure>
@@ -28347,17 +28325,19 @@ BWV 810</text>
             <name>V65/v</name>
             </Harmony>
           </voice>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>6/8</duration>
+            </Rest>
+          </voice>
         </Measure>
       <Measure>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>v</name>
+            <name>v}{</name>
             </Harmony>
-          <Clef>
-            <concertClefType>F</concertClefType>
-            <transposingClefType>F</transposingClefType>
-            </Clef>
           <Rest>
             <durationType>measure</durationType>
             <duration>6/8</duration>
@@ -28381,7 +28361,7 @@ BWV 810</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>iv64</name>
+            <name>VI6</name>
             </Harmony>
           <Rest>
             <durationType>measure</durationType>
@@ -28399,8 +28379,15 @@ BWV 810</text>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>ii%2</name>
+            <name>iio</name>
             </Harmony>
+          <location>
+            <fractions>3/8</fractions>
+            </location>
+          <Clef>
+            <concertClefType>F</concertClefType>
+            <transposingClefType>F</transposingClefType>
+            </Clef>
           </voice>
         <voice>
           <Rest>
@@ -28413,7 +28400,7 @@ BWV 810</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>#viio</name>
+            <name>#viio}{</name>
             </Harmony>
           <Rest>
             <durationType>eighth</durationType>
@@ -28442,7 +28429,7 @@ BWV 810</text>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>iv7</name>
+            <name>iv65</name>
             </Harmony>
           <Rest>
             <visible>0</visible>
@@ -28511,10 +28498,6 @@ BWV 810</text>
             <harmonyType>1</harmonyType>
             <name>#viio</name>
             </Harmony>
-          <Clef>
-            <concertClefType>F</concertClefType>
-            <transposingClefType>F</transposingClefType>
-            </Clef>
           <Rest>
             <durationType>eighth</durationType>
             </Rest>
@@ -28553,9 +28536,11 @@ BWV 810</text>
               </Note>
             </Chord>
           <Rest>
+            <visible>0</visible>
             <durationType>eighth</durationType>
             </Rest>
           <Rest>
+            <visible>0</visible>
             <durationType>eighth</durationType>
             </Rest>
           </voice>
@@ -28626,8 +28611,43 @@ BWV 810</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i6</name>
+            <name>i6|EC}{</name>
             </Harmony>
+          <Rest>
+            <visible>0</visible>
+            <durationType>measure</durationType>
+            <duration>6/8</duration>
+            </Rest>
+          <location>
+            <fractions>-1/2</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>i</name>
+            </Harmony>
+          <location>
+            <fractions>1/8</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>IV</name>
+            </Harmony>
+          <location>
+            <fractions>1/4</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>IV6</name>
+            </Harmony>
+          <location>
+            <fractions>1/8</fractions>
+            </location>
+          <Clef>
+            <concertClefType>F</concertClefType>
+            <transposingClefType>F</transposingClefType>
+            </Clef>
+          </voice>
+        <voice>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -28656,10 +28676,6 @@ BWV 810</text>
               <tpc>20</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>i</name>
-            </Harmony>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -28674,10 +28690,6 @@ BWV 810</text>
               <tpc>15</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>IV</name>
-            </Harmony>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -28812,6 +28824,10 @@ BWV 810</text>
               <tpc>17</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>III6</name>
+            </Harmony>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -28834,10 +28850,6 @@ BWV 810</text>
             <harmonyType>1</harmonyType>
             <name>iio6/v</name>
             </Harmony>
-          <Clef>
-            <concertClefType>F</concertClefType>
-            <transposingClefType>F</transposingClefType>
-            </Clef>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -28919,10 +28931,6 @@ BWV 810</text>
               <tpc>18</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V64/v</name>
-            </Harmony>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -28937,16 +28945,21 @@ BWV 810</text>
               <tpc>21</tpc>
               </Note>
             </Chord>
+          <Clef>
+            <concertClefType>F</concertClefType>
+            <transposingClefType>F</transposingClefType>
+            </Clef>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>v6</name>
+            <name>v6}{</name>
             </Harmony>
           <Chord>
             <durationType>16th</durationType>
+            <StemDirection>down</StemDirection>
             <Note>
               <pitch>50</pitch>
               <tpc>16</tpc>
@@ -28954,6 +28967,7 @@ BWV 810</text>
             </Chord>
           <Chord>
             <durationType>16th</durationType>
+            <StemDirection>down</StemDirection>
             <Note>
               <pitch>52</pitch>
               <tpc>18</tpc>
@@ -28961,6 +28975,7 @@ BWV 810</text>
             </Chord>
           <Chord>
             <durationType>16th</durationType>
+            <StemDirection>down</StemDirection>
             <Note>
               <pitch>50</pitch>
               <tpc>16</tpc>
@@ -28968,6 +28983,7 @@ BWV 810</text>
             </Chord>
           <Chord>
             <durationType>16th</durationType>
+            <StemDirection>down</StemDirection>
             <Note>
               <Accidental>
                 <subtype>accidentalSharp</subtype>
@@ -28979,9 +28995,11 @@ BWV 810</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>v</name>
+            <offset x="0" y="5.03482"/>
             </Harmony>
           <Chord>
             <durationType>16th</durationType>
+            <StemDirection>down</StemDirection>
             <Note>
               <pitch>47</pitch>
               <tpc>19</tpc>
@@ -29145,18 +29163,18 @@ BWV 810</text>
               <tpc>24</tpc>
               </Note>
             </Chord>
+          <Clef>
+            <concertClefType>F</concertClefType>
+            <transposingClefType>F</transposingClefType>
+            </Clef>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>v[v6</name>
+            <name>v[i6/v|IAC}{</name>
             </Harmony>
-          <Clef>
-            <concertClefType>F</concertClefType>
-            <transposingClefType>F</transposingClefType>
-            </Clef>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -29209,7 +29227,7 @@ BWV 810</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>v64</name>
+            <name>i64/v</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -29257,6 +29275,10 @@ BWV 810</text>
               <tpc>19</tpc>
               </Note>
             </Chord>
+          <Clef>
+            <concertClefType>F</concertClefType>
+            <transposingClefType>F</transposingClefType>
+            </Clef>
           </voice>
         </Measure>
       <Measure>
@@ -29288,7 +29310,7 @@ BWV 810</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>v]</name>
+            <name>i/v]}{</name>
             </Harmony>
           <Chord>
             <durationType>16th</durationType>
@@ -29346,10 +29368,6 @@ BWV 810</text>
             <harmonyType>1</harmonyType>
             <name>V7/iv</name>
             </Harmony>
-          <Clef>
-            <concertClefType>F</concertClefType>
-            <transposingClefType>F</transposingClefType>
-            </Clef>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -29381,10 +29399,6 @@ BWV 810</text>
               <tpc>16</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V43/iv</name>
-            </Harmony>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -29484,10 +29498,6 @@ BWV 810</text>
               <tpc>14</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V43/III</name>
-            </Harmony>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -29548,6 +29558,10 @@ BWV 810</text>
               <tpc>15</tpc>
               </Note>
             </Chord>
+          <Clef>
+            <concertClefType>F</concertClefType>
+            <transposingClefType>F</transposingClefType>
+            </Clef>
           </voice>
         </Measure>
       <Measure>
@@ -29584,10 +29598,6 @@ BWV 810</text>
               <tpc>19</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>VIM43</name>
-            </Harmony>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -29654,12 +29664,8 @@ BWV 810</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V43</name>
+            <name>V7}{</name>
             </Harmony>
-          <Clef>
-            <concertClefType>F</concertClefType>
-            <transposingClefType>F</transposingClefType>
-            </Clef>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -29862,13 +29868,17 @@ BWV 810</text>
               <tpc>23</tpc>
               </Note>
             </Chord>
+          <Clef>
+            <concertClefType>F</concertClefType>
+            <transposingClefType>F</transposingClefType>
+            </Clef>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i64</name>
+            <name>i|IAC}{</name>
             </Harmony>
           <Chord>
             <durationType>16th</durationType>
@@ -29884,10 +29894,6 @@ BWV 810</text>
               <tpc>19</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>i</name>
-            </Harmony>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -29972,12 +29978,8 @@ BWV 810</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>VII64</name>
+            <name>VII</name>
             </Harmony>
-          <Clef>
-            <concertClefType>F</concertClefType>
-            <transposingClefType>F</transposingClefType>
-            </Clef>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -29992,10 +29994,6 @@ BWV 810</text>
               <tpc>17</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>VII</name>
-            </Harmony>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -30080,7 +30078,7 @@ BWV 810</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>VI64</name>
+            <name>VI</name>
             </Harmony>
           <Chord>
             <durationType>16th</durationType>
@@ -30096,10 +30094,6 @@ BWV 810</text>
               <tpc>15</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>VI</name>
-            </Harmony>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -30178,13 +30172,17 @@ BWV 810</text>
               <tpc>17</tpc>
               </Note>
             </Chord>
+          <Clef>
+            <concertClefType>F</concertClefType>
+            <transposingClefType>F</transposingClefType>
+            </Clef>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V64</name>
+            <name>V}{</name>
             </Harmony>
           <Chord>
             <durationType>16th</durationType>
@@ -30290,10 +30288,6 @@ BWV 810</text>
             <harmonyType>1</harmonyType>
             <name>#viio6</name>
             </Harmony>
-          <Clef>
-            <concertClefType>F</concertClefType>
-            <transposingClefType>F</transposingClefType>
-            </Clef>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -30398,7 +30392,7 @@ BWV 810</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i[i6</name>
+            <name>i[i6|IAC}{</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -30446,6 +30440,10 @@ BWV 810</text>
               <tpc>18</tpc>
               </Note>
             </Chord>
+          <Clef>
+            <concertClefType>F</concertClefType>
+            <transposingClefType>F</transposingClefType>
+            </Clef>
           </voice>
         </Measure>
       <Measure>
@@ -30508,10 +30506,6 @@ BWV 810</text>
             <harmonyType>1</harmonyType>
             <name>#viio7</name>
             </Harmony>
-          <Clef>
-            <concertClefType>F</concertClefType>
-            <transposingClefType>F</transposingClefType>
-            </Clef>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -30535,7 +30529,7 @@ BWV 810</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i]</name>
+            <name>i]}{</name>
             </Harmony>
           <Chord>
             <durationType>16th</durationType>
@@ -30618,10 +30612,6 @@ BWV 810</text>
               <tpc>15</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>iv43</name>
-            </Harmony>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -30682,6 +30672,10 @@ BWV 810</text>
               <tpc>16</tpc>
               </Note>
             </Chord>
+          <Clef>
+            <concertClefType>F</concertClefType>
+            <transposingClefType>F</transposingClefType>
+            </Clef>
           </voice>
         </Measure>
       <Measure>
@@ -30721,10 +30715,6 @@ BWV 810</text>
               <tpc>13</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V43/VI</name>
-            </Harmony>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -30791,12 +30781,8 @@ BWV 810</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>#viio6(2)</name>
+            <name>ii%7</name>
             </Harmony>
-          <Clef>
-            <concertClefType>F</concertClefType>
-            <transposingClefType>F</transposingClefType>
-            </Clef>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -30825,10 +30811,6 @@ BWV 810</text>
               <tpc>18</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>#viio</name>
-            </Harmony>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -30851,11 +30833,10 @@ BWV 810</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V[V7</name>
+            <name>V[V7}{</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
-            <StemDirection>down</StemDirection>
             <Note>
               <pitch>47</pitch>
               <tpc>19</tpc>
@@ -30863,7 +30844,6 @@ BWV 810</text>
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
-            <StemDirection>down</StemDirection>
             <Note>
               <pitch>59</pitch>
               <tpc>19</tpc>
@@ -30871,7 +30851,6 @@ BWV 810</text>
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
-            <StemDirection>down</StemDirection>
             <Note>
               <pitch>47</pitch>
               <tpc>19</tpc>
@@ -30887,7 +30866,6 @@ BWV 810</text>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
-            <StemDirection>down</StemDirection>
             <Note>
               <pitch>47</pitch>
               <tpc>19</tpc>
@@ -30895,7 +30873,6 @@ BWV 810</text>
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
-            <StemDirection>down</StemDirection>
             <Note>
               <pitch>59</pitch>
               <tpc>19</tpc>
@@ -30903,7 +30880,6 @@ BWV 810</text>
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
-            <StemDirection>down</StemDirection>
             <Note>
               <pitch>47</pitch>
               <tpc>19</tpc>
@@ -30915,7 +30891,6 @@ BWV 810</text>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
-            <StemDirection>down</StemDirection>
             <Note>
               <pitch>47</pitch>
               <tpc>19</tpc>
@@ -30927,7 +30902,6 @@ BWV 810</text>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
-            <StemDirection>down</StemDirection>
             <Note>
               <Accidental>
                 <subtype>accidentalSharp</subtype>
@@ -30938,12 +30912,15 @@ BWV 810</text>
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
-            <StemDirection>down</StemDirection>
             <Note>
               <pitch>47</pitch>
               <tpc>19</tpc>
               </Note>
             </Chord>
+          <Clef>
+            <concertClefType>F</concertClefType>
+            <transposingClefType>F</transposingClefType>
+            </Clef>
           </voice>
         </Measure>
       <Measure>
@@ -30953,17 +30930,20 @@ BWV 810</text>
             <name>V7</name>
             </Harmony>
           <Rest>
+            <visible>0</visible>
             <dots>1</dots>
             <durationType>quarter</durationType>
+            <NoteDot>
+              <visible>0</visible>
+              </NoteDot>
             </Rest>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V(6)</name>
+            <name>V(64)</name>
             </Harmony>
           <Chord>
             <dots>1</dots>
             <durationType>quarter</durationType>
-            <StemDirection>up</StemDirection>
             <Note>
               <Spanner type="Tie">
                 <Tie>
@@ -30979,13 +30959,6 @@ BWV 810</text>
               <tpc>15</tpc>
               </Note>
             </Chord>
-          <location>
-            <fractions>-1/4</fractions>
-            </location>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V(64)</name>
-            </Harmony>
           </voice>
         <voice>
           <Chord>
@@ -31038,10 +31011,6 @@ BWV 810</text>
             <harmonyType>1</harmonyType>
             <name>viio65/V</name>
             </Harmony>
-          <Clef>
-            <concertClefType>F</concertClefType>
-            <transposingClefType>F</transposingClefType>
-            </Clef>
           <Chord>
             <dots>1</dots>
             <durationType>eighth</durationType>
@@ -31177,7 +31146,7 @@ BWV 810</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V]</name>
+            <name>V]|HC}{</name>
             </Harmony>
           <Chord>
             <durationType>16th</durationType>
@@ -31216,6 +31185,10 @@ BWV 810</text>
             <visible>0</visible>
             <durationType>quarter</durationType>
             </Rest>
+          <Clef>
+            <concertClefType>F</concertClefType>
+            <transposingClefType>F</transposingClefType>
+            </Clef>
           </voice>
         <voice>
           <Chord>
@@ -31333,7 +31306,7 @@ BWV 810</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V43(9)</name>
+            <name>V(+9)-V43(9)</name>
             </Harmony>
           <Chord>
             <durationType>16th</durationType>
@@ -31371,10 +31344,6 @@ BWV 810</text>
             <harmonyType>1</harmonyType>
             <name>i6</name>
             </Harmony>
-          <Clef>
-            <concertClefType>F</concertClefType>
-            <transposingClefType>F</transposingClefType>
-            </Clef>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -31459,10 +31428,6 @@ BWV 810</text>
               <tpc>14</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V2</name>
-            </Harmony>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -31541,7 +31506,7 @@ BWV 810</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i\\</name>
+            <name>i|PAC}</name>
             </Harmony>
           <Chord>
             <dots>1</dots>

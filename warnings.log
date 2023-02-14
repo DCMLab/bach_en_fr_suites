@@ -1,4 +1,4 @@
-Warnings encountered during the last execution of ms3 review (v1.1.2)
+Warnings encountered during the last execution of ms3 review (v1.2.3)
 =====================================================================
 
 DCML_DEFAULT_CORRECTION_WARNING (27, 'MC 60: ') ms3.Parse.bach_en_fr_suites.BWV810_07_Gigue -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 4082) features2tpcs():
@@ -12,80 +12,36 @@ DCML_DEFAULT_CORRECTION_WARNING (27, 'MC 60: ') ms3.Parse.bach_en_fr_suites.BWV8
 DCML_DEFAULT_CORRECTION_WARNING (27, 'MC 84: ') ms3.Parse.bach_en_fr_suites.BWV810_07_Gigue -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 4082) features2tpcs():
 	MC 84: #vii in major context corrected to vii.
 Chord labels where the ratio of colored notes vs. all notes in a segment lies above 0.6:
-                                            mc  mn mc_onset       label      chord_tones added_tones  n_colored  n_untouched  count_ratio
-bach_en_fr_suites MS3/BWV810_07_Gigue.mscx  30  30      1/4    vii%7/iv  (1, -2, -5, -1)          ()          4            0     1.000000
-                  MS3/BWV810_07_Gigue.mscx  39  39      1/4        viio      (2, -1, -4)          ()          3            0     1.000000
-                  MS3/BWV810_07_Gigue.mscx  49  49        0         V6{       (10, 7, 6)          ()          4            2     0.666667
-                  MS3/BWV810_07_Gigue.mscx  50  50        0           V       (6, 10, 7)          ()          3            0     1.000000
-                  MS3/BWV810_07_Gigue.mscx  51  51        0          v6        (3, 7, 6)          ()          2            1     0.666667
-                  MS3/BWV810_07_Gigue.mscx  52  52        0          V6       (10, 7, 6)          ()          3            1     0.750000
-                  MS3/BWV810_07_Gigue.mscx  53  53        0        VI/v        (2, 6, 3)          ()          3            0     1.000000
-                  MS3/BWV810_07_Gigue.mscx  53  53      1/8         V/v       (7, 11, 8)          ()          2            1     0.666667
-                  MS3/BWV810_07_Gigue.mscx  53  53      1/4        iv/v        (5, 2, 6)          ()          2            1     0.666667
-                  MS3/BWV810_07_Gigue.mscx  54  54      1/4       VI6/v        (6, 3, 2)          ()          3            0     1.000000
-                  MS3/BWV810_07_Gigue.mscx  55  55      1/8       V2/IV     (3, 5, 9, 6)          ()          3            0     1.000000
-                  MS3/BWV810_07_Gigue.mscx  55  55      1/4         IV6        (8, 5, 4)          ()          3            0     1.000000
-                  MS3/BWV810_07_Gigue.mscx  56  56        0     iv(9)/v        (5, 2, 6)        (7,)          4            2     0.666667
-                  MS3/BWV810_07_Gigue.mscx  56  56      1/4          v6        (3, 7, 6)          ()          2            1     0.666667
-                  MS3/BWV810_07_Gigue.mscx  57  57        0         VI6       (12, 9, 8)          ()          6            0     1.000000
-                  MS3/BWV810_07_Gigue.mscx  57  57      1/4         iio        (7, 4, 1)          ()          3            0     1.000000
-                  MS3/BWV810_07_Gigue.mscx  58  58        0        ii%7     (7, 4, 1, 5)          ()          5            1     0.833333
-                  MS3/BWV810_07_Gigue.mscx  58  58      1/4  vii%43/VII  (9, 13, 15, 12)          ()          3            0     1.000000
-                  MS3/BWV810_07_Gigue.mscx  59  59        0       IIIM7  (9, 13, 10, 14)          ()          6            0     1.000000
-                  MS3/BWV810_07_Gigue.mscx  59  59      1/4     #vii%43    (4, 8, 10, 7)          ()          2            1     0.666667
-                  MS3/BWV810_07_Gigue.mscx  60  60      1/4       #viio       (10, 7, 4)          ()          3            0     1.000000
-                  MS3/BWV810_07_Gigue.mscx  61  61        0           i        (5, 2, 6)          ()         10            3     0.769231
-                  MS3/BWV810_07_Gigue.mscx  62  62      1/4       ii%65     (4, 1, 5, 7)          ()          3            1     0.750000
-                  MS3/BWV810_07_Gigue.mscx  63  63        0          i6        (2, 6, 5)          ()          4            2     0.666667
-                  MS3/BWV810_07_Gigue.mscx  63  63      1/4           v        (6, 3, 7)          ()          3            1     0.750000
-                  MS3/BWV810_07_Gigue.mscx  64  64        0       iv(9)        (4, 1, 5)        (6,)          2            1     0.666667
-                  MS3/BWV810_07_Gigue.mscx  64  64      1/8          V2    (4, 6, 10, 7)          ()          3            0     1.000000
-                  MS3/BWV810_07_Gigue.mscx  65  65      1/4           V       (6, 10, 7)          ()          3            0     1.000000
-                  MS3/BWV810_07_Gigue.mscx  66  66        0      IIIM65  (13, 10, 14, 9)          ()          7            0     1.000000
-                  MS3/BWV810_07_Gigue.mscx  66  66      1/4          VI       (8, 12, 9)          ()          3            0     1.000000
-                  MS3/BWV810_07_Gigue.mscx  67  67      1/4         VII     (10, 14, 11)          ()          3            0     1.000000
-                  MS3/BWV810_07_Gigue.mscx  68  68        0         v65     (3, 7, 4, 6)          ()          5            3     0.625000
-                  MS3/BWV810_07_Gigue.mscx  68  68      1/4      V6/III     (14, 11, 10)          ()          4            0     1.000000
-                  MS3/BWV810_07_Gigue.mscx  69  69        0         III      (9, 13, 10)          ()          7            0     1.000000
-                  MS3/BWV810_07_Gigue.mscx  70  70        0          VI       (8, 12, 9)          ()          6            0     1.000000
-                  MS3/BWV810_07_Gigue.mscx  70  70      1/4         III      (9, 13, 10)          ()          3            0     1.000000
-                  MS3/BWV810_07_Gigue.mscx  71  71        0         iv6        (1, 5, 4)          ()          4            2     0.666667
-                  MS3/BWV810_07_Gigue.mscx  72  72        0          iv        (4, 1, 5)          ()          4            2     0.666667
-                  MS3/BWV810_07_Gigue.mscx  72  72      1/4           v        (6, 3, 7)          ()          3            0     1.000000
-                  MS3/BWV810_07_Gigue.mscx  73  73        0     V65/III  (14, 11, 8, 10)          ()          7            0     1.000000
-                  MS3/BWV810_07_Gigue.mscx  74  74        0         III      (9, 13, 10)          ()          4            0     1.000000
-                  MS3/BWV810_07_Gigue.mscx  74  74      1/8       V7/VI   (9, 13, 10, 7)          ()          4            0     1.000000
-                  MS3/BWV810_07_Gigue.mscx  75  75        0        VIM7   (8, 12, 9, 13)          ()          4            0     1.000000
-                  MS3/BWV810_07_Gigue.mscx  76  76        0        ii%7     (7, 4, 1, 5)          ()          6            2     0.750000
-                  MS3/BWV810_07_Gigue.mscx  77  77        0    IIIM7(9)  (9, 13, 10, 14)        (4,)          6            0     1.000000
-                  MS3/BWV810_07_Gigue.mscx  77  77      1/4       IIIM7  (9, 13, 10, 14)          ()          2            0     1.000000
-                  MS3/BWV810_07_Gigue.mscx  78  78      1/8   viio6/VII      (12, 9, 15)          ()          6            0     1.000000
-                  MS3/BWV810_07_Gigue.mscx  79  79        0      VII(4)      (10, 9, 11)          ()          4            0     1.000000
-                  MS3/BWV810_07_Gigue.mscx  79  79      1/8         VII     (10, 14, 11)          ()          4            0     1.000000
-                  MS3/BWV810_07_Gigue.mscx  79  79      1/4        VII6     (14, 11, 10)          ()          3            0     1.000000
-                  MS3/BWV810_07_Gigue.mscx  80  80      1/4        ii%2     (5, 7, 4, 1)          ()          3            1     0.750000
-                  MS3/BWV810_07_Gigue.mscx  81  81        0          V7    (6, 10, 7, 4)          ()          6            2     0.750000
-                  MS3/BWV810_07_Gigue.mscx  81  81      1/4           i        (5, 2, 6)          ()          3            1     0.750000
-                  MS3/BWV810_07_Gigue.mscx  82  82        0          i6        (2, 6, 5)          ()          5            2     0.714286
-                  MS3/BWV810_07_Gigue.mscx  82  82      1/4         VI6       (12, 9, 8)          ()          4            0     1.000000
-                  MS3/BWV810_07_Gigue.mscx  83  83      1/4          iv        (4, 1, 5)          ()          2            1     0.666667
-                  MS3/BWV810_07_Gigue.mscx  84  84        0      #viio7    (10, 7, 4, 1)          ()          4            0     1.000000
-                  MS3/BWV810_07_Gigue.mscx  84  84      1/4          i6        (2, 6, 5)          ()          4            0     1.000000
-                  MS3/BWV810_07_Gigue.mscx  85  85      1/8       IV6/V        (9, 6, 5)          ()          3            1     0.750000
-                  MS3/BWV810_07_Gigue.mscx  85  85      1/4           V       (6, 10, 7)          ()          3            1     0.750000
-                  MS3/BWV810_07_Gigue.mscx  86  86      1/4    viio/VII      (15, 12, 9)          ()          3            0     1.000000
-                  MS3/BWV810_07_Gigue.mscx  87  87        0         VII     (10, 14, 11)          ()          3            0     1.000000
-                  MS3/BWV810_07_Gigue.mscx  87  87      1/8       V2/iv     (3, 5, 9, 6)          ()          3            0     1.000000
-                  MS3/BWV810_07_Gigue.mscx  87  87      1/4         IV6        (8, 5, 4)          ()          3            0     1.000000
-                  MS3/BWV810_07_Gigue.mscx  88  88        0        i(9)        (5, 2, 6)        (7,)          2            1     0.666667
-                  MS3/BWV810_07_Gigue.mscx  88  88      1/8        V7/V    (7, 11, 8, 5)          ()          3            0     1.000000
-                  MS3/BWV810_07_Gigue.mscx  88  88      1/4          V6       (10, 7, 6)          ()          2            1     0.666667
-                  MS3/BWV810_07_Gigue.mscx  89  89        0           i        (5, 2, 6)          ()          5            1     0.833333
-                  MS3/BWV810_07_Gigue.mscx  89  89      1/4      V43/VI   (10, 7, 9, 13)          ()          3            0     1.000000
-                  MS3/BWV810_07_Gigue.mscx  90  90        0          VI       (8, 12, 9)          ()          3            0     1.000000
-                  MS3/BWV810_07_Gigue.mscx  91  91      1/4          V7    (6, 10, 7, 4)          ()          4            0     1.000000
-                  MS3/BWV810_07_Gigue.mscx  92  92        0           I        (5, 9, 6)          ()          3            1     0.750000
-                  MS3/BWV810_07_Gigue.mscx  92  92      1/8       V7/iv     (5, 9, 6, 3)          ()          5            2     0.714286
-                  MS3/BWV810_07_Gigue.mscx  93  93        0         iv6        (1, 5, 4)          ()          5            2     0.714286
-                  MS3/BWV810_07_Gigue.mscx  94  94      1/8     #viio43    (4, 1, 10, 7)          ()          9            1     0.900000
-                  MS3/BWV810_07_Gigue.mscx  95  95        0      I|PAC}        (5, 9, 6)          ()          7            4     0.636364
+                                                 mc  mn mc_onset     label      chord_tones added_tones  n_colored  n_untouched  count_ratio
+bach_en_fr_suites MS3/BWV806_03_Courante_I.mscx   2   1      1/4        I6        (7, 4, 3)          ()          2            1     0.666667
+                  MS3/BWV806_07_Sarabande.mscx   10  10      1/8   V6(116)        (8, 7, 4)        (3,)          2            0     1.000000
+                  MS3/BWV806_07_Sarabande.mscx   27  27      1/8     vii%7     (8, 5, 2, 6)          ()          2            1     0.666667
+                  MS3/BWV806_08_Bouree_I.mscx    37  33      3/4   viio/IV        (7, 4, 1)          ()          2            1     0.666667
+                  MS3/BWV806_10_Gigue.mscx        2   1        0         I        (3, 7, 4)          ()          2            1     0.666667
+                  MS3/BWV807_06_Bourree_II.mscx   8   7      1/2     V(64)        (4, 3, 7)          ()          2            1     0.666667
+                  MS3/BWV810_07_Gigue.mscx       30  30      1/4  vii%7/iv  (1, -2, -5, -1)          ()          4            0     1.000000
+                  MS3/BWV810_07_Gigue.mscx       39  39      1/4      viio      (2, -1, -4)          ()          3            0     1.000000
+                  MS3/BWV810_07_Gigue.mscx       87  87     5/16      viio      (2, -1, -4)          ()          1            0     1.000000
+                  MS3/BWV811_06_Gavotte_I.mscx   18  15      1/2        V2     (1, 3, 7, 4)          ()          2            1     0.666667
+                  MS3/BWV811_06_Gavotte_I.mscx   18  15      3/4         V        (3, 7, 4)          ()          3            0     1.000000
+                  MS3/BWV811_08_Gigue.mscx        1   1     9/16      iio6       (1, -2, 4)          ()          2            1     0.666667
+                  MS3/BWV811_08_Gigue.mscx       32  32        0         v        (3, 0, 4)          ()          5            0     1.000000
+                  MS3/BWV811_08_Gigue.mscx       52  52     3/16    v6(b2)       (0, 4, -9)          ()          2            1     0.666667
+                  MS3/BWV813_02_Courante.mscx     1   0        0       c.V        (1, 5, 2)          ()          2            1     0.666667
+                  MS3/BWV813_02_Courante.mscx     8   7      1/4         V        (1, 5, 2)          ()          2            1     0.666667
+                  MS3/BWV813_04_Air.mscx         16  15      1/4   VII6(7)      (2, -1, -4)          ()          3            1     0.750000
+                  MS3/BWV814_01_Allemande.mscx    2   1      7/8       iv6        (1, 5, 4)          ()          2            1     0.666667
+                  MS3/BWV814_02_Courante.mscx    12  11      1/4    ii%7/v     (8, 5, 2, 6)          ()          2            1     0.666667
+                  MS3/BWV814_02_Courante.mscx    23  21      1/4        v6        (3, 7, 6)          ()          2            1     0.666667
+                  MS3/BWV814_03_Sarabande.mscx   10  10      3/8      III6        (6, 3, 2)          ()          2            1     0.666667
+                  MS3/BWV814_03_Sarabande.mscx   11  11      5/8       VI6        (5, 2, 1)          ()          3            1     0.750000
+                  MS3/BWV815_01_Allemande.mscx   20  18      1/8   V(2)/ii       (-5, 4, 1)          ()          2            1     0.666667
+                  MS3/BWV815_02_Courante.mscx    27  25      1/4    bVI/ii   (-12, -8, -11)          ()          3            0     1.000000
+                  MS3/BWV815_03_Sarabande.mscx   13  13      1/4    bVI/ii   (-12, -8, -11)          ()          5            0     1.000000
+                  MS3/BWV815_04_Gavotte.mscx     14  11      1/2  iv64(#7)      (-3, 8, -7)          ()          2            1     0.666667
+                  MS3/BWV815_05_Air.mscx         15  12      3/4        IV      (-4, 0, -3)          ()          2            1     0.666667
+                  MS3/BWV816_03_Sarabande.mscx   15  15      1/8   IVM7/IV    (-1, 3, 0, 4)          ()          2            0     1.000000
+                  MS3/BWV816_06_Loure.mscx        8   7      3/4  V6(11)/V        (7, 4, 3)        (2,)          2            1     0.666667
+                  MS3/BWV816_06_Loure.mscx       16  14      3/8        iv       (0, -3, 1)          ()          2            0     1.000000
+                  MS3/BWV817_01_Allemande.mscx   22  20      3/8       V/V       (6, 10, 7)          ()          3            0     1.000000
+                  MS3/BWV817_07_Gigue.mscx       45  43      1/8        I6        (8, 5, 4)          ()          2            1     0.666667

@@ -62,7 +62,7 @@
 |BWV811_04_Sarabande                 |      24|    60|2.3.0   |Adrian Nagel (2.1.0), Davor Krkljus (2.3.0)|DK, Hanné Becker|
 |BWV811_05_Double                    |      24|    64|2.3.0   |Adrian Nagel (2.1.0), Davor Krkljus (2.3.0)|DK, HB          |
 |BWV811_06_Gavotte_I                 |      32|   108|2.1.0   |Adrian Nagel                               |                |
-|BWV811_07_Gavotte_II                |      24|    71|2.1.0   |Adrian Nagel                               |                |
+|BWV811_07_Gavotte_II                |      24|    77|2.3.0   |Ehsan Mohagheghi Fard (2.3.0)              |                |
 |BWV811_08_Gigue                     |      56|   241|2.1.0   |Adrian Nagel                               |                |
 |BWV812_01_Allemande                 |      24|   158|2.1.0   |Adrian Nagel                               |                |
 |BWV812_02_Courante                  |      24|   101|2.3.0   |Adrian Nagel                               |DK, HB          |

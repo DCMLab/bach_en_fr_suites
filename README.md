@@ -23,7 +23,7 @@
 |BWV806_05_Double_I                  |      24|   101|2.3.0   |Davor Krkljus (2.3.0)                              |DK              |
 |BWV806_06_Double_II                 |      24|   100|2.3.0   |Davor Krkljus (2.3.0)                              |DK, EMF         |
 |BWV806_07_Sarabande                 |      32|    90|2.1.0   |Adrian Nagel                                       |                |
-|BWV806_08_Bouree_I                  |      48|   151|2.1.0   |Adrian Nagel                                       |                |
+|BWV806_08_Bouree_I                  |      48|   146|2.3.0   |Davor Krkljus (2.3.0)                              |DK, EMF         |
 |BWV806_09_Bouree_II                 |      36|   126|2.3.0   |Davor Krkljus (2.3.0)                              |DK, EMF         |
 |BWV806_10_Gigue                     |      40|   122|2.3.0   |Davor Krkljus (2.3.0)                              |DK, EMF         |
 |BWV807_01_Prelude                   |     164|   564|2.3.0   |Adrian Nagel (2.1.0), Davor Krkljus (2.3.0)        |DK, HB          |

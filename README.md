@@ -25,7 +25,7 @@
 |BWV806_07_Sarabande                 |      32|    90|2.1.0   |Adrian Nagel                                       |                |
 |BWV806_08_Bouree_I                  |      48|   151|2.1.0   |Adrian Nagel                                       |                |
 |BWV806_09_Bouree_II                 |      36|   132|2.1.0   |Adrian Nagel                                       |                |
-|BWV806_10_Gigue                     |      40|   174|2.1.0   |Adrian Nagel                                       |                |
+|BWV806_10_Gigue                     |      40|   122|2.3.0   |Davor Krkljus (2.3.0)                              |DK, EMF         |
 |BWV807_01_Prelude                   |     164|   564|2.3.0   |Adrian Nagel (2.1.0), Davor Krkljus (2.3.0)        |DK, HB          |
 |BWV807_02_Allemande                 |      24|   125|2.3.0   |Adrian Nagel (2.1.0), Davor Krkljus (2.3.0)        |DK, HB          |
 |BWV807_03_Courante                  |      24|   110|2.3.0   |Adrian Nagel (2.1.0), Davor Krkljus (2.3.0)        |DK, HB          |
@@ -107,4 +107,4 @@
 |BWV817_08_Menuett                   |      24|    68|2.1.0   |Adrian Nagel                                       |                |
 
 
-*Overview table updated using [ms3](https://johentsch.github.io/ms3/) 1.2.3.*
+*Overview table updated using [ms3](https://johentsch.github.io/ms3/) 1.2.4.*

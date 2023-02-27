@@ -1,5 +1,5 @@
 mc	mn	quarterbeats	duration_qb	mc_onset	mn_onset	timesig	staff	voice	label	alt_label	globalkey	localkey	pedal	chord	numeral	form	figbass	changes	relativeroot	cadence	phraseend	chord_type	globalkey_is_minor	localkey_is_minor	chord_tones	added_tones	root	bass_note
-1	0	0	1.0	0	3/4	2/2	2	1	a.i64		a	i		i64	i		64					m	1	1	1, 0, -3		0	1
+1	0	0	1.0	0	3/4	2/2	2	1	a.i64{		a	i		i64	i		64				{	m	1	1	1, 0, -3		0	1
 2	1	1	1.0	0	0	2/2	2	1	i6		a	i		i6	i		6					m	1	1	-3, 1, 0		0	-3
 2	1	2	1.0	1/4	1/4	2/2	2	1	VI6		a	i		VI6	VI		6					M	1	1	0, -3, -4		-4	0
 2	1	3	1.0	1/2	1/2	2/2	2	1	i6		a	i		i6	i		6					m	1	1	-3, 1, 0		0	-3
@@ -28,41 +28,38 @@ mc	mn	quarterbeats	duration_qb	mc_onset	mn_onset	timesig	staff	voice	label	alt_l
 8	7	26	1.0	1/4	1/4	2/2	2	1	iio		a	i		iio	ii	o						o	1	1	2, -1, -4		2	2
 8	7	27	1.0	1/2	1/2	2/2	2	1	#viio		a	i		#viio	#vii	o						o	1	1	5, 2, -1		5	5
 8	7	28	1.0	3/4	3/4	2/2	2	1	i		a	i		i	i							m	1	1	0, -3, 1		0	0
-9	8	29	3.0	0	0	2/2	2	1	V		a	i		V	V							M	1	1	1, 5, 2		1	1
-9	8	32	1.0	3/4	3/4	2/2	2	1	V7		a	i		V7	V		7					Mm7	1	1	1, 5, 2, -1		1	1
+9	8	29	3.0	0	0	2/2	2	1	V|HC}		a	i		V	V					HC	}	M	1	1	1, 5, 2		1	1
+9	8	32	1.0	3/4	3/4	2/2	2	1	V7{		a	i		V7	V		7				{	Mm7	1	1	1, 5, 2, -1		1	1
 10	9	33	1.0	0	0	2/2	2	1	i64		a	i		i64	i		64					m	1	1	1, 0, -3		0	1
 10	9	34	1.0	1/4	1/4	2/2	2	1	iv		a	i		iv	iv							m	1	1	-1, -4, 0		-1	-1
 10	9	35	1.0	1/2	1/2	2/2	2	1	i6		a	i		i6	i		6					m	1	1	-3, 1, 0		0	-3
 10	9	36	1.0	3/4	3/4	2/2	2	1	iio		a	i		iio	ii	o						o	1	1	2, -1, -4		2	2
 11	10	37	1.0	0	0	2/2	2	1	i6		a	i		i6	i		6					m	1	1	-3, 1, 0		0	-3
 11	10	38	1.0	1/4	1/4	2/2	2	1	i		a	i		i	i							m	1	1	0, -3, 1		0	0
-11	10	39	0.5	1/2	1/2	2/2	2	1	i6		a	i		i6	i		6					m	1	1	-3, 1, 0		0	-3
-11	10	79/2	0.5	5/8	5/8	2/2	2	1	iio6		a	i		iio6	ii	o	6					o	1	1	-1, -4, 2		2	-1
-11	10	40	0.5	3/4	3/4	2/2	2	1	III6		a	i		III6	III		6					M	1	1	1, -2, -3		-3	1
-11	10	81/2	0.5	7/8	7/8	2/2	2	1	iv6		a	i		iv6	iv		6					m	1	1	-4, 0, -1		-1	-4
-12	11	41	1.0	0	0	2/2	2	1	v6		a	i		v6	v		6					m	1	1	-2, 2, 1		1	-2
-12	11	42	1.0	1/4	1/4	2/2	2	1	VI		a	i		VI	VI							M	1	1	-4, 0, -3		-4	-4
-12	11	43	1.0	1/2	1/2	2/2	2	1	v		a	i		v	v							m	1	1	1, -2, 2		1	1
-12	11	44	1.0	3/4	3/4	2/2	2	1	iv		a	i		iv	iv							m	1	1	-1, -4, 0		-1	-1
-13	12	45	1.0	0	0	2/2	2	1	v		a	i		v	v							m	1	1	1, -2, 2		1	1
-13	12	46	1.0	1/4	1/4	2/2	2	1	i6		a	i		i6	i		6					m	1	1	-3, 1, 0		0	-3
-13	12	47	0.5	1/2	1/2	2/2	2	1	III6		a	i		III6	III		6					M	1	1	1, -2, -3		-3	1
-13	12	95/2	0.5	5/8	5/8	2/2	2	1	IV6		a	i		IV6	IV		6					M	1	1	3, 0, -1		-1	3
-13	12	48	0.5	3/4	3/4	2/2	2	1	v6		a	i		v6	v		6					m	1	1	-2, 2, 1		1	-2
-13	12	97/2	0.5	7/8	7/8	2/2	2	1	iio6/v		a	i		iio6/v	ii	o	6		v			o	1	1	0, -3, 3		3	0
-14	13	49	1.0	0	0	2/2	2	1	III6/v		a	i		III6/v	III		6		v			M	1	1	2, -1, -2		-2	2
+11	10	39	1.0	1/2	1/2	2/2	2	1	i6		a	i		i6	i		6					m	1	1	-3, 1, 0		0	-3
+11	10	40	1.0	3/4	3/4	2/2	2	1	III6		a	i		III6	III		6					M	1	1	1, -2, -3		-3	1
+12	11	41	1.0	0	0	2/2	2	1	I64/III		a	i		I64/III	I		64		III			M	1	1	-2, -3, 1		-3	-2
+12	11	42	1.0	1/4	1/4	2/2	2	1	IV/III		a	i		IV/III	IV				III			M	1	1	-4, 0, -3		-4	-4
+12	11	43	1.0	1/2	1/2	2/2	2	1	I6/III		a	i		I6/III	I		6		III			M	1	1	1, -2, -3		-3	1
+12	11	44	1.0	3/4	3/4	2/2	2	1	ii/III		a	i		ii/III	ii				III			m	1	1	-1, -4, 0		-1	-1
+13	12	45	1.0	0	0	2/2	2	1	I6/III		a	i		I6/III	I		6		III			M	1	1	1, -2, -3		-3	1
+13	12	46	1.0	1/4	1/4	2/2	2	1	I/III		a	i		I/III	I				III			M	1	1	-3, 1, -2		-3	-3
+13	12	47	1.0	1/2	1/2	2/2	2	1	I6/III		a	i		I6/III	I		6		III			M	1	1	1, -2, -3		-3	1
+13	12	48	1.0	3/4	3/4	2/2	2	1	v6		a	i		v6	v		6					m	1	1	-2, 2, 1		1	-2
+14	13	49	1.0	0	0	2/2	2	1	i64/v		a	i		i64/v	i		64		v			m	1	1	2, 1, -2		1	2
 14	13	50	1.0	1/4	1/4	2/2	2	1	iv/v		a	i		iv/v	iv				v			m	1	1	0, -3, 1		0	0
-14	13	51	1.0	1/2	1/2	2/2	2	1	v6		a	i		v6	v		6					m	1	1	-2, 2, 1		1	-2
+14	13	51	1.0	1/2	1/2	2/2	2	1	i6/v		a	i		i6/v	i		6		v			m	1	1	-2, 2, 1		1	-2
 14	13	52	1.0	3/4	3/4	2/2	2	1	iio/v		a	i		iio/v	ii	o			v			o	1	1	3, 0, -3		3	3
-15	14	53	1.0	0	0	2/2	2	1	v6		a	i		v6	v		6					m	1	1	-2, 2, 1		1	-2
-15	14	54	1.0	1/4	1/4	2/2	2	1	v		a	i		v	v							m	1	1	1, -2, 2		1	1
+15	14	53	1.0	0	0	2/2	2	1	i6/v		a	i		i6/v	i		6		v			m	1	1	-2, 2, 1		1	-2
+15	14	54	1.0	1/4	1/4	2/2	2	1	i/v		a	i		i/v	i				v			m	1	1	1, -2, 2		1	1
 15	14	55	1.0	1/2	1/2	2/2	2	1	VI/v		a	i		VI/v	VI				v			M	1	1	-3, 1, -2		-3	-3
 15	14	56	1.0	3/4	3/4	2/2	2	1	ii%65/v		a	i		ii%65/v	ii	%	65		v			%7	1	1	0, -3, 1, 3		3	0
-16	15	57	1.0	0	0	2/2	2	1	v6		a	i		v6	v		6					m	1	1	-2, 2, 1		1	-2
-16	15	58	1.0	1/4	1/4	2/2	2	1	v		a	i		v	v							m	1	1	1, -2, 2		1	1
+16	15	57	1.0	0	0	2/2	2	1	i6/v		a	i		i6/v	i		6		v			m	1	1	-2, 2, 1		1	-2
+16	15	58	1.0	1/4	1/4	2/2	2	1	i/v		a	i		i/v	i				v			m	1	1	1, -2, 2		1	1
 16	15	59	1.0	1/2	1/2	2/2	2	1	V(64)/v		a	i		V(64)/v	V			64	v			M	1	1	2, 1, -2		2	2
 16	15	60	1.0	3/4	3/4	2/2	2	1	V/v		a	i		V/v	V				v			M	1	1	2, 6, 3		2	2
-17	16	61	4.0	0	0	2/2	2	1	v\\		a	i		v	v						\\	m	1	1	1, -2, 2		1	1
+17	16	61	4.0	0	0	2/2	2	1	i/v|PAC}		a	i		i/v	i				v	PAC	}	m	1	1	1, -2, 2		1	1
+18	16	64	0.0	0	3/4	2/2	2	1	{		a	i									{		1	1				
 19	17	65	1.0	0	0	2/2	2	1	#viio64/iv		a	i		#viio64/iv	#vii	o	64		iv			o	1	1	-2, 4, 1		4	-2
 19	17	66	1.0	1/4	1/4	2/2	2	1	ii/iv		a	i		ii/iv	ii				iv			m	1	1	1, -2, 2		1	1
 19	17	67	1.0	1/2	1/2	2/2	2	1	#viio64/iv		a	i		#viio64/iv	#vii	o	64		iv			o	1	1	-2, 4, 1		4	-2
@@ -71,11 +68,12 @@ mc	mn	quarterbeats	duration_qb	mc_onset	mn_onset	timesig	staff	voice	label	alt_l
 20	18	70	1.0	1/4	1/4	2/2	2	1	iio/iv		a	i		iio/iv	ii	o			iv			o	1	1	1, -2, -5		1	1
 20	18	71	1.0	1/2	1/2	2/2	2	1	iv/iv		a	i		iv/iv	iv				iv			m	1	1	-2, -5, -1		-2	-2
 20	18	72	1.0	3/4	3/4	2/2	2	1	V65/iv		a	i		V65/iv	V		65		iv			Mm7	1	1	4, 1, -2, 0		0	4
-21	19	73	1.0	0	0	2/2	2	1	iv		a	i		iv	iv							m	1	1	-1, -4, 0		-1	-1
+21	19	73	1.0	0	0	2/2	2	1	i/iv		a	i		i/iv	i				iv			m	1	1	-1, -4, 0		-1	-1
 21	19	74	1.0	1/4	1/4	2/2	2	1	VI/iv		a	i		VI/iv	VI				iv			M	1	1	-5, -1, -4		-5	-5
 21	19	75	1.0	1/2	1/2	2/2	2	1	IV/iv		a	i		IV/iv	IV				iv			M	1	1	-2, 2, -1		-2	-2
 21	19	76	1.0	3/4	3/4	2/2	2	1	V7/iv		a	i		V7/iv	V		7		iv			Mm7	1	1	0, 4, 1, -2		0	0
-22	20	77	4.0	0	0	2/2	2	1	iv		a	i		iv	iv							m	1	1	-1, -4, 0		-1	-1
+22	20	77	4.0	0	0	2/2	2	1	i/iv|IAC}		a	i		i/iv	i				iv	IAC	}	m	1	1	-1, -4, 0		-1	-1
+22	20	80	0.0	3/4	3/4	2/2	2	1	{		a	i									{		1	1				
 23	21	81	1.0	0	0	2/2	2	1	viio64/III		a	i		viio64/III	vii	o	64		III			o	1	1	-4, 2, -1		2	-4
 23	21	82	1.0	1/4	1/4	2/2	2	1	viio6/III		a	i		viio6/III	vii	o	6		III			o	1	1	-1, -4, 2		2	-1
 23	21	83	1.0	1/2	1/2	2/2	2	1	viio64/III		a	i		viio64/III	vii	o	64		III			o	1	1	-4, 2, -1		2	-4
@@ -84,14 +82,12 @@ mc	mn	quarterbeats	duration_qb	mc_onset	mn_onset	timesig	staff	voice	label	alt_l
 24	22	86	1.0	1/4	1/4	2/2	2	1	ii/III		a	i		ii/III	ii				III			m	1	1	-1, -4, 0		-1	-1
 24	22	87	1.0	1/2	1/2	2/2	2	1	ii6/III	IV/III	a	i		ii6/III	ii		6		III			m	1	1	-4, 0, -1		-1	-4
 24	22	88	1.0	3/4	3/4	2/2	2	1	V65/III		a	i		V65/III	V		65		III			Mm7	1	1	2, -1, -4, -2		-2	2
-25	23	89	1.0	0	0	2/2	2	1	III		a	i		III	III							M	1	1	-3, 1, -2		-3	-3
+25	23	89	1.0	0	0	2/2	2	1	I/III		a	i		I/III	I				III			M	1	1	-3, 1, -2		-3	-3
 25	23	90	1.0	1/4	1/4	2/2	2	1	vi/III		a	i		vi/III	vi				III			m	1	1	0, -3, 1		0	0
 25	23	91	1.0	1/2	1/2	2/2	2	1	IV/III		a	i		IV/III	IV				III			M	1	1	-4, 0, -3		-4	-4
 25	23	92	1.0	3/4	3/4	2/2	2	1	V7/III		a	i		V7/III	V		7		III			Mm7	1	1	-2, 2, -1, -4		-2	-2
-26	24	93	2.5	0	0	2/2	2	1	III		a	i		III	III							M	1	1	-3, 1, -2		-3	-3
-26	24	191/2	0.5	5/8	5/8	2/2	2	1	iv6		a	i		iv6	iv		6					m	1	1	-4, 0, -1		-1	-4
-26	24	96	0.5	3/4	3/4	2/2	2	1	III6		a	i		III6	III		6					M	1	1	1, -2, -3		-3	1
-26	24	193/2	0.5	7/8	7/8	2/2	2	1	iio6		a	i		iio6	ii	o	6					o	1	1	-1, -4, 2		2	-1
+26	24	93	3.0	0	0	2/2	2	1	I/III|IAC}{		a	i		I/III	I				III	IAC	}{	M	1	1	-3, 1, -2		-3	-3
+26	24	96	1.0	3/4	3/4	2/2	2	1	III6		a	i		III6	III		6					M	1	1	1, -2, -3		-3	1
 27	25	97	2.0	0	0	2/2	2	1	i65		a	i		i65	i		65					mm7	1	1	-3, 1, -2, 0		0	-3
 27	25	99	2.0	1/2	1/2	2/2	2	1	VIM43		a	i		VIM43	VI	M	43					MM7	1	1	-3, 1, -4, 0		-4	-3
 28	26	101	2.0	0	0	2/2	2	1	#viio65		a	i		#viio65	#vii	o	65					o7	1	1	2, -1, -4, 5		5	2
@@ -99,9 +95,9 @@ mc	mn	quarterbeats	duration_qb	mc_onset	mn_onset	timesig	staff	voice	label	alt_l
 29	27	105	1.0	0	0	2/2	2	1	#vi%65		a	i		#vi%65	#vi	%	65					%7	1	1	0, -3, 1, 3		3	0
 29	27	106	1.0	1/4	1/4	2/2	2	1	VIM65		a	i		VIM65	VI	M	65					MM7	1	1	0, -3, 1, -4		-4	0
 29	27	107	2.0	1/2	1/2	2/2	2	1	iv43		a	i		iv43	iv		43					mm7	1	1	0, -3, -1, -4		-1	0
-30	28	109	2.0	0	0	2/2	2	1	V		a	i		V	V							M	1	1	1, 5, 2		1	1
+30	28	109	2.0	0	0	2/2	2	1	V|HC}		a	i		V	V					HC	}	M	1	1	1, 5, 2		1	1
 30	28	111	1.0	1/2	1/2	2/2	2	1	V2		a	i		V2	V		2					Mm7	1	1	-1, 1, 5, 2		1	-1
-30	28	112	1.0	3/4	3/4	2/2	2	1	i6		a	i		i6	i		6					m	1	1	-3, 1, 0		0	-3
+30	28	112	1.0	3/4	3/4	2/2	2	1	i6{		a	i		i6	i		6				{	m	1	1	-3, 1, 0		0	-3
 31	29	113	1.0	0	0	2/2	2	1	i		a	i		i	i							m	1	1	0, -3, 1		0	0
 31	29	114	1.0	1/4	1/4	2/2	2	1	#viio		a	i		#viio	#vii	o						o	1	1	5, 2, -1		5	5
 31	29	115	1.0	1/2	1/2	2/2	2	1	i		a	i		i	i							m	1	1	0, -3, 1		0	0
@@ -109,9 +105,7 @@ mc	mn	quarterbeats	duration_qb	mc_onset	mn_onset	timesig	staff	voice	label	alt_l
 32	30	117	1.0	0	0	2/2	2	1	i		a	i		i	i							m	1	1	0, -3, 1		0	0
 32	30	118	1.0	1/4	1/4	2/2	2	1	i6		a	i		i6	i		6					m	1	1	-3, 1, 0		0	-3
 32	30	119	1.0	1/2	1/2	2/2	2	1	V		a	i		V	V							M	1	1	1, 5, 2		1	1
-32	30	120	0.5	3/4	3/4	2/2	2	1	#viio		a	i		#viio	#vii	o						o	1	1	5, 2, -1		5	5
-32	30	241/2	0.5	7/8	7/8	2/2	2	1	i		a	i		i	i							m	1	1	0, -3, 1		0	0
-33	31	121	1.0	0	0	2/2	2	1	#viio		a	i		#viio	#vii	o						o	1	1	5, 2, -1		5	5
+32	30	120	2.0	3/4	3/4	2/2	2	1	#viio		a	i		#viio	#vii	o						o	1	1	5, 2, -1		5	5
 33	31	122	1.0	1/4	1/4	2/2	2	1	i		a	i		i	i							m	1	1	0, -3, 1		0	0
 33	31	123	1.0	1/2	1/2	2/2	2	1	#viio		a	i		#viio	#vii	o						o	1	1	5, 2, -1		5	5
 33	31	124	1.0	3/4	3/4	2/2	2	1	#viio6		a	i		#viio6	#vii	o	6					o	1	1	2, -1, 5		5	2
@@ -130,4 +124,4 @@ mc	mn	quarterbeats	duration_qb	mc_onset	mn_onset	timesig	staff	voice	label	alt_l
 37	35	138	1.0	1/4	1/4	2/2	2	1	i		a	i		i	i							m	1	1	0, -3, 1		0	0
 37	35	139	1.0	1/2	1/2	2/2	2	1	V(64)		a	i		V(64)	V			64				M	1	1	1, 0, -3		1	1
 37	35	140	1.0	3/4	3/4	2/2	2	1	V		a	i		V	V							M	1	1	1, 5, 2		1	1
-38	36	141	3.0	0	0	2/2	2	1	i\\		a	i		i	i						\\	m	1	1	0, -3, 1		0	0
+38	36	141	3.0	0	0	2/2	2	1	i|PAC}		a	i		i	i					PAC	}	m	1	1	0, -3, 1		0	0

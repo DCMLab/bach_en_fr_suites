@@ -4043,6 +4043,9 @@ BWV 813</text>
               <tpc>15</tpc>
               </Note>
             </Chord>
+          <Beam>
+            <StemDirection>down</StemDirection>
+            </Beam>
           <Chord>
             <dots>1</dots>
             <durationType>eighth</durationType>
@@ -4103,6 +4106,9 @@ BWV 813</text>
           <location>
             <fractions>5/8</fractions>
             </location>
+          <Beam>
+            <StemDirection>down</StemDirection>
+            </Beam>
           <Chord>
             <durationType>eighth</durationType>
             <StemDirection>up</StemDirection>
@@ -4140,6 +4146,9 @@ BWV 813</text>
             </Chord>
           </voice>
         <voice>
+          <Beam>
+            <StemDirection>down</StemDirection>
+            </Beam>
           <Chord>
             <dots>1</dots>
             <durationType>eighth</durationType>
@@ -4201,6 +4210,8 @@ BWV 813</text>
               <tpc>13</tpc>
               </Note>
             </Chord>
+          <Beam>
+            </Beam>
           <Chord>
             <durationType>16th</durationType>
             <Note>

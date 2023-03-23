@@ -4300,7 +4300,7 @@ BWV 813</text>
             </TimeSig>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>c.V</name>
+            <name>c.V{</name>
             <offset x="0" y="-8.3"/>
             </Harmony>
           <Rest>
@@ -5199,7 +5199,7 @@ BWV 813</text>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V\\</name>
+            <name>V|HC}</name>
             <offset x="-0.157635" y="-6.96108"/>
             </Harmony>
           <location>
@@ -5265,6 +5265,10 @@ BWV 813</text>
             </Rest>
           </voice>
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>{</name>
+            </Harmony>
           <Rest>
             <durationType>16th</durationType>
             </Rest>
@@ -6709,7 +6713,7 @@ BWV 813</text>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I\\</name>
+            <name>I|PAC}</name>
             <offset x="0" y="-6.11964"/>
             </Harmony>
           <location>

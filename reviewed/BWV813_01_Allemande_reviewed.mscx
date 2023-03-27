@@ -152,7 +152,7 @@
     <showUnprintable>1</showUnprintable>
     <showFrames>1</showFrames>
     <showMargins>0</showMargins>
-    <metaTag name="annotators">Amelia Brey (2.3.0)</metaTag>
+    <metaTag name="annotators">Arne Lüthke (2.1.0), Amelia Brey (2.3.0)</metaTag>
     <metaTag name="arranger"></metaTag>
     <metaTag name="composer"></metaTag>
     <metaTag name="copyright"></metaTag>
@@ -4389,13 +4389,7 @@ BWV 813</text>
             </TimeSig>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>c.V</name>
-            <color r="170" g="0" b="0" a="255"/>
-            </Harmony>
-          <Harmony>
-            <harmonyType>1</harmonyType>
             <name>c.V{</name>
-            <color r="0" g="85" b="0" a="255"/>
             <offset x="0" y="-8.3"/>
             </Harmony>
           <Rest>
@@ -4455,13 +4449,7 @@ BWV 813</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>VI</name>
-            <color r="170" g="0" b="0" a="255"/>
-            </Harmony>
-          <Harmony>
-            <harmonyType>1</harmonyType>
             <name>VIM7</name>
-            <color r="0" g="85" b="0" a="255"/>
             <offset x="-0.165365" y="-8.24974"/>
             </Harmony>
           <Chord>
@@ -4739,13 +4727,7 @@ BWV 813</text>
             </Clef>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>iv6(2)</name>
-            <color r="170" g="0" b="0" a="255"/>
-            </Harmony>
-          <Harmony>
-            <harmonyType>1</harmonyType>
             <name>iv6(^2)-VIM7</name>
-            <color r="0" g="85" b="0" a="255"/>
             <offset x="0" y="-10.1341"/>
             </Harmony>
           <Chord>
@@ -4828,13 +4810,7 @@ BWV 813</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>iv6</name>
-            <color r="170" g="0" b="0" a="255"/>
-            </Harmony>
-          <Harmony>
-            <harmonyType>1</harmonyType>
             <name>iv6-V2/III</name>
-            <color r="0" g="85" b="0" a="255"/>
             <offset x="0" y="-8.48047"/>
             </Harmony>
           <Chord>
@@ -4850,13 +4826,7 @@ BWV 813</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>III6(2)</name>
-            <color r="170" g="0" b="0" a="255"/>
-            </Harmony>
-          <Harmony>
-            <harmonyType>1</harmonyType>
             <name>III6(^2)-v7</name>
-            <color r="0" g="85" b="0" a="255"/>
             <offset x="0" y="-9.30729"/>
             </Harmony>
           <Chord>
@@ -4942,13 +4912,7 @@ BWV 813</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>III6</name>
-            <color r="170" g="0" b="0" a="255"/>
-            </Harmony>
-          <Harmony>
-            <harmonyType>1</harmonyType>
             <name>III6-VIM2</name>
-            <color r="0" g="85" b="0" a="255"/>
             <offset x="-0.165365" y="-8.3151"/>
             </Harmony>
           <Chord>
@@ -4968,13 +4932,7 @@ BWV 813</text>
             </Clef>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>viio6(2)/III</name>
-            <color r="170" g="0" b="0" a="255"/>
-            </Harmony>
-          <Harmony>
-            <harmonyType>1</harmonyType>
             <name>viio6(2)/III-ii7/III</name>
-            <color r="0" g="85" b="0" a="255"/>
             <offset x="0" y="-8.6798"/>
             </Harmony>
           <Chord>
@@ -5069,17 +5027,6 @@ BWV 813</text>
               <tpc>11</tpc>
               </Note>
             </Chord>
-          <location>
-            <fractions>-1/16</fractions>
-            </location>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>III</name>
-            <color r="170" g="0" b="0" a="255"/>
-            </Harmony>
-          <location>
-            <fractions>1/16</fractions>
-            </location>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>III6</name>
@@ -5131,17 +5078,6 @@ BWV 813</text>
               <tpc>11</tpc>
               </Note>
             </Chord>
-          <location>
-            <fractions>-1/16</fractions>
-            </location>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>III</name>
-            <color r="170" g="0" b="0" a="255"/>
-            </Harmony>
-          <location>
-            <fractions>1/16</fractions>
-            </location>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -5152,17 +5088,11 @@ BWV 813</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>i6</name>
-            <color r="0" g="85" b="0" a="255"/>
             <offset x="0" y="-8.36453"/>
             </Harmony>
           <Rest>
             <durationType>eighth</durationType>
             </Rest>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>i6</name>
-            <color r="170" g="0" b="0" a="255"/>
-            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -5360,13 +5290,7 @@ BWV 813</text>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V\\</name>
-            <color r="170" g="0" b="0" a="255"/>
-            </Harmony>
-          <Harmony>
-            <harmonyType>1</harmonyType>
             <name>V|HC}</name>
-            <color r="0" g="85" b="0" a="255"/>
             <offset x="-0.157635" y="-6.96108"/>
             </Harmony>
           <location>
@@ -5435,7 +5359,6 @@ BWV 813</text>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>{</name>
-            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Rest>
             <durationType>16th</durationType>
@@ -5482,23 +5405,10 @@ BWV 813</text>
               <tpc>14</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>i6</name>
-            <color r="170" g="0" b="0" a="255"/>
-            </Harmony>
           <Rest>
             <visible>0</visible>
             <durationType>quarter</durationType>
             </Rest>
-          <location>
-            <fractions>-1/8</fractions>
-            </location>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>i</name>
-            <color r="170" g="0" b="0" a="255"/>
-            </Harmony>
           </voice>
         <voice>
           <Chord>
@@ -6227,15 +6137,7 @@ BWV 813</text>
             <offset x="0.157635" y="-8.52217"/>
             </Harmony>
           <location>
-            <fractions>1/16</fractions>
-            </location>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>III</name>
-            <color r="170" g="0" b="0" a="255"/>
-            </Harmony>
-          <location>
-            <fractions>1/16</fractions>
+            <fractions>1/8</fractions>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
@@ -6267,15 +6169,7 @@ BWV 813</text>
             <offset x="0" y="-8.20689"/>
             </Harmony>
           <location>
-            <fractions>1/16</fractions>
-            </location>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>iio</name>
-            <color r="170" g="0" b="0" a="255"/>
-            </Harmony>
-          <location>
-            <fractions>1/16</fractions>
+            <fractions>1/8</fractions>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
@@ -6378,15 +6272,7 @@ BWV 813</text>
             <offset x="0" y="-7.41872"/>
             </Harmony>
           <location>
-            <fractions>1/16</fractions>
-            </location>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>i</name>
-            <color r="170" g="0" b="0" a="255"/>
-            </Harmony>
-          <location>
-            <fractions>1/16</fractions>
+            <fractions>1/8</fractions>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
@@ -6925,13 +6811,7 @@ BWV 813</text>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I\\</name>
-            <color r="170" g="0" b="0" a="255"/>
-            </Harmony>
-          <Harmony>
-            <harmonyType>1</harmonyType>
             <name>I|PAC}</name>
-            <color r="0" g="85" b="0" a="255"/>
             <offset x="0" y="-6.11964"/>
             </Harmony>
           <location>

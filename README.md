@@ -90,7 +90,7 @@
 |BWV815_05_Air                       |      22|   105|2.1.0   |Adrian Nagel                                       |                |
 |BWV815_06_Menuett                   |      16|    48|2.1.0   |Adrian Nagel                                       |                |
 |BWV815_07_Gigue                     |      60|   127|2.1.0   |Adrian Nagel                                       |                |
-|BWV816_01_Allemande                 |      24|   158|2.1.0   |Adrian Nagel                                       |                |
+|BWV816_01_Allemande                 |      24|   142|2.3.0   |Adrian Nagel (2.1.0), Davor Krkljus (2.3.0)        |DK              |
 |BWV816_02_Courante                  |      32|   187|2.1.0   |Adrian Nagel                                       |                |
 |BWV816_03_Sarabande                 |      40|   131|2.1.0   |Adrian Nagel                                       |                |
 |BWV816_04_Gavotte                   |      24|    88|2.1.0   |Adrian Nagel                                       |                |
@@ -107,4 +107,4 @@
 |BWV817_08_Menuett                   |      24|    68|2.1.0   |Adrian Nagel                                       |                |
 
 
-*Overview table updated using [ms3](https://johentsch.github.io/ms3/) 1.2.4.*
+*Overview table updated using [ms3](https://johentsch.github.io/ms3/) 1.2.5.*

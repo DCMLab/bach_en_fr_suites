@@ -223,6 +223,12 @@
             <offset x="-15.6126" y="-8.60655"/>
             <text>7. Gigue</text>
             </StaffText>
+          <Tempo>
+            <tempo>1.75</tempo>
+            <followText>1</followText>
+            <visible>0</visible>
+            <text><b></b><font face="ScoreText"/> <b><font face="Edwin"/> = 140</b></text>
+            </Tempo>
           <Chord>
             <durationType>16th</durationType>
             <Note>

@@ -3352,6 +3352,16 @@
               <tpc>19</tpc>
               </Note>
             </Chord>
+          <location>
+            <fractions>-3/16</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>{</name>
+            </Harmony>
+          <location>
+            <fractions>3/16</fractions>
+            </location>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>ii6</name>
@@ -3866,7 +3876,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I</name>
+            <name>I|PAC}</name>
             </Harmony>
           <Rest>
             <visible>0</visible>

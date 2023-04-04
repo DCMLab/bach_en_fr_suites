@@ -2,10 +2,9 @@ Warnings encountered during the last execution of ms3 review (v1.2.5)
 =====================================================================
 
 DCML_HARMONY_SYNTAX_WARNING (15,) ms3.Parse.bach_en_fr_suites.BWV813_02_Courante -- /usr/local/lib/python3.10/site-packages/ms3/annotations.py (line 382) expand_dcml():
-	Score contains 2 labels that don't (and 166 that do) match the DCML standard:
-	    mc  mn   label harmony_layer
-	8    5   4    V/HC             1
-	55  21  20  }{i7/v             1
+	Score contains 1 labels that don't (and 168 that do) match the DCML standard:
+	   mc  mn label harmony_layer
+	8   5   4  V/HC             1
 Chord labels where the ratio of colored notes vs. all notes in a segment lies above 0.6:
                                                mc  mn mc_onset label chord_tones added_tones  n_colored  n_untouched  count_ratio
 bach_en_fr_suites MS3/BWV813_02_Courante.mscx   1   0        0  c.V{   (1, 5, 2)          ()          2            1     0.666667

@@ -4023,12 +4023,16 @@
               <tpc>15</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>}</name>
+            </Harmony>
           <Rest>
             <durationType>eighth</durationType>
             </Rest>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>}{i7/v</name>
+            <name>i7/v{</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>

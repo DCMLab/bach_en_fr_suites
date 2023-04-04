@@ -2957,7 +2957,7 @@ BWV 814</text>
             </TimeSig>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>b.V</name>
+            <name>b.V{</name>
             </Harmony>
           <Rest>
             <durationType>16th</durationType>
@@ -3117,7 +3117,7 @@ BWV 814</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i</name>
+            <name>i}</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -3126,6 +3126,16 @@ BWV 814</text>
               <tpc>19</tpc>
               </Note>
             </Chord>
+          <location>
+            <fractions>-1/16</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>{</name>
+            </Harmony>
+          <location>
+            <fractions>1/16</fractions>
+            </location>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>#viio6</name>
@@ -3487,7 +3497,7 @@ BWV 814</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I/III\\</name>
+            <name>I/III|PAC}</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -3506,7 +3516,14 @@ BWV 814</text>
               </Note>
             </Chord>
           <location>
-            <fractions>-1/8</fractions>
+            <fractions>-3/16</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>{</name>
+            </Harmony>
+          <location>
+            <fractions>1/16</fractions>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
@@ -4006,11 +4023,15 @@ BWV 814</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i/v\\</name>
+            <name>i/v}</name>
             </Harmony>
           <Rest>
             <durationType>16th</durationType>
             </Rest>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>{</name>
+            </Harmony>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -4287,7 +4308,7 @@ BWV 814</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I/v</name>
+            <name>I/v|PAC}</name>
             </Harmony>
           <Rest>
             <durationType>eighth</durationType>
@@ -4355,7 +4376,7 @@ BWV 814</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I/v\\</name>
+            <name>I/v</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -4416,7 +4437,7 @@ BWV 814</text>
             </BarLine>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V43/V</name>
+            <name>V43/V{</name>
             </Harmony>
           <Rest>
             <durationType>16th</durationType>
@@ -4599,11 +4620,15 @@ BWV 814</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V/iv</name>
+            <name>V/iv}</name>
             </Harmony>
           <Rest>
             <durationType>16th</durationType>
             </Rest>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>{</name>
+            </Harmony>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -4814,7 +4839,7 @@ BWV 814</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i6/iv\\</name>
+            <name>i6/iv}</name>
             </Harmony>
           <Chord>
             <durationType>16th</durationType>
@@ -4823,6 +4848,10 @@ BWV 814</text>
               <tpc>15</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>{</name>
+            </Harmony>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -5300,11 +5329,15 @@ BWV 814</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V</name>
+            <name>V|HC}</name>
             </Harmony>
           <Rest>
             <durationType>16th</durationType>
             </Rest>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>{</name>
+            </Harmony>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -5494,7 +5527,7 @@ BWV 814</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>VI</name>
+            <name>VI|DC}</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -5513,7 +5546,14 @@ BWV 814</text>
               </Note>
             </Chord>
           <location>
-            <fractions>-1/8</fractions>
+            <fractions>-3/16</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>{</name>
+            </Harmony>
+          <location>
+            <fractions>1/16</fractions>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
@@ -5726,7 +5766,7 @@ BWV 814</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I</name>
+            <name>I|PAC}</name>
             </Harmony>
           <Rest>
             <durationType>16th</durationType>

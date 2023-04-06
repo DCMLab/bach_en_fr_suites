@@ -11,7 +11,17 @@ DCML_PHRASE_INCONGRUENCY_WARNING (16,) ms3.Parse.bach_en_fr_suites.BWV813_04_Air
 	            8a         {             8b         }
 	            5b         {            16b         }
 	            8b         {            NaN       NaN
+DCML_HARMONY_SYNTAX_WARNING (15,) ms3.Parse.bach_en_fr_suites.BWV814_02_Courante -- /usr/local/lib/python3.10/site-packages/ms3/annotations.py (line 382) expand_dcml():
+	Score contains 1 labels that don't (and 109 that do) match the DCML standard:
+	    mc  mn          label harmony_layer
+	37  11  10  empty_harmony             1
+WARNING  ms3.Parse.bach_en_fr_suites.BWV814_02_Courante -- /usr/local/lib/python3.10/site-packages/ms3/transformations.py (line 304) compute_chord_tones():
+	MC 18: 42 is not a valid chord inversion.
 Chord labels where the ratio of colored notes vs. all notes in a segment lies above 0.6:
-                                                mc  mn mc_onset    label  chord_tones added_tones  n_colored  n_untouched  count_ratio
-bach_en_fr_suites MS3/BWV813_04_Air.mscx        16  15      1/4  VII6(7)  (2, -1, -4)          ()          3            1     0.750000
-                  MS3/BWV814_01_Allemande.mscx   2   1      7/8      iv6    (1, 5, 4)          ()          2            1     0.666667
+                                                mc  mn mc_onset       label  chord_tones added_tones  n_colored  n_untouched  count_ratio
+bach_en_fr_suites MS3/BWV813_04_Air.mscx        16  15      1/4     VII6(7)  (2, -1, -4)          ()          3            1     0.750000
+                  MS3/BWV814_01_Allemande.mscx   2   1      7/8         iv6    (1, 5, 4)          ()          2            1     0.666667
+                  MS3/BWV814_02_Courante.mscx   18  16      3/4  #viio42/iv           ()          ()          7            0     1.000000
+                  MS3/BWV814_02_Courante.mscx   21  19      3/4       viio6   (0, -3, 3)          ()          6            0     1.000000
+                  MS3/BWV814_02_Courante.mscx   22  20      7/8        III6    (6, 3, 2)          ()          4            1     0.800000
+                  MS3/BWV814_02_Courante.mscx   23  21      1/4          v6    (3, 7, 6)          ()          2            1     0.666667

@@ -77,7 +77,7 @@
 |BWV813_05_Menuett                   |      32|    73|2.1.0   |Arne Lüthke                                        |                |
 |BWV813_06_Gigue                     |      84|   135|2.1.0   |Arne Lüthke                                        |                |
 |BWV814_01_Allemande                 |      24|   163|2.3.0   |Sylvie Tran (2.3.0)                                |                |
-|BWV814_02_Courante                  |      28|   147|2.1.0   |Adrian Nagel                                       |                |
+|BWV814_02_Courante                  |      28|   109|2.3.0   |Sylvie Tran (2.3.0)                                |ST              |
 |BWV814_03_Sarabande                 |      24|    89|2.1.0   |Adrian Nagel                                       |                |
 |BWV814_04_Gavotte                   |      32|   116|2.1.0   |Adrian Nagel                                       |                |
 |BWV814_05_Menuett                   |      36|   101|2.1.0   |Adrian Nagel                                       |                |

@@ -231,6 +231,14 @@
             <offset x="-11.9115" y="-18.7247"/>
             <text>1. Allemande</text>
             </StaffText>
+          <Tempo>
+            <tempo>1.3333333333333333</tempo>
+            <followText>1</followText>
+            <visible>0</visible>
+            <minDistance>-14.8628</minDistance>
+            <offset x="-2.60619" y="-4.12646"/>
+            <text><sym>metNoteQuarterUp</sym> = 80</text>
+            </Tempo>
           <Rest>
             <visible>0</visible>
             <durationType>16th</durationType>
@@ -4713,7 +4721,7 @@ BWV 815</text>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>ii6(11)/V</name>
+            <name>ii6(11)</name>
             </Harmony>
           <Rest>
             <visible>0</visible>
@@ -4724,14 +4732,14 @@ BWV 815</text>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V7/V</name>
+            <name>V7</name>
             </Harmony>
           <location>
             <fractions>1/8</fractions>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V[V(94)</name>
+            <name>I[I(4)</name>
             </Harmony>
           <Rest>
             <visible>0</visible>
@@ -4742,7 +4750,7 @@ BWV 815</text>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V\\</name>
+            <name>I|PAC}</name>
             </Harmony>
           <location>
             <fractions>1/8</fractions>
@@ -4843,6 +4851,10 @@ BWV 815</text>
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>I</name>
+            </Harmony>
           <Rest>
             <visible>0</visible>
             <durationType>measure</durationType>
@@ -4853,14 +4865,14 @@ BWV 815</text>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V7</name>
+            <name>V7/IV</name>
             </Harmony>
           <location>
             <fractions>1/4</fractions>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I</name>
+            <name>IV</name>
             </Harmony>
           </voice>
         <voice>
@@ -4884,7 +4896,7 @@ BWV 815</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>viio6/V</name>
+            <name>viio6</name>
             <offset x="0" y="-6"/>
             </Harmony>
           <Rest>
@@ -4897,7 +4909,7 @@ BWV 815</text>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>viio2/V</name>
+            <name>viio2</name>
             <offset x="0" y="-6"/>
             </Harmony>
           <location>
@@ -4905,7 +4917,7 @@ BWV 815</text>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>viio/V</name>
+            <name>I(97)</name>
             <offset x="0" y="-8"/>
             </Harmony>
           <location>
@@ -4913,7 +4925,7 @@ BWV 815</text>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V</name>
+            <name>I</name>
             <offset x="0" y="-8"/>
             </Harmony>
           <location>
@@ -4921,14 +4933,14 @@ BWV 815</text>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V7/V</name>
+            <name>I(94)</name>
             </Harmony>
           <location>
             <fractions>1/8</fractions>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V]</name>
+            <name>I]</name>
             </Harmony>
           </voice>
         <voice>
@@ -4956,7 +4968,7 @@ BWV 815</text>
             </Clef>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>#viio7/vi</name>
+            <name>vi.V65(2)</name>
             </Harmony>
           <Rest>
             <visible>0</visible>
@@ -4968,28 +4980,14 @@ BWV 815</text>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V65/vi</name>
+            <name>V65</name>
             </Harmony>
           <location>
-            <fractions>1/4</fractions>
+            <fractions>3/8</fractions>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V6/vi</name>
-            </Harmony>
-          <location>
-            <fractions>1/8</fractions>
-            </location>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>vi7</name>
-            </Harmony>
-          <location>
-            <fractions>1/8</fractions>
-            </location>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>vi</name>
+            <name>i</name>
             </Harmony>
           </voice>
         <voice>
@@ -5016,7 +5014,8 @@ BWV 815</text>
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>IVM7</name>
+            <name>iv65(2)</name>
+            <offset x="0.1" y="3.5"/>
             </Harmony>
           <Rest>
             <visible>0</visible>
@@ -5028,28 +5027,28 @@ BWV 815</text>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>ii65</name>
+            <name>iv65</name>
             </Harmony>
           <location>
             <fractions>1/8</fractions>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>viio64</name>
+            <name>ii%43</name>
             </Harmony>
           <location>
             <fractions>1/8</fractions>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V7(4)/vi</name>
+            <name>V7(4)</name>
             </Harmony>
           <location>
             <fractions>1/8</fractions>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V7/vi</name>
+            <name>V7</name>
             </Harmony>
           </voice>
         <voice>
@@ -5087,8 +5086,7 @@ BWV 815</text>
             </Clef>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>#viio6/ii</name>
-            <offset x="0" y="-6"/>
+            <name>V43(b9)/iv</name>
             </Harmony>
           <Rest>
             <visible>0</visible>
@@ -5096,33 +5094,18 @@ BWV 815</text>
             <duration>4/4</duration>
             </Rest>
           <location>
-            <fractions>-7/8</fractions>
+            <fractions>-3/4</fractions>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>#viio43/ii</name>
-            <offset x="0" y="-6"/>
+            <name>V43</name>
             </Harmony>
           <location>
-            <fractions>1/8</fractions>
+            <fractions>1/4</fractions>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>#viio6(4)/ii</name>
-            </Harmony>
-          <location>
-            <fractions>1/8</fractions>
-            </location>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V64/ii</name>
-            </Harmony>
-          <location>
-            <fractions>1/8</fractions>
-            </location>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>ii</name>
+            <name>ii%65</name>
             </Harmony>
           <location>
             <fractions>1/8</fractions>

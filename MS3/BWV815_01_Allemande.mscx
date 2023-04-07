@@ -3748,7 +3748,7 @@ BWV 815</text>
             </TimeSig>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>Eb.I</name>
+            <name>Eb.I{</name>
             <offset x="-1" y="-5"/>
             </Harmony>
           <Chord>
@@ -4088,7 +4088,7 @@ BWV 815</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I</name>
+            <name>I}{</name>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
@@ -4838,6 +4838,10 @@ BWV 815</text>
           <BarLine>
             <subtype>start-repeat</subtype>
             </BarLine>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>{</name>
+            </Harmony>
           <Rest>
             <visible>0</visible>
             <durationType>16th</durationType>
@@ -4940,7 +4944,7 @@ BWV 815</text>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I]</name>
+            <name>I]}</name>
             </Harmony>
           </voice>
         <voice>
@@ -4968,7 +4972,7 @@ BWV 815</text>
             </Clef>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>vi.V65(2)</name>
+            <name>vi.V65(2){</name>
             </Harmony>
           <Rest>
             <visible>0</visible>
@@ -5320,7 +5324,7 @@ BWV 815</text>
             </Clef>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I.I6</name>
+            <name>I.I6{</name>
             </Harmony>
           <Rest>
             <visible>0</visible>
@@ -5611,7 +5615,7 @@ BWV 815</text>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>IV65</name>
+            <name>IVM65</name>
             </Harmony>
           <location>
             <fractions>1/4</fractions>
@@ -5738,7 +5742,7 @@ BWV 815</text>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I(94)</name>
+            <name>I(4)</name>
             </Harmony>
           <Rest>
             <visible>0</visible>
@@ -5746,7 +5750,7 @@ BWV 815</text>
             </Rest>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I\\</name>
+            <name>I|PAC}</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>

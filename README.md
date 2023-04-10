@@ -70,8 +70,8 @@
 |BWV812_04_Menuett_I                 |      24|    57|2.3.0   |Adrian Nagel (2.1.0), Davor Krkljus (2.3.0)        |DK, HB          |
 |BWV812_05_Menuett_II                |      40|    66|2.3.0   |Adrian Nagel (2.1.0), Davor Krkljus (2.3.0)        |DK, HB          |
 |BWV812_06_Gigue                     |      28|   125|2.3.0   |Adrian Nagel (2.1.0), Davor Krkljus (2.3.0)        |DK, HB          |
-|BWV813_01_Allemande                 |      18|   129|2.1.0   |Arne Lüthke                                        |                |
-|BWV813_02_Courante                  |      57|   168|2.3.0   |Arne Lüthke (2.1.0), Amelia Brey (2.3.0)           |AB, ST          |
+|BWV813_01_Allemande                 |      18|   123|2.3.0   |Arne Lüthke (2.1.0), Amelia Brey (2.3.0)           |AB, ST          |
+|BWV813_02_Courante                  |      57|   170|2.1.0   |Arne Lüthke                                        |                |
 |BWV813_03_Sarabande                 |      24|   106|2.1.0   |Arne Lüthke                                        |                |
 |BWV813_04_Air                       |      16|   103|2.1.0   |Arne Lüthke                                        |                |
 |BWV813_05_Menuett                   |      32|    73|2.1.0   |Arne Lüthke                                        |                |

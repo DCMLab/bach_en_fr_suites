@@ -98,7 +98,7 @@
 |BWV816_06_Loure                     |      16|    75|2.1.0   |Adrian Nagel                                       |                |
 |BWV816_07_Gigue                     |      56|   160|2.1.0   |Adrian Nagel                                       |                |
 |BWV817_01_Allemande                 |      28|   206|2.1.0   |Adrian Nagel                                       |                |
-|BWV817_02_Courante                  |      32|   125|2.1.0   |Adrian Nagel                                       |                |
+|BWV817_02_Courante                  |      32|    94|2.3.0   |Adrian Nagel (2.1.0), Davor Krkljus (2.3.0)        |DK              |
 |BWV817_03_Sarabande                 |      24|    79|2.1.0   |Adrian Nagel                                       |                |
 |BWV817_04_Gavotte                   |      20|    69|2.1.0   |Adrian Nagel                                       |                |
 |BWV817_05_Polonaise                 |      24|    78|2.1.0   |Adrian Nagel                                       |                |

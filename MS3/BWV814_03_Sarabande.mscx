@@ -2049,7 +2049,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>VI6</name>
+            <name>i</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -2058,6 +2058,16 @@
               <tpc>16</tpc>
               </Note>
             </Chord>
+          <location>
+            <fractions>-1/8</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>VI6</name>
+            </Harmony>
+          <location>
+            <fractions>1/8</fractions>
+            </location>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>v6</name>
@@ -2267,7 +2277,7 @@
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V7/III</name>
+            <name>v6(2)</name>
             </Harmony>
           <location>
             <fractions>1/8</fractions>
@@ -2288,14 +2298,14 @@
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>VIM7</name>
+            <name>iv6(2)</name>
             </Harmony>
           <location>
             <fractions>1/8</fractions>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>iv65</name>
+            <name>iv6</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>

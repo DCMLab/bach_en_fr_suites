@@ -82,7 +82,7 @@
 |BWV814_04_Gavotte                   |      32|   116|2.1.0   |Adrian Nagel                                       |                |
 |BWV814_05_Menuett                   |      36|   101|2.1.0   |Adrian Nagel                                       |                |
 |BWV814_06_Trio                      |      24|    70|2.1.0   |Adrian Nagel                                       |                |
-|BWV814_07_Gigue                     |      68|   182|2.1.0   |Adrian Nagel                                       |                |
+|BWV814_07_Gigue                     |      68|   156|2.3.0   |Adrian Nagel (2.1.0), Sylvie Tran (2.3.0)          |ST              |
 |BWV815_01_Allemande                 |      20|   120|2.1.0   |Adrian Nagel                                       |                |
 |BWV815_02_Courante                  |      36|   134|2.1.0   |Adrian Nagel                                       |                |
 |BWV815_03_Sarabande                 |      24|    89|2.1.0   |Adrian Nagel                                       |                |

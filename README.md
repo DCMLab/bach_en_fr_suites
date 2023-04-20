@@ -74,7 +74,7 @@
 |BWV813_02_Courante                  |      57|   168|2.3.0   |Arne Lüthke (2.1.0), Amelia Brey (2.3.0)           |AB, ST          |
 |BWV813_03_Sarabande                 |      24|   102|2.3.0   |Arne Lüthke (2.1.0), Amelia Brey (2.3.0)           |AB, ST          |
 |BWV813_04_Air                       |      16|   106|2.3.0   |Arne Lüthke (2.1.0), Amelia Brey (2.3.0)           |AB, ST          |
-|BWV813_05_Menuett                   |      32|    74|2.3.0   |Arne Lüthke (2.1.0), Amelia Brey (2.3.0)           |AB              |
+|BWV813_05_Menuett                   |      32|    74|2.3.0   |Arne Lüthke (2.1.0), Amelia Brey (2.3.0)           |AB, ST          |
 |BWV813_06_Gigue                     |      84|   135|2.1.0   |Arne Lüthke                                        |                |
 |BWV814_01_Allemande                 |      24|   163|2.3.0   |Adrian Nagel (2.1.0), Sylvie Tran (2.3.0)          |ST, AB          |
 |BWV814_02_Courante                  |      28|   147|2.1.0   |Adrian Nagel                                       |                |

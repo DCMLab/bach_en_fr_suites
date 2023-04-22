@@ -84,7 +84,7 @@
 |BWV814_06_Trio                      |      24|    70|2.1.0   |Adrian Nagel                                       |                |
 |BWV814_07_Gigue                     |      68|   182|2.1.0   |Adrian Nagel                                       |                |
 |BWV815_01_Allemande                 |      20|   104|2.1.0   |Ehsan Mohagheghi Frad (2.3.0)                      |EMF             |
-|BWV815_02_Courante                  |      36|   134|2.1.0   |Adrian Nagel                                       |                |
+|BWV815_02_Courante                  |      36|    88|2.3.0   |Ehsan Mohagheghi Fard (2.3.0)                      |EMF             |
 |BWV815_03_Sarabande                 |      24|    89|2.1.0   |Adrian Nagel                                       |                |
 |BWV815_04_Gavotte                   |      22|    92|2.1.0   |Adrian Nagel                                       |                |
 |BWV815_05_Air                       |      22|   105|2.1.0   |Adrian Nagel                                       |                |

@@ -3759,7 +3759,7 @@
             </TimeSig>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>Eb.V</name>
+            <name>Eb.I</name>
             </Harmony>
           <Rest>
             <visible>0</visible>
@@ -3774,10 +3774,6 @@
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>I[I</name>
-            </Harmony>
           <Rest>
             <visible>0</visible>
             <dots>1</dots>
@@ -3801,16 +3797,6 @@
               <tpc>15</tpc>
               </Note>
             </Chord>
-          <location>
-            <fractions>-1/48</fractions>
-            </location>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>viio6</name>
-            </Harmony>
-          <location>
-            <fractions>1/48</fractions>
-            </location>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -3818,10 +3804,6 @@
               <tpc>13</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>I</name>
-            </Harmony>
           <Chord>
             <dots>1</dots>
             <durationType>eighth</durationType>
@@ -3877,7 +3859,7 @@
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>ii2]</name>
+            <name>ii2</name>
             </Harmony>
           <location>
             <fractions>1/12</fractions>

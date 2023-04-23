@@ -94,7 +94,7 @@
 |BWV816_02_Courante                  |      32|    83|2.3.0   |Adrian Nagel (2.1.0), Davor Krkljus (2.3.0)        |DK, ST          |
 |BWV816_03_Sarabande                 |      40|   106|2.3.0   |Adrian Nagel (2.1.0), Davor Krkljus (2.3.0)        |DK, ST          |
 |BWV816_04_Gavotte                   |      24|    68|2.3.0   |Adrian Nagel (2.1.0), Davor Krkljus (2.3.0)        |DK, ST          |
-|BWV816_05_Bourree                   |      30|   108|2.1.0   |Adrian Nagel                                       |                |
+|BWV816_05_Bourree                   |      30|    77|2.3.0   |Adrian Nagel (2.1.0), Davor Krkljus (2.3.0)        |DK, ST          |
 |BWV816_06_Loure                     |      16|    75|2.1.0   |Adrian Nagel                                       |                |
 |BWV816_07_Gigue                     |      56|   160|2.1.0   |Adrian Nagel                                       |                |
 |BWV817_01_Allemande                 |      28|   206|2.1.0   |Adrian Nagel                                       |                |

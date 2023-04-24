@@ -1491,6 +1491,7 @@
           <Chord>
             <dots>1</dots>
             <durationType>half</durationType>
+            <StemDirection>up</StemDirection>
             <Note>
               <Spanner type="Tie">
                 <Tie>
@@ -1524,10 +1525,14 @@
             </Rest>
           </voice>
         <voice>
-          <Rest>
+          <Chord>
             <dots>1</dots>
             <durationType>half</durationType>
-            </Rest>
+            <Note>
+              <pitch>78</pitch>
+              <tpc>20</tpc>
+              </Note>
+            </Chord>
           <Chord>
             <durationType>half</durationType>
             <Note>
@@ -1543,6 +1548,7 @@
               </Note>
             </Chord>
           <Rest>
+            <visible>0</visible>
             <durationType>eighth</durationType>
             </Rest>
           </voice>
@@ -4119,10 +4125,12 @@
             <durationType>quarter</durationType>
             </Rest>
           <Rest>
+            <offset x="0" y="-2"/>
             <durationType>quarter</durationType>
             </Rest>
           <Chord>
             <durationType>quarter</durationType>
+            <StemDirection>up</StemDirection>
             <Note>
               <pitch>49</pitch>
               <tpc>21</tpc>
@@ -4132,15 +4140,18 @@
             <fractions>1/2</fractions>
             </location>
           <Rest>
+            <visible>0</visible>
             <durationType>eighth</durationType>
             </Rest>
           </voice>
         <voice>
           <Rest>
+            <offset x="0" y="7"/>
             <durationType>quarter</durationType>
             </Rest>
           <Chord>
             <durationType>half</durationType>
+            <StemDirection>down</StemDirection>
             <Note>
               <Spanner type="Tie">
                 <Tie>
@@ -4157,6 +4168,7 @@
             </Chord>
           <Chord>
             <durationType>half</durationType>
+            <StemDirection>down</StemDirection>
             <Note>
               <Spanner type="Tie">
                 <prev>
@@ -4170,6 +4182,7 @@
               </Note>
             </Chord>
           <Rest>
+            <visible>0</visible>
             <durationType>eighth</durationType>
             </Rest>
           </voice>

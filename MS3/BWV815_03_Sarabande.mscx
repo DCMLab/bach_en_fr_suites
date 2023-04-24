@@ -213,6 +213,12 @@
             <offset x="-14.9919" y="-7.90597"/>
             <text>3. Sarabande</text>
             </StaffText>
+          <Tempo>
+            <tempo>1</tempo>
+            <followText>1</followText>
+            <visible>0</visible>
+            <text><b></b><font face="ScoreText"/><b><font face="Edwin"/> = 60</b></text>
+            </Tempo>
           <Chord>
             <durationType>eighth</durationType>
             <Note>

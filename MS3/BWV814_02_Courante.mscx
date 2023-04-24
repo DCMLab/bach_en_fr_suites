@@ -4207,6 +4207,7 @@
           </voice>
         <voice>
           <Rest>
+            <offset x="0" y="-2"/>
             <durationType>eighth</durationType>
             </Rest>
           </voice>
@@ -5509,7 +5510,7 @@
             </Clef>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>VI|DC}{</name>
+            <name>VI|DC</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>

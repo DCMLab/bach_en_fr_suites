@@ -2220,7 +2220,7 @@
             </TimeSig>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>Eb.I</name>
+            <name>Eb.I{</name>
             </Harmony>
           <Rest>
             <visible>0</visible>
@@ -3198,12 +3198,16 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i|PAC}</name>
+            <name>i(4)|PAC}</name>
             </Harmony>
           <Rest>
             <visible>0</visible>
             <durationType>quarter</durationType>
             </Rest>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>i</name>
+            </Harmony>
           <Chord>
             <durationType>half</durationType>
             <StemDirection>down</StemDirection>
@@ -3792,7 +3796,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I(64)}</name>
+            <name>I(64)|IAC}</name>
             </Harmony>
           <Rest>
             <visible>0</visible>
@@ -3800,7 +3804,7 @@
             </Rest>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I|IAC)</name>
+            <name>I</name>
             </Harmony>
           <Rest>
             <visible>0</visible>

@@ -217,7 +217,7 @@
             <tempo>1</tempo>
             <followText>1</followText>
             <visible>0</visible>
-            <text><b></b><font face="ScoreText"/><b><font face="Edwin"/> = 60</b></text>
+            <text><b></b><font face="ScoreText"></font><b><font face="Edwin"></font> = 60</b></text>
             </Tempo>
           <Chord>
             <durationType>eighth</durationType>
@@ -3796,7 +3796,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I(64)|IAC}</name>
+            <name>I(64)|PAC}</name>
             </Harmony>
           <Rest>
             <visible>0</visible>

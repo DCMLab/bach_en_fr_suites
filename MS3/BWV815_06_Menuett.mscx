@@ -213,6 +213,16 @@
             <offset x="-16.2804" y="-8.78249"/>
             <text>6. Menuett</text>
             </StaffText>
+          <Tempo>
+            <tempo>1.3333299999999999</tempo>
+            <followText>1</followText>
+            <text></text>
+            </Tempo>
+          <Tempo>
+            <tempo>2</tempo>
+            <followText>1</followText>
+            <text><b></b><font face="ScoreText"/><b><font face="Edwin"/> = 120</b></text>
+            </Tempo>
           <Chord>
             <durationType>eighth</durationType>
             <Spanner type="Slur">
@@ -1377,7 +1387,7 @@
             </TimeSig>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>Eb.I</name>
+            <name>Eb.I{</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>

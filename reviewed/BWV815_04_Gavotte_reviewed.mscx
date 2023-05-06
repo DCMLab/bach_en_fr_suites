@@ -214,6 +214,12 @@
             <offset x="-16.6703" y="-8.88505"/>
             <text>4. Gavotte</text>
             </StaffText>
+          <Tempo>
+            <tempo>2.1666666666666665</tempo>
+            <followText>1</followText>
+            <visible>0</visible>
+            <text><b></b><font face="ScoreText"></font><b><font face="Edwin"></font> = 130</b></text>
+            </Tempo>
           <Chord>
             <durationType>eighth</durationType>
             <Spanner type="Slur">
@@ -2587,13 +2593,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>#viio/V</name>
-            <color r="170" g="0" b="0" a="255"/>
-            </Harmony>
-          <Harmony>
-            <harmonyType>1</harmonyType>
             <name>viio/V</name>
-            <color r="0" g="85" b="0" a="255"/>
             <offset x="0" y="-8"/>
             </Harmony>
           <Chord>

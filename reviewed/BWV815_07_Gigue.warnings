@@ -3,19 +3,6 @@ Warnings encountered during the last execution of ms3 review (v1.2.9)
 
 WARNING  ms3.Parse.bach_en_fr_suites.BWV815_07_Gigue
 	MC 37: vii%: % requires figbass (7, 65, 43, or 2) since it specifies a chord's seventh.
-DCML_PHRASE_INCONGRUENCY_WARNING (16,) ms3.Parse.bach_en_fr_suites.BWV815_07_Gigue
-	Phrase beginning and endings don't match:
-	mn_playthrough phraseend mn_playthrough phraseend
-	            1a         {            22a        }{
-	           22a        }{            26a         }
-	            1b         {            22b        }{
-	           22b        }{            26b         }
-	           44a        }{            44a        }{
-	           54a        }{            54a        }{
-	           44b        }{            60a         }
-	           54b        }{            44b        }{
-	           NaN       NaN            54b        }{
-	           NaN       NaN            60b         }
 WARNING  ms3.Parse.bach_en_fr_suites.BWV815_07_Gigue
 	MC 37: vii%: % requires figbass (7, 65, 43, or 2) since it specifies a chord's seventh.
 DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 31, '3/8', 'VI/ii') ms3.Parse.bach_en_fr_suites.BWV815_07_Gigue

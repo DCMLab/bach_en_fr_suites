@@ -13,7 +13,7 @@
 * BWV 813 was reviewed by JH at the time of creation 
 
 
-# Overview
+## Overview
 |             file_name              |measures|labels|standard|                    annotators                     |   reviewers    |
 |------------------------------------|-------:|-----:|--------|---------------------------------------------------|----------------|
 |BWV806_01_Prelude                   |      37|   233|2.1.0   |Adrian Nagel                                       |                |
@@ -99,7 +99,7 @@
 |BWV816_07_Gigue                     |      56|   160|2.1.0   |Adrian Nagel                                       |                |
 |BWV817_01_Allemande                 |      28|   206|2.1.0   |Adrian Nagel                                       |                |
 |BWV817_02_Courante                  |      32|   125|2.1.0   |Adrian Nagel                                       |                |
-|BWV817_03_Sarabande                 |      24|    65|2.3.0   |Adrian Nagel (2.1.0), Davor Krkljus (2.3.0)        |DK              |
+|BWV817_03_Sarabande                 |      24|    65|2.3.0   |Adrian Nagel (2.1.0), Davor Krkljus (2.3.0)        |DK, ST          |
 |BWV817_04_Gavotte                   |      20|    69|2.1.0   |Adrian Nagel                                       |                |
 |BWV817_05_Polonaise                 |      24|    78|2.1.0   |Adrian Nagel                                       |                |
 |BWV817_06_Bourree                   |      42|   139|2.1.0   |Adrian Nagel                                       |                |
@@ -107,4 +107,4 @@
 |BWV817_08_Menuett                   |      24|    68|2.1.0   |Adrian Nagel                                       |                |
 
 
-*Overview table updated using [ms3](https://johentsch.github.io/ms3/) 1.2.5.*
+*Overview table automatically updated using [ms3](https://johentsch.github.io/ms3/).*

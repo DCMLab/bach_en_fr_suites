@@ -13,7 +13,7 @@
 * BWV 813 was reviewed by JH at the time of creation 
 
 
-# Overview
+## Overview
 |             file_name              |measures|labels|standard|                    annotators                     |   reviewers    |
 |------------------------------------|-------:|-----:|--------|---------------------------------------------------|----------------|
 |BWV806_01_Prelude                   |      37|   233|2.1.0   |Adrian Nagel                                       |                |
@@ -107,4 +107,4 @@
 |BWV817_08_Menuett                   |      24|    68|2.1.0   |Adrian Nagel                                       |                |
 
 
-*Overview table updated using [ms3](https://johentsch.github.io/ms3/) 1.2.5.*
+*Overview table automatically updated using [ms3](https://johentsch.github.io/ms3/).*

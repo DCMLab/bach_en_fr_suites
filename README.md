@@ -13,7 +13,7 @@
 * BWV 813 was reviewed by JH at the time of creation 
 
 
-# Overview
+## Overview
 |             file_name              |measures|labels|standard|                    annotators                     |   reviewers    |
 |------------------------------------|-------:|-----:|--------|---------------------------------------------------|----------------|
 |BWV806_01_Prelude                   |      37|   233|2.1.0   |Adrian Nagel                                       |                |
@@ -80,7 +80,7 @@
 |BWV814_02_Courante                  |      28|   147|2.1.0   |Adrian Nagel                                       |                |
 |BWV814_03_Sarabande                 |      24|    89|2.1.0   |Adrian Nagel                                       |                |
 |BWV814_04_Gavotte                   |      32|   116|2.1.0   |Adrian Nagel                                       |                |
-|BWV814_05_Menuett                   |      36|    96|2.3.0   |Adrian Nagel (2.1.0), Sylvie Tran (2.3.0)          |ST              |
+|BWV814_05_Menuett                   |      36|    94|2.3.0   |Adrian Nagel (2.1.0), Sylvie Tran (2.3.0)          |ST, AB          |
 |BWV814_06_Trio                      |      24|    70|2.1.0   |Adrian Nagel                                       |                |
 |BWV814_07_Gigue                     |      68|   182|2.1.0   |Adrian Nagel                                       |                |
 |BWV815_01_Allemande                 |      20|   120|2.1.0   |Adrian Nagel                                       |                |
@@ -107,4 +107,4 @@
 |BWV817_08_Menuett                   |      24|    68|2.1.0   |Adrian Nagel                                       |                |
 
 
-*Overview table updated using [ms3](https://johentsch.github.io/ms3/) 1.2.5.*
+*Overview table automatically updated using [ms3](https://johentsch.github.io/ms3/).*

@@ -3313,35 +3313,13 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>#viio7/iv{</name>
+            <name>V65/iv{</name>
             </Harmony>
           <Rest>
             <visible>0</visible>
             <durationType>measure</durationType>
             <duration>2/2</duration>
             </Rest>
-          <location>
-            <fractions>-3/4</fractions>
-            </location>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>#viio6/iv</name>
-            </Harmony>
-          <location>
-            <fractions>1/4</fractions>
-            </location>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V/iv</name>
-            </Harmony>
-          <location>
-            <fractions>1/4</fractions>
-            </location>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>#viio64/iv</name>
-            <offset x="0" y="-8"/>
-            </Harmony>
           </voice>
         <voice>
           <Chord>
@@ -3456,7 +3434,7 @@
             </Clef>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>vii%7/III</name>
+            <name>V65/III</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -3465,10 +3443,6 @@
               <tpc>21</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>viio6/III</name>
-            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
@@ -3476,10 +3450,6 @@
               <tpc>18</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V/III</name>
-            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
@@ -3487,11 +3457,6 @@
               <tpc>17</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>viio64/III</name>
-            <offset x="0" y="-8"/>
-            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <Note>

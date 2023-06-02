@@ -8,3 +8,5 @@ DCML_PHRASE_INCONGRUENCY_WARNING (16,) ms3.Parse.bach_en_fr_suites.BWV813_04_Air
 	First volta has an anacrusis ornament encoded as part of the first phrase of second volta.
 DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 16, '1/4', 'VII6(7)') ms3.Parse.bach_en_fr_suites.BWV813_04_Air
 	VII6(7) honors implied resolution of 15.1.4 tritone Eb/A to D/Bb even though Bb is skipped over
+DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19,) ms3.review
+	BWV814_03_Sarabande 11.3.2: a pair of non-functional neighboring notes were indicated as excessive non-chord tones.

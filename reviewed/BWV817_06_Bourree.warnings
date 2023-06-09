@@ -3,13 +3,8 @@ Warnings encountered during the last execution of ms3 review (v1.2.9)
 
 DCML_HARMONY_SYNTAX_WARNING (15,) ms3.Parse.bach_en_fr_suites.BWV817_06_Bourree
 	Score contains 1 labels that don't (and 121 that do) match the DCML standard:
-	   mc  mn    label harmony_layer
-	6   5   4  I]}|IAC             1
-DCML_HARMONY_INCOMPLETE_PEDAL_COLUMN_WARNING (13,) ms3.Parse.bach_en_fr_suites.BWV817_06_Bourree
-	propagate_pedal() failed with
-	1 organ points started, 0 ended:
-	   mc pedal    mc pedalend
-	0   1     I  <NA>      NaN
+	   mc  mn   label harmony_layer
+	6   5   4  I}|IAC             1
 DCML_PHRASE_INCONGRUENCY_WARNING (16,) ms3.Parse.bach_en_fr_suites.BWV817_06_Bourree
 	Phrase beginning and endings don't match:
 	mn_playthrough phraseend mn_playthrough phraseend
@@ -27,13 +22,3 @@ DCML_PHRASE_INCONGRUENCY_WARNING (16,) ms3.Parse.bach_en_fr_suites.BWV817_06_Bou
 	           24b         {            42b         }
 	           29b        }{            NaN       NaN
 	           32b        }{            NaN       NaN
-DCML_HARMONY_INCOMPLETE_PEDAL_COLUMN_WARNING (13,) ms3.Parse.bach_en_fr_suites.BWV817_06_Bourree
-	propagate_pedal() failed with
-	1 organ points started, 0 ended:
-	   mc pedal    mc pedalend
-	0   1     I  <NA>      NaN
-DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 4, '1/2', 'V6') ms3.Parse.bach_en_fr_suites.BWV817_06_Bourree
-	The label 'V6' in m. 3, onset 1/2 (MC 4, onset 1/2) seems not to correspond well to the score (which does not necessarily mean it is wrong).
-	In the context of E.I, it expresses the scale degrees ('#2', '#4', '7') [('F##', 'A#', 'D#')].
-	The corresponding score segment has 4 within-label and 7 out-of-label note onsets, a ratio of 0.6363636363636364 > 0.6 (the current, arbitrary, threshold).
-	If it turns out the label is correct, please add the header of this warning to the IGNORED_WARNINGS, ideally followed by a free-text comment in subsequent lines starting with a space or tab.

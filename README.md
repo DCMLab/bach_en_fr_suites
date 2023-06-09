@@ -100,7 +100,7 @@
 |BWV817_01_Allemande                 |      28|   103|2.3.0   |Adrian Nagel (2.1.0), Davor Krkljus (2.3.0)        |DK, ST          |
 |BWV817_02_Courante                  |      32|    94|2.3.0   |Adrian Nagel (2.1.0), Davor Krkljus (2.3.0)        |DK, ST          |
 |BWV817_03_Sarabande                 |      24|    65|2.3.0   |Adrian Nagel (2.1.0), Davor Krkljus (2.3.0)        |DK, ST          |
-|BWV817_04_Gavotte                   |      20|    69|2.1.0   |Adrian Nagel                                       |                |
+|BWV817_04_Gavotte                   |      20|    59|2.3.0   |Adrian Nagel (2.1.0), Davor Krkljus (2.3.0)        |                |
 |BWV817_05_Polonaise                 |      24|    78|2.1.0   |Adrian Nagel                                       |                |
 |BWV817_06_Bourree                   |      42|   139|2.1.0   |Adrian Nagel                                       |                |
 |BWV817_07_Gigue                     |      48|   131|2.1.0   |Adrian Nagel                                       |                |

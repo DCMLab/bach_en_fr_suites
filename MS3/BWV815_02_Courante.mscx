@@ -3429,7 +3429,7 @@
           <Tuplet>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
-            <baseNote>16th</baseNote>
+            <baseNote>eighth</baseNote>
             <Number>
               <style>Tuplet</style>
               <text>3</text>
@@ -3456,24 +3456,6 @@
               <tpc>12</tpc>
               </Note>
             </Chord>
-          <endTuplet/>
-          <location>
-            <fractions>-1/24</fractions>
-            </location>
-          <Rest>
-            <dots>2</dots>
-            <durationType>32nd</durationType>
-            <duration>1/24</duration>
-            </Rest>
-          <Tuplet>
-            <normalNotes>2</normalNotes>
-            <actualNotes>3</actualNotes>
-            <baseNote>eighth</baseNote>
-            <Number>
-              <style>Tuplet</style>
-              <text>3</text>
-              </Number>
-            </Tuplet>
           <Chord>
             <durationType>eighth</durationType>
             <Note>

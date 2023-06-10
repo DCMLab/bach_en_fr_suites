@@ -1,0 +1,18 @@
+Warnings encountered during the last execution of ms3 review (v1.2.9)
+=====================================================================
+
+DCML_PHRASE_INCONGRUENCY_WARNING (16,) ms3.Parse.bach_en_fr_suites.BWV815_02_Courante
+	Phrase beginning and endings don't match:
+	mn_playthrough phraseend mn_playthrough phraseend
+	            5a         {             4a         }
+	           13a        }{            13a        }{
+	            5b         {            16a         }
+	           13b        }{             4b         }
+	           16b         {            13b        }{
+	           21a         {            16b         }
+	           28a         {            20a         }
+	           36a         {            28a         }
+	           21b         {            36a         }
+	           28b         {            20b         }
+	           NaN       NaN            28b         }
+	           NaN       NaN            36b         }

@@ -13,7 +13,7 @@
 * BWV 813 was reviewed by JH at the time of creation 
 
 
-# Overview
+## Overview
 |             file_name              |measures|labels|standard|                    annotators                     |   reviewers    |
 |------------------------------------|-------:|-----:|--------|---------------------------------------------------|----------------|
 |BWV806_01_Prelude                   |      37|   233|2.1.0   |Adrian Nagel                                       |                |
@@ -86,7 +86,7 @@
 |BWV815_01_Allemande                 |      20|   120|2.1.0   |Adrian Nagel                                       |                |
 |BWV815_02_Courante                  |      36|   134|2.1.0   |Adrian Nagel                                       |                |
 |BWV815_03_Sarabande                 |      24|    89|2.1.0   |Adrian Nagel                                       |                |
-|BWV815_04_Gavotte                   |      22|    87|2.3.0   |Ehsan Mohagheghi Fard (2.3.0)                      |EMF             |
+|BWV815_04_Gavotte                   |      22|    85|2.3.0   |Ehsan Mohagheghi Fard (2.3.0)                      |EMF, DK         |
 |BWV815_05_Air                       |      22|   105|2.1.0   |Adrian Nagel                                       |                |
 |BWV815_06_Menuett                   |      16|    48|2.1.0   |Adrian Nagel                                       |                |
 |BWV815_07_Gigue                     |      60|   127|2.1.0   |Adrian Nagel                                       |                |
@@ -107,4 +107,4 @@
 |BWV817_08_Menuett                   |      24|    68|2.1.0   |Adrian Nagel                                       |                |
 
 
-*Overview table updated using [ms3](https://johentsch.github.io/ms3/) 1.2.8.*
+*Overview table automatically updated using [ms3](https://johentsch.github.io/ms3/).*

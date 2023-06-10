@@ -13,9 +13,8 @@ mc	mn	quarterbeats	duration_qb	mc_onset	mn_onset	timesig	staff	voice	volta	label
 4	3	23/2	0.5	3/8	3/8	2/2	2	1		I6	Eb	I		I6	I		6					M	0	0	4, 1, 0		0	4
 4	3	12	1.0	1/2	1/2	2/2	2	1		IV	Eb	I		IV	IV							M	0	0	-1, 3, 0		-1	-1
 4	3	13	1.0	3/4	3/4	2/2	2	1		ii	Eb	I		ii	ii							m	0	0	2, -1, 3		2	2
-5	4	14	1.5	0	0	2/2	2	1		V	Eb	I		V	V							M	0	0	1, 5, 2		1	1
-5	4	31/2	0.5	3/8	3/8	2/2	2	1		V64	Eb	I		V64	V		64					M	0	0	2, 1, 5		1	2
-5	4	16	1.0	1/2	1/2	2/2	2	1		I	Eb	I		I	I							M	0	0	0, 4, 1		0	0
+5	4	14	2.0	0	0	2/2	2	1		V|HC}	Eb	I		V	V					HC	}	M	0	0	1, 5, 2		1	1
+5	4	16	1.0	1/2	1/2	2/2	2	1		I{	Eb	I		I	I						{	M	0	0	0, 4, 1		0	0
 5	4	17	1.0	3/4	3/4	2/2	2	1		IV	Eb	I		IV	IV							M	0	0	-1, 3, 0		-1	-1
 6	5	18	1.0	0	0	2/2	2	1		I	Eb	I		I	I							M	0	0	0, 4, 1		0	0
 6	5	19	1.0	1/4	1/4	2/2	2	1		IV	Eb	I		IV	IV							M	0	0	-1, 3, 0		-1	-1
@@ -31,8 +30,7 @@ mc	mn	quarterbeats	duration_qb	mc_onset	mn_onset	timesig	staff	voice	volta	label
 8	7	28	1.0	1/2	1/2	2/2	2	1		V(64)	Eb	V		V(64)	V			64				M	0	0	1, 0, 4		1	1
 8	7	29	1.0	3/4	3/4	2/2	2	1		V	Eb	V		V	V							M	0	0	1, 5, 2		1	1
 9	8			0	0	2/2	2	1	1	I|PAC}	Eb	V		I	I					PAC	}	M	0	0	0, 4, 1		0	0
-9	8			3/8	3/8	2/2	2	1	1	I.V64	Eb	I		V64	V		64					M	0	0	2, 1, 5		1	2
-9	8			1/2	1/2	2/2	2	1	1	I{	Eb	I		I	I						{	M	0	0	0, 4, 1		0	0
+9	8			1/2	1/2	2/2	2	1	1	I.I{	Eb	I		I	I						{	M	0	0	0, 4, 1		0	0
 9	8			3/4	3/4	2/2	2	1	1	IV	Eb	I		IV	IV							M	0	0	-1, 3, 0		-1	-1
 10	8	30	2.0	0	0	2/2	2	1	2	I|PAC}	Eb	V		I	I					PAC	}	M	0	0	0, 4, 1		0	0
 11	8	32	1.0	0	1/2	2/2	2	1		V{	Eb	V		V	V						{	M	0	0	1, 5, 2		1	1
@@ -45,9 +43,9 @@ mc	mn	quarterbeats	duration_qb	mc_onset	mn_onset	timesig	staff	voice	volta	label
 14	11	43	1.0	1/4	1/4	2/2	2	1		#viio2	Eb	vi		#viio2	#vii	o	2					o7	0	1	-4, 5, 2, -1		5	-4
 14	11	44	1.0	1/2	1/2	2/2	2	1		i64	Eb	vi		i64	i		64					m	0	1	1, 0, -3		0	1
 14	11	45	1.0	3/4	3/4	2/2	2	1		viio/V	Eb	vi		viio/V	vii	o			V			o	0	1	6, 3, 0		6	6
-15	12	46	1.0	0	0	2/2	2	1		V	Eb	vi		V	V							M	0	1	1, 5, 2		1	1
+15	12	46	1.0	0	0	2/2	2	1		V|HC}	Eb	vi		V	V					HC	}	M	0	1	1, 5, 2		1	1
 15	12	47	1.0	1/4	1/4	2/2	2	1		V2	Eb	vi		V2	V		2					Mm7	0	1	-1, 1, 5, 2		1	-1
-15	12	48	1.0	1/2	1/2	2/2	2	1		i6	Eb	vi		i6	i		6					m	0	1	-3, 1, 0		0	-3
+15	12	48	1.0	1/2	1/2	2/2	2	1		i6{	Eb	vi		i6	i		6				{	m	0	1	-3, 1, 0		0	-3
 15	12	49	1.0	3/4	3/4	2/2	2	1		i	Eb	vi		i	i							m	0	1	0, -3, 1		0	0
 16	13	50	2.0	0	0	2/2	2	1		ii%43/iv	Eb	vi		ii%43/iv	ii	%	43		iv			%7	0	1	-5, -1, 1, -2		1	-5
 16	13	52	1.0	1/2	1/2	2/2	2	1		#viio7/iv	Eb	vi		#viio7/iv	#vii	o	7		iv			o7	0	1	4, 1, -2, -5		4	4

@@ -70,36 +70,36 @@
 |BWV812_04_Menuett_I                 |      24|    57|2.3.0   |Adrian Nagel (2.1.0), Davor Krkljus (2.3.0)        |DK, HB          |
 |BWV812_05_Menuett_II                |      40|    66|2.3.0   |Adrian Nagel (2.1.0), Davor Krkljus (2.3.0)        |DK, HB          |
 |BWV812_06_Gigue                     |      28|   125|2.3.0   |Adrian Nagel (2.1.0), Davor Krkljus (2.3.0)        |DK, HB          |
-|BWV813_01_Allemande                 |      18|   129|2.1.0   |Arne Lüthke                                        |                |
-|BWV813_02_Courante                  |      57|   170|2.1.0   |Arne Lüthke                                        |                |
-|BWV813_03_Sarabande                 |      24|   106|2.1.0   |Arne Lüthke                                        |                |
-|BWV813_04_Air                       |      16|   103|2.1.0   |Arne Lüthke                                        |                |
-|BWV813_05_Menuett                   |      32|    73|2.1.0   |Arne Lüthke                                        |                |
-|BWV813_06_Gigue                     |      84|   135|2.1.0   |Arne Lüthke                                        |                |
-|BWV814_01_Allemande                 |      24|   173|2.1.0   |Adrian Nagel                                       |                |
-|BWV814_02_Courante                  |      28|   147|2.1.0   |Adrian Nagel                                       |                |
-|BWV814_03_Sarabande                 |      24|    89|2.1.0   |Adrian Nagel                                       |                |
-|BWV814_04_Gavotte                   |      32|   116|2.1.0   |Adrian Nagel                                       |                |
-|BWV814_05_Menuett                   |      36|   101|2.1.0   |Adrian Nagel                                       |                |
-|BWV814_06_Trio                      |      24|    70|2.1.0   |Adrian Nagel                                       |                |
-|BWV814_07_Gigue                     |      68|   182|2.1.0   |Adrian Nagel                                       |                |
-|BWV815_01_Allemande                 |      20|   104|2.1.0   |Ehsan Mohagheghi Frad (2.3.0)                      |EMF, DK         |
+|BWV813_01_Allemande                 |      18|   123|2.3.0   |Arne Lüthke (2.1.0), Amelia Brey (2.3.0)           |AB, ST          |
+|BWV813_02_Courante                  |      57|   168|2.3.0   |Arne Lüthke (2.1.0), Amelia Brey (2.3.0)           |AB, ST          |
+|BWV813_03_Sarabande                 |      24|   102|2.3.0   |Arne Lüthke (2.1.0), Amelia Brey (2.3.0)           |AB, ST          |
+|BWV813_04_Air                       |      16|   106|2.3.0   |Arne Lüthke (2.1.0), Amelia Brey (2.3.0)           |AB, ST          |
+|BWV813_05_Menuett                   |      32|    74|2.3.0   |Arne Lüthke (2.1.0), Amelia Brey (2.3.0)           |AB, ST          |
+|BWV813_06_Gigue                     |      84|   141|2.3.0   |Arne Lüthke (2.1.0), Amelia Brey (2.3.0)           |AB, ST          |
+|BWV814_01_Allemande                 |      24|   163|2.3.0   |Adrian Nagel (2.1.0), Sylvie Tran (2.3.0)          |ST, AB          |
+|BWV814_02_Courante                  |      28|   109|2.3.0   |Adrian Nagel (2.1.0), Sylvie Tran (2.3.0)          |ST, AB          |
+|BWV814_03_Sarabande                 |      24|    85|2.3.0   |Adrian Nagel (2.1.0), Sylvie Tran (2.3.0)          |ST, AB          |
+|BWV814_04_Gavotte                   |      32|   100|2.3.0   |Adrian Nagel (2.1.0), Sylvie Tran (2.3.0)          |ST, AB          |
+|BWV814_05_Menuett                   |      36|    94|2.3.0   |Adrian Nagel (2.1.0), Sylvie Tran (2.3.0)          |ST, AB          |
+|BWV814_06_Trio                      |      24|    63|2.3.0   |Adrian Nagel (2.1.0), Sylvie Tran (2.3.0)          |ST, AB          |
+|BWV814_07_Gigue                     |      68|   155|2.3.0   |Adrian Nagel (2.1.0), Sylvie Tran (2.3.0)          |ST, AB          |
+|BWV815_01_Allemande                 |      20|   120|2.1.0   |Adrian Nagel                                       |                |
 |BWV815_02_Courante                  |      36|   134|2.1.0   |Adrian Nagel                                       |                |
 |BWV815_03_Sarabande                 |      24|    89|2.1.0   |Adrian Nagel                                       |                |
 |BWV815_04_Gavotte                   |      22|    92|2.1.0   |Adrian Nagel                                       |                |
 |BWV815_05_Air                       |      22|   105|2.1.0   |Adrian Nagel                                       |                |
 |BWV815_06_Menuett                   |      16|    48|2.1.0   |Adrian Nagel                                       |                |
 |BWV815_07_Gigue                     |      60|   127|2.1.0   |Adrian Nagel                                       |                |
-|BWV816_01_Allemande                 |      24|   158|2.1.0   |Adrian Nagel                                       |                |
-|BWV816_02_Courante                  |      32|   187|2.1.0   |Adrian Nagel                                       |                |
-|BWV816_03_Sarabande                 |      40|   131|2.1.0   |Adrian Nagel                                       |                |
-|BWV816_04_Gavotte                   |      24|    88|2.1.0   |Adrian Nagel                                       |                |
-|BWV816_05_Bourree                   |      30|   108|2.1.0   |Adrian Nagel                                       |                |
-|BWV816_06_Loure                     |      16|    75|2.1.0   |Adrian Nagel                                       |                |
-|BWV816_07_Gigue                     |      56|   160|2.1.0   |Adrian Nagel                                       |                |
-|BWV817_01_Allemande                 |      28|   206|2.1.0   |Adrian Nagel                                       |                |
-|BWV817_02_Courante                  |      32|   125|2.1.0   |Adrian Nagel                                       |                |
-|BWV817_03_Sarabande                 |      24|    79|2.1.0   |Adrian Nagel                                       |                |
+|BWV816_01_Allemande                 |      24|   142|2.3.0   |Adrian Nagel (2.1.0), Davor Krkljus (2.3.0)        |DK, ST          |
+|BWV816_02_Courante                  |      32|    83|2.3.0   |Adrian Nagel (2.1.0), Davor Krkljus (2.3.0)        |DK, ST          |
+|BWV816_03_Sarabande                 |      40|   106|2.3.0   |Adrian Nagel (2.1.0), Davor Krkljus (2.3.0)        |DK, ST          |
+|BWV816_04_Gavotte                   |      24|    68|2.3.0   |Adrian Nagel (2.1.0), Davor Krkljus (2.3.0)        |DK, ST          |
+|BWV816_05_Bourree                   |      30|    77|2.3.0   |Adrian Nagel (2.1.0), Davor Krkljus (2.3.0)        |DK, ST          |
+|BWV816_06_Loure                     |      16|    66|2.3.0   |Adrian Nagel (2.1.0), Davor Krkljus (2.3.0)        |DK, ST          |
+|BWV816_07_Gigue                     |      56|   162|2.3.0   |Adrian Nagel (2.1.0), Davor Krkljus (2.3.0)        |DK, ST          |
+|BWV817_01_Allemande                 |      28|   103|2.3.0   |Adrian Nagel (2.1.0), Davor Krkljus (2.3.0)        |DK, ST          |
+|BWV817_02_Courante                  |      32|    94|2.3.0   |Adrian Nagel (2.1.0), Davor Krkljus (2.3.0)        |DK, ST          |
+|BWV817_03_Sarabande                 |      24|    65|2.3.0   |Adrian Nagel (2.1.0), Davor Krkljus (2.3.0)        |DK, ST          |
 |BWV817_04_Gavotte                   |      20|    69|2.1.0   |Adrian Nagel                                       |                |
 |BWV817_05_Polonaise                 |      24|    78|2.1.0   |Adrian Nagel                                       |                |
 |BWV817_06_Bourree                   |      42|   139|2.1.0   |Adrian Nagel                                       |                |

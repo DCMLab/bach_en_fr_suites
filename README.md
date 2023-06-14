@@ -89,7 +89,7 @@
 |BWV815_04_Gavotte                   |      22|    92|2.1.0   |Adrian Nagel                                       |                |
 |BWV815_05_Air                       |      22|   105|2.1.0   |Adrian Nagel                                       |                |
 |BWV815_06_Menuett                   |      16|    48|2.1.0   |Adrian Nagel                                       |                |
-|BWV815_07_Gigue                     |      60|   127|2.1.0   |Adrian Nagel                                       |                |
+|BWV815_07_Gigue                     |      60|   106|2.3.0   |Ehsan Mohagheghi Fard (2.3.0)                      |EMF, DK         |
 |BWV816_01_Allemande                 |      24|   142|2.3.0   |Adrian Nagel (2.1.0), Davor Krkljus (2.3.0)        |DK, ST          |
 |BWV816_02_Courante                  |      32|    83|2.3.0   |Adrian Nagel (2.1.0), Davor Krkljus (2.3.0)        |DK, ST          |
 |BWV816_03_Sarabande                 |      40|   106|2.3.0   |Adrian Nagel (2.1.0), Davor Krkljus (2.3.0)        |DK, ST          |

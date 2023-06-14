@@ -104,7 +104,7 @@
 |BWV817_05_Polonaise                 |      24|    78|2.1.0   |Adrian Nagel                                       |                |
 |BWV817_06_Bourree                   |      42|   139|2.1.0   |Adrian Nagel                                       |                |
 |BWV817_07_Gigue                     |      48|   131|2.1.0   |Adrian Nagel                                       |                |
-|BWV817_08_Menuett                   |      24|    49|2.3.0   |Adrian Nagel (2.1.0), Davor Krkljus (2.3.0)        |DK              |
+|BWV817_08_Menuett                   |      24|    49|2.3.0   |Adrian Nagel (2.1.0), Davor Krkljus (2.3.0)        |DK, ST          |
 
 
 *Overview table automatically updated using [ms3](https://johentsch.github.io/ms3/).*

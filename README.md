@@ -16,7 +16,7 @@
 ## Overview
 |             file_name              |measures|labels|standard|                    annotators                     |   reviewers    |
 |------------------------------------|-------:|-----:|--------|---------------------------------------------------|----------------|
-|BWV806_01_Prelude                   |      37|   191|2.3.0   |Adrian Nagel (2.1.0), Davor Krkljus (2.3.0)        |DK              |
+|BWV806_01_Prelude                   |      37|   191|2.3.0   |Adrian Nagel (2.1.0), Davor Krkljus (2.3.0)        |EMF, JH, DK     |
 |BWV806_02_Allemande                 |      32|   145|2.3.0   |Ehsan Mohagheghi Fard (2.3.0)                      |EMF, DK         |
 |BWV806_03_Courante_I                |      20|    91|2.3.0   |Adrian Nagel (2.1.0), Ehsan Mohagheghi Fard (2.3.0)|EMF, DK         |
 |BWV806_04_Courante_II               |      24|   104|2.3.0   |Davor Krkljus (2.3.0)                              |DK, EMF         |

@@ -1899,7 +1899,6 @@
           <Chord>
             <durationType>16th</durationType>
             <Note>
-              <color r="255" g="0" b="0" a="255"/>
               <Spanner type="Tie">
                 <prev>
                   <location>
@@ -2464,7 +2463,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I/III|PAC}{</name>
+            <name>I/III|PAC}</name>
             </Harmony>
           <Chord>
             <durationType>16th</durationType>
@@ -2588,7 +2587,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I/III|PAC</name>
+            <name>I/III|PAC}</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -2604,10 +2603,6 @@
               <tpc>12</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>}</name>
-            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
@@ -3762,6 +3757,12 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>VII6(7)-ii%7</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>VII6(#7)-ii7</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>16th</durationType>

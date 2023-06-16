@@ -103,7 +103,7 @@
 |BWV817_04_Gavotte                   |      20|    58|2.3.0   |Adrian Nagel (2.1.0), Davor Krkljus (2.3.0)        |                |
 |BWV817_05_Polonaise                 |      24|    67|2.3.0   |Adrian Nagel (2.1.0), Davor Krkljus (2.3.0)        |DK, ST          |
 |BWV817_06_Bourree                   |      42|   122|2.3.0   |Adrian Nagel (2.1.0), Davor Krkljus (2.3.0)        |DK, ST          |
-|BWV817_07_Gigue                     |      48|   131|2.1.0   |Adrian Nagel                                       |                |
+|BWV817_07_Gigue                     |      48|   116|2.3.0   |Adrian Nagel (2.1.0), Davor Krkljus (2.3.0)        |DK, ST          |
 |BWV817_08_Menuett                   |      24|    68|2.1.0   |Adrian Nagel                                       |                |
 
 

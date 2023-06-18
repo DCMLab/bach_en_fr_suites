@@ -2182,7 +2182,6 @@
           <Chord>
             <durationType>eighth</durationType>
             <Note>
-              <color r="255" g="0" b="0" a="255"/>
               <Spanner type="Tie">
                 <prev>
                   <location>
@@ -2205,7 +2204,6 @@
           <Chord>
             <durationType>eighth</durationType>
             <Note>
-              <color r="255" g="0" b="0" a="255"/>
               <pitch>76</pitch>
               <tpc>18</tpc>
               </Note>
@@ -2259,7 +2257,6 @@
           <Chord>
             <durationType>eighth</durationType>
             <Note>
-              <color r="255" g="0" b="0" a="255"/>
               <pitch>61</pitch>
               <tpc>21</tpc>
               </Note>
@@ -4064,10 +4061,6 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name></name>
-            </Harmony>
-          <Harmony>
-            <harmonyType>1</harmonyType>
             <name>V7(2)/v</name>
             </Harmony>
           <Chord>
@@ -5017,12 +5010,11 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>viio6-iio</name>
+            <name>#viio6-iio</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
-              <color r="255" g="0" b="0" a="255"/>
               <pitch>61</pitch>
               <tpc>21</tpc>
               </Note>

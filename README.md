@@ -86,7 +86,7 @@
 |BWV815_01_Allemande                 |      20|   104|2.3.0   |Ehsan Mohagheghi Frad (2.3.0)                      |EMF, DK         |
 |BWV815_02_Courante                  |      36|   134|2.1.0   |Adrian Nagel                                       |                |
 |BWV815_03_Sarabande                 |      24|    63|2.3.0   |Ehsan Mohagheghi Fard (2.3.0)                      |EMF, DK         |
-|BWV815_04_Gavotte                   |      22|    92|2.1.0   |Adrian Nagel                                       |                |
+|BWV815_04_Gavotte                   |      22|    85|2.3.0   |Ehsan Mohagheghi Fard (2.3.0)                      |EMF, DK         |
 |BWV815_05_Air                       |      22|    80|2.3.0   |Ehsan Mohagheghi Fard 82.3.0)                      |EMF, DK         |
 |BWV815_06_Menuett                   |      16|    48|2.1.0   |Adrian Nagel                                       |                |
 |BWV815_07_Gigue                     |      60|   106|2.3.0   |Ehsan Mohagheghi Fard (2.3.0)                      |EMF, DK         |

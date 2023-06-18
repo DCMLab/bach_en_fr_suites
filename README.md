@@ -84,7 +84,7 @@
 |BWV814_06_Trio                      |      24|    63|2.3.0   |Adrian Nagel (2.1.0), Sylvie Tran (2.3.0)          |ST, AB          |
 |BWV814_07_Gigue                     |      68|   155|2.3.0   |Adrian Nagel (2.1.0), Sylvie Tran (2.3.0)          |ST, AB          |
 |BWV815_01_Allemande                 |      20|   120|2.1.0   |Adrian Nagel                                       |                |
-|BWV815_02_Courante                  |      36|   134|2.1.0   |Adrian Nagel                                       |                |
+|BWV815_02_Courante                  |      36|    89|2.3.0   |Ehsan Mohagheghi Fard (2.3.0)                      |EMF, DK         |
 |BWV815_03_Sarabande                 |      24|    63|2.3.0   |Ehsan Mohagheghi Fard (2.3.0)                      |EMF, DK         |
 |BWV815_04_Gavotte                   |      22|    92|2.1.0   |Adrian Nagel                                       |                |
 |BWV815_05_Air                       |      22|    80|2.3.0   |Ehsan Mohagheghi Fard 82.3.0)                      |EMF, DK         |

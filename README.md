@@ -16,7 +16,7 @@
 ## Overview
 |             file_name              |measures|labels|standard|                    annotators                     |   reviewers    |
 |------------------------------------|-------:|-----:|--------|---------------------------------------------------|----------------|
-|BWV806_01_Prelude                   |      37|   233|2.1.0   |Adrian Nagel                                       |                |
+|BWV806_01_Prelude                   |      37|   191|2.3.0   |Adrian Nagel (2.1.0), Davor Krkljus (2.3.0)        |EMF, JH, DK     |
 |BWV806_02_Allemande                 |      32|   145|2.3.0   |Ehsan Mohagheghi Fard (2.3.0)                      |EMF, DK         |
 |BWV806_03_Courante_I                |      20|    91|2.3.0   |Adrian Nagel (2.1.0), Ehsan Mohagheghi Fard (2.3.0)|EMF, DK         |
 |BWV806_04_Courante_II               |      24|   104|2.3.0   |Davor Krkljus (2.3.0)                              |DK, EMF         |
@@ -83,7 +83,7 @@
 |BWV814_05_Menuett                   |      36|    94|2.3.0   |Adrian Nagel (2.1.0), Sylvie Tran (2.3.0)          |ST, AB          |
 |BWV814_06_Trio                      |      24|    63|2.3.0   |Adrian Nagel (2.1.0), Sylvie Tran (2.3.0)          |ST, AB          |
 |BWV814_07_Gigue                     |      68|   155|2.3.0   |Adrian Nagel (2.1.0), Sylvie Tran (2.3.0)          |ST, AB          |
-|BWV815_01_Allemande                 |      20|   120|2.1.0   |Adrian Nagel                                       |                |
+|BWV815_01_Allemande                 |      20|   104|2.3.0   |Ehsan Mohagheghi Frad (2.3.0)                      |EMF, DK         |
 |BWV815_02_Courante                  |      36|   134|2.1.0   |Adrian Nagel                                       |                |
 |BWV815_03_Sarabande                 |      24|    63|2.3.0   |Ehsan Mohagheghi Fard (2.3.0)                      |EMF, DK         |
 |BWV815_04_Gavotte                   |      22|    85|2.3.0   |Ehsan Mohagheghi Fard (2.3.0)                      |EMF, DK         |

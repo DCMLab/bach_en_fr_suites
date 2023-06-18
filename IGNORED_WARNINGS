@@ -4,5 +4,15 @@ VOLTAS_WITH_DIFFERING_LENGTHS_WARNING (4, 16) ms3.Corpus.bach_en_fr_suites.BWV80
 	First volta has two bars, m. 16a and m. 1b. Encoded as two measure numbering offsets, MC 18 has -15 and MC 19 has +15 because it's m. 16b.
 VOLTAS_WITH_DIFFERING_LENGTHS_WARNING (4, 76) ms3.Parse.bach_en_fr_suites.BWV807_07_Gigue
 	The second bar in the first volta of m. 74 is not 75a (the piece nominally has 74 bars) but 35b. Numbering offset of MCs 77 & 78 adapted accordingly.
-DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19,) ms3.review
+DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 1, '0', 'c.V{') ms3.Parse.bach_en_fr_suites.BWV813_02_Courante
+  Discussed in https://github.com/DCMLab/bach_en_fr_suites/pull/67
+DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 53, '1/4', 'III') ms3.Parse.bach_en_fr_suites.BWV813_06_Gigue
+  Discussed in https://github.com/DCMLab/bach_en_fr_suites/pull/84
+DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 2, '7/8', 'iv6') ms3.Parse.bach_en_fr_suites.BWV814_01_Allemande
+  Sanctioned by https://github.com/DCMLab/bach_en_fr_suites/pull/77
+DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 22, '7/8', 'III6') ms3.Parse.bach_en_fr_suites.BWV814_02_Courante
+  Sanctioned by https://github.com/DCMLab/bach_en_fr_suites/pull/78
+DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 23, '1/4', 'v6') ms3.Parse.bach_en_fr_suites.BWV814_02_Courante
+  Sanctioned by https://github.com/DCMLab/bach_en_fr_suites/pull/78 although there might a better solution, better integrating the v harmonies into the local G major context
+DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 11, '5/8', 'VI6') ms3.Parse.bach_en_fr_suites.BWV814_03_Sarabande
 	BWV814_03_Sarabande 11.3.2: a pair of non-functional neighboring notes were indicated as excessive non-chord tones.

@@ -49,10 +49,10 @@
 |BWV811_04_Sarabande                 |      24|    60|2.3.0   |Adrian Nagel (2.1.0), Davor Krkljus (2.3.0)        |DK, Hanné Becker|
 |BWV811_05_Double                    |      24|    64|2.3.0   |Adrian Nagel (2.1.0), Davor Krkljus (2.3.0)        |DK, HB          |
 |BWV811_06_Gavotte_I                 |      32|   102|2.3.0   |Ehsan Mohagheghi Fard (2.3.0)                      |EMF, DK         |
-|BWV811_07_Gavotte_II                |      24|    77|2.3.0   |Ehsan Mohagheghi Fard (2.3.0)                      |                |
+|BWV811_07_Gavotte_II                |      24|    77|2.3.0   |Ehsan Mohagheghi Fard (2.3.0)                      |EMF, DK         |
 |BWV811_08_Gigue                     |      56|   241|2.3.0   |Ehsan Mohagheghi Fard (2.3.0)                      |EMF, DK         |
 |BWV812_01_Allemande                 |      24|   133|2.3.0   |Adrian Nagel (2.1.0), Davor Krkljus (2.3.0)        |DK, HB          |
-|BWV812_02_Courante                  |      24|   101|2.3.0   |                                                   |DK, HB          |
+|BWV812_02_Courante                  |      24|   101|2.3.0   |Adrian Nagel (2.1.0), Davor Krkljus (2.3.0)        |DK, HB          |
 |BWV812_03_Sarabande                 |      24|    79|2.3.0   |Adrian Nagel (2.1.0), Davor Krkljus (2.3.0)        |DK, HB          |
 |BWV812_04_Menuett_I                 |      24|    57|2.3.0   |Adrian Nagel (2.1.0), Davor Krkljus (2.3.0)        |DK, HB          |
 |BWV812_05_Menuett_II                |      40|    66|2.3.0   |Adrian Nagel (2.1.0), Davor Krkljus (2.3.0)        |DK, HB          |
@@ -87,7 +87,7 @@
 |BWV817_01_Allemande                 |      28|   103|2.3.0   |Adrian Nagel (2.1.0), Davor Krkljus (2.3.0)        |DK, ST          |
 |BWV817_02_Courante                  |      32|    94|2.3.0   |Adrian Nagel (2.1.0), Davor Krkljus (2.3.0)        |DK, ST          |
 |BWV817_03_Sarabande                 |      24|    65|2.3.0   |Adrian Nagel (2.1.0), Davor Krkljus (2.3.0)        |DK, ST          |
-|BWV817_04_Gavotte                   |      20|    58|2.3.0   |Adrian Nagel (2.1.0), Davor Krkljus (2.3.0)        |                |
+|BWV817_04_Gavotte                   |      20|    58|2.3.0   |Adrian Nagel (2.1.0), Davor Krkljus (2.3.0)        |DK, ST          |
 |BWV817_05_Polonaise                 |      24|    67|2.3.0   |Adrian Nagel (2.1.0), Davor Krkljus (2.3.0)        |DK, ST          |
 |BWV817_06_Bourree                   |      42|   122|2.3.0   |Adrian Nagel (2.1.0), Davor Krkljus (2.3.0)        |DK, ST          |
 |BWV817_07_Gigue                     |      48|   116|2.3.0   |Adrian Nagel (2.1.0), Davor Krkljus (2.3.0)        |DK, ST          |

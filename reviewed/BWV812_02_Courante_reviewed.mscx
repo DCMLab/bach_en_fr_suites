@@ -151,7 +151,7 @@
     <showUnprintable>1</showUnprintable>
     <showFrames>1</showFrames>
     <showMargins>0</showMargins>
-    <metaTag name="anotators">Adrian Nagel (2.1.0), Davor Krkljus (2.3.0)</metaTag>
+    <metaTag name="annotators">Adrian Nagel (2.1.0), Davor Krkljus (2.3.0)</metaTag>
     <metaTag name="arranger"></metaTag>
     <metaTag name="composed_end">1725</metaTag>
     <metaTag name="composed_source">OxfordMusicOnline</metaTag>
@@ -199,7 +199,8 @@
         </Instrument>
       </Part>
     <Staff id="1">
-      <VBox/>
+      <VBox>
+        </VBox>
       <Measure len="1/8">
         <irregular>1</irregular>
         <voice>

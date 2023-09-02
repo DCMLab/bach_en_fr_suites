@@ -29,6 +29,8 @@ from git import Repo
 import dimcat as dc
 import ms3
 import pandas as pd
+pd.set_option('display.max_rows', 500)
+pd.set_option('display.max_columns', 100)
 import plotly.express as px
 import plotly.graph_objects as go
 
@@ -38,7 +40,7 @@ from utils import STD_LAYOUT, CADENCE_COLORS, CORPUS_COLOR_SCALE, TYPE_COLORS, c
 ```{code-cell} ipython3
 :tags: [hide-input]
 
-CORPUS_PATH = os.getenv('CORPUS_PATH', "~/workflow_test_metarepo")
+CORPUS_PATH = os.getenv('CORPUS_PATH', "/home/hentsche/tmp/all_subcorpora/")
 print_heading("Notebook settings")
 print(f"CORPUS_PATH: {CORPUS_PATH!r}")
 CORPUS_PATH = resolve_dir(CORPUS_PATH)
@@ -67,7 +69,7 @@ dataset.load(directory=CORPUS_PATH, parse_tsv=False)
 :tags: [remove-input]
 
 annotated_view = dataset.data.get_view('annotated')
-annotated_view.include('facets', 'measures', 'notes$', 'expanded')
+annotated_view.include('facets', 'measures', 'expanded')
 annotated_view.fnames_with_incomplete_facets = False
 dataset.data.set_view(annotated_view)
 dataset.data.parse_tsv(choose='auto')
@@ -116,105 +118,6 @@ if includes_annotations:
     all_chords['corpus_name'] = all_chords.index.get_level_values(0).map(corpus_names)
 else:
     print(f"Dataset contains no annotations.")
-```
-
-## Phrases
-### Presence of phrase annotation symbols per dataset:
-
-```{code-cell} ipython3
-all_annotations.groupby(["corpus"]).phraseend.value_counts()
-```
-
-### Presence of legacy phrase endings
-
-```{code-cell} ipython3
-legacy = all_annotations[all_annotations.phraseend == r'\\']
-legacy.groupby(level=0).size()
-```
-
-### A table with the extents of all annotated phrases
-**Relevant columns:**
-* `quarterbeats`: start position for each phrase
-* `duration_qb`: duration of each phrase, measured in quarter notes 
-* `phrase_slice`: time interval of each annotated phrases (for segmenting chord progressions and notes)
-
-```{code-cell} ipython3
-phrase_segmented = dc.PhraseSlicer().process_data(dataset)
-phrases = phrase_segmented.get_slice_info()
-print(f"Overall number of phrases is {len(phrases.index)}")
-phrases.head(10).style.apply(color_background, subset=["quarterbeats", "duration_qb"])
-```
-
-### A table with the chord sequences of all annotated phrases
-
-```{code-cell} ipython3
-phrase_segments = phrase_segmented.get_facet('expanded')
-phrase_segments
-```
-
-```{code-cell} ipython3
-:tags: [hide-input]
-
-phrase2timesigs = phrase_segments.groupby(level=[0,1,2]).timesig.unique()
-n_timesignatures_per_phrase = phrase2timesigs.map(len)
-uniform_timesigs = phrase2timesigs[n_timesignatures_per_phrase == 1].map(lambda l: l[0])
-more_than_one = n_timesignatures_per_phrase > 1
-print(f"Filtered out the {more_than_one.sum()} phrases incorporating more than one time signature.")
-n_timesigs = n_timesignatures_per_phrase.value_counts()
-display(n_timesigs.reset_index().rename(columns=dict(index='#time signatures', timesig='#phrases')))
-uniform_timesig_phrases = phrases.loc[uniform_timesigs.index]
-timesig_in_quarterbeats = uniform_timesigs.map(Fraction) * 4
-exact_measure_lengths = uniform_timesig_phrases.duration_qb / timesig_in_quarterbeats
-uniform_timesigs = pd.concat([exact_measure_lengths.rename('duration_measures'), uniform_timesig_phrases], axis=1)
-fig = px.histogram(uniform_timesigs, x='duration_measures', log_y=True,
-                   labels=dict(duration_measures='phrase length bin in number of measures'),
-                   color_discrete_sequence=CORPUS_COLOR_SCALE,
-                  )
-fig.update_traces(xbins=dict( # bins used for histogram
-        #start=0.0,
-        #end=100.0,
-        size=1
-    ))
-fig.update_layout(**STD_LAYOUT)
-fig.update_xaxes(dtick=4, gridcolor='lightgrey')
-fig.update_yaxes(gridcolor='lightgrey')
-fig.show()
-```
-
-### Local keys per phrase
-
-```{code-cell} ipython3
-local_keys_per_phrase = phrase_segments.groupby(level=[0,1,2]).localkey.unique().map(tuple)
-n_local_keys_per_phrase = local_keys_per_phrase.map(len)
-phrases_with_keys = pd.concat([n_local_keys_per_phrase.rename('n_local_keys'),
-                               local_keys_per_phrase.rename('local_keys'),
-                               phrases], axis=1)
-phrases_with_keys.head(10).style.apply(color_background, subset=['n_local_keys', 'local_keys'])
-```
-
-#### Number of unique local keys per phrase
-
-```{code-cell} ipython3
-count_n_keys = phrases_with_keys.n_local_keys.value_counts().rename("#phrases").to_frame()
-count_n_keys.index.rename("unique keys", inplace=True)
-count_n_keys
-```
-
-#### The most frequent keys for non-modulating phrases
-
-```{code-cell} ipython3
-unique_key_selector = phrases_with_keys.n_local_keys == 1
-phrases_with_unique_key = phrases_with_keys[unique_key_selector].copy()
-phrases_with_unique_key.local_keys = phrases_with_unique_key.local_keys.map(lambda t: t[0])
-value_count_df(phrases_with_unique_key.local_keys, counts="#phrases")
-```
-
-#### Most frequent modulations within one phrase
-
-```{code-cell} ipython3
-two_keys_selector = phrases_with_keys.n_local_keys > 1
-phrases_with_unique_key = phrases_with_keys[two_keys_selector].copy()
-value_count_df(phrases_with_unique_key.local_keys, "modulations")
 ```
 
 ## Key areas
@@ -303,52 +206,6 @@ fig = px.bar(maj_min_ratio_per_dataset.reset_index(),
        category_orders=dict(dataset=chronological_order)
     )
 fig.update_layout(**STD_LAYOUT)
-fig.show()
-```
-
-### Tone profiles for all major and minor local keys
-
-```{code-cell} ipython3
-notes_by_keys = keys_segmented.get_facet("notes")
-notes_by_keys
-```
-
-```{code-cell} ipython3
-keys = keys[[col for col in keys.columns if col not in notes_by_keys]]
-notes_joined_with_keys = notes_by_keys.join(keys, on=keys.index.names)
-notes_by_keys_transposed = ms3.transpose_notes_to_localkey(notes_joined_with_keys)
-mode_tpcs = notes_by_keys_transposed.reset_index(drop=True).groupby(['localkey_is_minor', 'tpc']).duration_qb.sum().reset_index(-1).sort_values('tpc').reset_index()
-mode_tpcs['sd'] = ms3.fifths2sd(mode_tpcs.tpc)
-mode_tpcs['duration_pct'] = mode_tpcs.groupby('localkey_is_minor', group_keys=False).duration_qb.apply(lambda S: S / S.sum())
-mode_tpcs['mode'] = mode_tpcs.localkey_is_minor.map({False: 'major', True: 'minor'})
-```
-
-```{code-cell} ipython3
-#mode_tpcs = mode_tpcs[mode_tpcs['duration_pct'] > 0.001]
-#sd_order = ['b1', '1', '#1', 'b2', '2', '#2', 'b3', '3', 'b4', '4', '#4', '##4', 'b5', '5', '#5', 'b6','6', '#6', 'b7', '7']
-xaxis = dict(
-        tickmode = 'array',
-        tickvals = mode_tpcs.tpc,
-        ticktext = mode_tpcs.sd
-    )
-legend=dict(
-    yanchor="top",
-    y=0.99,
-    xanchor="right",
-    x=0.99
-)
-fig = px.bar(mode_tpcs,
-       x='tpc',
-       y='duration_pct',
-       color='mode',
-       barmode='group',
-       labels=dict(duration_pct='normalized duration',
-                   tpc="Notes transposed to the local key, as major-scale degrees",
-                  ),
-       #log_y=True,
-       #category_orders=dict(sd=sd_order)
-      )
-fig.update_layout(**STD_LAYOUT, xaxis=xaxis, legend=legend)
 fig.show()
 ```
 
@@ -452,126 +309,189 @@ ugs_dict = {modes[is_minor].lower(): (ugs/ugs.sum() * 100).round(2).rename('%').
 ugs_df = pd.concat(ugs_dict, axis=1)
 ugs_df.columns = ['_'.join(map(str, col)) for col in ugs_df.columns]
 ugs_df.index = (ugs_df.index + 1).rename('k')
-print(ugs_df.iloc[:50].to_markdown())
-```
-
-### Per corpus
-
-```{code-cell} ipython3
-corpus_wise_unigrams = dc.Pipeline([dc.CorpusGrouper(), dc.ChordSymbolUnigrams(once_per_group=True)]).process_data(mode_slices)
+ugs_df.iloc[:50]
 ```
 
 ```{code-cell} ipython3
-corpus_wise_unigrams.get()
+chords_by_localkey = mode_slices.get_facet('expanded')
+chords_by_localkey
 ```
 
 ```{code-cell} ipython3
-for (is_minor, corpus_name), ugs in corpus_wise_unigrams.iter():
-    print(f"{corpus_name} {modes[is_minor]} unigrams ({ugs.shape[0]} types, {ugs.sum()} tokens)")
-    print(ugs.head(5).to_string())
-```
-
-```{code-cell} ipython3
-types_shared_between_corpora = {}
-for (is_minor, corpus_name), ugs in corpus_wise_unigrams.iter():
-    if is_minor in types_shared_between_corpora:
-        types_shared_between_corpora[is_minor] = types_shared_between_corpora[is_minor].intersection(ugs.index) 
+for is_minor, df in chords_by_localkey.groupby(level=0, group_keys=False):
+    df = df.droplevel(0)
+    df = df[df.bass_note.notna()]
+    sd = ms3.fifths2sd(df.bass_note).rename('sd')
+    sd.index = df.index
+    sd_progression = df.groupby(level=[0,1,2], group_keys=False).bass_note.apply(lambda S: S.shift(-1) - S).rename('sd_progression')
+    if is_minor:
+        chords_by_localkey_minor = pd.concat([df, sd, sd_progression], axis=1)
     else:
-        types_shared_between_corpora[is_minor] = set(ugs.index)
-types_shared_between_corpora = {k: sorted(v, key=lambda x: unigrams.get()[(k, x)], reverse=True) for k, v in types_shared_between_corpora.items()}
-n_types = {k: len(v) for k, v in types_shared_between_corpora.items()}
-print(f"Chords which occur in all corpora, sorted by descending global frequency:\n{types_shared_between_corpora}\nCounts: {n_types}")
+        chords_by_localkey_major = pd.concat([df, sd, sd_progression], axis=1)
 ```
 
-### Per piece
+## Scale degrees
 
 ```{code-cell} ipython3
-piece_wise_unigrams = dc.Pipeline([dc.PieceGrouper(), dc.ChordSymbolUnigrams(once_per_group=True)]).process_data(mode_slices)
+chords_by_localkey_minor
 ```
 
 ```{code-cell} ipython3
-piece_wise_unigrams.get()
+import plotly.graph_objects as go
+from collections import Counter, defaultdict
+
+def make_sunburst(chords, mode):
+    in_scale = []
+    for sd, sd_prog in chords[['sd', 'sd_progression']].itertuples(index=False):
+        if len(sd) == 1:
+            in_scale.append(sd)
+    label_counts = Counter(in_scale)
+    labels, values = list(label_counts.keys()), list(label_counts.values())
+    #labels, values = zip(*list((sd, label_counts[sd]) for sd in sorted(label_counts)))
+    parents = [mode] * len(labels)
+    labels = [mode] + labels
+    parents = [""] + parents
+    values = [len(chords)] + values
+    fig =go.Figure(go.Sunburst(
+        labels=labels,
+        parents=parents,
+        values=values,
+        branchvalues="total"
+    ))
+    fig.update_layout(margin = dict(t=0, l=0, r=0, b=0))
+    return fig
+
+make_sunburst(chords_by_localkey_minor, 'minor')
 ```
 
 ```{code-cell} ipython3
-types_shared_between_pieces = {}
-for (is_minor, corpus_name), ugs in piece_wise_unigrams.iter():
-    if is_minor in types_shared_between_pieces:
-        types_shared_between_pieces[is_minor] = types_shared_between_pieces[is_minor].intersection(ugs.index) 
-    else:
-        types_shared_between_pieces[is_minor] = set(ugs.index)
-print(types_shared_between_pieces)
-```
+def make_sunburst(chords, mode):
+    in_scale = []
+    sd2prog = defaultdict(Counter)
+    for sd, sd_prog in chords[['sd', 'sd_progression']].itertuples(index=False):
+        if len(sd) == 1:
+            in_scale.append(sd)
+            sd2prog[sd].update(["∎"] if pd.isnull(sd_prog) else [str(sd_prog)])
+    label_counts = Counter(in_scale)
+    labels, values = list(label_counts.keys()), list(label_counts.values())
+    #labels, values = zip(*list((sd, label_counts[sd]) for sd in sorted(label_counts)))
+    parents = [mode] * len(labels)
+    labels = [mode] + labels
+    parents = [""] + parents
+    values = [len(chords)] + values
+    #print(sd2prog)
+    print(len(labels), len(parents), len(values))
+    for scad, prog_counts in sd2prog.items():
+        for prog, cnt in prog_counts.most_common():
+            labels.append(prog)
+            parents.append(scad)
+            values.append(cnt)
+            if cnt < 3000:
+                break
+            print(f"added {prog}, {scad}, {cnt}")
+        break
+    
+    fig =go.Figure(go.Sunburst(
+        labels=labels,
+        parents=parents,
+        values=values,
+        branchvalues="total"
+    ))
+    fig.update_layout(margin = dict(t=0, l=0, r=0, b=0))
+    return fig
 
-## Bigrams
-
-+++
-
-### Whole dataset
-
-```{code-cell} ipython3
-bigrams = dc.ChordSymbolBigrams(once_per_group=True).process_data(mode_slices)
-```
-
-```{code-cell} ipython3
-bigrams.get()
-```
-
-```{code-cell} ipython3
-modes = {True: 'MINOR', False: 'MAJOR'}
-for (is_minor,), ugs in bigrams.iter():
-    print(f"{modes[is_minor]} BIGRAMS\n{ugs.shape[0]} transition types, {ugs.sum()} tokens")
-    print(ugs.head(20).to_string())
-```
-
-### Per corpus
-
-```{code-cell} ipython3
-corpus_wise_bigrams = dc.Pipeline([dc.CorpusGrouper(), dc.ChordSymbolBigrams(once_per_group=True)]).process_data(mode_slices)
-```
-
-```{code-cell} ipython3
-corpus_wise_bigrams.get()
-```
-
-```{code-cell} ipython3
-for (is_minor, corpus_name), ugs in corpus_wise_bigrams.iter():
-    print(f"{corpus_name} {modes[is_minor]} bigrams ({ugs.shape[0]} transition types, {ugs.sum()} tokens)")
-    print(ugs.head(5).to_string())
+make_sunburst(chords_by_localkey_minor, 'minor')
 ```
 
 ```{code-cell} ipython3
-normalized_corpus_unigrams = {group: (100 * ugs / ugs.sum()).round(1).rename("frequency") for group, ugs in corpus_wise_unigrams.iter()}
+fig =go.Figure(go.Sunburst(
+    labels=["Eve", "Cain", "Seth", "Enos", "Noam", "Abel", "Awan", "Enoch", "Azura"],
+    parents=["", "Eve", "Eve", "Seth", "Seth", "Eve", "Eve", "Awan", "Eve" ],
+    values=[10, 14, 12, 10, 2, 6, 6, 4, 4],
+))
+fig.update_layout(margin = dict(t=0, l=0, r=0, b=0))
+
+fig.show()
 ```
 
 ```{code-cell} ipython3
-transitions_from_shared_types = {
-    False: {},
-    True: {}
-}
-for (is_minor, corpus_name), bgs in corpus_wise_bigrams.iter():
-    transitions_normalized_per_from = bgs.groupby(level="from", group_keys=False).apply(lambda S: (100 * S / S.sum()).round(1))
-    most_frequent_transition_per_from = transitions_normalized_per_from.rename('fraction').reset_index(level=1).groupby(level=0).nth(0)
-    most_frequent_transition_per_shared = most_frequent_transition_per_from.loc[types_shared_between_corpora[is_minor]]
-    unigram_frequency_of_shared = normalized_corpus_unigrams[(is_minor, corpus_name)].loc[types_shared_between_corpora[is_minor]]
-    combined = pd.concat([unigram_frequency_of_shared, most_frequent_transition_per_shared], axis=1)
-    transitions_from_shared_types[is_minor][corpus_name] = combined
+fig =go.Figure(go.Sunburst(
+    labels=["major", "Cain", "1", "Enos", "Noam", "Abel", "Awan", "Enoch", "Azura"],
+    parents=["", "major", "major", "1", "1", "major", "major", "Awan", "major" ],
+    values=[10, 14, 12, 10, 2, 6, 6, 4, 4],
+))
+fig.update_layout(margin = dict(t=0, l=0, r=0, b=0))
+
+fig.show()
 ```
 
 ```{code-cell} ipython3
-pd.concat(transitions_from_shared_types[False].values(), keys=transitions_from_shared_types[False].keys(), axis=1)
+df
 ```
 
 ```{code-cell} ipython3
-pd.concat(transitions_from_shared_types[True].values(), keys=transitions_from_shared_types[False].keys(), axis=1)
-```
-
-### Per piece
-
-```{code-cell} ipython3
-piece_wise_bigrams = dc.Pipeline([dc.PieceGrouper(), dc.ChordSymbolBigrams(once_per_group=True)]).process_data(mode_slices)
+df = px.data.tips()
+fig = px.sunburst(df, path=['sex', 'day', 'time'], values='total_bill', color='time')
+fig.show()
 ```
 
 ```{code-cell} ipython3
-piece_wise_bigrams.get()
+#localkey_major_no_repeats = ms3.segment_by_adjacency_groups(chords_by_localkey_major, ['sd', 'figbass'], )
+#localkey_major_no_repeats
+```
+
+```{code-cell} ipython3
+def safe_interval(fifths):
+    if pd.isnull(fifths):
+        return "∎"
+    return ms3.fifths2iv(fifths, smallest=True)
+```
+
+```{code-cell} ipython3
+def prepare_sunburst_data(chords):
+    chord_data = chords[chords.sd.str.len() == 1].copy()
+    chord_data["interval"] = ms3.transform(chord_data.sd_progression, safe_interval).fillna("∎")
+    chord_data.figbass.fillna('3', inplace=True)
+    chord_data["following_figbass"] = chord_data.groupby(level=[0,1,2],).figbass.shift(-1).fillna("∎")
+    return chord_data
+
+column2name = dict(
+    sd="scale degree",
+    figbass="bass figure",
+    interval="bass progression",
+    following_figbass="subsequent figure"
+)
+
+def rectangular_sunburst(
+    chords,
+    path = ['sd', 'figbass', 'interval'],
+    height = 1500,
+    title = "Sunburst",
+):
+    chord_data = prepare_sunburst_data(chords)
+    title = f"{title} ({' - '.join(column2name[col] for col in path)})"
+    return px.sunburst(
+        chord_data, 
+        path=path, 
+        height=height,
+        title=title,
+    )
+
+rectangular_sunburst(chords_by_localkey_major, title="MAJOR")
+```
+
+```{code-cell} ipython3
+rectangular_sunburst(chords_by_localkey_major, ['sd', 'interval', 'figbass', 'following_figbass'], title="MAJOR")
+```
+
+```{code-cell} ipython3
+rectangular_sunburst(chords_by_localkey_minor, title="MINOR")
+```
+
+```{code-cell} ipython3
+rectangular_sunburst(chords_by_localkey_minor, ['sd', 'interval', 'figbass'], title="MINOR")
+```
+
+```{code-cell} ipython3
+
 ```

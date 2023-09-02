@@ -404,8 +404,8 @@ ANNOTATED_ONLY: False
 <div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Data and software versions
 --------------------------
 
-Notebook repository &#39;data_reports&#39; @ 007ea69
-Data repo &#39;bach_en_fr_suites&#39; @ 5cea9f1
+Notebook repository &#39;data_reports&#39; @ 2f0de7d
+Data repo &#39;bach_en_fr_suites&#39; @ 65384c6
 dimcat version 0.3.0
 ms3 version 1.2.5
 </pre></div>
@@ -488,8 +488,10 @@ bach_en_fr_suites      yes  default
 <p>This section relies on the dataset’s metadata.</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Composition dates range from </span><span class="si">{</span><span class="n">all_metadata</span><span class="o">.</span><span class="n">composed_start</span><span class="o">.</span><span class="n">min</span><span class="p">()</span><span class="si">}</span><span class="s2"> </span><span class="si">{</span><span class="n">all_metadata</span><span class="o">.</span><span class="n">composed_start</span><span class="o">.</span><span class="n">idxmin</span><span class="p">()</span><span class="si">}</span><span class="s2"> &quot;</span>
-      <span class="sa">f</span><span class="s2">&quot;to </span><span class="si">{</span><span class="n">all_metadata</span><span class="o">.</span><span class="n">composed_end</span><span class="o">.</span><span class="n">max</span><span class="p">()</span><span class="si">}</span><span class="s2"> </span><span class="si">{</span><span class="n">all_metadata</span><span class="o">.</span><span class="n">composed_end</span><span class="o">.</span><span class="n">idxmax</span><span class="p">()</span><span class="si">}</span><span class="s2">.&quot;</span><span class="p">)</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">valid_composed_start</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">to_numeric</span><span class="p">(</span><span class="n">all_metadata</span><span class="o">.</span><span class="n">composed_start</span><span class="p">,</span> <span class="n">errors</span><span class="o">=</span><span class="s1">&#39;coerce&#39;</span><span class="p">)</span>
+<span class="n">valid_composed_end</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">to_numeric</span><span class="p">(</span><span class="n">all_metadata</span><span class="o">.</span><span class="n">composed_end</span><span class="p">,</span> <span class="n">errors</span><span class="o">=</span><span class="s1">&#39;coerce&#39;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Composition dates range from </span><span class="si">{</span><span class="nb">int</span><span class="p">(</span><span class="n">valid_composed_start</span><span class="o">.</span><span class="n">min</span><span class="p">())</span><span class="si">}</span><span class="s2"> </span><span class="si">{</span><span class="n">valid_composed_start</span><span class="o">.</span><span class="n">idxmin</span><span class="p">()</span><span class="si">}</span><span class="s2"> &quot;</span>
+      <span class="sa">f</span><span class="s2">&quot;to </span><span class="si">{</span><span class="nb">int</span><span class="p">(</span><span class="n">valid_composed_end</span><span class="o">.</span><span class="n">max</span><span class="p">())</span><span class="si">}</span><span class="s2"> </span><span class="si">{</span><span class="n">valid_composed_end</span><span class="o">.</span><span class="n">idxmax</span><span class="p">()</span><span class="si">}</span><span class="s2">.&quot;</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>

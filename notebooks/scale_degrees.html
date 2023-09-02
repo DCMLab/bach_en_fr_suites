@@ -48,11 +48,9 @@
     <script src="../_static/thebelab-helper.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@jupyter-widgets/html-manager@^1.0.1/dist/embed-amd.js"></script>
-    <script>DOCUMENTATION_OPTIONS.pagename = 'notebooks/annotations';</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'notebooks/scale_degrees';</script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Cadences" href="cadences.html" />
-    <link rel="prev" title="Notes" href="notes_stats.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -141,7 +139,7 @@
                     </li>
                 
 
-                    <li class="nav-item current active">
+                    <li class="nav-item">
                       <a class="nav-link nav-internal" href="../analyses.html">
                         Analyses
                       </a>
@@ -206,7 +204,7 @@ document.write(`
   <div class="bd-container">
     <div class="bd-container__inner bd-page-width">
       
-      <div class="bd-sidebar-primary bd-sidebar">
+      <div class="bd-sidebar-primary bd-sidebar hide-on-wide">
         
 
   
@@ -231,7 +229,7 @@ document.write(`
                     </li>
                 
 
-                    <li class="nav-item current active">
+                    <li class="nav-item">
                       <a class="nav-link nav-internal" href="../analyses.html">
                         Analyses
                       </a>
@@ -260,21 +258,6 @@ document.write(`
       </div>
     
   </div>
-  
-    <div class="sidebar-primary-items__start sidebar-primary__section">
-        <div class="sidebar-primary-item"><nav class="bd-docs-nav bd-links"
-     aria-label="Section Navigation">
-  <p class="bd-links__title" role="heading" aria-level="1">Section Navigation</p>
-  <div class="bd-toc-item navbar-nav"><p aria-level="2" class="caption" role="heading"><span class="caption-text">Contents:</span></p>
-<ul class="current nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="overview.html">Overview</a></li>
-<li class="toctree-l1"><a class="reference internal" href="notes_stats.html">Notes</a></li>
-<li class="toctree-l1 current active"><a class="current reference internal" href="#">Annotations</a></li>
-<li class="toctree-l1"><a class="reference internal" href="cadences.html">Cadences</a></li>
-</ul>
-</div>
-</nav></div>
-    </div>
   
   
   <div class="sidebar-primary-items__end sidebar-primary__section">
@@ -308,9 +291,6 @@ document.write(`
         <i class="fa-solid fa-home"></i>
       </a>
     </li>
-    
-    <li class="breadcrumb-item"><a href="../analyses.html" class="nav-link">Analyses</a></li>
-    
     <li class="breadcrumb-item active" aria-current="page">Annotations</li>
   </ul>
 </nav>
@@ -345,6 +325,8 @@ document.write(`
 <span class="kn">import</span> <span class="nn">dimcat</span> <span class="k">as</span> <span class="nn">dc</span>
 <span class="kn">import</span> <span class="nn">ms3</span>
 <span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
+<span class="n">pd</span><span class="o">.</span><span class="n">set_option</span><span class="p">(</span><span class="s1">&#39;display.max_rows&#39;</span><span class="p">,</span> <span class="mi">500</span><span class="p">)</span>
+<span class="n">pd</span><span class="o">.</span><span class="n">set_option</span><span class="p">(</span><span class="s1">&#39;display.max_columns&#39;</span><span class="p">,</span> <span class="mi">100</span><span class="p">)</span>
 <span class="kn">import</span> <span class="nn">plotly.express</span> <span class="k">as</span> <span class="nn">px</span>
 <span class="kn">import</span> <span class="nn">plotly.graph_objects</span> <span class="k">as</span> <span class="nn">go</span>
 
@@ -361,7 +343,7 @@ document.write(`
 <span class="expanded">Hide source</span>
 </summary>
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">CORPUS_PATH</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">getenv</span><span class="p">(</span><span class="s1">&#39;CORPUS_PATH&#39;</span><span class="p">,</span> <span class="s2">&quot;~/workflow_test_metarepo&quot;</span><span class="p">)</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">CORPUS_PATH</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">getenv</span><span class="p">(</span><span class="s1">&#39;CORPUS_PATH&#39;</span><span class="p">,</span> <span class="s2">&quot;/home/hentsche/tmp/all_subcorpora/&quot;</span><span class="p">)</span>
 <span class="n">print_heading</span><span class="p">(</span><span class="s2">&quot;Notebook settings&quot;</span><span class="p">)</span>
 <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;CORPUS_PATH: </span><span class="si">{</span><span class="n">CORPUS_PATH</span><span class="si">!r}</span><span class="s2">&quot;</span><span class="p">)</span>
 <span class="n">CORPUS_PATH</span> <span class="o">=</span> <span class="n">resolve_dir</span><span class="p">(</span><span class="n">CORPUS_PATH</span><span class="p">)</span>
@@ -426,14 +408,14 @@ View: This view is called &#39;annotated&#39;. It
 	- excludes pieces that do not have at least one file per selected facet,
 	- filters out file extensions requiring conversion (such as .xml),
 	- excludes review files and folders, and
-	- includes only facets containing one of [&#39;measures&#39;, &#39;notes$&#39;, &#39;expanded&#39;].
+	- includes only facets containing one of [&#39;measures&#39;, &#39;expanded&#39;].
 
                        has     active
                   metadata       view
 corpus                               
 bach_en_fr_suites      yes  annotated
 
-9/12 facets are excluded from this view.
+10/12 facets are excluded from this view.
 178/178 fnames are excluded from this view.
 </pre></div>
 </div>
@@ -506,148 +488,6 @@ bach_en_fr_suites      yes  annotated
 </div>
 </details>
 </div>
-</section>
-<section id="phrases">
-<h2>Phrases<a class="headerlink" href="#phrases" title="Permalink to this heading">#</a></h2>
-<section id="presence-of-phrase-annotation-symbols-per-dataset">
-<h3>Presence of phrase annotation symbols per dataset:<a class="headerlink" href="#presence-of-phrase-annotation-symbols-per-dataset" title="Permalink to this heading">#</a></h3>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">all_annotations</span><span class="o">.</span><span class="n">groupby</span><span class="p">([</span><span class="s2">&quot;corpus&quot;</span><span class="p">])</span><span class="o">.</span><span class="n">phraseend</span><span class="o">.</span><span class="n">value_counts</span><span class="p">()</span>
-</pre></div>
-</div>
-</div>
-</div>
-</section>
-<section id="presence-of-legacy-phrase-endings">
-<h3>Presence of legacy phrase endings<a class="headerlink" href="#presence-of-legacy-phrase-endings" title="Permalink to this heading">#</a></h3>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">legacy</span> <span class="o">=</span> <span class="n">all_annotations</span><span class="p">[</span><span class="n">all_annotations</span><span class="o">.</span><span class="n">phraseend</span> <span class="o">==</span> <span class="sa">r</span><span class="s1">&#39;</span><span class="se">\\</span><span class="s1">&#39;</span><span class="p">]</span>
-<span class="n">legacy</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="n">level</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span><span class="o">.</span><span class="n">size</span><span class="p">()</span>
-</pre></div>
-</div>
-</div>
-</div>
-</section>
-<section id="a-table-with-the-extents-of-all-annotated-phrases">
-<h3>A table with the extents of all annotated phrases<a class="headerlink" href="#a-table-with-the-extents-of-all-annotated-phrases" title="Permalink to this heading">#</a></h3>
-<p><strong>Relevant columns:</strong></p>
-<ul class="simple">
-<li><p><code class="docutils literal notranslate"><span class="pre">quarterbeats</span></code>: start position for each phrase</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">duration_qb</span></code>: duration of each phrase, measured in quarter notes</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">phrase_slice</span></code>: time interval of each annotated phrases (for segmenting chord progressions and notes)</p></li>
-</ul>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">phrase_segmented</span> <span class="o">=</span> <span class="n">dc</span><span class="o">.</span><span class="n">PhraseSlicer</span><span class="p">()</span><span class="o">.</span><span class="n">process_data</span><span class="p">(</span><span class="n">dataset</span><span class="p">)</span>
-<span class="n">phrases</span> <span class="o">=</span> <span class="n">phrase_segmented</span><span class="o">.</span><span class="n">get_slice_info</span><span class="p">()</span>
-<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Overall number of phrases is </span><span class="si">{</span><span class="nb">len</span><span class="p">(</span><span class="n">phrases</span><span class="o">.</span><span class="n">index</span><span class="p">)</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
-<span class="n">phrases</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="mi">10</span><span class="p">)</span><span class="o">.</span><span class="n">style</span><span class="o">.</span><span class="n">apply</span><span class="p">(</span><span class="n">color_background</span><span class="p">,</span> <span class="n">subset</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;quarterbeats&quot;</span><span class="p">,</span> <span class="s2">&quot;duration_qb&quot;</span><span class="p">])</span>
-</pre></div>
-</div>
-</div>
-</div>
-</section>
-<section id="a-table-with-the-chord-sequences-of-all-annotated-phrases">
-<h3>A table with the chord sequences of all annotated phrases<a class="headerlink" href="#a-table-with-the-chord-sequences-of-all-annotated-phrases" title="Permalink to this heading">#</a></h3>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">phrase_segments</span> <span class="o">=</span> <span class="n">phrase_segmented</span><span class="o">.</span><span class="n">get_facet</span><span class="p">(</span><span class="s1">&#39;expanded&#39;</span><span class="p">)</span>
-<span class="n">phrase_segments</span>
-</pre></div>
-</div>
-</div>
-</div>
-<div class="cell tag_hide-input docutils container">
-<details class="hide above-input">
-<summary aria-label="Toggle hidden content">
-<span class="collapsed">Show source</span>
-<span class="expanded">Hide source</span>
-</summary>
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">phrase2timesigs</span> <span class="o">=</span> <span class="n">phrase_segments</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="n">level</span><span class="o">=</span><span class="p">[</span><span class="mi">0</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">])</span><span class="o">.</span><span class="n">timesig</span><span class="o">.</span><span class="n">unique</span><span class="p">()</span>
-<span class="n">n_timesignatures_per_phrase</span> <span class="o">=</span> <span class="n">phrase2timesigs</span><span class="o">.</span><span class="n">map</span><span class="p">(</span><span class="nb">len</span><span class="p">)</span>
-<span class="n">uniform_timesigs</span> <span class="o">=</span> <span class="n">phrase2timesigs</span><span class="p">[</span><span class="n">n_timesignatures_per_phrase</span> <span class="o">==</span> <span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">map</span><span class="p">(</span><span class="k">lambda</span> <span class="n">l</span><span class="p">:</span> <span class="n">l</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
-<span class="n">more_than_one</span> <span class="o">=</span> <span class="n">n_timesignatures_per_phrase</span> <span class="o">&gt;</span> <span class="mi">1</span>
-<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Filtered out the </span><span class="si">{</span><span class="n">more_than_one</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span><span class="si">}</span><span class="s2"> phrases incorporating more than one time signature.&quot;</span><span class="p">)</span>
-<span class="n">n_timesigs</span> <span class="o">=</span> <span class="n">n_timesignatures_per_phrase</span><span class="o">.</span><span class="n">value_counts</span><span class="p">()</span>
-<span class="n">display</span><span class="p">(</span><span class="n">n_timesigs</span><span class="o">.</span><span class="n">reset_index</span><span class="p">()</span><span class="o">.</span><span class="n">rename</span><span class="p">(</span><span class="n">columns</span><span class="o">=</span><span class="nb">dict</span><span class="p">(</span><span class="n">index</span><span class="o">=</span><span class="s1">&#39;#time signatures&#39;</span><span class="p">,</span> <span class="n">timesig</span><span class="o">=</span><span class="s1">&#39;#phrases&#39;</span><span class="p">)))</span>
-<span class="n">uniform_timesig_phrases</span> <span class="o">=</span> <span class="n">phrases</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">uniform_timesigs</span><span class="o">.</span><span class="n">index</span><span class="p">]</span>
-<span class="n">timesig_in_quarterbeats</span> <span class="o">=</span> <span class="n">uniform_timesigs</span><span class="o">.</span><span class="n">map</span><span class="p">(</span><span class="n">Fraction</span><span class="p">)</span> <span class="o">*</span> <span class="mi">4</span>
-<span class="n">exact_measure_lengths</span> <span class="o">=</span> <span class="n">uniform_timesig_phrases</span><span class="o">.</span><span class="n">duration_qb</span> <span class="o">/</span> <span class="n">timesig_in_quarterbeats</span>
-<span class="n">uniform_timesigs</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">concat</span><span class="p">([</span><span class="n">exact_measure_lengths</span><span class="o">.</span><span class="n">rename</span><span class="p">(</span><span class="s1">&#39;duration_measures&#39;</span><span class="p">),</span> <span class="n">uniform_timesig_phrases</span><span class="p">],</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
-<span class="n">fig</span> <span class="o">=</span> <span class="n">px</span><span class="o">.</span><span class="n">histogram</span><span class="p">(</span><span class="n">uniform_timesigs</span><span class="p">,</span> <span class="n">x</span><span class="o">=</span><span class="s1">&#39;duration_measures&#39;</span><span class="p">,</span> <span class="n">log_y</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span>
-                   <span class="n">labels</span><span class="o">=</span><span class="nb">dict</span><span class="p">(</span><span class="n">duration_measures</span><span class="o">=</span><span class="s1">&#39;phrase length bin in number of measures&#39;</span><span class="p">),</span>
-                   <span class="n">color_discrete_sequence</span><span class="o">=</span><span class="n">CORPUS_COLOR_SCALE</span><span class="p">,</span>
-                  <span class="p">)</span>
-<span class="n">fig</span><span class="o">.</span><span class="n">update_traces</span><span class="p">(</span><span class="n">xbins</span><span class="o">=</span><span class="nb">dict</span><span class="p">(</span> <span class="c1"># bins used for histogram</span>
-        <span class="c1">#start=0.0,</span>
-        <span class="c1">#end=100.0,</span>
-        <span class="n">size</span><span class="o">=</span><span class="mi">1</span>
-    <span class="p">))</span>
-<span class="n">fig</span><span class="o">.</span><span class="n">update_layout</span><span class="p">(</span><span class="o">**</span><span class="n">STD_LAYOUT</span><span class="p">)</span>
-<span class="n">fig</span><span class="o">.</span><span class="n">update_xaxes</span><span class="p">(</span><span class="n">dtick</span><span class="o">=</span><span class="mi">4</span><span class="p">,</span> <span class="n">gridcolor</span><span class="o">=</span><span class="s1">&#39;lightgrey&#39;</span><span class="p">)</span>
-<span class="n">fig</span><span class="o">.</span><span class="n">update_yaxes</span><span class="p">(</span><span class="n">gridcolor</span><span class="o">=</span><span class="s1">&#39;lightgrey&#39;</span><span class="p">)</span>
-<span class="n">fig</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
-</pre></div>
-</div>
-</div>
-</details>
-</div>
-</section>
-<section id="local-keys-per-phrase">
-<h3>Local keys per phrase<a class="headerlink" href="#local-keys-per-phrase" title="Permalink to this heading">#</a></h3>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">local_keys_per_phrase</span> <span class="o">=</span> <span class="n">phrase_segments</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="n">level</span><span class="o">=</span><span class="p">[</span><span class="mi">0</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">])</span><span class="o">.</span><span class="n">localkey</span><span class="o">.</span><span class="n">unique</span><span class="p">()</span><span class="o">.</span><span class="n">map</span><span class="p">(</span><span class="nb">tuple</span><span class="p">)</span>
-<span class="n">n_local_keys_per_phrase</span> <span class="o">=</span> <span class="n">local_keys_per_phrase</span><span class="o">.</span><span class="n">map</span><span class="p">(</span><span class="nb">len</span><span class="p">)</span>
-<span class="n">phrases_with_keys</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">concat</span><span class="p">([</span><span class="n">n_local_keys_per_phrase</span><span class="o">.</span><span class="n">rename</span><span class="p">(</span><span class="s1">&#39;n_local_keys&#39;</span><span class="p">),</span>
-                               <span class="n">local_keys_per_phrase</span><span class="o">.</span><span class="n">rename</span><span class="p">(</span><span class="s1">&#39;local_keys&#39;</span><span class="p">),</span>
-                               <span class="n">phrases</span><span class="p">],</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
-<span class="n">phrases_with_keys</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="mi">10</span><span class="p">)</span><span class="o">.</span><span class="n">style</span><span class="o">.</span><span class="n">apply</span><span class="p">(</span><span class="n">color_background</span><span class="p">,</span> <span class="n">subset</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;n_local_keys&#39;</span><span class="p">,</span> <span class="s1">&#39;local_keys&#39;</span><span class="p">])</span>
-</pre></div>
-</div>
-</div>
-</div>
-<section id="number-of-unique-local-keys-per-phrase">
-<h4>Number of unique local keys per phrase<a class="headerlink" href="#number-of-unique-local-keys-per-phrase" title="Permalink to this heading">#</a></h4>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">count_n_keys</span> <span class="o">=</span> <span class="n">phrases_with_keys</span><span class="o">.</span><span class="n">n_local_keys</span><span class="o">.</span><span class="n">value_counts</span><span class="p">()</span><span class="o">.</span><span class="n">rename</span><span class="p">(</span><span class="s2">&quot;#phrases&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">to_frame</span><span class="p">()</span>
-<span class="n">count_n_keys</span><span class="o">.</span><span class="n">index</span><span class="o">.</span><span class="n">rename</span><span class="p">(</span><span class="s2">&quot;unique keys&quot;</span><span class="p">,</span> <span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
-<span class="n">count_n_keys</span>
-</pre></div>
-</div>
-</div>
-</div>
-</section>
-<section id="the-most-frequent-keys-for-non-modulating-phrases">
-<h4>The most frequent keys for non-modulating phrases<a class="headerlink" href="#the-most-frequent-keys-for-non-modulating-phrases" title="Permalink to this heading">#</a></h4>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">unique_key_selector</span> <span class="o">=</span> <span class="n">phrases_with_keys</span><span class="o">.</span><span class="n">n_local_keys</span> <span class="o">==</span> <span class="mi">1</span>
-<span class="n">phrases_with_unique_key</span> <span class="o">=</span> <span class="n">phrases_with_keys</span><span class="p">[</span><span class="n">unique_key_selector</span><span class="p">]</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
-<span class="n">phrases_with_unique_key</span><span class="o">.</span><span class="n">local_keys</span> <span class="o">=</span> <span class="n">phrases_with_unique_key</span><span class="o">.</span><span class="n">local_keys</span><span class="o">.</span><span class="n">map</span><span class="p">(</span><span class="k">lambda</span> <span class="n">t</span><span class="p">:</span> <span class="n">t</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
-<span class="n">value_count_df</span><span class="p">(</span><span class="n">phrases_with_unique_key</span><span class="o">.</span><span class="n">local_keys</span><span class="p">,</span> <span class="n">counts</span><span class="o">=</span><span class="s2">&quot;#phrases&quot;</span><span class="p">)</span>
-</pre></div>
-</div>
-</div>
-</div>
-</section>
-<section id="most-frequent-modulations-within-one-phrase">
-<h4>Most frequent modulations within one phrase<a class="headerlink" href="#most-frequent-modulations-within-one-phrase" title="Permalink to this heading">#</a></h4>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">two_keys_selector</span> <span class="o">=</span> <span class="n">phrases_with_keys</span><span class="o">.</span><span class="n">n_local_keys</span> <span class="o">&gt;</span> <span class="mi">1</span>
-<span class="n">phrases_with_unique_key</span> <span class="o">=</span> <span class="n">phrases_with_keys</span><span class="p">[</span><span class="n">two_keys_selector</span><span class="p">]</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
-<span class="n">value_count_df</span><span class="p">(</span><span class="n">phrases_with_unique_key</span><span class="o">.</span><span class="n">local_keys</span><span class="p">,</span> <span class="s2">&quot;modulations&quot;</span><span class="p">)</span>
-</pre></div>
-</div>
-</div>
-</div>
-</section>
-</section>
 </section>
 <section id="key-areas">
 <h2>Key areas<a class="headerlink" href="#key-areas" title="Permalink to this heading">#</a></h2>
@@ -766,62 +606,6 @@ bach_en_fr_suites      yes  annotated
 </div>
 </div>
 </section>
-</section>
-<section id="tone-profiles-for-all-major-and-minor-local-keys">
-<h3>Tone profiles for all major and minor local keys<a class="headerlink" href="#tone-profiles-for-all-major-and-minor-local-keys" title="Permalink to this heading">#</a></h3>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">notes_by_keys</span> <span class="o">=</span> <span class="n">keys_segmented</span><span class="o">.</span><span class="n">get_facet</span><span class="p">(</span><span class="s2">&quot;notes&quot;</span><span class="p">)</span>
-<span class="n">notes_by_keys</span>
-</pre></div>
-</div>
-</div>
-</div>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">keys</span> <span class="o">=</span> <span class="n">keys</span><span class="p">[[</span><span class="n">col</span> <span class="k">for</span> <span class="n">col</span> <span class="ow">in</span> <span class="n">keys</span><span class="o">.</span><span class="n">columns</span> <span class="k">if</span> <span class="n">col</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">notes_by_keys</span><span class="p">]]</span>
-<span class="n">notes_joined_with_keys</span> <span class="o">=</span> <span class="n">notes_by_keys</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">keys</span><span class="p">,</span> <span class="n">on</span><span class="o">=</span><span class="n">keys</span><span class="o">.</span><span class="n">index</span><span class="o">.</span><span class="n">names</span><span class="p">)</span>
-<span class="n">notes_by_keys_transposed</span> <span class="o">=</span> <span class="n">ms3</span><span class="o">.</span><span class="n">transpose_notes_to_localkey</span><span class="p">(</span><span class="n">notes_joined_with_keys</span><span class="p">)</span>
-<span class="n">mode_tpcs</span> <span class="o">=</span> <span class="n">notes_by_keys_transposed</span><span class="o">.</span><span class="n">reset_index</span><span class="p">(</span><span class="n">drop</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span><span class="o">.</span><span class="n">groupby</span><span class="p">([</span><span class="s1">&#39;localkey_is_minor&#39;</span><span class="p">,</span> <span class="s1">&#39;tpc&#39;</span><span class="p">])</span><span class="o">.</span><span class="n">duration_qb</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span><span class="o">.</span><span class="n">reset_index</span><span class="p">(</span><span class="o">-</span><span class="mi">1</span><span class="p">)</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="s1">&#39;tpc&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">reset_index</span><span class="p">()</span>
-<span class="n">mode_tpcs</span><span class="p">[</span><span class="s1">&#39;sd&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">ms3</span><span class="o">.</span><span class="n">fifths2sd</span><span class="p">(</span><span class="n">mode_tpcs</span><span class="o">.</span><span class="n">tpc</span><span class="p">)</span>
-<span class="n">mode_tpcs</span><span class="p">[</span><span class="s1">&#39;duration_pct&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">mode_tpcs</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="s1">&#39;localkey_is_minor&#39;</span><span class="p">,</span> <span class="n">group_keys</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span><span class="o">.</span><span class="n">duration_qb</span><span class="o">.</span><span class="n">apply</span><span class="p">(</span><span class="k">lambda</span> <span class="n">S</span><span class="p">:</span> <span class="n">S</span> <span class="o">/</span> <span class="n">S</span><span class="o">.</span><span class="n">sum</span><span class="p">())</span>
-<span class="n">mode_tpcs</span><span class="p">[</span><span class="s1">&#39;mode&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">mode_tpcs</span><span class="o">.</span><span class="n">localkey_is_minor</span><span class="o">.</span><span class="n">map</span><span class="p">({</span><span class="kc">False</span><span class="p">:</span> <span class="s1">&#39;major&#39;</span><span class="p">,</span> <span class="kc">True</span><span class="p">:</span> <span class="s1">&#39;minor&#39;</span><span class="p">})</span>
-</pre></div>
-</div>
-</div>
-</div>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">#mode_tpcs = mode_tpcs[mode_tpcs[&#39;duration_pct&#39;] &gt; 0.001]</span>
-<span class="c1">#sd_order = [&#39;b1&#39;, &#39;1&#39;, &#39;#1&#39;, &#39;b2&#39;, &#39;2&#39;, &#39;#2&#39;, &#39;b3&#39;, &#39;3&#39;, &#39;b4&#39;, &#39;4&#39;, &#39;#4&#39;, &#39;##4&#39;, &#39;b5&#39;, &#39;5&#39;, &#39;#5&#39;, &#39;b6&#39;,&#39;6&#39;, &#39;#6&#39;, &#39;b7&#39;, &#39;7&#39;]</span>
-<span class="n">xaxis</span> <span class="o">=</span> <span class="nb">dict</span><span class="p">(</span>
-        <span class="n">tickmode</span> <span class="o">=</span> <span class="s1">&#39;array&#39;</span><span class="p">,</span>
-        <span class="n">tickvals</span> <span class="o">=</span> <span class="n">mode_tpcs</span><span class="o">.</span><span class="n">tpc</span><span class="p">,</span>
-        <span class="n">ticktext</span> <span class="o">=</span> <span class="n">mode_tpcs</span><span class="o">.</span><span class="n">sd</span>
-    <span class="p">)</span>
-<span class="n">legend</span><span class="o">=</span><span class="nb">dict</span><span class="p">(</span>
-    <span class="n">yanchor</span><span class="o">=</span><span class="s2">&quot;top&quot;</span><span class="p">,</span>
-    <span class="n">y</span><span class="o">=</span><span class="mf">0.99</span><span class="p">,</span>
-    <span class="n">xanchor</span><span class="o">=</span><span class="s2">&quot;right&quot;</span><span class="p">,</span>
-    <span class="n">x</span><span class="o">=</span><span class="mf">0.99</span>
-<span class="p">)</span>
-<span class="n">fig</span> <span class="o">=</span> <span class="n">px</span><span class="o">.</span><span class="n">bar</span><span class="p">(</span><span class="n">mode_tpcs</span><span class="p">,</span>
-       <span class="n">x</span><span class="o">=</span><span class="s1">&#39;tpc&#39;</span><span class="p">,</span>
-       <span class="n">y</span><span class="o">=</span><span class="s1">&#39;duration_pct&#39;</span><span class="p">,</span>
-       <span class="n">color</span><span class="o">=</span><span class="s1">&#39;mode&#39;</span><span class="p">,</span>
-       <span class="n">barmode</span><span class="o">=</span><span class="s1">&#39;group&#39;</span><span class="p">,</span>
-       <span class="n">labels</span><span class="o">=</span><span class="nb">dict</span><span class="p">(</span><span class="n">duration_pct</span><span class="o">=</span><span class="s1">&#39;normalized duration&#39;</span><span class="p">,</span>
-                   <span class="n">tpc</span><span class="o">=</span><span class="s2">&quot;Notes transposed to the local key, as major-scale degrees&quot;</span><span class="p">,</span>
-                  <span class="p">),</span>
-       <span class="c1">#log_y=True,</span>
-       <span class="c1">#category_orders=dict(sd=sd_order)</span>
-      <span class="p">)</span>
-<span class="n">fig</span><span class="o">.</span><span class="n">update_layout</span><span class="p">(</span><span class="o">**</span><span class="n">STD_LAYOUT</span><span class="p">,</span> <span class="n">xaxis</span><span class="o">=</span><span class="n">xaxis</span><span class="p">,</span> <span class="n">legend</span><span class="o">=</span><span class="n">legend</span><span class="p">)</span>
-<span class="n">fig</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
-</pre></div>
-</div>
-</div>
-</div>
 </section>
 </section>
 <section id="harmony-labels">
@@ -960,194 +744,238 @@ bach_en_fr_suites      yes  annotated
 <span class="n">ugs_df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">concat</span><span class="p">(</span><span class="n">ugs_dict</span><span class="p">,</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
 <span class="n">ugs_df</span><span class="o">.</span><span class="n">columns</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;_&#39;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="nb">map</span><span class="p">(</span><span class="nb">str</span><span class="p">,</span> <span class="n">col</span><span class="p">))</span> <span class="k">for</span> <span class="n">col</span> <span class="ow">in</span> <span class="n">ugs_df</span><span class="o">.</span><span class="n">columns</span><span class="p">]</span>
 <span class="n">ugs_df</span><span class="o">.</span><span class="n">index</span> <span class="o">=</span> <span class="p">(</span><span class="n">ugs_df</span><span class="o">.</span><span class="n">index</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)</span><span class="o">.</span><span class="n">rename</span><span class="p">(</span><span class="s1">&#39;k&#39;</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">ugs_df</span><span class="o">.</span><span class="n">iloc</span><span class="p">[:</span><span class="mi">50</span><span class="p">]</span><span class="o">.</span><span class="n">to_markdown</span><span class="p">())</span>
-</pre></div>
-</div>
-</div>
-</div>
-</section>
-<section id="per-corpus">
-<h3>Per corpus<a class="headerlink" href="#per-corpus" title="Permalink to this heading">#</a></h3>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">corpus_wise_unigrams</span> <span class="o">=</span> <span class="n">dc</span><span class="o">.</span><span class="n">Pipeline</span><span class="p">([</span><span class="n">dc</span><span class="o">.</span><span class="n">CorpusGrouper</span><span class="p">(),</span> <span class="n">dc</span><span class="o">.</span><span class="n">ChordSymbolUnigrams</span><span class="p">(</span><span class="n">once_per_group</span><span class="o">=</span><span class="kc">True</span><span class="p">)])</span><span class="o">.</span><span class="n">process_data</span><span class="p">(</span><span class="n">mode_slices</span><span class="p">)</span>
+<span class="n">ugs_df</span><span class="o">.</span><span class="n">iloc</span><span class="p">[:</span><span class="mi">50</span><span class="p">]</span>
 </pre></div>
 </div>
 </div>
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">corpus_wise_unigrams</span><span class="o">.</span><span class="n">get</span><span class="p">()</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">chords_by_localkey</span> <span class="o">=</span> <span class="n">mode_slices</span><span class="o">.</span><span class="n">get_facet</span><span class="p">(</span><span class="s1">&#39;expanded&#39;</span><span class="p">)</span>
+<span class="n">chords_by_localkey</span>
 </pre></div>
 </div>
 </div>
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="k">for</span> <span class="p">(</span><span class="n">is_minor</span><span class="p">,</span> <span class="n">corpus_name</span><span class="p">),</span> <span class="n">ugs</span> <span class="ow">in</span> <span class="n">corpus_wise_unigrams</span><span class="o">.</span><span class="n">iter</span><span class="p">():</span>
-    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">corpus_name</span><span class="si">}</span><span class="s2"> </span><span class="si">{</span><span class="n">modes</span><span class="p">[</span><span class="n">is_minor</span><span class="p">]</span><span class="si">}</span><span class="s2"> unigrams (</span><span class="si">{</span><span class="n">ugs</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="si">}</span><span class="s2"> types, </span><span class="si">{</span><span class="n">ugs</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span><span class="si">}</span><span class="s2"> tokens)&quot;</span><span class="p">)</span>
-    <span class="nb">print</span><span class="p">(</span><span class="n">ugs</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="mi">5</span><span class="p">)</span><span class="o">.</span><span class="n">to_string</span><span class="p">())</span>
-</pre></div>
-</div>
-</div>
-</div>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">types_shared_between_corpora</span> <span class="o">=</span> <span class="p">{}</span>
-<span class="k">for</span> <span class="p">(</span><span class="n">is_minor</span><span class="p">,</span> <span class="n">corpus_name</span><span class="p">),</span> <span class="n">ugs</span> <span class="ow">in</span> <span class="n">corpus_wise_unigrams</span><span class="o">.</span><span class="n">iter</span><span class="p">():</span>
-    <span class="k">if</span> <span class="n">is_minor</span> <span class="ow">in</span> <span class="n">types_shared_between_corpora</span><span class="p">:</span>
-        <span class="n">types_shared_between_corpora</span><span class="p">[</span><span class="n">is_minor</span><span class="p">]</span> <span class="o">=</span> <span class="n">types_shared_between_corpora</span><span class="p">[</span><span class="n">is_minor</span><span class="p">]</span><span class="o">.</span><span class="n">intersection</span><span class="p">(</span><span class="n">ugs</span><span class="o">.</span><span class="n">index</span><span class="p">)</span> 
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="k">for</span> <span class="n">is_minor</span><span class="p">,</span> <span class="n">df</span> <span class="ow">in</span> <span class="n">chords_by_localkey</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="n">level</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">group_keys</span><span class="o">=</span><span class="kc">False</span><span class="p">):</span>
+    <span class="n">df</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">droplevel</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span>
+    <span class="n">df</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="n">df</span><span class="o">.</span><span class="n">bass_note</span><span class="o">.</span><span class="n">notna</span><span class="p">()]</span>
+    <span class="n">sd</span> <span class="o">=</span> <span class="n">ms3</span><span class="o">.</span><span class="n">fifths2sd</span><span class="p">(</span><span class="n">df</span><span class="o">.</span><span class="n">bass_note</span><span class="p">)</span><span class="o">.</span><span class="n">rename</span><span class="p">(</span><span class="s1">&#39;sd&#39;</span><span class="p">)</span>
+    <span class="n">sd</span><span class="o">.</span><span class="n">index</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">index</span>
+    <span class="n">sd_progression</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="n">level</span><span class="o">=</span><span class="p">[</span><span class="mi">0</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">],</span> <span class="n">group_keys</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span><span class="o">.</span><span class="n">bass_note</span><span class="o">.</span><span class="n">apply</span><span class="p">(</span><span class="k">lambda</span> <span class="n">S</span><span class="p">:</span> <span class="n">S</span><span class="o">.</span><span class="n">shift</span><span class="p">(</span><span class="o">-</span><span class="mi">1</span><span class="p">)</span> <span class="o">-</span> <span class="n">S</span><span class="p">)</span><span class="o">.</span><span class="n">rename</span><span class="p">(</span><span class="s1">&#39;sd_progression&#39;</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">is_minor</span><span class="p">:</span>
+        <span class="n">chords_by_localkey_minor</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">concat</span><span class="p">([</span><span class="n">df</span><span class="p">,</span> <span class="n">sd</span><span class="p">,</span> <span class="n">sd_progression</span><span class="p">],</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
     <span class="k">else</span><span class="p">:</span>
-        <span class="n">types_shared_between_corpora</span><span class="p">[</span><span class="n">is_minor</span><span class="p">]</span> <span class="o">=</span> <span class="nb">set</span><span class="p">(</span><span class="n">ugs</span><span class="o">.</span><span class="n">index</span><span class="p">)</span>
-<span class="n">types_shared_between_corpora</span> <span class="o">=</span> <span class="p">{</span><span class="n">k</span><span class="p">:</span> <span class="nb">sorted</span><span class="p">(</span><span class="n">v</span><span class="p">,</span> <span class="n">key</span><span class="o">=</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">unigrams</span><span class="o">.</span><span class="n">get</span><span class="p">()[(</span><span class="n">k</span><span class="p">,</span> <span class="n">x</span><span class="p">)],</span> <span class="n">reverse</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span> <span class="k">for</span> <span class="n">k</span><span class="p">,</span> <span class="n">v</span> <span class="ow">in</span> <span class="n">types_shared_between_corpora</span><span class="o">.</span><span class="n">items</span><span class="p">()}</span>
-<span class="n">n_types</span> <span class="o">=</span> <span class="p">{</span><span class="n">k</span><span class="p">:</span> <span class="nb">len</span><span class="p">(</span><span class="n">v</span><span class="p">)</span> <span class="k">for</span> <span class="n">k</span><span class="p">,</span> <span class="n">v</span> <span class="ow">in</span> <span class="n">types_shared_between_corpora</span><span class="o">.</span><span class="n">items</span><span class="p">()}</span>
-<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Chords which occur in all corpora, sorted by descending global frequency:</span><span class="se">\n</span><span class="si">{</span><span class="n">types_shared_between_corpora</span><span class="si">}</span><span class="se">\n</span><span class="s2">Counts: </span><span class="si">{</span><span class="n">n_types</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
-</pre></div>
-</div>
-</div>
-</div>
-</section>
-<section id="per-piece">
-<h3>Per piece<a class="headerlink" href="#per-piece" title="Permalink to this heading">#</a></h3>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">piece_wise_unigrams</span> <span class="o">=</span> <span class="n">dc</span><span class="o">.</span><span class="n">Pipeline</span><span class="p">([</span><span class="n">dc</span><span class="o">.</span><span class="n">PieceGrouper</span><span class="p">(),</span> <span class="n">dc</span><span class="o">.</span><span class="n">ChordSymbolUnigrams</span><span class="p">(</span><span class="n">once_per_group</span><span class="o">=</span><span class="kc">True</span><span class="p">)])</span><span class="o">.</span><span class="n">process_data</span><span class="p">(</span><span class="n">mode_slices</span><span class="p">)</span>
-</pre></div>
-</div>
-</div>
-</div>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">piece_wise_unigrams</span><span class="o">.</span><span class="n">get</span><span class="p">()</span>
-</pre></div>
-</div>
-</div>
-</div>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">types_shared_between_pieces</span> <span class="o">=</span> <span class="p">{}</span>
-<span class="k">for</span> <span class="p">(</span><span class="n">is_minor</span><span class="p">,</span> <span class="n">corpus_name</span><span class="p">),</span> <span class="n">ugs</span> <span class="ow">in</span> <span class="n">piece_wise_unigrams</span><span class="o">.</span><span class="n">iter</span><span class="p">():</span>
-    <span class="k">if</span> <span class="n">is_minor</span> <span class="ow">in</span> <span class="n">types_shared_between_pieces</span><span class="p">:</span>
-        <span class="n">types_shared_between_pieces</span><span class="p">[</span><span class="n">is_minor</span><span class="p">]</span> <span class="o">=</span> <span class="n">types_shared_between_pieces</span><span class="p">[</span><span class="n">is_minor</span><span class="p">]</span><span class="o">.</span><span class="n">intersection</span><span class="p">(</span><span class="n">ugs</span><span class="o">.</span><span class="n">index</span><span class="p">)</span> 
-    <span class="k">else</span><span class="p">:</span>
-        <span class="n">types_shared_between_pieces</span><span class="p">[</span><span class="n">is_minor</span><span class="p">]</span> <span class="o">=</span> <span class="nb">set</span><span class="p">(</span><span class="n">ugs</span><span class="o">.</span><span class="n">index</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">types_shared_between_pieces</span><span class="p">)</span>
+        <span class="n">chords_by_localkey_major</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">concat</span><span class="p">([</span><span class="n">df</span><span class="p">,</span> <span class="n">sd</span><span class="p">,</span> <span class="n">sd_progression</span><span class="p">],</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
 </div>
 </section>
 </section>
-<section id="bigrams">
-<h2>Bigrams<a class="headerlink" href="#bigrams" title="Permalink to this heading">#</a></h2>
-<section id="id1">
-<h3>Whole dataset<a class="headerlink" href="#id1" title="Permalink to this heading">#</a></h3>
+<section id="scale-degrees">
+<h2>Scale degrees<a class="headerlink" href="#scale-degrees" title="Permalink to this heading">#</a></h2>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">bigrams</span> <span class="o">=</span> <span class="n">dc</span><span class="o">.</span><span class="n">ChordSymbolBigrams</span><span class="p">(</span><span class="n">once_per_group</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span><span class="o">.</span><span class="n">process_data</span><span class="p">(</span><span class="n">mode_slices</span><span class="p">)</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">chords_by_localkey_minor</span>
 </pre></div>
 </div>
 </div>
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">bigrams</span><span class="o">.</span><span class="n">get</span><span class="p">()</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">plotly.graph_objects</span> <span class="k">as</span> <span class="nn">go</span>
+<span class="kn">from</span> <span class="nn">collections</span> <span class="kn">import</span> <span class="n">Counter</span><span class="p">,</span> <span class="n">defaultdict</span>
+
+<span class="k">def</span> <span class="nf">make_sunburst</span><span class="p">(</span><span class="n">chords</span><span class="p">,</span> <span class="n">mode</span><span class="p">):</span>
+    <span class="n">in_scale</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="k">for</span> <span class="n">sd</span><span class="p">,</span> <span class="n">sd_prog</span> <span class="ow">in</span> <span class="n">chords</span><span class="p">[[</span><span class="s1">&#39;sd&#39;</span><span class="p">,</span> <span class="s1">&#39;sd_progression&#39;</span><span class="p">]]</span><span class="o">.</span><span class="n">itertuples</span><span class="p">(</span><span class="n">index</span><span class="o">=</span><span class="kc">False</span><span class="p">):</span>
+        <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">sd</span><span class="p">)</span> <span class="o">==</span> <span class="mi">1</span><span class="p">:</span>
+            <span class="n">in_scale</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">sd</span><span class="p">)</span>
+    <span class="n">label_counts</span> <span class="o">=</span> <span class="n">Counter</span><span class="p">(</span><span class="n">in_scale</span><span class="p">)</span>
+    <span class="n">labels</span><span class="p">,</span> <span class="n">values</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="n">label_counts</span><span class="o">.</span><span class="n">keys</span><span class="p">()),</span> <span class="nb">list</span><span class="p">(</span><span class="n">label_counts</span><span class="o">.</span><span class="n">values</span><span class="p">())</span>
+    <span class="c1">#labels, values = zip(*list((sd, label_counts[sd]) for sd in sorted(label_counts)))</span>
+    <span class="n">parents</span> <span class="o">=</span> <span class="p">[</span><span class="n">mode</span><span class="p">]</span> <span class="o">*</span> <span class="nb">len</span><span class="p">(</span><span class="n">labels</span><span class="p">)</span>
+    <span class="n">labels</span> <span class="o">=</span> <span class="p">[</span><span class="n">mode</span><span class="p">]</span> <span class="o">+</span> <span class="n">labels</span>
+    <span class="n">parents</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;&quot;</span><span class="p">]</span> <span class="o">+</span> <span class="n">parents</span>
+    <span class="n">values</span> <span class="o">=</span> <span class="p">[</span><span class="nb">len</span><span class="p">(</span><span class="n">chords</span><span class="p">)]</span> <span class="o">+</span> <span class="n">values</span>
+    <span class="n">fig</span> <span class="o">=</span><span class="n">go</span><span class="o">.</span><span class="n">Figure</span><span class="p">(</span><span class="n">go</span><span class="o">.</span><span class="n">Sunburst</span><span class="p">(</span>
+        <span class="n">labels</span><span class="o">=</span><span class="n">labels</span><span class="p">,</span>
+        <span class="n">parents</span><span class="o">=</span><span class="n">parents</span><span class="p">,</span>
+        <span class="n">values</span><span class="o">=</span><span class="n">values</span><span class="p">,</span>
+        <span class="n">branchvalues</span><span class="o">=</span><span class="s2">&quot;total&quot;</span>
+    <span class="p">))</span>
+    <span class="n">fig</span><span class="o">.</span><span class="n">update_layout</span><span class="p">(</span><span class="n">margin</span> <span class="o">=</span> <span class="nb">dict</span><span class="p">(</span><span class="n">t</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">l</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">r</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">b</span><span class="o">=</span><span class="mi">0</span><span class="p">))</span>
+    <span class="k">return</span> <span class="n">fig</span>
+
+<span class="n">make_sunburst</span><span class="p">(</span><span class="n">chords_by_localkey_minor</span><span class="p">,</span> <span class="s1">&#39;minor&#39;</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">modes</span> <span class="o">=</span> <span class="p">{</span><span class="kc">True</span><span class="p">:</span> <span class="s1">&#39;MINOR&#39;</span><span class="p">,</span> <span class="kc">False</span><span class="p">:</span> <span class="s1">&#39;MAJOR&#39;</span><span class="p">}</span>
-<span class="k">for</span> <span class="p">(</span><span class="n">is_minor</span><span class="p">,),</span> <span class="n">ugs</span> <span class="ow">in</span> <span class="n">bigrams</span><span class="o">.</span><span class="n">iter</span><span class="p">():</span>
-    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">modes</span><span class="p">[</span><span class="n">is_minor</span><span class="p">]</span><span class="si">}</span><span class="s2"> BIGRAMS</span><span class="se">\n</span><span class="si">{</span><span class="n">ugs</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="si">}</span><span class="s2"> transition types, </span><span class="si">{</span><span class="n">ugs</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span><span class="si">}</span><span class="s2"> tokens&quot;</span><span class="p">)</span>
-    <span class="nb">print</span><span class="p">(</span><span class="n">ugs</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="mi">20</span><span class="p">)</span><span class="o">.</span><span class="n">to_string</span><span class="p">())</span>
-</pre></div>
-</div>
-</div>
-</div>
-</section>
-<section id="id2">
-<h3>Per corpus<a class="headerlink" href="#id2" title="Permalink to this heading">#</a></h3>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">corpus_wise_bigrams</span> <span class="o">=</span> <span class="n">dc</span><span class="o">.</span><span class="n">Pipeline</span><span class="p">([</span><span class="n">dc</span><span class="o">.</span><span class="n">CorpusGrouper</span><span class="p">(),</span> <span class="n">dc</span><span class="o">.</span><span class="n">ChordSymbolBigrams</span><span class="p">(</span><span class="n">once_per_group</span><span class="o">=</span><span class="kc">True</span><span class="p">)])</span><span class="o">.</span><span class="n">process_data</span><span class="p">(</span><span class="n">mode_slices</span><span class="p">)</span>
-</pre></div>
-</div>
-</div>
-</div>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">corpus_wise_bigrams</span><span class="o">.</span><span class="n">get</span><span class="p">()</span>
-</pre></div>
-</div>
-</div>
-</div>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="k">for</span> <span class="p">(</span><span class="n">is_minor</span><span class="p">,</span> <span class="n">corpus_name</span><span class="p">),</span> <span class="n">ugs</span> <span class="ow">in</span> <span class="n">corpus_wise_bigrams</span><span class="o">.</span><span class="n">iter</span><span class="p">():</span>
-    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">corpus_name</span><span class="si">}</span><span class="s2"> </span><span class="si">{</span><span class="n">modes</span><span class="p">[</span><span class="n">is_minor</span><span class="p">]</span><span class="si">}</span><span class="s2"> bigrams (</span><span class="si">{</span><span class="n">ugs</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="si">}</span><span class="s2"> transition types, </span><span class="si">{</span><span class="n">ugs</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span><span class="si">}</span><span class="s2"> tokens)&quot;</span><span class="p">)</span>
-    <span class="nb">print</span><span class="p">(</span><span class="n">ugs</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="mi">5</span><span class="p">)</span><span class="o">.</span><span class="n">to_string</span><span class="p">())</span>
-</pre></div>
-</div>
-</div>
-</div>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">normalized_corpus_unigrams</span> <span class="o">=</span> <span class="p">{</span><span class="n">group</span><span class="p">:</span> <span class="p">(</span><span class="mi">100</span> <span class="o">*</span> <span class="n">ugs</span> <span class="o">/</span> <span class="n">ugs</span><span class="o">.</span><span class="n">sum</span><span class="p">())</span><span class="o">.</span><span class="n">round</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span><span class="o">.</span><span class="n">rename</span><span class="p">(</span><span class="s2">&quot;frequency&quot;</span><span class="p">)</span> <span class="k">for</span> <span class="n">group</span><span class="p">,</span> <span class="n">ugs</span> <span class="ow">in</span> <span class="n">corpus_wise_unigrams</span><span class="o">.</span><span class="n">iter</span><span class="p">()}</span>
-</pre></div>
-</div>
-</div>
-</div>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">transitions_from_shared_types</span> <span class="o">=</span> <span class="p">{</span>
-    <span class="kc">False</span><span class="p">:</span> <span class="p">{},</span>
-    <span class="kc">True</span><span class="p">:</span> <span class="p">{}</span>
-<span class="p">}</span>
-<span class="k">for</span> <span class="p">(</span><span class="n">is_minor</span><span class="p">,</span> <span class="n">corpus_name</span><span class="p">),</span> <span class="n">bgs</span> <span class="ow">in</span> <span class="n">corpus_wise_bigrams</span><span class="o">.</span><span class="n">iter</span><span class="p">():</span>
-    <span class="n">transitions_normalized_per_from</span> <span class="o">=</span> <span class="n">bgs</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="n">level</span><span class="o">=</span><span class="s2">&quot;from&quot;</span><span class="p">,</span> <span class="n">group_keys</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span><span class="o">.</span><span class="n">apply</span><span class="p">(</span><span class="k">lambda</span> <span class="n">S</span><span class="p">:</span> <span class="p">(</span><span class="mi">100</span> <span class="o">*</span> <span class="n">S</span> <span class="o">/</span> <span class="n">S</span><span class="o">.</span><span class="n">sum</span><span class="p">())</span><span class="o">.</span><span class="n">round</span><span class="p">(</span><span class="mi">1</span><span class="p">))</span>
-    <span class="n">most_frequent_transition_per_from</span> <span class="o">=</span> <span class="n">transitions_normalized_per_from</span><span class="o">.</span><span class="n">rename</span><span class="p">(</span><span class="s1">&#39;fraction&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">reset_index</span><span class="p">(</span><span class="n">level</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="n">level</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span><span class="o">.</span><span class="n">nth</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span>
-    <span class="n">most_frequent_transition_per_shared</span> <span class="o">=</span> <span class="n">most_frequent_transition_per_from</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">types_shared_between_corpora</span><span class="p">[</span><span class="n">is_minor</span><span class="p">]]</span>
-    <span class="n">unigram_frequency_of_shared</span> <span class="o">=</span> <span class="n">normalized_corpus_unigrams</span><span class="p">[(</span><span class="n">is_minor</span><span class="p">,</span> <span class="n">corpus_name</span><span class="p">)]</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">types_shared_between_corpora</span><span class="p">[</span><span class="n">is_minor</span><span class="p">]]</span>
-    <span class="n">combined</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">concat</span><span class="p">([</span><span class="n">unigram_frequency_of_shared</span><span class="p">,</span> <span class="n">most_frequent_transition_per_shared</span><span class="p">],</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
-    <span class="n">transitions_from_shared_types</span><span class="p">[</span><span class="n">is_minor</span><span class="p">][</span><span class="n">corpus_name</span><span class="p">]</span> <span class="o">=</span> <span class="n">combined</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">make_sunburst</span><span class="p">(</span><span class="n">chords</span><span class="p">,</span> <span class="n">mode</span><span class="p">):</span>
+    <span class="n">in_scale</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="n">sd2prog</span> <span class="o">=</span> <span class="n">defaultdict</span><span class="p">(</span><span class="n">Counter</span><span class="p">)</span>
+    <span class="k">for</span> <span class="n">sd</span><span class="p">,</span> <span class="n">sd_prog</span> <span class="ow">in</span> <span class="n">chords</span><span class="p">[[</span><span class="s1">&#39;sd&#39;</span><span class="p">,</span> <span class="s1">&#39;sd_progression&#39;</span><span class="p">]]</span><span class="o">.</span><span class="n">itertuples</span><span class="p">(</span><span class="n">index</span><span class="o">=</span><span class="kc">False</span><span class="p">):</span>
+        <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">sd</span><span class="p">)</span> <span class="o">==</span> <span class="mi">1</span><span class="p">:</span>
+            <span class="n">in_scale</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">sd</span><span class="p">)</span>
+            <span class="n">sd2prog</span><span class="p">[</span><span class="n">sd</span><span class="p">]</span><span class="o">.</span><span class="n">update</span><span class="p">([</span><span class="s2">&quot;∎&quot;</span><span class="p">]</span> <span class="k">if</span> <span class="n">pd</span><span class="o">.</span><span class="n">isnull</span><span class="p">(</span><span class="n">sd_prog</span><span class="p">)</span> <span class="k">else</span> <span class="p">[</span><span class="nb">str</span><span class="p">(</span><span class="n">sd_prog</span><span class="p">)])</span>
+    <span class="n">label_counts</span> <span class="o">=</span> <span class="n">Counter</span><span class="p">(</span><span class="n">in_scale</span><span class="p">)</span>
+    <span class="n">labels</span><span class="p">,</span> <span class="n">values</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="n">label_counts</span><span class="o">.</span><span class="n">keys</span><span class="p">()),</span> <span class="nb">list</span><span class="p">(</span><span class="n">label_counts</span><span class="o">.</span><span class="n">values</span><span class="p">())</span>
+    <span class="c1">#labels, values = zip(*list((sd, label_counts[sd]) for sd in sorted(label_counts)))</span>
+    <span class="n">parents</span> <span class="o">=</span> <span class="p">[</span><span class="n">mode</span><span class="p">]</span> <span class="o">*</span> <span class="nb">len</span><span class="p">(</span><span class="n">labels</span><span class="p">)</span>
+    <span class="n">labels</span> <span class="o">=</span> <span class="p">[</span><span class="n">mode</span><span class="p">]</span> <span class="o">+</span> <span class="n">labels</span>
+    <span class="n">parents</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;&quot;</span><span class="p">]</span> <span class="o">+</span> <span class="n">parents</span>
+    <span class="n">values</span> <span class="o">=</span> <span class="p">[</span><span class="nb">len</span><span class="p">(</span><span class="n">chords</span><span class="p">)]</span> <span class="o">+</span> <span class="n">values</span>
+    <span class="c1">#print(sd2prog)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">labels</span><span class="p">),</span> <span class="nb">len</span><span class="p">(</span><span class="n">parents</span><span class="p">),</span> <span class="nb">len</span><span class="p">(</span><span class="n">values</span><span class="p">))</span>
+    <span class="k">for</span> <span class="n">scad</span><span class="p">,</span> <span class="n">prog_counts</span> <span class="ow">in</span> <span class="n">sd2prog</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+        <span class="k">for</span> <span class="n">prog</span><span class="p">,</span> <span class="n">cnt</span> <span class="ow">in</span> <span class="n">prog_counts</span><span class="o">.</span><span class="n">most_common</span><span class="p">():</span>
+            <span class="n">labels</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">prog</span><span class="p">)</span>
+            <span class="n">parents</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">scad</span><span class="p">)</span>
+            <span class="n">values</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">cnt</span><span class="p">)</span>
+            <span class="k">if</span> <span class="n">cnt</span> <span class="o">&lt;</span> <span class="mi">3000</span><span class="p">:</span>
+                <span class="k">break</span>
+            <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;added </span><span class="si">{</span><span class="n">prog</span><span class="si">}</span><span class="s2">, </span><span class="si">{</span><span class="n">scad</span><span class="si">}</span><span class="s2">, </span><span class="si">{</span><span class="n">cnt</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+        <span class="k">break</span>
+    
+    <span class="n">fig</span> <span class="o">=</span><span class="n">go</span><span class="o">.</span><span class="n">Figure</span><span class="p">(</span><span class="n">go</span><span class="o">.</span><span class="n">Sunburst</span><span class="p">(</span>
+        <span class="n">labels</span><span class="o">=</span><span class="n">labels</span><span class="p">,</span>
+        <span class="n">parents</span><span class="o">=</span><span class="n">parents</span><span class="p">,</span>
+        <span class="n">values</span><span class="o">=</span><span class="n">values</span><span class="p">,</span>
+        <span class="n">branchvalues</span><span class="o">=</span><span class="s2">&quot;total&quot;</span>
+    <span class="p">))</span>
+    <span class="n">fig</span><span class="o">.</span><span class="n">update_layout</span><span class="p">(</span><span class="n">margin</span> <span class="o">=</span> <span class="nb">dict</span><span class="p">(</span><span class="n">t</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">l</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">r</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">b</span><span class="o">=</span><span class="mi">0</span><span class="p">))</span>
+    <span class="k">return</span> <span class="n">fig</span>
+
+<span class="n">make_sunburst</span><span class="p">(</span><span class="n">chords_by_localkey_minor</span><span class="p">,</span> <span class="s1">&#39;minor&#39;</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">pd</span><span class="o">.</span><span class="n">concat</span><span class="p">(</span><span class="n">transitions_from_shared_types</span><span class="p">[</span><span class="kc">False</span><span class="p">]</span><span class="o">.</span><span class="n">values</span><span class="p">(),</span> <span class="n">keys</span><span class="o">=</span><span class="n">transitions_from_shared_types</span><span class="p">[</span><span class="kc">False</span><span class="p">]</span><span class="o">.</span><span class="n">keys</span><span class="p">(),</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">fig</span> <span class="o">=</span><span class="n">go</span><span class="o">.</span><span class="n">Figure</span><span class="p">(</span><span class="n">go</span><span class="o">.</span><span class="n">Sunburst</span><span class="p">(</span>
+    <span class="n">labels</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;Eve&quot;</span><span class="p">,</span> <span class="s2">&quot;Cain&quot;</span><span class="p">,</span> <span class="s2">&quot;Seth&quot;</span><span class="p">,</span> <span class="s2">&quot;Enos&quot;</span><span class="p">,</span> <span class="s2">&quot;Noam&quot;</span><span class="p">,</span> <span class="s2">&quot;Abel&quot;</span><span class="p">,</span> <span class="s2">&quot;Awan&quot;</span><span class="p">,</span> <span class="s2">&quot;Enoch&quot;</span><span class="p">,</span> <span class="s2">&quot;Azura&quot;</span><span class="p">],</span>
+    <span class="n">parents</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;&quot;</span><span class="p">,</span> <span class="s2">&quot;Eve&quot;</span><span class="p">,</span> <span class="s2">&quot;Eve&quot;</span><span class="p">,</span> <span class="s2">&quot;Seth&quot;</span><span class="p">,</span> <span class="s2">&quot;Seth&quot;</span><span class="p">,</span> <span class="s2">&quot;Eve&quot;</span><span class="p">,</span> <span class="s2">&quot;Eve&quot;</span><span class="p">,</span> <span class="s2">&quot;Awan&quot;</span><span class="p">,</span> <span class="s2">&quot;Eve&quot;</span> <span class="p">],</span>
+    <span class="n">values</span><span class="o">=</span><span class="p">[</span><span class="mi">10</span><span class="p">,</span> <span class="mi">14</span><span class="p">,</span> <span class="mi">12</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">4</span><span class="p">],</span>
+<span class="p">))</span>
+<span class="n">fig</span><span class="o">.</span><span class="n">update_layout</span><span class="p">(</span><span class="n">margin</span> <span class="o">=</span> <span class="nb">dict</span><span class="p">(</span><span class="n">t</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">l</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">r</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">b</span><span class="o">=</span><span class="mi">0</span><span class="p">))</span>
+
+<span class="n">fig</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
 </pre></div>
 </div>
 </div>
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">pd</span><span class="o">.</span><span class="n">concat</span><span class="p">(</span><span class="n">transitions_from_shared_types</span><span class="p">[</span><span class="kc">True</span><span class="p">]</span><span class="o">.</span><span class="n">values</span><span class="p">(),</span> <span class="n">keys</span><span class="o">=</span><span class="n">transitions_from_shared_types</span><span class="p">[</span><span class="kc">False</span><span class="p">]</span><span class="o">.</span><span class="n">keys</span><span class="p">(),</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
-</pre></div>
-</div>
-</div>
-</div>
-</section>
-<section id="id3">
-<h3>Per piece<a class="headerlink" href="#id3" title="Permalink to this heading">#</a></h3>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">piece_wise_bigrams</span> <span class="o">=</span> <span class="n">dc</span><span class="o">.</span><span class="n">Pipeline</span><span class="p">([</span><span class="n">dc</span><span class="o">.</span><span class="n">PieceGrouper</span><span class="p">(),</span> <span class="n">dc</span><span class="o">.</span><span class="n">ChordSymbolBigrams</span><span class="p">(</span><span class="n">once_per_group</span><span class="o">=</span><span class="kc">True</span><span class="p">)])</span><span class="o">.</span><span class="n">process_data</span><span class="p">(</span><span class="n">mode_slices</span><span class="p">)</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">fig</span> <span class="o">=</span><span class="n">go</span><span class="o">.</span><span class="n">Figure</span><span class="p">(</span><span class="n">go</span><span class="o">.</span><span class="n">Sunburst</span><span class="p">(</span>
+    <span class="n">labels</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;major&quot;</span><span class="p">,</span> <span class="s2">&quot;Cain&quot;</span><span class="p">,</span> <span class="s2">&quot;1&quot;</span><span class="p">,</span> <span class="s2">&quot;Enos&quot;</span><span class="p">,</span> <span class="s2">&quot;Noam&quot;</span><span class="p">,</span> <span class="s2">&quot;Abel&quot;</span><span class="p">,</span> <span class="s2">&quot;Awan&quot;</span><span class="p">,</span> <span class="s2">&quot;Enoch&quot;</span><span class="p">,</span> <span class="s2">&quot;Azura&quot;</span><span class="p">],</span>
+    <span class="n">parents</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;&quot;</span><span class="p">,</span> <span class="s2">&quot;major&quot;</span><span class="p">,</span> <span class="s2">&quot;major&quot;</span><span class="p">,</span> <span class="s2">&quot;1&quot;</span><span class="p">,</span> <span class="s2">&quot;1&quot;</span><span class="p">,</span> <span class="s2">&quot;major&quot;</span><span class="p">,</span> <span class="s2">&quot;major&quot;</span><span class="p">,</span> <span class="s2">&quot;Awan&quot;</span><span class="p">,</span> <span class="s2">&quot;major&quot;</span> <span class="p">],</span>
+    <span class="n">values</span><span class="o">=</span><span class="p">[</span><span class="mi">10</span><span class="p">,</span> <span class="mi">14</span><span class="p">,</span> <span class="mi">12</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">4</span><span class="p">],</span>
+<span class="p">))</span>
+<span class="n">fig</span><span class="o">.</span><span class="n">update_layout</span><span class="p">(</span><span class="n">margin</span> <span class="o">=</span> <span class="nb">dict</span><span class="p">(</span><span class="n">t</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">l</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">r</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">b</span><span class="o">=</span><span class="mi">0</span><span class="p">))</span>
+
+<span class="n">fig</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
 </pre></div>
 </div>
 </div>
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">piece_wise_bigrams</span><span class="o">.</span><span class="n">get</span><span class="p">()</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">df</span>
 </pre></div>
 </div>
 </div>
 </div>
-</section>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">df</span> <span class="o">=</span> <span class="n">px</span><span class="o">.</span><span class="n">data</span><span class="o">.</span><span class="n">tips</span><span class="p">()</span>
+<span class="n">fig</span> <span class="o">=</span> <span class="n">px</span><span class="o">.</span><span class="n">sunburst</span><span class="p">(</span><span class="n">df</span><span class="p">,</span> <span class="n">path</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;sex&#39;</span><span class="p">,</span> <span class="s1">&#39;day&#39;</span><span class="p">,</span> <span class="s1">&#39;time&#39;</span><span class="p">],</span> <span class="n">values</span><span class="o">=</span><span class="s1">&#39;total_bill&#39;</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s1">&#39;time&#39;</span><span class="p">)</span>
+<span class="n">fig</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">#localkey_major_no_repeats = ms3.segment_by_adjacency_groups(chords_by_localkey_major, [&#39;sd&#39;, &#39;figbass&#39;], )</span>
+<span class="c1">#localkey_major_no_repeats</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">safe_interval</span><span class="p">(</span><span class="n">fifths</span><span class="p">):</span>
+    <span class="k">if</span> <span class="n">pd</span><span class="o">.</span><span class="n">isnull</span><span class="p">(</span><span class="n">fifths</span><span class="p">):</span>
+        <span class="k">return</span> <span class="s2">&quot;∎&quot;</span>
+    <span class="k">return</span> <span class="n">ms3</span><span class="o">.</span><span class="n">fifths2iv</span><span class="p">(</span><span class="n">fifths</span><span class="p">,</span> <span class="n">smallest</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">prepare_sunburst_data</span><span class="p">(</span><span class="n">chords</span><span class="p">):</span>
+    <span class="n">chord_data</span> <span class="o">=</span> <span class="n">chords</span><span class="p">[</span><span class="n">chords</span><span class="o">.</span><span class="n">sd</span><span class="o">.</span><span class="n">str</span><span class="o">.</span><span class="n">len</span><span class="p">()</span> <span class="o">==</span> <span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
+    <span class="n">chord_data</span><span class="p">[</span><span class="s2">&quot;interval&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">ms3</span><span class="o">.</span><span class="n">transform</span><span class="p">(</span><span class="n">chord_data</span><span class="o">.</span><span class="n">sd_progression</span><span class="p">,</span> <span class="n">safe_interval</span><span class="p">)</span><span class="o">.</span><span class="n">fillna</span><span class="p">(</span><span class="s2">&quot;∎&quot;</span><span class="p">)</span>
+    <span class="n">chord_data</span><span class="o">.</span><span class="n">figbass</span><span class="o">.</span><span class="n">fillna</span><span class="p">(</span><span class="s1">&#39;3&#39;</span><span class="p">,</span> <span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+    <span class="n">chord_data</span><span class="p">[</span><span class="s2">&quot;following_figbass&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">chord_data</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="n">level</span><span class="o">=</span><span class="p">[</span><span class="mi">0</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">],)</span><span class="o">.</span><span class="n">figbass</span><span class="o">.</span><span class="n">shift</span><span class="p">(</span><span class="o">-</span><span class="mi">1</span><span class="p">)</span><span class="o">.</span><span class="n">fillna</span><span class="p">(</span><span class="s2">&quot;∎&quot;</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">chord_data</span>
+
+<span class="n">column2name</span> <span class="o">=</span> <span class="nb">dict</span><span class="p">(</span>
+    <span class="n">sd</span><span class="o">=</span><span class="s2">&quot;scale degree&quot;</span><span class="p">,</span>
+    <span class="n">figbass</span><span class="o">=</span><span class="s2">&quot;bass figure&quot;</span><span class="p">,</span>
+    <span class="n">interval</span><span class="o">=</span><span class="s2">&quot;bass progression&quot;</span><span class="p">,</span>
+    <span class="n">following_figbass</span><span class="o">=</span><span class="s2">&quot;subsequent figure&quot;</span>
+<span class="p">)</span>
+
+<span class="k">def</span> <span class="nf">rectangular_sunburst</span><span class="p">(</span>
+    <span class="n">chords</span><span class="p">,</span>
+    <span class="n">path</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;sd&#39;</span><span class="p">,</span> <span class="s1">&#39;figbass&#39;</span><span class="p">,</span> <span class="s1">&#39;interval&#39;</span><span class="p">],</span>
+    <span class="n">height</span> <span class="o">=</span> <span class="mi">1500</span><span class="p">,</span>
+    <span class="n">title</span> <span class="o">=</span> <span class="s2">&quot;Sunburst&quot;</span><span class="p">,</span>
+<span class="p">):</span>
+    <span class="n">chord_data</span> <span class="o">=</span> <span class="n">prepare_sunburst_data</span><span class="p">(</span><span class="n">chords</span><span class="p">)</span>
+    <span class="n">title</span> <span class="o">=</span> <span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">title</span><span class="si">}</span><span class="s2"> (</span><span class="si">{</span><span class="s1">&#39; - &#39;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">column2name</span><span class="p">[</span><span class="n">col</span><span class="p">]</span><span class="w"> </span><span class="k">for</span><span class="w"> </span><span class="n">col</span><span class="w"> </span><span class="ow">in</span><span class="w"> </span><span class="n">path</span><span class="p">)</span><span class="si">}</span><span class="s2">)&quot;</span>
+    <span class="k">return</span> <span class="n">px</span><span class="o">.</span><span class="n">sunburst</span><span class="p">(</span>
+        <span class="n">chord_data</span><span class="p">,</span> 
+        <span class="n">path</span><span class="o">=</span><span class="n">path</span><span class="p">,</span> 
+        <span class="n">height</span><span class="o">=</span><span class="n">height</span><span class="p">,</span>
+        <span class="n">title</span><span class="o">=</span><span class="n">title</span><span class="p">,</span>
+    <span class="p">)</span>
+
+<span class="n">rectangular_sunburst</span><span class="p">(</span><span class="n">chords_by_localkey_major</span><span class="p">,</span> <span class="n">title</span><span class="o">=</span><span class="s2">&quot;MAJOR&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">rectangular_sunburst</span><span class="p">(</span><span class="n">chords_by_localkey_major</span><span class="p">,</span> <span class="p">[</span><span class="s1">&#39;sd&#39;</span><span class="p">,</span> <span class="s1">&#39;interval&#39;</span><span class="p">,</span> <span class="s1">&#39;figbass&#39;</span><span class="p">,</span> <span class="s1">&#39;following_figbass&#39;</span><span class="p">],</span> <span class="n">title</span><span class="o">=</span><span class="s2">&quot;MAJOR&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">rectangular_sunburst</span><span class="p">(</span><span class="n">chords_by_localkey_minor</span><span class="p">,</span> <span class="n">title</span><span class="o">=</span><span class="s2">&quot;MINOR&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">rectangular_sunburst</span><span class="p">(</span><span class="n">chords_by_localkey_minor</span><span class="p">,</span> <span class="p">[</span><span class="s1">&#39;sd&#39;</span><span class="p">,</span> <span class="s1">&#39;interval&#39;</span><span class="p">,</span> <span class="s1">&#39;figbass&#39;</span><span class="p">],</span> <span class="n">title</span><span class="o">=</span><span class="s2">&quot;MINOR&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
 </section>
 </section>
 
@@ -1162,24 +990,6 @@ bach_en_fr_suites      yes  annotated
   
     <div class="footer-article-item"><!-- Previous / next buttons -->
 <div class="prev-next-area">
-    <a class="left-prev"
-       href="notes_stats.html"
-       title="previous page">
-      <i class="fa-solid fa-angle-left"></i>
-      <div class="prev-next-info">
-        <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title">Notes</p>
-      </div>
-    </a>
-    <a class="right-next"
-       href="cadences.html"
-       title="next page">
-      <div class="prev-next-info">
-        <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Cadences</p>
-      </div>
-      <i class="fa-solid fa-angle-right"></i>
-    </a>
 </div></div>
   
 </div>
@@ -1199,19 +1009,6 @@ bach_en_fr_suites      yes  annotated
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#dcml-harmony-labels">DCML harmony labels</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#phrases">Phrases</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#presence-of-phrase-annotation-symbols-per-dataset">Presence of phrase annotation symbols per dataset:</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#presence-of-legacy-phrase-endings">Presence of legacy phrase endings</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#a-table-with-the-extents-of-all-annotated-phrases">A table with the extents of all annotated phrases</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#a-table-with-the-chord-sequences-of-all-annotated-phrases">A table with the chord sequences of all annotated phrases</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#local-keys-per-phrase">Local keys per phrase</a><ul class="nav section-nav flex-column">
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#number-of-unique-local-keys-per-phrase">Number of unique local keys per phrase</a></li>
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#the-most-frequent-keys-for-non-modulating-phrases">The most frequent keys for non-modulating phrases</a></li>
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#most-frequent-modulations-within-one-phrase">Most frequent modulations within one phrase</a></li>
-</ul>
-</li>
-</ul>
-</li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#key-areas">Key areas</a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#durational-distribution-of-local-keys">Durational distribution of local keys</a><ul class="nav section-nav flex-column">
 <li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#distribution-of-local-keys-for-piece-in-major-and-in-minor">Distribution of local keys for piece in major and in minor</a></li>
@@ -1223,28 +1020,20 @@ bach_en_fr_suites      yes  annotated
 <li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#by-dataset">By dataset</a></li>
 </ul>
 </li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#tone-profiles-for-all-major-and-minor-local-keys">Tone profiles for all major and minor local keys</a></li>
 </ul>
 </li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#harmony-labels">Harmony labels</a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#unigrams">Unigrams</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#whole-dataset">Whole dataset</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#per-corpus">Per corpus</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#per-piece">Per piece</a></li>
 </ul>
 </li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#bigrams">Bigrams</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id1">Whole dataset</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id2">Per corpus</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id3">Per piece</a></li>
-</ul>
-</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#scale-degrees">Scale degrees</a></li>
 </ul>
   </nav></div>
 
   <div class="sidebar-secondary-item">
   <div class="tocsection sourcelink">
-    <a href="../_sources/notebooks/annotations.md.txt">
+    <a href="../_sources/notebooks/scale_degrees.md.txt">
       <i class="fa-solid fa-file-lines"></i> Show Source
     </a>
   </div>

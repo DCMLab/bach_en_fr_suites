@@ -328,6 +328,7 @@
               </Note>
             </Chord>
           <Chord>
+            <staffMove>1</staffMove>
             <durationType>half</durationType>
             <StemDirection>up</StemDirection>
             <Note>
@@ -2297,6 +2298,7 @@
             <Note>
               <Spanner type="Tie">
                 <Tie>
+                  <up>down</up>
                   </Tie>
                 <next>
                   <location>

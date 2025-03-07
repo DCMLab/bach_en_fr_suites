@@ -750,9 +750,6 @@
         </Measure>
       <Measure len="11/8">
         <endRepeat>2</endRepeat>
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <voice>
           <Chord>
             <dots>1</dots>
@@ -818,10 +815,6 @@
         <startRepeat/>
         <irregular>1</irregular>
         <voice>
-          <Clef>
-            <concertClefType>G</concertClefType>
-            <transposingClefType>G</transposingClefType>
-            </Clef>
           <BarLine>
             <subtype>start-repeat</subtype>
             </BarLine>
@@ -1167,10 +1160,6 @@
         </Measure>
       <Measure>
         <voice>
-          <Clef>
-            <concertClefType>G</concertClefType>
-            <transposingClefType>G</transposingClefType>
-            </Clef>
           <Chord>
             <dots>1</dots>
             <durationType>quarter</durationType>
@@ -2352,9 +2341,6 @@
         </Measure>
       <Measure len="11/8">
         <endRepeat>2</endRepeat>
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <voice>
           <Chord>
             <dots>1</dots>
@@ -3108,10 +3094,6 @@
         </Measure>
       <Measure len="1/8">
         <voice>
-          <Clef>
-            <concertClefType>F</concertClefType>
-            <transposingClefType>F</transposingClefType>
-            </Clef>
           <BarLine>
             <subtype>start-repeat</subtype>
             </BarLine>
@@ -3419,10 +3401,6 @@
         </Measure>
       <Measure>
         <voice>
-          <Clef>
-            <concertClefType>F</concertClefType>
-            <transposingClefType>F</transposingClefType>
-            </Clef>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>iv/ii</name>

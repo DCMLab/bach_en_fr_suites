@@ -148,7 +148,7 @@
       <defaultsVersion>301</defaultsVersion>
       <Spatium>1.56</Spatium>
       </Style>
-    <showInvisible>0</showInvisible>
+    <showInvisible>1</showInvisible>
     <showUnprintable>1</showUnprintable>
     <showFrames>1</showFrames>
     <showMargins>0</showMargins>
@@ -192,12 +192,15 @@
         <defaultClef>F</defaultClef>
         <distOffset>-0.339182</distOffset>
         </Staff>
-      <trackName>Klavier linke Hand</trackName>
+      <trackName>Piano</trackName>
       <Instrument id="piano">
-        <trackName></trackName>
+        <longName>Piano</longName>
+        <shortName>Pno.</shortName>
+        <trackName>Piano</trackName>
         <instrumentId>keyboard.piano</instrumentId>
+        <clef>F</clef>
         <Channel>
-          <program value="1"/>
+          <program value="0"/>
           <synti>Fluid</synti>
           </Channel>
         <Channel name="harmony">
@@ -208,8 +211,20 @@
       </Part>
     <Staff id="1">
       <VBox>
-        <height>12</height>
+        <height>17.1359</height>
         <boxAutoSize>0</boxAutoSize>
+        <Text>
+          <style>Title</style>
+          <text>1. Allemande</text>
+          </Text>
+        <Text>
+          <style>Subtitle</style>
+          <text>from: French Suite No. 3, BWV 814</text>
+          </Text>
+        <Text>
+          <style>Composer</style>
+          <text>Johann Sebastian Bach</text>
+          </Text>
         </VBox>
       <Measure len="3/16">
         <irregular>1</irregular>
@@ -221,26 +236,12 @@
             <sigN>4</sigN>
             <sigD>4</sigD>
             </TimeSig>
-          <StaffText>
-            <family>Times New Roman</family>
-            <size>17</size>
-            <bold>1</bold>
-            <offset x="48.6154" y="-20.6742"/>
-            <text>Französische Suite Nr. 3 in h-Moll.</text>
-            </StaffText>
-          <StaffText>
-            <family>Times New Roman</family>
-            <offset x="110.28" y="-21.5258"/>
-            <text>Johann Sebastian Bach
-BWV 814</text>
-            </StaffText>
-          <StaffText>
-            <family>Times New Roman</family>
-            <size>13</size>
-            <bold>1</bold>
-            <offset x="-12.2025" y="-20.8225"/>
-            <text>1. Allemande</text>
-            </StaffText>
+          <Tempo>
+            <tempo>1.1000000000000001</tempo>
+            <followText>1</followText>
+            <visible>0</visible>
+            <text><b></b><font face="ScoreText"/><b><font face="Edwin"/> = 66</b></text>
+            </Tempo>
           <Chord>
             <durationType>16th</durationType>
             <Note>

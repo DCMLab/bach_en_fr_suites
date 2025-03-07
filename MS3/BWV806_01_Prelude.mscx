@@ -191,10 +191,13 @@
           </StaffType>
         <defaultClef>F</defaultClef>
         </Staff>
-      <trackName>unbenannt1</trackName>
+      <trackName>Piano</trackName>
       <Instrument id="piano">
-        <trackName></trackName>
+        <longName>Piano</longName>
+        <shortName>Pno.</shortName>
+        <trackName>Piano</trackName>
         <instrumentId>keyboard.piano</instrumentId>
+        <clef>F</clef>
         <Channel>
           <program value="0"/>
           <synti>Fluid</synti>
@@ -207,8 +210,20 @@
       </Part>
     <Staff id="1">
       <VBox>
-        <height>4</height>
+        <height>17.5595</height>
         <boxAutoSize>0</boxAutoSize>
+        <Text>
+          <style>Title</style>
+          <text>1. Prelude</text>
+          </Text>
+        <Text>
+          <style>Subtitle</style>
+          <text>from: English Suite No. 1, BWV 806</text>
+          </Text>
+        <Text>
+          <style>Composer</style>
+          <text>Johann Sebastian Bach</text>
+          </Text>
         </VBox>
       <Measure>
         <voice>
@@ -219,13 +234,6 @@
             <sigN>12</sigN>
             <sigD>8</sigD>
             </TimeSig>
-          <StaffText>
-            <family>Times New Roman</family>
-            <size>12</size>
-            <bold>1</bold>
-            <offset x="-15.1539" y="-12.7774"/>
-            <text>1. Prélude</text>
-            </StaffText>
           <Tempo>
             <tempo>2</tempo>
             <followText>1</followText>
@@ -301,13 +309,6 @@
               <visible>0</visible>
               </NoteDot>
             </Rest>
-          <StaffText>
-            <family>Times New Roman</family>
-            <size>17</size>
-            <bold>1</bold>
-            <offset x="3.92456" y="-12.1993"/>
-            <text>Englische Suite Nr. 1 in A-Dur.</text>
-            </StaffText>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -440,12 +441,6 @@
               <tpc>17</tpc>
               </Note>
             </Chord>
-          <StaffText>
-            <family>Times New Roman</family>
-            <offset x="14.8554" y="-13.4579"/>
-            <text>Johann Sebastian Bach
-BWV 806</text>
-            </StaffText>
           <Chord>
             <dots>1</dots>
             <durationType>quarter</durationType>
@@ -793,6 +788,7 @@ BWV 806</text>
               </Note>
             </Chord>
           <Rest>
+            <offset x="0" y="2"/>
             <durationType>eighth</durationType>
             </Rest>
           </voice>
@@ -1695,6 +1691,7 @@ BWV 806</text>
               </Note>
             </Chord>
           <Chord>
+            <staffMove>1</staffMove>
             <durationType>eighth</durationType>
             <Note>
               <Accidental>
@@ -1705,6 +1702,7 @@ BWV 806</text>
               </Note>
             </Chord>
           <Chord>
+            <staffMove>1</staffMove>
             <durationType>eighth</durationType>
             <Note>
               <pitch>61</pitch>
@@ -1712,6 +1710,7 @@ BWV 806</text>
               </Note>
             </Chord>
           <Chord>
+            <staffMove>1</staffMove>
             <durationType>eighth</durationType>
             <StemDirection>down</StemDirection>
             <Note>
@@ -1720,6 +1719,7 @@ BWV 806</text>
               </Note>
             </Chord>
           <Chord>
+            <staffMove>1</staffMove>
             <durationType>eighth</durationType>
             <StemDirection>down</StemDirection>
             <Note>
@@ -1728,6 +1728,7 @@ BWV 806</text>
               </Note>
             </Chord>
           <Chord>
+            <staffMove>1</staffMove>
             <durationType>eighth</durationType>
             <StemDirection>down</StemDirection>
             <Note>
@@ -3496,10 +3497,23 @@ BWV 806</text>
             </Chord>
           </voice>
         <voice>
+          <Beam>
+            <StemDirection>down</StemDirection>
+            </Beam>
           <Chord>
             <durationType>eighth</durationType>
             <StemDirection>up</StemDirection>
             <Note>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <staves>1</staves>
+                    <voices>-1</voices>
+                    <measures>-1</measures>
+                    <fractions>11/8</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
               <pitch>59</pitch>
               <tpc>19</tpc>
               </Note>
@@ -4964,6 +4978,7 @@ BWV 806</text>
               </Note>
             </Chord>
           <Chord>
+            <staffMove>1</staffMove>
             <durationType>eighth</durationType>
             <StemDirection>up</StemDirection>
             <Note>
@@ -4972,6 +4987,7 @@ BWV 806</text>
               </Note>
             </Chord>
           <Chord>
+            <staffMove>1</staffMove>
             <durationType>eighth</durationType>
             <StemDirection>up</StemDirection>
             <Note>
@@ -4980,6 +4996,7 @@ BWV 806</text>
               </Note>
             </Chord>
           <Chord>
+            <staffMove>1</staffMove>
             <durationType>eighth</durationType>
             <StemDirection>up</StemDirection>
             <Note>
@@ -5111,6 +5128,7 @@ BWV 806</text>
               </Note>
             </Chord>
           <Chord>
+            <staffMove>1</staffMove>
             <durationType>eighth</durationType>
             <Note>
               <pitch>68</pitch>
@@ -5118,6 +5136,7 @@ BWV 806</text>
               </Note>
             </Chord>
           <Chord>
+            <staffMove>1</staffMove>
             <durationType>eighth</durationType>
             <Note>
               <pitch>66</pitch>
@@ -5125,6 +5144,7 @@ BWV 806</text>
               </Note>
             </Chord>
           <Chord>
+            <staffMove>1</staffMove>
             <durationType>eighth</durationType>
             <Note>
               <pitch>64</pitch>
@@ -5132,6 +5152,7 @@ BWV 806</text>
               </Note>
             </Chord>
           <Chord>
+            <staffMove>1</staffMove>
             <durationType>eighth</durationType>
             <Note>
               <pitch>66</pitch>
@@ -5139,6 +5160,7 @@ BWV 806</text>
               </Note>
             </Chord>
           <Chord>
+            <staffMove>1</staffMove>
             <durationType>eighth</durationType>
             <Note>
               <pitch>62</pitch>
@@ -5259,6 +5281,7 @@ BWV 806</text>
             <Note>
               <Spanner type="Tie">
                 <Tie>
+                  <up>down</up>
                   </Tie>
                 <next>
                   <location>
@@ -5345,6 +5368,7 @@ BWV 806</text>
             <Note>
               <Spanner type="Tie">
                 <Tie>
+                  <up>down</up>
                   </Tie>
                 <next>
                   <location>
@@ -5364,32 +5388,8 @@ BWV 806</text>
         <voice>
           <Chord>
             <dots>1</dots>
-            <durationType>half</durationType>
+            <durationType>whole</durationType>
             <Note>
-              <Spanner type="Tie">
-                <Tie>
-                  </Tie>
-                <next>
-                  <location>
-                    <fractions>3/4</fractions>
-                    </location>
-                  </next>
-                </Spanner>
-              <pitch>81</pitch>
-              <tpc>17</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <dots>1</dots>
-            <durationType>half</durationType>
-            <Note>
-              <Spanner type="Tie">
-                <prev>
-                  <location>
-                    <fractions>-3/4</fractions>
-                    </location>
-                  </prev>
-                </Spanner>
               <pitch>81</pitch>
               <tpc>17</tpc>
               </Note>
@@ -5403,6 +5403,7 @@ BWV 806</text>
             <Note>
               <Spanner type="Tie">
                 <Tie>
+                  <up>up</up>
                   </Tie>
                 <next>
                   <location>
@@ -5422,6 +5423,9 @@ BWV 806</text>
               <tpc>16</tpc>
               </Note>
             </Chord>
+          <Beam>
+            <StemDirection>down</StemDirection>
+            </Beam>
           <Chord>
             <durationType>eighth</durationType>
             <StemDirection>up</StemDirection>
@@ -5736,6 +5740,7 @@ BWV 806</text>
             <name>I</name>
             </Harmony>
           <Rest>
+            <visible>0</visible>
             <durationType>half</durationType>
             </Rest>
           <location>
@@ -5749,6 +5754,7 @@ BWV 806</text>
             <fractions>1/8</fractions>
             </location>
           <Rest>
+            <visible>0</visible>
             <durationType>half</durationType>
             </Rest>
           <location>
@@ -5762,10 +5768,12 @@ BWV 806</text>
             <fractions>1/4</fractions>
             </location>
           <Chord>
+            <staffMove>-1</staffMove>
             <durationType>eighth</durationType>
             <Note>
               <Spanner type="Tie">
                 <Tie>
+                  <up>up</up>
                   </Tie>
                 <next>
                   <location>
@@ -5783,10 +5791,12 @@ BWV 806</text>
             </Harmony>
           <Chord>
             <dots>1</dots>
+            <staffMove>-1</staffMove>
             <durationType>quarter</durationType>
             <Note>
               <Spanner type="Tie">
                 <Tie>
+                  <up>up</up>
                   </Tie>
                 <next>
                   <location>
@@ -5809,16 +5819,20 @@ BWV 806</text>
           </voice>
         <voice>
           <Rest>
+            <visible>0</visible>
             <durationType>half</durationType>
             </Rest>
           <Rest>
+            <visible>0</visible>
             <durationType>half</durationType>
             </Rest>
           <Rest>
+            <visible>0</visible>
             <durationType>eighth</durationType>
             </Rest>
           <Chord>
             <dots>1</dots>
+            <staffMove>-1</staffMove>
             <durationType>quarter</durationType>
             <StemDirection>up</StemDirection>
             <Note>
@@ -5849,6 +5863,7 @@ BWV 806</text>
             <name>I}{</name>
             </Harmony>
           <Chord>
+            <staffMove>-1</staffMove>
             <durationType>quarter</durationType>
             <Note>
               <Spanner type="Tie">
@@ -5864,7 +5879,6 @@ BWV 806</text>
               </Note>
             </Chord>
           <Rest>
-            <visible>0</visible>
             <durationType>eighth</durationType>
             </Rest>
           <Rest>
@@ -5885,6 +5899,7 @@ BWV 806</text>
           </voice>
         <voice>
           <Chord>
+            <staffMove>-1</staffMove>
             <durationType>quarter</durationType>
             <StemDirection>up</StemDirection>
             <Note>
@@ -5901,20 +5916,30 @@ BWV 806</text>
               </Note>
             </Chord>
           <Rest>
+            <visible>0</visible>
             <durationType>eighth</durationType>
             </Rest>
           <Rest>
+            <visible>0</visible>
             <dots>1</dots>
             <durationType>quarter</durationType>
+            <NoteDot>
+              <visible>0</visible>
+              </NoteDot>
             </Rest>
           <Rest>
+            <visible>0</visible>
             <dots>1</dots>
             <durationType>half</durationType>
+            <NoteDot>
+              <visible>0</visible>
+              </NoteDot>
             </Rest>
           </voice>
         <voice>
           <Chord>
             <durationType>quarter</durationType>
+            <StemDirection>down</StemDirection>
             <Note>
               <pitch>57</pitch>
               <tpc>17</tpc>
@@ -6658,6 +6683,7 @@ BWV 806</text>
             <name>IV6</name>
             </Harmony>
           <Rest>
+            <visible>0</visible>
             <durationType>eighth</durationType>
             </Rest>
           <Harmony>
@@ -7831,11 +7857,16 @@ BWV 806</text>
             <fractions>3/4</fractions>
             </location>
           <Rest>
+            <visible>0</visible>
             <durationType>eighth</durationType>
             </Rest>
           <Rest>
+            <visible>0</visible>
             <dots>1</dots>
             <durationType>quarter</durationType>
+            <NoteDot>
+              <visible>0</visible>
+              </NoteDot>
             </Rest>
           </voice>
         </Measure>
@@ -8329,18 +8360,21 @@ BWV 806</text>
               </Note>
             </Chord>
           <Chord>
+            <staffMove>-1</staffMove>
             <durationType>eighth</durationType>
-            <Spanner type="Slur">
-              <Slur>
-                </Slur>
-              <next>
-                <location>
-                  <measures>1</measures>
-                  <fractions>-11/8</fractions>
-                  </location>
-                </next>
-              </Spanner>
             <Note>
+              <Spanner type="Tie">
+                <Tie>
+                  </Tie>
+                <next>
+                  <location>
+                    <staves>-1</staves>
+                    <voices>1</voices>
+                    <measures>1</measures>
+                    <fractions>-11/8</fractions>
+                    </location>
+                  </next>
+                </Spanner>
               <pitch>59</pitch>
               <tpc>19</tpc>
               </Note>
@@ -8372,15 +8406,7 @@ BWV 806</text>
           <Chord>
             <dots>1</dots>
             <durationType>half</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <measures>-1</measures>
-                  <fractions>11/8</fractions>
-                  </location>
-                </prev>
-              </Spanner>
-            <StemDirection>down</StemDirection>
+            <StemDirection>up</StemDirection>
             <Note>
               <Spanner type="Tie">
                 <Tie>
@@ -8498,6 +8524,7 @@ BWV 806</text>
           </voice>
         <voice>
           <Rest>
+            <offset x="0" y="4"/>
             <durationType>eighth</durationType>
             </Rest>
           <location>
@@ -9758,6 +9785,9 @@ BWV 806</text>
             <harmonyType>1</harmonyType>
             <name>I</name>
             </Harmony>
+          <Beam>
+            <StemDirection>up</StemDirection>
+            </Beam>
           <Chord>
             <durationType>eighth</durationType>
             <StemDirection>down</StemDirection>
@@ -9786,6 +9816,9 @@ BWV 806</text>
             <harmonyType>1</harmonyType>
             <name>IV6</name>
             </Harmony>
+          <Beam>
+            <StemDirection>up</StemDirection>
+            </Beam>
           <Chord>
             <durationType>eighth</durationType>
             <StemDirection>down</StemDirection>
@@ -9818,6 +9851,9 @@ BWV 806</text>
             <harmonyType>1</harmonyType>
             <name>IV</name>
             </Harmony>
+          <Beam>
+            <StemDirection>up</StemDirection>
+            </Beam>
           <Chord>
             <durationType>eighth</durationType>
             <StemDirection>down</StemDirection>
@@ -9842,6 +9878,9 @@ BWV 806</text>
               <tpc>18</tpc>
               </Note>
             </Chord>
+          <Beam>
+            <StemDirection>up</StemDirection>
+            </Beam>
           <Chord>
             <durationType>eighth</durationType>
             <StemDirection>down</StemDirection>
@@ -9937,6 +9976,9 @@ BWV 806</text>
             <harmonyType>1</harmonyType>
             <name>I(64)}</name>
             </Harmony>
+          <Beam>
+            <StemDirection>up</StemDirection>
+            </Beam>
           <Chord>
             <durationType>eighth</durationType>
             <StemDirection>down</StemDirection>
@@ -9946,6 +9988,7 @@ BWV 806</text>
               </Note>
             </Chord>
           <Chord>
+            <staffMove>-1</staffMove>
             <durationType>eighth</durationType>
             <StemDirection>down</StemDirection>
             <Note>
@@ -9954,6 +9997,7 @@ BWV 806</text>
               </Note>
             </Chord>
           <Chord>
+            <staffMove>-1</staffMove>
             <durationType>eighth</durationType>
             <StemDirection>down</StemDirection>
             <Note>
@@ -9963,6 +10007,7 @@ BWV 806</text>
             </Chord>
           <Chord>
             <dots>1</dots>
+            <staffMove>-1</staffMove>
             <durationType>quarter</durationType>
             <StemDirection>down</StemDirection>
             <Note>
@@ -9985,6 +10030,7 @@ BWV 806</text>
             </Harmony>
           <Chord>
             <dots>1</dots>
+            <staffMove>-1</staffMove>
             <durationType>half</durationType>
             <StemDirection>down</StemDirection>
             <Note>

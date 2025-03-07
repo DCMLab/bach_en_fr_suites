@@ -191,12 +191,15 @@
           </StaffType>
         <defaultClef>F</defaultClef>
         </Staff>
-      <trackName>Klavier linke Hand</trackName>
+      <trackName>Piano</trackName>
       <Instrument id="piano">
-        <trackName></trackName>
+        <longName>Piano</longName>
+        <shortName>Pno.</shortName>
+        <trackName>Piano</trackName>
         <instrumentId>keyboard.piano</instrumentId>
+        <clef>F</clef>
         <Channel>
-          <program value="1"/>
+          <program value="0"/>
           <synti>Fluid</synti>
           </Channel>
         <Channel name="harmony">
@@ -207,8 +210,20 @@
       </Part>
     <Staff id="1">
       <VBox>
-        <height>10</height>
+        <height>14.3683</height>
         <boxAutoSize>0</boxAutoSize>
+        <Text>
+          <style>Title</style>
+          <text>1. Prelude</text>
+          </Text>
+        <Text>
+          <style>Subtitle</style>
+          <text>from: English Suite No. 4, BWV 809</text>
+          </Text>
+        <Text>
+          <style>Composer</style>
+          <text>Johann Sebastian Bach</text>
+          </Text>
         </VBox>
       <Measure>
         <voice>
@@ -219,27 +234,6 @@
             <sigN>2</sigN>
             <sigD>2</sigD>
             </TimeSig>
-          <StaffText>
-            <family>Times New Roman</family>
-            <size>17</size>
-            <bold>1</bold>
-            <offset x="49.86" y="-18.4667"/>
-            <text>Englische Suite Nr. 4 in F-Dur.</text>
-            </StaffText>
-          <StaffText>
-            <family>Times New Roman</family>
-            <size>12</size>
-            <bold>1</bold>
-            <offset x="-10.7792" y="-18.5745"/>
-            <text>1. Prélude</text>
-            </StaffText>
-          <StaffText>
-            <minDistance>-9.38835</minDistance>
-            <family>Times New Roman</family>
-            <offset x="88.0219" y="-12.7825"/>
-            <text>Johann Sebastian Bach
-BWV 809</text>
-            </StaffText>
           <Tempo>
             <tempo>1.8666666666666667</tempo>
             <followText>1</followText>

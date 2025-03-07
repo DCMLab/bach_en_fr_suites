@@ -147,7 +147,7 @@
       <defaultsVersion>301</defaultsVersion>
       <Spatium>1.6</Spatium>
       </Style>
-    <showInvisible>0</showInvisible>
+    <showInvisible>1</showInvisible>
     <showUnprintable>1</showUnprintable>
     <showFrames>1</showFrames>
     <showMargins>0</showMargins>
@@ -177,7 +177,7 @@
     <metaTag name="viaf">https://viaf.org/viaf/174207011/</metaTag>
     <metaTag name="wikidata">https://www.wikidata.org/wiki/Q20645359</metaTag>
     <metaTag name="workNumber">BWV 812</metaTag>
-    <metaTag name="workTitle">French Suite no. 1</metaTag>
+    <metaTag name="workTitle">French Suite No. 1</metaTag>
     <Part>
       <Staff id="1">
         <StaffType group="pitched">
@@ -190,10 +190,13 @@
           </StaffType>
         <defaultClef>F</defaultClef>
         </Staff>
-      <trackName>Klavier linke Hand</trackName>
+      <trackName>Piano</trackName>
       <Instrument id="piano">
-        <trackName></trackName>
+        <longName>Piano</longName>
+        <shortName>Pno.</shortName>
+        <trackName>Piano</trackName>
         <instrumentId>keyboard.piano</instrumentId>
+        <clef>F</clef>
         <Channel>
           <program value="0"/>
           <synti>Fluid</synti>
@@ -206,6 +209,20 @@
       </Part>
     <Staff id="1">
       <VBox>
+        <height>16.2861</height>
+        <boxAutoSize>0</boxAutoSize>
+        <Text>
+          <style>Title</style>
+          <text>2. Courante</text>
+          </Text>
+        <Text>
+          <style>Subtitle</style>
+          <text>from: French Suite No. 1, BWV 812</text>
+          </Text>
+        <Text>
+          <style>Composer</style>
+          <text>Johann Sebastian Bach</text>
+          </Text>
         </VBox>
       <Measure len="1/8">
         <irregular>1</irregular>
@@ -214,13 +231,6 @@
             <sigN>3</sigN>
             <sigD>2</sigD>
             </TimeSig>
-          <StaffText>
-            <family>Times New Roman</family>
-            <size>12</size>
-            <bold>1</bold>
-            <offset x="-13.3878" y="-8.20209"/>
-            <text>2. Courante</text>
-            </StaffText>
           <Tempo>
             <tempo>2.8333333333333335</tempo>
             <followText>1</followText>
@@ -343,6 +353,7 @@
             <Note>
               <Spanner type="Tie">
                 <Tie>
+                  <up>up</up>
                   </Tie>
                 <next>
                   <location>

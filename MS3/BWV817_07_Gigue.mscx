@@ -191,10 +191,13 @@
           </StaffType>
         <defaultClef>F</defaultClef>
         </Staff>
-      <trackName>Klavier linke Hand</trackName>
+      <trackName>Piano</trackName>
       <Instrument id="piano">
-        <trackName></trackName>
+        <longName>Piano</longName>
+        <shortName>Pno.</shortName>
+        <trackName>Piano</trackName>
         <instrumentId>keyboard.piano</instrumentId>
+        <clef>F</clef>
         <Channel>
           <program value="0"/>
           <synti>Fluid</synti>
@@ -206,7 +209,22 @@
         </Instrument>
       </Part>
     <Staff id="1">
-      <VBox/>
+      <VBox>
+        <height>15.1141</height>
+        <boxAutoSize>0</boxAutoSize>
+        <Text>
+          <style>Title</style>
+          <text>7. Gigue</text>
+          </Text>
+        <Text>
+          <style>Subtitle</style>
+          <text>from: French Suite No. 6, BWV 817</text>
+          </Text>
+        <Text>
+          <style>Composer</style>
+          <text>Johann Sebastian Bach</text>
+          </Text>
+        </VBox>
       <Measure len="1/8">
         <irregular>1</irregular>
         <voice>
@@ -217,17 +235,11 @@
             <sigN>6</sigN>
             <sigD>8</sigD>
             </TimeSig>
-          <StaffText>
-            <family>Times New Roman</family>
-            <size>12</size>
-            <bold>1</bold>
-            <offset x="-16.944" y="-8.29584"/>
-            <text>7. Gigue</text>
-            </StaffText>
           <Tempo>
             <tempo>2.25</tempo>
             <followText>1</followText>
-            <text><b></b><font face="ScoreText"></font> <b><font face="Edwin"></font> = 90</b></text>
+            <visible>0</visible>
+            <text><b></b><font face="ScoreText"/> <b><font face="Edwin"/> = 90</b></text>
             </Tempo>
           <Chord>
             <durationType>eighth</durationType>

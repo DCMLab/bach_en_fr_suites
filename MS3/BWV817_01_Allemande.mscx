@@ -191,10 +191,13 @@
           </StaffType>
         <defaultClef>F</defaultClef>
         </Staff>
-      <trackName>Klavier linke Hand</trackName>
+      <trackName>Piano</trackName>
       <Instrument id="piano">
-        <trackName></trackName>
+        <longName>Piano</longName>
+        <shortName>Pno.</shortName>
+        <trackName>Piano</trackName>
         <instrumentId>keyboard.piano</instrumentId>
+        <clef>F</clef>
         <Channel>
           <program value="0"/>
           <synti>Fluid</synti>
@@ -207,13 +210,19 @@
       </Part>
     <Staff id="1">
       <VBox>
-        <height>8</height>
+        <height>14.1795</height>
         <boxAutoSize>0</boxAutoSize>
         <Text>
           <style>Title</style>
-          <size>9.216</size>
-          <offset x="0.139868" y="-0.45881"/>
-          <text>BWV 817</text>
+          <text>1. Allemande</text>
+          </Text>
+        <Text>
+          <style>Subtitle</style>
+          <text>from: French Suite No. 6, BWV 817</text>
+          </Text>
+        <Text>
+          <style>Composer</style>
+          <text>Johann Sebastian Bach</text>
           </Text>
         </VBox>
       <Measure len="1/16">
@@ -227,20 +236,6 @@
             <sigN>4</sigN>
             <sigD>4</sigD>
             </TimeSig>
-          <StaffText>
-            <family>Times New Roman</family>
-            <size>17</size>
-            <bold>1</bold>
-            <offset x="47.8691" y="-16.6289"/>
-            <text>Französische Suite Nr. 6 in E-Dur.</text>
-            </StaffText>
-          <StaffText>
-            <family>Times New Roman</family>
-            <size>12</size>
-            <bold>1</bold>
-            <offset x="-11.6496" y="-16.9243"/>
-            <text>1. Allemande</text>
-            </StaffText>
           <Tempo>
             <tempo>1.5</tempo>
             <followText>1</followText>
@@ -473,12 +468,6 @@
               <tpc>19</tpc>
               </Note>
             </Chord>
-          <StaffText>
-            <family>Times New Roman</family>
-            <offset x="10.6293" y="-17.3651"/>
-            <text>Johann Sebastian Bach
-BWV 817</text>
-            </StaffText>
           <Chord>
             <durationType>16th</durationType>
             <Note>

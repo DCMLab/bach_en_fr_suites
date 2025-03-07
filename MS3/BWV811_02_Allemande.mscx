@@ -196,10 +196,13 @@
         <defaultClef>F</defaultClef>
         <distOffset>-0.496053</distOffset>
         </Staff>
-      <trackName>Midi_2</trackName>
+      <trackName>Piano</trackName>
       <Instrument id="piano">
-        <trackName>Midi_2</trackName>
+        <longName>Piano</longName>
+        <shortName>Pno.</shortName>
+        <trackName>Piano</trackName>
         <instrumentId>keyboard.piano</instrumentId>
+        <clef>F</clef>
         <Articulation>
           <velocity>100</velocity>
           <gateTime>100</gateTime>
@@ -229,7 +232,7 @@
           <gateTime>100</gateTime>
           </Articulation>
         <Channel>
-          <program value="1"/>
+          <program value="0"/>
           <controller ctrl="10" value="63"/>
           <synti>Fluid</synti>
           </Channel>
@@ -241,7 +244,22 @@
         </Instrument>
       </Part>
     <Staff id="1">
-      <VBox/>
+      <VBox>
+        <height>15.2206</height>
+        <boxAutoSize>0</boxAutoSize>
+        <Text>
+          <style>Title</style>
+          <text>2. Allemande</text>
+          </Text>
+        <Text>
+          <style>Subtitle</style>
+          <text>from: English Suite No. 6, BWV 811</text>
+          </Text>
+        <Text>
+          <style>Composer</style>
+          <text>Johann Sebastian Bach</text>
+          </Text>
+        </VBox>
       <Measure len="1/16">
         <irregular>1</irregular>
         <voice>
@@ -253,11 +271,6 @@
             <sigN>4</sigN>
             <sigD>4</sigD>
             </TimeSig>
-          <StaffText>
-            <family>FreeSerif</family>
-            <offset x="-15.6652" y="-11.9143"/>
-            <text><font size="12"></font><font face="Times New Roman"></font><b>2. Allemande</b></text>
-            </StaffText>
           <Tempo>
             <tempo>1</tempo>
             <followText>1</followText>

@@ -191,10 +191,13 @@
           </StaffType>
         <defaultClef>F</defaultClef>
         </Staff>
-      <trackName>Klavier linke Hand</trackName>
+      <trackName>Piano</trackName>
       <Instrument id="piano">
-        <trackName></trackName>
+        <longName>Piano</longName>
+        <shortName>Pno.</shortName>
+        <trackName>Piano</trackName>
         <instrumentId>keyboard.piano</instrumentId>
+        <clef>F</clef>
         <Channel>
           <program value="0"/>
           <synti>Fluid</synti>
@@ -207,13 +210,19 @@
       </Part>
     <Staff id="1">
       <VBox>
-        <height>9</height>
+        <height>15.9253</height>
         <boxAutoSize>0</boxAutoSize>
         <Text>
           <style>Title</style>
-          <size>9.216</size>
-          <offset x="3.9163" y="-4.67511"/>
-          <text>BWV 812</text>
+          <text>1. Allemande</text>
+          </Text>
+        <Text>
+          <style>Subtitle</style>
+          <text>from: French Suite No. 1, BWV 812</text>
+          </Text>
+        <Text>
+          <style>Composer</style>
+          <text>Johann Sebastian Bach</text>
           </Text>
         </VBox>
       <Measure len="1/16">
@@ -226,20 +235,6 @@
             <sigN>4</sigN>
             <sigD>4</sigD>
             </TimeSig>
-          <StaffText>
-            <family>Times New Roman</family>
-            <size>17</size>
-            <bold>1</bold>
-            <offset x="23.4344" y="-23.7835"/>
-            <text>Französische Suite Nr. 1 in d-Moll.</text>
-            </StaffText>
-          <StaffText>
-            <family>Times New Roman</family>
-            <size>12</size>
-            <bold>1</bold>
-            <offset x="-9.80892" y="-12.822"/>
-            <text>1. Allemande</text>
-            </StaffText>
           <Tempo>
             <tempo>1.0333333333333332</tempo>
             <followText>1</followText>
@@ -500,12 +495,6 @@
               <tpc>13</tpc>
               </Note>
             </Chord>
-          <StaffText>
-            <family>Times New Roman</family>
-            <offset x="-24.7826" y="-21.1895"/>
-            <text>Johann Sebastian Bach
-BWV 812</text>
-            </StaffText>
           <Chord>
             <durationType>16th</durationType>
             <Note>

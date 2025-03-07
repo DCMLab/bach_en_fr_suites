@@ -191,10 +191,13 @@
           </StaffType>
         <defaultClef>F</defaultClef>
         </Staff>
-      <trackName>unbenannt1</trackName>
+      <trackName>Piano</trackName>
       <Instrument id="piano">
-        <trackName></trackName>
+        <longName>Piano</longName>
+        <shortName>Pno.</shortName>
+        <trackName>Piano</trackName>
         <instrumentId>keyboard.piano</instrumentId>
+        <clef>F</clef>
         <Channel>
           <program value="0"/>
           <synti>Fluid</synti>
@@ -206,7 +209,22 @@
         </Instrument>
       </Part>
     <Staff id="1">
-      <VBox/>
+      <VBox>
+        <height>15.5932</height>
+        <boxAutoSize>0</boxAutoSize>
+        <Text>
+          <style>Title</style>
+          <text>7. Gavotte II</text>
+          </Text>
+        <Text>
+          <style>Subtitle</style>
+          <text>from: English Suite No. 3, BWV 808</text>
+          </Text>
+        <Text>
+          <style>Composer</style>
+          <text>Johann Sebastian Bach</text>
+          </Text>
+        </VBox>
       <Measure len="1/2">
         <irregular>1</irregular>
         <voice>
@@ -218,13 +236,6 @@
             <sigN>2</sigN>
             <sigD>2</sigD>
             </TimeSig>
-          <StaffText>
-            <family>Times New Roman</family>
-            <size>12</size>
-            <bold>1</bold>
-            <offset x="-13.9931" y="-8.3611"/>
-            <text>6. Gavotte (ou la Musette) </text>
-            </StaffText>
           <Tempo>
             <tempo>2.6666699999999999</tempo>
             <followText>1</followText>
@@ -1043,7 +1054,7 @@
         <voice>
           <SystemText>
             <placement>below</placement>
-            <offset x="-8.1022" y="10.85"/>
+            <offset x="-12.5767" y="8.93234"/>
             <text><i><font size="13"></font>Gavotte I da capo</i></text>
             </SystemText>
           <Chord>

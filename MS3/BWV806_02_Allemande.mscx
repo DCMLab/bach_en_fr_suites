@@ -191,10 +191,13 @@
           </StaffType>
         <defaultClef>F</defaultClef>
         </Staff>
-      <trackName>unbenannt1</trackName>
+      <trackName>Piano</trackName>
       <Instrument id="piano">
-        <trackName></trackName>
+        <longName>Piano</longName>
+        <shortName>Pno.</shortName>
+        <trackName>Piano</trackName>
         <instrumentId>keyboard.piano</instrumentId>
+        <clef>F</clef>
         <Channel>
           <program value="0"/>
           <synti>Fluid</synti>
@@ -206,7 +209,22 @@
         </Instrument>
       </Part>
     <Staff id="1">
-      <VBox/>
+      <VBox>
+        <height>15.4515</height>
+        <boxAutoSize>0</boxAutoSize>
+        <Text>
+          <style>Title</style>
+          <text>2. Allemande</text>
+          </Text>
+        <Text>
+          <style>Subtitle</style>
+          <text>from: English Suite No. 1, BWV 806</text>
+          </Text>
+        <Text>
+          <style>Composer</style>
+          <text>Johann Sebastian Bach</text>
+          </Text>
+        </VBox>
       <Measure len="1/16">
         <irregular>1</irregular>
         <voice>
@@ -217,16 +235,10 @@
             <sigN>4</sigN>
             <sigD>4</sigD>
             </TimeSig>
-          <StaffText>
-            <family>Times New Roman</family>
-            <size>12</size>
-            <bold>1</bold>
-            <offset x="-15.4336" y="-7.98334"/>
-            <text>2. Allemande</text>
-            </StaffText>
           <Tempo>
             <tempo>1.0833333333333333</tempo>
             <followText>1</followText>
+            <visible>0</visible>
             <text><b></b><font face="ScoreText"></font><b><font face="Edwin"></font> = 65</b></text>
             </Tempo>
           <Chord>
@@ -455,6 +467,7 @@
             </Chord>
           <Chord>
             <durationType>half</durationType>
+            <StemDirection>up</StemDirection>
             <Note>
               <Spanner type="Tie">
                 <Tie>
@@ -587,6 +600,9 @@
           <Rest>
             <durationType>16th</durationType>
             </Rest>
+          <Beam>
+            <StemDirection>down</StemDirection>
+            </Beam>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -867,6 +883,9 @@
               <tpc>15</tpc>
               </Note>
             </Chord>
+          <Beam>
+            <StemDirection>down</StemDirection>
+            </Beam>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -886,6 +905,7 @@
             </Chord>
           <Chord>
             <durationType>quarter</durationType>
+            <StemDirection>down</StemDirection>
             <Note>
               <pitch>64</pitch>
               <tpc>18</tpc>
@@ -893,6 +913,7 @@
             </Chord>
           <Chord>
             <durationType>quarter</durationType>
+            <StemDirection>down</StemDirection>
             <Note>
               <pitch>64</pitch>
               <tpc>18</tpc>
@@ -1011,6 +1032,7 @@
               </Note>
             </Chord>
           <Rest>
+            <visible>0</visible>
             <durationType>eighth</durationType>
             </Rest>
           <Chord>
@@ -1275,6 +1297,7 @@
             <fractions>5/8</fractions>
             </location>
           <Chord>
+            <staffMove>1</staffMove>
             <durationType>eighth</durationType>
             <StemDirection>up</StemDirection>
             <Note>
@@ -6481,6 +6504,7 @@
             </Harmony>
           <Chord>
             <dots>1</dots>
+            <staffMove>-1</staffMove>
             <durationType>eighth</durationType>
             <StemDirection>down</StemDirection>
             <Note>
@@ -6503,6 +6527,7 @@
             <name>vii%7(+2)</name>
             </Harmony>
           <Chord>
+            <staffMove>-1</staffMove>
             <durationType>16th</durationType>
             <StemDirection>down</StemDirection>
             <Note>
@@ -6515,6 +6540,7 @@
             <name>I(4)</name>
             </Harmony>
           <Chord>
+            <staffMove>-1</staffMove>
             <durationType>quarter</durationType>
             <StemDirection>down</StemDirection>
             <Note>
@@ -6536,6 +6562,7 @@
             <name>I</name>
             </Harmony>
           <Chord>
+            <staffMove>-1</staffMove>
             <durationType>16th</durationType>
             <StemDirection>down</StemDirection>
             <Note>
@@ -6551,6 +6578,7 @@
               </Note>
             </Chord>
           <Chord>
+            <staffMove>-1</staffMove>
             <durationType>16th</durationType>
             <StemDirection>down</StemDirection>
             <Note>
@@ -6559,6 +6587,7 @@
               </Note>
             </Chord>
           <Chord>
+            <staffMove>-1</staffMove>
             <durationType>16th</durationType>
             <StemDirection>down</StemDirection>
             <Note>
@@ -6567,6 +6596,7 @@
               </Note>
             </Chord>
           <Chord>
+            <staffMove>-1</staffMove>
             <durationType>16th</durationType>
             <StemDirection>down</StemDirection>
             <Note>
@@ -6741,6 +6771,7 @@
           </voice>
         <voice>
           <Chord>
+            <staffMove>-1</staffMove>
             <durationType>16th</durationType>
             <Note>
               <Accidental>
@@ -6751,6 +6782,7 @@
               </Note>
             </Chord>
           <Chord>
+            <staffMove>-1</staffMove>
             <durationType>16th</durationType>
             <Note>
               <pitch>64</pitch>
@@ -6758,6 +6790,7 @@
               </Note>
             </Chord>
           <Chord>
+            <staffMove>-1</staffMove>
             <durationType>eighth</durationType>
             <Note>
               <pitch>61</pitch>
@@ -8216,8 +8249,7 @@
                   </Tie>
                 <next>
                   <location>
-                    <measures>2</measures>
-                    <fractions>-3/16</fractions>
+                    <fractions>1/8</fractions>
                     </location>
                   </next>
                 </Spanner>
@@ -8232,6 +8264,13 @@
           <Chord>
             <durationType>quarter</durationType>
             <Note>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <fractions>-1/8</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
               <pitch>58</pitch>
               <tpc>24</tpc>
               </Note>
@@ -8580,14 +8619,6 @@
                 <role>1</role>
                 <subtype>accidentalSharp</subtype>
                 </Accidental>
-              <Spanner type="Tie">
-                <prev>
-                  <location>
-                    <measures>-2</measures>
-                    <fractions>3/16</fractions>
-                    </location>
-                  </prev>
-                </Spanner>
               <pitch>58</pitch>
               <tpc>24</tpc>
               </Note>
@@ -8879,6 +8910,8 @@
             </Chord>
           </voice>
         <voice>
+          <Beam>
+            </Beam>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -8911,7 +8944,7 @@
           <Chord>
             <dots>1</dots>
             <durationType>eighth</durationType>
-            <StemDirection>up</StemDirection>
+            <StemDirection>down</StemDirection>
             <Note>
               <pitch>54</pitch>
               <tpc>20</tpc>
@@ -9024,6 +9057,9 @@
               <tpc>18</tpc>
               </Note>
             </Chord>
+          <Beam>
+            <StemDirection>up</StemDirection>
+            </Beam>
           <Chord>
             <durationType>16th</durationType>
             <Note>

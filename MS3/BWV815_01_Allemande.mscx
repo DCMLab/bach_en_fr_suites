@@ -191,10 +191,13 @@
           </StaffType>
         <defaultClef>F</defaultClef>
         </Staff>
-      <trackName>Klavier linke Hand</trackName>
+      <trackName>Piano</trackName>
       <Instrument id="piano">
-        <trackName></trackName>
+        <longName>Piano</longName>
+        <shortName>Pno.</shortName>
+        <trackName>Piano</trackName>
         <instrumentId>keyboard.piano</instrumentId>
+        <clef>F</clef>
         <Channel>
           <program value="0"/>
           <synti>Fluid</synti>
@@ -207,13 +210,19 @@
       </Part>
     <Staff id="1">
       <VBox>
-        <height>10</height>
+        <height>15.9664</height>
         <boxAutoSize>0</boxAutoSize>
         <Text>
           <style>Title</style>
-          <size>9.216</size>
-          <offset x="0.279736" y="1.35947"/>
-          <text>BWV 815</text>
+          <text>1. Allemande</text>
+          </Text>
+        <Text>
+          <style>Subtitle</style>
+          <text>from: French Suite No. 4, BWV 815</text>
+          </Text>
+        <Text>
+          <style>Composer</style>
+          <text>Johann Sebastian Bach</text>
           </Text>
         </VBox>
       <Measure len="1/16">
@@ -226,20 +235,6 @@
             <sigN>4</sigN>
             <sigD>4</sigD>
             </TimeSig>
-          <StaffText>
-            <family>Times New Roman</family>
-            <size>17</size>
-            <bold>1</bold>
-            <offset x="44.9022" y="-18.3329"/>
-            <text>Französische Suite Nr. 4 in Es-Dur.</text>
-            </StaffText>
-          <StaffText>
-            <family>Times New Roman</family>
-            <size>12</size>
-            <bold>1</bold>
-            <offset x="-11.9115" y="-18.7247"/>
-            <text>1. Allemande</text>
-            </StaffText>
           <Tempo>
             <tempo>1.3333333333333333</tempo>
             <followText>1</followText>
@@ -260,12 +255,6 @@
             <visible>0</visible>
             <durationType>quarter</durationType>
             </Rest>
-          <StaffText>
-            <family>Times New Roman</family>
-            <offset x="88.1178" y="-19.5047"/>
-            <text>Johann Sebastian Bach
-BWV 815</text>
-            </StaffText>
           <Rest>
             <durationType>16th</durationType>
             </Rest>

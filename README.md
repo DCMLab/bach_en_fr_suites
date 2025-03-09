@@ -16,17 +16,18 @@ For information on how to obtain and use the dataset, please refer to [this docu
 
 This corpus of annotated [MuseScore](https://musescore.org) files has been created within
 the [DCML corpus initiative](https://github.com/DCMLab/dcml_corpora) and employs
-the\r [DCML harmony annotation standard](https://github.com/DCMLab/standards).
+the [DCML harmony annotation standard](https://github.com/DCMLab/standards).
 
-Bach's English and French suites for keyboard likely date from some time around\r
-the same prolific Köthen period (1717-1723) as do the Sonatas and Partitas for solo violin and the Six Suites \r
-for solo cello, which are represented in [another DCML repository](https://github.com/DCMLab/bach_solo). All of these works respond in some way to\r
-standard 18th-century courtly dance forms, though the music is, to varying degrees, inappropriate for dancing. \r
-Neither the titles "English" nor "French" convey any particular meaning, as all six suites evince varied influences \r
-and display similarly rich ornamentation. The English suites all include elaborate Preludes, a Bachian virtuosic \r
-specialty not necessarily characteristic of the Baroque as a whole, whereas the French suites consist instead in \r
-tauter, stricter interpretations of the dances. Our annotations reflect the precision-constructed harmonic framework \r
-from which Bach's virtuosic keyboard pyrotechnics are drawn and may be used fruitfully in examination of Bach's \r
+Bach's English and French suites for keyboard likely date from some time around 
+the same prolific Köthen period (1717-1723) as do the Sonatas and Partitas for solo violin and the Six Suites  
+for solo cello, which are represented in [another DCML repository](https://github.com/DCMLab/bach_solo). All of these
+works respond in some way to 
+standard 18th-century courtly dance forms, though the music is, to varying degrees, inappropriate for dancing.  
+Neither the titles "English" nor "French" convey any particular meaning, as all six suites evince varied influences  
+and display similarly rich ornamentation. The English suites all include elaborate Preludes, a Bachian virtuosic  
+specialty not necessarily characteristic of the Baroque as a whole, whereas the French suites consist instead in  
+tauter, stricter interpretations of the dances. Our annotations reflect the precision-constructed harmonic framework  
+from which Bach's virtuosic keyboard pyrotechnics are drawn and may be used fruitfully in examination of Bach's  
 ornamentation practice.
 
 ## Cite as
